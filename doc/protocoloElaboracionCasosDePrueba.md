@@ -1,8 +1,8 @@
 # Protocolo para la elaboracion de casos de prueba
 ## gvSIG Association.
 
-### 1. øQue es un caso de prueba?
-Un caso de prueba no es mas que un breve documento que describe de manera detallada el comportamiento de una parte o herramienta del software al realizar una determinada accion concreta. Para que esta simulacion sea de utilidad las condiciones con las que se realiza deben de ser fijas al igual que los datos utilizados, testandose unicamente el ìmotorî o algoritmo que trata dichos datos bajo dichas condiciones.
+### 1. ¬øQue es un caso de prueba?
+Un caso de prueba no es mas que un breve documento que describe de manera detallada el comportamiento de una parte o herramienta del software al realizar una determinada accion concreta. Para que esta simulacion sea de utilidad las condiciones con las que se realiza deben de ser fijas al igual que los datos utilizados, testandose unicamente el ‚Äúmotor‚Äù o algoritmo que trata dichos datos bajo dichas condiciones.
 Por tanto, la funcion principal de un caso de prueba es poder detectar errores de manera facil y sin apenas consumir tiempo y esfuerzo cada vez que se realizan cambios en el codigo del software.
 
 ### 2. Partes de un caso de prueba
@@ -28,7 +28,7 @@ A parte de lo anterior, el **Editor de Scripts** de gvSIG al tratar con archivos
 
 ### 3. Almacenamiento 
 El almacenamiento de los casos de prueba se realiza en una estructura de carpetas de modo que estos queden diferenciados segun la herramienta que testeen. Dicha estructura de carpetas se basa en una carpeta madre llamada testing, la contiene tres carpetas hijas llamadas casos, datos y planes.
-  - **Casos**. Dicha carpeta es la mas importante y en ella se almacenan los casos como tal. Esta carpeta almacena todos los casos de prueba del software divididos en varias ìcapasî de subcarpetas o carpetas hijas. Un ejemplo de esto se detalla a continuacion; Si se busca realizar el caso de prueba detallado en el apartado 2, este se almacenara en la siguiente sucesion de carpetas.
+  - **Casos**. Dicha carpeta es la mas importante y en ella se almacenan los casos como tal. Esta carpeta almacena todos los casos de prueba del software divididos en varias ‚Äúcapas‚Äù de subcarpetas o carpetas hijas. Un ejemplo de esto se detalla a continuacion; Si se busca realizar el caso de prueba detallado en el apartado 2, este se almacenara en la siguiente sucesion de carpetas.
     
     ***testing/casos/HE00_herramientas/FB00_ficha_de_busqueda_simple/CP002_1c_igual_str***
     
@@ -50,11 +50,11 @@ El acceso a la herramienta pude realizarse de dos modos, accediendo a **git** de
 
 La segunda forma de acceder a los diferentes utiles de la herramienta es mediante iconos presentes en el propio interfaz del *Editor de Scripts* de gvSIG Desktop.
 La secuencia logica para trabajar gestionando un proyecto con GitHub es la siguiente:
-    1) Creacion de carpeta local con el mismo nombre que el proyecto donde se va atrabajar.
-    2) Clone del repositorio en GitHub al equipo. Para ello es necesario la URL del repositorio que contiene el proyecto en GitHub.
-    3) Comprobar si la carpeta contiene la informacion disponible en internet. Lo anterior se puede comprobar mediante el comando **Refrescar** dentro de la pestana **Proyectos**.
-    4) Anadir, modificar o borrar archivos o carpetas. Para anadir archivos o carpetas se dispone de un icono o se puede realizar con comandos desde la pestana **Archivo**.
-    5) Para asegurar los cambios en el repositorio de GitHub se tiene que hacer ìcommitî y posteriormente ìPushî.
+1. Creacion de carpeta local con el mismo nombre que el proyecto donde se va atrabajar.
+2. Clone del repositorio en GitHub al equipo. Para ello es necesario la URL del repositorio que contiene el proyecto en GitHub.
+3. Comprobar si la carpeta contiene la informacion disponible en internet. Lo anterior se puede comprobar mediante el comando **Refrescar** dentro de la pestana **Proyectos**.
+4. Anadir, modificar o borrar archivos o carpetas. Para anadir archivos o carpetas se dispone de un icono o se puede realizar con comandos desde la pestana **Archivo**.
+5. Para asegurar los cambios en el repositorio de GitHub se tiene que hacer ‚Äúcommit‚Äù y posteriormente ‚ÄúPush‚Äù.
     
 *NOTA: Ademas de lo anterior se puede realizar mas acciones con GitHub y su implementacion en gvSIG pero no se considera necesario explicarlo ya que para la creacion y gestion de casos de prueba lo anterior es mas que suficiente.*
 
