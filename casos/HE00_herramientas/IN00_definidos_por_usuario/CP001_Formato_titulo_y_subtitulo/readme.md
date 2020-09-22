@@ -9,7 +9,7 @@ Cargamos el fichero de datos y la seleccion de atributos para realizar un inform
 ### Prerrequisitos
 
 1. Tener instalado *gvSIG desktop 2.5.1.* 
-2. Tener acceso a la tabla de datos [FB_datos1.csv](https://github.com/carloskr/gvsig-desktop-testing/blob/master/data/HE00IN00/IN00_datos1.csv)
+2. Tener acceso a la tabla de datos [IN00_datos1.csv](https://github.com/carloskr/gvsig-desktop-testing/blob/master/data/HE00IN00/IN00_datos1.csv)
 3. Tener arrancada la aplicacion con una vista nueva y vacia activa
 
 ### Pasos
