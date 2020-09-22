@@ -26,7 +26,7 @@ Cargamos el fichero de datos y la seleccion de atributos para realizar un inform
 
 ### Resultados esperados
 
-Como resultado del paso 8 se debe obtener una previsualización del informe con los textos de título y subtítulo formateados de acuerdo con lo especificado en los pasos 5 y 6
+Como resultado del paso 8 se debe obtener una previsualización del informe con los textos de título y subtítulo formateados de acuerdo con lo especificado en los pasos 5, 6 y 7
 
 ### Reportar fallo
 
