@@ -18,15 +18,26 @@ Cargamos el fichero de datos y la seleccion de atributos para realizar un inform
 2. Mostrar la tabla de atributos en la vista
 3. Seleccionar menu *Tabla*/Busqueda por atributos
 4. Abriremos la opcion "Informes/Definida por usuario"
-5. Abrimos las propiedades de "título" con el icono a la derecha de la caja de "Título"
-6. Cambiamos tipo y tamaño de letra, color de texto y color de fondo y pulsamos "Aceptar"
-7. Repetimos los pasos 5 y 6 con "subtítulo"
-8. Pulsaremos en el boton "Aceptar"
+5. Abriremos las propiedades del título con el icono a la derecha de la caja de "Título"
+6. En la pestaña "General" cambiaremos el tipo de letra a *Comic Sans* y el tamaño de letra a 24
+7. Cambiaremos también el color del texto a color rojo *RGB: FF0000* y el color de fondo a color cyan *RGB: 00FFFF*
+8. En la pestaña "Border" seleccionaremos *Top*/Edit border estableciendo Width = 5 y el color a *RGB: FF00FF* haciendo igual con *Botton*/Edit border
+9. Pulsaremos en el botón "Aceptar" para cerrar las opciones de título
+10. Escribiremos "Subtítulo" dentro de la caja del mismo nombre.
+11. Abriremos las propiedades de "subtítulo" con el icono a la derecha de la caja de "Subtítulo"
+12. En la pestaña "General" cambiaremos el tipo de letra a *Verdana* y el tamaño de letra a 18
+13. Cambiaremos también el color del texto a color verde *RGB: 00FF00* y el color de fondo a color amarillo *RGB: FFFF00*
+14. En la pestaña "Border" seleccionaremos *Botton*/Edit border estableciendo Width = 3 y el color a *RGB: FF00FF* 
+15. Pulsaremos en el boton "Aceptar" para cerrar las opciones de subtítulo
+16. Pulsaremos en el boton "Aceptar" para cerrar el *Report Builder* y generar el informe
  
 
 ### Resultados esperados
 
-Como resultado del paso 8 se debe obtener una previsualización del informe con los textos de título y subtítulo formateados de acuerdo con lo especificado en los pasos 5, 6 y 7
+- Como resultado de los pasos 6 y 7, el título debe aparecer en el informe con tipo de letra *Comic Sans*, tamaño 24 en color rojo sobre fondo de color cyan
+- Como resultado del paso 8, el título debe tener un borde superior y otro inferior de 5 puntos de ancho y de color púrpura
+- Como resultado de los pasos 12 y 13, el subtítulo debe aparecer en el informe con tipo de letra *Verdana*, tamaño 18 en color verde sobre fondo de color amarillo
+- Como resultado del paso 14, el título debe tener un borde inferior de 3 puntos de ancho y de color púrpura
 
 ### Reportar fallo
 
