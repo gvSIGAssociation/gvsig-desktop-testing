@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Immprimir fondo en filas impares" se colorea el fondo de las filas impares del informe.
+Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que cuando se cambia el valor del cuaro de diálogo "Detalle de altura" cambia la altura de las filas de la tabla generada en el informe.
 
 ### Prerrequisitos
 
@@ -18,7 +18,7 @@ Cargamos el fichero de datos y la seleccion de atributos para realizar un inform
 2. Mostrar la tabla de atributos en la vista
 3. Seleccionar menu *Tabla*/Busqueda por atributos
 4. Abriremos la opcion "Informes/Definida por usuario"
-5. Comprobaremos que en el cuadro de diálogo "Detalle de altura" aparece el valor **15** En caso de no ser así lo pondremos.
+5. Comprobaremos que en el cuadro de diálogo "Detalle de altura" aparece el valor **15**, en caso de no ser así lo pondremos.
 6. Pasaremos a la pestaña "Columnas"
 7. En el desplegable seleccionaremos el campo "PARCELA" y pulsaremos en el "+" de color verde de la derecha
 8. Pulsaremos el botón "Aceptar" y se generará el informe
