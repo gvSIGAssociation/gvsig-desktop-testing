@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Usar anchura de página" la tabla generada en el informe tiene al anchura de la página con que se ha configurado el informe
+Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Usar anchura de página" la tabla generada en el informe tiene al anchura de la página con que se ha configurado el informe
 
 ### Prerrequisitos
 

@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Immprimir fondo en filas impares" se colorea el fondo de las filas impares del informe.
+Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Immprimir fondo en filas impares" se colorea el fondo de las filas impares del informe.
 
 ### Prerrequisitos
 

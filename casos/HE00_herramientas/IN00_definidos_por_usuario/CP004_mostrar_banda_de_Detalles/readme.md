@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Mostrar banda de detalles" se muestran todos los valores de la columna seleccionada en una tabla en el informe generado.
+Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que cuando se marca la casilla de verificación "Mostrar banda de detalles" se muestran todos los valores de la columna seleccionada en una tabla en el informe generado.
 
 ### Prerrequisitos
 

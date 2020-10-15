@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y la seleccion de atributos para realizar un informe. Se probará que se personalizan correctamente los campos de título y subtítulo del informe.
+Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que se personalizan correctamente los campos de título y subtítulo del informe.
 
 ### Prerrequisitos
 
