@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que cuando se cambia el valor del cuaro de diálogo "Detalle de altura" cambia la altura de las filas de la tabla generada en el informe.
+Cargamos el fichero de datos y abriremos la seleccion de atributos para realizar un informe. Se probará que cuando se cambia el valor del cuadro de diálogo "Detalle de altura" cambia la altura de las filas de la tabla generada en el informe.
 
 ### Prerrequisitos
 
