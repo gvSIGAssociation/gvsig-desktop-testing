@@ -15,10 +15,10 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Datos de entrada
 
-1. ${check} **TMPFOLDER**="${TMPFOLDER}". Carpeta en la que se creara los archivos que se precisen 
+1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se creara los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
 
-2. ${check} **REPONAME**="${REPONAME}". Nombre de la conexion a crear.
+2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a crear.
 
 
 ### Pasos
@@ -37,7 +37,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
    ventanas ni en la barra de mensajes de gvSIG desktop.
    
 7. ${check} Abriremos el explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
-   "${TMPFOLDER}/${REPONAME}.mv.db" (TMPFOLDER/REPONAME.mv.db)
+   ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db)
    en el sistema de archivos.
 
 ### Resultado esperado
