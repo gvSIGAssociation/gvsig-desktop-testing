@@ -24,8 +24,8 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. ${check} **TMPFOLDER**="${tmpfolder}". Carpeta en la que se disponga de acceso para escritura donde
-   se crearan los archivos necesarios durante la ejecucion del test.
+1. ${check} **TMPFOLDER**="${tmpfolder}". Carpeta en la que se creara los archivos que se precisen 
+   durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
 
 2. ${check} **REPONAME**="${reponame}". Nombre de la conexion a crear asociada al repositorio.
 
