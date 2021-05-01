@@ -39,8 +39,8 @@ otra para acceder a la copia local.
 ### Pasos
 
 1. {%include check.html%} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
-   * */tmp/{{page.reponame}}.mv.db* (*TMPFOLDER*/*REPONAME*.mv.db).
-   * */tmp/{{page.wcname}}.mv.db* (*TMPFOLDER*/*WCNAME*.mv.db).
+   * */{{page.tmpfolder}}/{{page.reponame}}.mv.db* (*TMPFOLDER*/*REPONAME*.mv.db).
+   * */{{page.tmpfolder}}/{{page.wcname}}.mv.db* (*TMPFOLDER*/*WCNAME*.mv.db).
    
    En caso de que existan los eliminaremos.
    
@@ -65,7 +65,7 @@ otra para acceder a la copia local.
    usando:
    * TMPFOLDER="{{page.tmpfolder}}" (*TMPFOLDER*)
    * REPONAME="{{page.reponame}}" (*REPONAME*)
-   * REPONAME="{{page.wcname}}" (*WCNAME*)
+   * WCNAME="{{page.wcname}}" (*WCNAME*)
    
 8. {%include check.html%} Una vez creada la copia de tranajo, procederemos a cargar la 
    capa [EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) en la vista que hay creada 
@@ -84,7 +84,7 @@ otra para acceder a la copia local.
     que nos presentara la ventana de titulo Añadir a la copia de trabajo".
 
 13. {%include check.html%} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.md) usando: 
-   * REPONAME="{{page.wcname}}" (*WCNAME*)
+   * WCNAME="{{page.wcname}}" (*WCNAME*)
    * LAYER="{{page.tablename}}" ({{page.tablelink}})
 
 14. {%include check.html%} Debera haber aparecido en la vista una capa 
