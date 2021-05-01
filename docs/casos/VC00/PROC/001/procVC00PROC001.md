@@ -13,7 +13,7 @@ srcpath: "casos/VC00/PROC/001/procVC00PROC001.md"
 Crea un repositorio VCSGis sobre una base de datos nueva de H2.
 En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio.
 
-# Datos de entrada
+### Datos de entrada
 
 1. **TMPFOLDER**, una carpeta en la que se disponga de acceso para escritura.
 2. **NAME**, nombre de la conexion a crear.
