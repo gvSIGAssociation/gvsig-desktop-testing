@@ -24,7 +24,7 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. {%include check.html%}  **TMPFOLDER**="<%=tmpfolder%>". Carpeta en la que se disponga de acceso para escritura donde
+1. {%include check.html%}  **TMPFOLDER**="${tmpfolder}". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 2. {%include check.html%}  **REPONAME**="<%=reponame%>". Nombre de la conexion a crear asociada al repositorio.
 3. {%include check.html%}  **WCNAME**="<%=wcname%>". Nombre de la conexion a crear asociada a la copia local. 
