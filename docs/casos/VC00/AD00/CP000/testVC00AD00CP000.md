@@ -1,4 +1,4 @@
-{% include linksource.md page="casos/VC00/AD00/CP000/testVC00AD00CP000.md"%}
+{% include es/linksource.md page="casos/VC00/AD00/CP000/testVC00AD00CP000.md"%}
 ## [Test VC00AD00CP000] Añadir capa a copia de trabajo
 
 ### Descripción
