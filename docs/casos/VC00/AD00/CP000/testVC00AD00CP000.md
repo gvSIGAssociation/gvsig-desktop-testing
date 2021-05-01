@@ -7,7 +7,7 @@ Crearemos una copia local asociada a un repositorio local basado en H2 y añadir
 una capa. En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio y
 otra para acceder a la copia local.
 
-Antes de pasar el caso de prueba compruebe XXXX
+Antes de pasar el caso de prueba compruebe {% include linktracker_searchtest testcode="VC00AD00CP000" test="aqui"%}
 que no exista abierta una incidencia sobre él.
 
 ### Datos de entrada:
