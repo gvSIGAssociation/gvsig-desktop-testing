@@ -3,7 +3,7 @@ const query=window.location.search;
 const params=new URLSearchParams(query);
 var tags = document.getElementsByClassName("parameter"); 
 for (i = 0; i < tags.length; i++) {
-  tags[i].innerHTML = params.get(tags[i].id);
+  tags[i].innerHTML = params.get(tags[i].innerHTML);
 }
 var links = document.getElementsByTagName("a");
 for (i = 0; i < links.length; i++) {
