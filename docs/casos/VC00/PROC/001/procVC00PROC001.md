@@ -15,19 +15,20 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Datos de entrada
 
-1. {%include check.html%} **TMPFOLDER**="<span id="TMPFOLDER"></span><script>
+1. {%include check.html%} **REPONAME**="<span id="REPONAME"></span><script>
+const query=window.location.search;
+const params=new URLSearchParams(query);
+const param=params.get("REPONAME");
+document.getElementById('REPONAME').innerHTML = param;
+</script>". Nombre de la conexion a crear.
+
+2. {%include check.html%} **TMPFOLDER**="<span id="TMPFOLDER"></span><script>
 const query=window.location.search;
 const params=new URLSearchParams(query);
 const param=params.get("TMPFOLDER");
 document.getElementById('TMPFOLDER').innerHTML = param;
 </script>" una carpeta en la que se disponga de acceso para escritura.
 
-2. {%include check.html%} **REPONAME**="<span id="REPONAME"></span><script>
-const query=window.location.search;
-const params=new URLSearchParams(query);
-const param=params.get("REPONAME");
-document.getElementById('REPONAME').innerHTML = param;
-</script>". Nombre de la conexion a crear.
 
 ### Pasos
 
