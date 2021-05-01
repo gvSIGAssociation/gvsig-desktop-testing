@@ -52,7 +52,7 @@ otra para acceder a la copia local.
 4. {%include check.html%} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
    que nos presentara la ventana de titulo "Inicializar repositorio".
 
-5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.md?TMPFOLDER={{page.tmpfolder}}&REPONAME={{page.reponame}}) usando:
+5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.html?TMPFOLDER={{page.tmpfolder}}&REPONAME={{page.reponame}}) usando:
    * TMPFOLDER="{{page.tmpfolder}}" (*TMPFOLDER*)
    * REPONAME="{{page.reponame}}" (*REPONAME*)
 
