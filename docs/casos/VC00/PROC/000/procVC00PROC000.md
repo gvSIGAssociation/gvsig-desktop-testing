@@ -38,3 +38,5 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 ### Reportar fallo
 
 Si se produce un error reportelo en el test que esta ejecutando.
+
+{% include es/footer.md %}
