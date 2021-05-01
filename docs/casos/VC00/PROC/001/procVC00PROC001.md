@@ -15,7 +15,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Datos de entrada
 
-1. {%include check.html%} **TMPFOLDER**, una carpeta en la que se disponga de acceso para escritura.
+1. {%include check.html%} **TMPFOLDER**="{{include arg.html name="TMPFOLDER"}}", una carpeta en la que se disponga de acceso para escritura.
 
 2. {%include check.html%} **NAME**, nombre de la conexion a crear.
 
@@ -24,20 +24,20 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 1. {%include check.html%} Cuando iniciemos este procedimiento deberems estar viendo
    la ventana de creacion de repositorio, con titulo "Inicializar repositorio" y estara activa.
 
-2. Pulsaremos en el boton asociado al campo "Conexión" para crear la conexion a la base de datos.
+2. {%include check.html%} Pulsaremos en el boton asociado al campo "Conexión" para crear la conexion a la base de datos.
 
-3. Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.md) 
+3. {%include check.html%} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.md) 
    usando: 
    * NAME 
    * PATHNAME="TMPFOLDER/NAME.mv.db"
 
-4. Una vez creada la conexion a la base de datos, habremos vuelto a la ventana de titulo "Inicializar repositorio".
+4. {%include check.html%} Una vez creada la conexion a la base de datos, habremos vuelto a la ventana de titulo "Inicializar repositorio".
    Pulsaremos el boton "Inicializar repositorio".
 
-5. Se cerrara la ventana de inicializacion del repositorio y no debe aparecer ningun mensaje de error, ni en
+5. {%include check.html%} Se cerrara la ventana de inicializacion del repositorio y no debe aparecer ningun mensaje de error, ni en
    ventanas ni en la barra de mensajes de gvSIG desktop.
    
-7. Iremo al explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
+7. {%include check.html%} Iremo al explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
    "TMPFOLDER/NAME.mv.db" en el sistema de archivos.
 
 ### Resultado esperado
