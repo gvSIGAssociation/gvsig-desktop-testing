@@ -50,4 +50,4 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 Si se produce un error reportelo en el test que esta ejecutando.
 
-{% include es/footer.html %}
+
