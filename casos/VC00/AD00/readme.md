@@ -1,1 +1,1 @@
-Tests **add** to the working copy
+Add to working copy functionality tests
