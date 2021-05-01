@@ -34,3 +34,5 @@ Este procedimiento crea una copia de trabajo asociada a un repositorio local.
 ### Reportar fallo
 
 Si se produce un error reportelo en el test que esta ejecutando.
+
+{% include es/header.md %}
