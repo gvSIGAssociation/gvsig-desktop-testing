@@ -6,6 +6,9 @@ srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
 
 {% include es/header.md %}
 
+{% include parameter.html name="TMPFOLDER" value="/tmp" %}
+{% include parameter.html name="REPONAME" value="Repositorio" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -17,8 +20,10 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Datos de entrada
 
-1. **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
-   se crearan los archivos necesarios durante la ejecucion del test.
+1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se creara los archivos que se precisen 
+   durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
+
+2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a crear asociada al repositorio.
 
 ### Prerrequisitos
 
@@ -27,13 +32,17 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Pasos
 
-1. Antes de iniciar gvSIG desktop comprobaremos que no existe el fichero "*TMPFOLDER*/Repositorio.mv.db", 
-   y en caso de exista lo eliminaremos.
-2. Iniciaremos gvSIG desktop.
-3. Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/????" que nos
-   presentara la ventana de titulo "??????".
-5. Seguiremos los pasos de [VC00LB00PR001 Creacion de un repositorio de H2](../../LB00/PR0001_create_repo_h2/definition.md) 
-   usando NAME="Repositorio" y PATHNAME="*TMPFOLDER*/Repositorio.mv.db"
+1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
+   * ```${tmpfolder}/${reponame}.mv.db``` (TMPFOLDER/REPONAME.mv.db).
+   
+   En caso de que exista lo eliminaremos.
+   
+2. ${check} Iniciaremos gvSIG desktop.
+
+3. Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
+   presentara la ventana de titulo "Inicializar repositorio".
+
+4. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/001/procVC00PROC001.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
 ### Resultado esperado
 
