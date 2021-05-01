@@ -27,7 +27,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 2. {%include check.html%} Pulsaremos en el boton asociado al campo "Conexión" para crear la conexion a la base de datos.
 
-3. {%include check.html%} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.md) 
+3. {%include check.html%} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.html) 
    usando: 
    * CONNAME="{%include arg.html name="REPONAME"%}" (REPONAME)
    * PATHNAME="{%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
