@@ -49,7 +49,7 @@ que no exista abierta una incidencia sobre él.
 
 ### Resultado esperado
 
-XXXX
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
