@@ -2,6 +2,9 @@
 title: Añadir capa a copia de trabajo
 testcode: VC00AD00CP000
 srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
+TMPFOLDER: "/tmp"
+REPONAME: "Repositorio"
+WCNAME: "CopiaDeTrabajo"
 ---
 
 {% include es/header.md %}
@@ -18,10 +21,10 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. {%include check.html%}  **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
+1. {%include check.html%}  **TMPFOLDER**="{{TMPFOLER}}". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
-2. {%include check.html%}  **REPONAME**="Repositorio". Nombre de la conexion a crear asociada al repositorio.
-3. {%include check.html%}  **WCNAME**="WorkingCopy". Nombre de la conexion a crear asociada a la copia local. 
+2. {%include check.html%}  **REPONAME**="{{REPONAME}}". Nombre de la conexion a crear asociada al repositorio.
+3. {%include check.html%}  **WCNAME**="{{WCNAME}}". Nombre de la conexion a crear asociada a la copia local. 
 4. {%include check.html%}  Tabla **[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en
    este test. 
 
@@ -47,7 +50,7 @@ otra para acceder a la copia local.
 4. {%include check.html%} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
    que nos presentara la ventana de titulo "Inicializar repositorio".
 
-5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.md) usando:
+5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.md?) usando:
    * TMPFOLDER="/tmp" (*TMPFOLDER*)
    * REPONAME="Repositorio" (*REPONAME*)
 
