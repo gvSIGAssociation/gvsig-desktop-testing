@@ -1,5 +1,5 @@
 ---
-title: Creacion de un repositorio en una base de datos H2
+title: Inicializacion de un repositorio en una base de datos H2
 testcode: VC00CR00CP000
 srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
 ---
@@ -13,7 +13,7 @@ srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
 
 ### Descripción
 
-Crea un repositorio VCSGis sobre una base de datos nueva de H2.
+Inicializa un repositorio VCSGis sobre una base de datos nueva de H2.
 En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio.
 
 {% include es/checkifthereisalreadyabug.md %}
