@@ -63,3 +63,4 @@ otra para acceder a la copia de trabajo.
 
 {% include es/reportbug.md %}
 
+{% include es/footer.html %}
