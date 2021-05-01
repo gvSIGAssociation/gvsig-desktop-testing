@@ -103,3 +103,6 @@ otra para acceder a la copia local.
 
 {% include es/reportbug.md %}
 
+{% include es/footer.html %}
+
+
