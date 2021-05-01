@@ -1,6 +1,12 @@
+---
+title: Plan de prueba "basico" sobre VCSGis
+testcode: VC00PLAN001
+srcpath: "casos/VC00/plans/basico.md"
+---
+
 {% include es/header.md %}
 
-# Plan de prueba "basico" sobre VCSGis.
+# {{ page.title }}
 
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis.
 
