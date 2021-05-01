@@ -5,6 +5,8 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 tmpfolder: "/tmp"
 reponame: "Repositorio"
 wcname: "CopiaDeTrabajo"
+tablelink: "[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)"
+tablename: "europa_occidental"
 ---
 
 {% include es/header.md %}
@@ -25,20 +27,20 @@ otra para acceder a la copia local.
    se crearan los archivos necesarios durante la ejecucion del test.
 2. {%include check.html%}  **REPONAME**="{{page.reponame}}". Nombre de la conexion a crear asociada al repositorio.
 3. {%include check.html%}  **WCNAME**="{{page.wcname}}". Nombre de la conexion a crear asociada a la copia local. 
-4. {%include check.html%}  Tabla **[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en
-   este test. 
+4. {%include check.html%}  Tabla **{{page.tablename}}** ({{page.tablelink}}). Capa a usar en este test. 
 
 ### Prerrequisitos
 
 1. {%include check.html%} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
 2. {%include check.html%} El complemento de VCSGis debe estar instalado y activo.
-3. {%include check.html%} Tendremos descargada la tabla [TABLA_EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) en una ruta conocida en nuestro equipo.
+3. {%include check.html%} Tendremos descargada la tabla ({{page.tablename}} (({{page.tablelink}}) en 
+   una ruta conocida en nuestro equipo.
 
 ### Pasos
 
 1. {%include check.html%} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
-   * */tmp/Repositorio.mv.db* (*TMPFOLDER*/*REPONAME*.mv.db).
-   * */tmp/WorkingCopy.mv.db* (*TMPFOLDER*/*WCNAME*.mv.db).
+   * */tmp/{{page.reponame}}.mv.db* (*TMPFOLDER*/*REPONAME*.mv.db).
+   * */tmp/{{page.wcname}}.mv.db* (*TMPFOLDER*/*WCNAME*.mv.db).
    
    En caso de que existan los eliminaremos.
    
@@ -50,9 +52,9 @@ otra para acceder a la copia local.
 4. {%include check.html%} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
    que nos presentara la ventana de titulo "Inicializar repositorio".
 
-5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.md?) usando:
-   * TMPFOLDER="/tmp" (*TMPFOLDER*)
-   * REPONAME="Repositorio" (*REPONAME*)
+5. {%include check.html%} Seguiremos los pasos de [Creacion de un repositorio en H2](../../PROC/001/procVC00PROC001.md?TMPFOLDER={{page.tmpfolder}}&REPONAME={{page.reponame}}) usando:
+   * TMPFOLDER="{{page.tmpfolder}}" (*TMPFOLDER*)
+   * REPONAME="{{page.reponame}}" (*REPONAME*)
 
 6. {%include check.html%} Tras la creacion del repositorio, seleccionaremos la opcion de menu 
    "Herramientas/VCSGis/Inicializar copia de trabajo" que nos presentara la ventana de 
@@ -61,9 +63,9 @@ otra para acceder a la copia local.
 7. {%include check.html%} Seguiremos los pasos de 
    [Creacion de una copia de trabajo asociada a un repositorio local en H2](../../PROC/002/procVC00PROC002.md) 
    usando:
-   * TMPFOLDER="/tmp" (*TMPFOLDER*)
-   * REPONAME="Repositorio" (*REPONAME*)
-   * REPONAME="WorkingCopy" (*WCNAME*)
+   * TMPFOLDER="{{page.tmpfolder}}" (*TMPFOLDER*)
+   * REPONAME="{{page.reponame}}" (*REPONAME*)
+   * REPONAME="{{page.wcname}}" (*WCNAME*)
    
 8. {%include check.html%} Una vez creada la copia de tranajo, procederemos a cargar la 
    capa [EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) en la vista que hay creada 
@@ -72,7 +74,7 @@ otra para acceder a la copia local.
 9. {%include check.html%} Seleccionaremos la pestaña "Archivo" y pulsaremos en el boton de "Añadir".
 
 10. {%include check.html%} Nos presentara el cuadro de dialogo para seleccionar un fichero. 
-    Seleccionaremos el correspondiente a [EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) 
+    Seleccionaremos el correspondiente a ({{page.tablelink}} 
     y pulsaremos en el boton "Abrir".
 
 11. {%include check.html%} De vuelta en el dialogo de "Añadir capa" pulsaremos el boton "Aceptar" 
@@ -82,15 +84,15 @@ otra para acceder a la copia local.
     que nos presentara la ventana de titulo Añadir a la copia de trabajo".
 
 13. {%include check.html%} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.md) usando: 
-   * REPONAME="WorkingCopy" (*WCNAME*)
-   * LAYER="europa_accidental" ([EUROPA_OCCIDENTAL](../../data/europa_occidental.csv))
+   * REPONAME="{{page.wcname}}" (*WCNAME*)
+   * LAYER="{{page.tablename}}" ({{page.tablelink}})
 
 14. {%include check.html%} Debera haber aparecido en la vista una capa 
-    "europa_occidental" ([EUROPA_OCCIDENTAL](../../data/europa_occidental.csv))
+    "{{page.tablename}}" (({{page.tablelink}})
     con el identificativo de una capa de base de datos H2.
 
-15. {%include check.html%} Eliminaremos de la vista la capa "europa_occidental" cargada 
-    a partir del fichero ([EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)).
+15. {%include check.html%} Eliminaremos de la vista la capa "({{page.tablename}}" cargada 
+    a partir del fichero (({{page.tablelink}}).
 
 ### Resultado esperado
 
