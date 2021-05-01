@@ -65,7 +65,7 @@ otra para acceder a la copia local.
    "Herramientas/VCSGis/Inicializar copia de trabajo" que nos presentara la ventana de 
    titulo "Inicializar copia de trabajo".
 
-7. ${check} Seguiremos los pasos de [Creacion de una copia de trabajo asociada a un repositorio local en H2](../../PROC/002/procVC00PROC002.html?TMPFOLDER=${tmpfolder}&REPONAME=${reponame}&WCNAME=${wcname}) 
+7. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo asociada a un repositorio local en H2](../../PROC/002/procVC00PROC002.html?TMPFOLDER=${tmpfolder}&REPONAME=${reponame}&WCNAME=${wcname}) 
    
 8. ${check} Una vez creada la copia de tranajo, procederemos a cargar la 
    capa ${tablelink} en la vista que hay creada 
