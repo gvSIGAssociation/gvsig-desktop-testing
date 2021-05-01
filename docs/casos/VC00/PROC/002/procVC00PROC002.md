@@ -1,5 +1,5 @@
 ---
-title: Creacion de una copia de trabajo asociada a un repositorio local en H2
+title: Inicialización de una copia de trabajo asociada a un repositorio local en H2
 testcode: VC00PROC002
 srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 ---
@@ -10,7 +10,7 @@ srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 
 ### Descripción
 
-Este procedimiento crea una copia de trabajo asociada a un repositorio local. La conexion al repositorio
+Este procedimiento inicializa una copia de trabajo asociada a un repositorio local. La conexion al repositorio
 debera estar creada cuando se ejecute este procedimiento.
 
 ### Datos de entrada
