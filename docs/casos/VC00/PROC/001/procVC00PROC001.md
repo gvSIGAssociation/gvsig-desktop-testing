@@ -39,7 +39,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
    ventanas ni en la barra de mensajes de gvSIG desktop.
    
 7. {%include check.html%} Iremo al explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
-   {%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
+   "{%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
    en el sistema de archivos.
 
 ### Resultado esperado
