@@ -49,20 +49,9 @@ Antes de pasar el caso de prueba compruebe [aquí](https://redmine.gvsig.net/red
 
 ### Resultado esperado
 
-Si se pueden realizar los pasos tal como se han descrito y al cerrar la ventana no aparece ninguna ventana con 
-un mensaje de error ni tampoco en la barra de mensajes de la aplicacion, es que la accion se ha realizado correctamente.
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-En caso de que los resultados obtenidos no sean los correctos puede reportar
-una incidencia en el [redmine de gvSIG deskop](https://redmine.gvsig.net/redmine/projects/gvsig-desktop/issues). 
-
-
-
-Pulse [aqui](https://redmine.gvsig.net/redmine/projects/gvsig-desktop/issues?utf8=%E2%9C%93&set_filter=1&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=subject&op%5Bsubject%5D=%7E&v%5Bsubject%5D%5B%5D=VC00AD00CP000&f%5B%5D=&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=subject&c%5B%5D=assigned_to&c%5B%5D=updated_on&group_by=) para comprobar si hay abierta una incidencia sobre este caso de prueba.
-
-Pulse [aqui](https://redmine.gvsig.net/redmine/projects/gvsig-desktop/issues/new?issue[subject]=VC00AD00CP000+Add+layer+to+working+copy) para abrir una indicendia sobre este caso de prueba.
-
-Recuerde adjuntar los ficheros de *log* generados durante la ejecución del test que a ha fallado al ticket.
-
+{% include es/reportug.md testcode="VC00AD00CP000" testtitle="Add+layer+to+working+copy" %}
 
