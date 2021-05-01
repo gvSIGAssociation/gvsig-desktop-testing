@@ -12,7 +12,7 @@ srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 
 Este procedimiento crea una copia de trabajo asociada a un repositorio local.
 
-# Datos de entrada
+### Datos de entrada
 
 1. **TMPFOLDER**, una carpeta en la que se disponga de acceso para escritura
 2. **REPONAME**, nombre de la conexion a crear asociada al repositorio
