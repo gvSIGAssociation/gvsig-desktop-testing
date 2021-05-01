@@ -1,16 +1,43 @@
 <script>
 const query=window.location.search;
 const params=new URLSearchParams(query);
-var tags = document.getElementsByClassName("parameter"); 
+var tags = document.getElementsByTagName("p");
 for (i = 0; i < tags.length; i++) {
-  tags[i].innerHTML = params.get(tags[i].innerHTML);
+  text=tags[i].innerHTML;
+  if( text != null ) {
+    for (const param of params.keys()) {
+      text = text.replaceAll("[["+param+"]]", params.get(param));
+    }
+    tags[i].innerHTML = text;
+  }
 }
+var tags = document.getElementsByTagName("li");
+for (i = 0; i < tags.length; i++) {
+  text=tags[i].innerHTML;
+  if( text != null ) {
+    for (const param of params.keys()) {
+      text = text.replaceAll("[["+param+"]]", params.get(param));
+    }
+    tags[i].innerHTML = text;
+  }
+}
+var tags = document.getElementsByTagName("span");
+for (i = 0; i < tags.length; i++) {
+  text=tags[i].innerHTML;
+  if( text != null ) {
+    for (const param of params.keys()) {
+      text = text.replaceAll("[["+param+"]]", params.get(param));
+    }
+    tags[i].innerHTML = text;
+  }
+}
+
 var links = document.getElementsByTagName("a");
 for (i = 0; i < links.length; i++) {
   url = links[i].href;
   if( url != null && url != '') {
     for (const param of params.keys()) {
-      url = url.replaceAll("%"+param+"%", params.get(param));
+      url = url.replaceAll("[["+param+"]]", params.get(param));
     }
     links[i].href = url;
   }
