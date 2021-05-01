@@ -27,9 +27,9 @@ otra para acceder a la copia local.
 
 ### Prerrequisitos
 
-1. [ ] Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
-2. [ ] El complemento de VCSGis debe estar instalado y activo.
-3. [ ] Tendremos descargada la tabla [TABLA_EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) en una ruta conocida en nuestro equipo.
+1. {%include check.html%} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+2. {%include check.html%} El complemento de VCSGis debe estar instalado y activo.
+3. {%include check.html%} Tendremos descargada la tabla [TABLA_EUROPA_OCCIDENTAL](../../data/europa_occidental.csv) en una ruta conocida en nuestro equipo.
 
 ### Pasos
 
