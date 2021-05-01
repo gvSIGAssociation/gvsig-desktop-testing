@@ -52,5 +52,5 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 {% include es/reportbug.md %}
 
-
+{% include es/footer.html %}
 
