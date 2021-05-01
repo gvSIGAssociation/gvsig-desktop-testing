@@ -11,9 +11,7 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 {% include parameter.html name="wcname" value="CopiaDeTrabajo" %}
 {% include parameter.html name="tablelink" value="<a href='../../data/europa_occidental.csv'>EUROPA_OCCIDENTAL</a>" %}
 {% include parameter.html name="tablename" value="europa_occidental" %}
-<script>
-parameters.append("tablename", "europa_occidental");
-</script>
+
 ## {{ page.title }}
 
 ### Descripción
@@ -94,7 +92,7 @@ otra para acceder a la copia local.
     "<%=tablename%>" ((<%=tablelink%>)
     con el identificativo de una capa de base de datos H2.
 
-15. {%include check.html%} Eliminaremos de la vista la capa "<%=tablename%>" cargada 
+15. {%include check.html%} Eliminaremos de la vista la capa "${tablename}" cargada 
     a partir del fichero <%=tablelink%>.
 
 ### Resultado esperado
