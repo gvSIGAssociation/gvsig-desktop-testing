@@ -1,9 +1,10 @@
 ---
 title: Añadir capa a copia de trabajo
 testcode: VC00AD00CP000
+srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 ---
 
-{% include es/header.md page="casos/VC00/AD00/CP000/testVC00AD00CP000.md"%}
+{% include es/header.md %}
 
 ## Añadir capa a copia de trabajo
 
@@ -13,7 +14,7 @@ Crearemos una copia local asociada a un repositorio local basado en H2 y añadir
 una capa. En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio y
 otra para acceder a la copia local.
 
-{% include es/checkifthereisalreadyabug.md testcode="VC00AD00CP000"%}
+{% include es/checkifthereisalreadyabug.md %}
 
 ### Datos de entrada:
 
@@ -58,5 +59,5 @@ otra para acceder a la copia local.
 
 ### Reportar fallo
 
-{% include es/reportbug.md testcode="VC00AD00CP000" testtitle="Add+layer+to+working+copy" %}
+{% include es/reportbug.md %}
 
