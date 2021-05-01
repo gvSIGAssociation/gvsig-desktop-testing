@@ -22,7 +22,7 @@ otra para acceder a la copia local.
    se crearan los archivos necesarios durante la ejecucion del test.
 4. **REPONAME**="Repositorio". Nombre de la conexion a crear asociada al repositorio.
 5. **WCNAME**="workingcopy". Nombre de la conexion a crear asociada a la copia local. 
-6. **[LAYER](../../data/layer.csv)**. Capa a usar en este test del juego de datos de test asociado a este plan. 
+6. **[TABLA_EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en este test del juego de datos de test asociado a este plan. 
 
 ### Prerrequisitos
 
