@@ -5,4 +5,14 @@ var tags = document.getElementsByClassName("parameter");
 for (i = 0; i < tags.length; i++) {
   tags[i].innerHTML = params.get(tags[i].id);
 }
+var links = document.getElementsByTagName("a");
+for (i = 0; i < links.length; i++) {
+  url = links[i].href;
+  if( url != null && url != '') {
+    for (const param of params.keys()) {
+      url = url.replaceAll("%"+param+"%", params.get(param));
+    }
+    links[i].href = url;
+  }
+}
 </script>
