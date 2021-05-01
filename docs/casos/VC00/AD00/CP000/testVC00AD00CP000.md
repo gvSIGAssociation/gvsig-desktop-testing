@@ -2,9 +2,9 @@
 title: Añadir capa a copia de trabajo
 testcode: VC00AD00CP000
 srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
-TMPFOLDER: "/tmp"
-REPONAME: "Repositorio"
-WCNAME: "CopiaDeTrabajo"
+tmpfolder: "/tmp"
+reponame: "Repositorio"
+wcname: "CopiaDeTrabajo"
 ---
 
 {% include es/header.md %}
@@ -21,10 +21,10 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. {%include check.html%}  **TMPFOLDER**="{{TMPFOLER}}". Carpeta en la que se disponga de acceso para escritura donde
+1. {%include check.html%}  **TMPFOLDER**="{{page.tmpfolder}}". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
-2. {%include check.html%}  **REPONAME**="{{REPONAME}}". Nombre de la conexion a crear asociada al repositorio.
-3. {%include check.html%}  **WCNAME**="{{WCNAME}}". Nombre de la conexion a crear asociada a la copia local. 
+2. {%include check.html%}  **REPONAME**="{{page.reponame}}". Nombre de la conexion a crear asociada al repositorio.
+3. {%include check.html%}  **WCNAME**="{{page.wcname}}". Nombre de la conexion a crear asociada a la copia local. 
 4. {%include check.html%}  Tabla **[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en
    este test. 
 
