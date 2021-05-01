@@ -1,1 +1,7 @@
+# Name of website
+title: gvSIG desktop test
+
+# Short description of your site
+description: Planes y casos de prueba asociados a las distintas funcionadades de la aplicación.
+
 theme: jekyll-theme-midnight
