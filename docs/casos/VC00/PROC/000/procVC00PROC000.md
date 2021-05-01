@@ -12,7 +12,7 @@ srcpath: "casos/VC00/PROC/000/procVC00PROC000.md"
 
 Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara y se volvera a crear.
 
-# Datos de entrada
+### Datos de entrada
 
 * **NAME**, nombre de la conexion a crear.
 * **PATHNAME**, ruta completa en la que crear la base de datos H2
