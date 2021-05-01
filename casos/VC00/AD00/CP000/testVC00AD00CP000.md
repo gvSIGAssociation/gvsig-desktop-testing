@@ -12,7 +12,7 @@ Antes de pasar el caso de prueba compruebe [aquí](https://redmine.gvsig.net/red
 
 ### Datos de entrada:
 
-1. **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura en la que
+1. **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 4. **REPONAME**="Repositorio". Nombre de la conexion a crear asociada al repositorio.
 5. **WCNAME**="workingcopy". Nombre de la conexion a crear asociada a la copia local. 
