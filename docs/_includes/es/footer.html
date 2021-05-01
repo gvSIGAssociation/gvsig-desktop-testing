@@ -6,7 +6,8 @@ for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
     for (const param of params.keys()) {
-      text = text.replaceAll("[["+param+"]]", params.get(param));
+      text = text.replaceAll("<%="+param+">", params.get(param));
+      text = text.replaceAll("${"+param+"}", params.get(param));
     }
     tags[i].innerHTML = text;
   }
@@ -16,7 +17,8 @@ for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
     for (const param of params.keys()) {
-      text = text.replaceAll("[["+param+"]]", params.get(param));
+      text = text.replaceAll("<%="+param+">", params.get(param));
+      text = text.replaceAll("${"+param+"}", params.get(param));
     }
     tags[i].innerHTML = text;
   }
@@ -26,7 +28,8 @@ for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
     for (const param of params.keys()) {
-      text = text.replaceAll("[["+param+"]]", params.get(param));
+      text = text.replaceAll("<%="+param+">", params.get(param));
+      text = text.replaceAll("${"+param+"}", params.get(param));
     }
     tags[i].innerHTML = text;
   }
@@ -34,12 +37,13 @@ for (i = 0; i < tags.length; i++) {
 
 var links = document.getElementsByTagName("a");
 for (i = 0; i < links.length; i++) {
-  url = links[i].href;
-  if( url != null && url != '') {
+  text = links[i].href;
+  if( text != null && text != '') {
     for (const param of params.keys()) {
-      url = url.replaceAll("[["+param+"]]", params.get(param));
+      text = text.replaceAll("<%="+param+">", params.get(param));
+      text = text.replaceAll("${"+param+"}", params.get(param));
     }
-    links[i].href = url;
+    links[i].href = text;
   }
 }
 </script>
