@@ -53,5 +53,5 @@ que no exista abierta una incidencia sobre él.
 
 ### Reportar fallo
 
-{% include es/reportug.md testcode="VC00AD00CP000" testtitle="Add+layer+to+working+copy" %}
+{% include es/reportbug.md testcode="VC00AD00CP000" testtitle="Add+layer+to+working+copy" %}
 
