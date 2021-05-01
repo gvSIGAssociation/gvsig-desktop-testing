@@ -6,7 +6,7 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 
 {% include es/header.md %}
 
-## Añadir capa a copia de trabajo
+## {{ page.title }}
 
 ### Descripción
 
