@@ -39,7 +39,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
    
 2. ${check} Iniciaremos gvSIG desktop.
 
-3. Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
+3. ${check} Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
    presentara la ventana de titulo "Inicializar repositorio".
 
 4. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/001/procVC00PROC001.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
