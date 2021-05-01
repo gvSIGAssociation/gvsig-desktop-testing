@@ -24,11 +24,11 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. {%include check.html%}  **TMPFOLDER**="${tmpfolder}". Carpeta en la que se disponga de acceso para escritura donde
+1. ${check}  **TMPFOLDER**="${tmpfolder}". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
-2. {%include check.html%}  **REPONAME**="${reponame}". Nombre de la conexion a crear asociada al repositorio.
-3. {%include check.html%}  **WCNAME**="${wcname}". Nombre de la conexion a crear asociada a la copia local. 
-4. {%include check.html%}  Tabla *${tablename}* (${tablelink}). Capa a usar en este test. 
+2. ${check}  **REPONAME**="${reponame}". Nombre de la conexion a crear asociada al repositorio.
+3. ${check}  **WCNAME**="${wcname}". Nombre de la conexion a crear asociada a la copia local. 
+4. ${check}  Tabla *${tablename}* (${tablelink}). Capa a usar en este test. 
 
 ### Prerrequisitos
 
