@@ -22,7 +22,7 @@ const param=params.get("TMPFOLDER");
 document.getElementById('TMPFOLDER').innerHTML = param;
 </script>" una carpeta en la que se disponga de acceso para escritura.
 
-2. {%include check.html%} **NAME**="{%include arg.html name="NAME"%}", nombre de la conexion a crear.
+2. {%include check.html%} **REPONAME**="{%include arg.html name="REPONAME"%}". Nombre de la conexion a crear.
 
 ### Pasos
 
@@ -33,8 +33,8 @@ document.getElementById('TMPFOLDER').innerHTML = param;
 
 3. {%include check.html%} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.md) 
    usando: 
-   * NAME 
-   * PATHNAME="TMPFOLDER/NAME.mv.db"
+   * CONNAME="{%include arg.html name="REPONAME"%}" (REPONAME)
+   * PATHNAME="{%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
 
 4. {%include check.html%} Una vez creada la conexion a la base de datos, habremos vuelto a la ventana de titulo "Inicializar repositorio".
    Pulsaremos el boton "Inicializar repositorio".
@@ -43,7 +43,8 @@ document.getElementById('TMPFOLDER').innerHTML = param;
    ventanas ni en la barra de mensajes de gvSIG desktop.
    
 7. {%include check.html%} Iremo al explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
-   "TMPFOLDER/NAME.mv.db" en el sistema de archivos.
+   {%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
+   en el sistema de archivos.
 
 ### Resultado esperado
 
