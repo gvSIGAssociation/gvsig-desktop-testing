@@ -1,5 +1,5 @@
 ---
-title: Creacion de un repositorio en H2
+title: Inicializar un repositorio en H2
 testcode: VC00PROC001
 srcpath: "casos/VC00/PROC/001/procVC00PROC001.md"
 ---
@@ -10,7 +10,7 @@ srcpath: "casos/VC00/PROC/001/procVC00PROC001.md"
 
 ### Descripción
 
-Crea un repositorio VCSGis sobre una base de datos nueva de H2.
+Inicializa un repositorio VCSGis sobre una base de datos nueva de H2.
 En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio.
 
 ### Datos de entrada
