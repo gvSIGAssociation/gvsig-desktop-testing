@@ -18,11 +18,11 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. [ ] **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
+1. <input type="checkbox"> **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
-2. [ ] **REPONAME**="Repositorio". Nombre de la conexion a crear asociada al repositorio.
-3. [ ] **WCNAME**="WorkingCopy". Nombre de la conexion a crear asociada a la copia local. 
-4. [ ] Tabla **[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en
+2. <input type="checkbox"> **REPONAME**="Repositorio". Nombre de la conexion a crear asociada al repositorio.
+3. <input type="checkbox"> **WCNAME**="WorkingCopy". Nombre de la conexion a crear asociada a la copia local. 
+4. <input type="checkbox"> Tabla **[EUROPA_OCCIDENTAL](../../data/europa_occidental.csv)**. Capa a usar en
    este test. 
 
 ### Prerrequisitos
