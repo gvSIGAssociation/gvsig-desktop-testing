@@ -16,23 +16,30 @@ FIXME
 
 ### Datos de entrada
 
-1. **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
+1. {%include check.html%} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
-2. **[LAYER](../../data/layer.csv)**. Capa a usar en este test del juego de datos de test asociado a este plan. 
-3. FIXME. 
+
+2. {%include check.html%} **[LAYER](../../data/layer.csv)**. Capa a usar en este test del juego de datos de test asociado a este plan. 
+
+3. {%include check.html%} FIXME. 
 
 ### Prerrequisitos
 
-1. Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
-2. El complemento de VCSGis debe estar instalado y activo.
-3. Tendremos descargada el fichero LAYER en una ruta conocida en nuestro equipo.
-4. FIXME
+1. {%include check.html%} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+
+2. {%include check.html%} El complemento de VCSGis debe estar instalado y activo.
+
+3. {%include check.html%} Tendremos descargada el fichero LAYER en una ruta conocida en nuestro equipo.
+
+4. {%include check.html%} FIXME
 
 ### Pasos
 
-1. FIXME
-2. FIXME
-3. FIXME
+1. {%include check.html%} FIXME
+
+3. {%include check.html%} FIXME
+
+4. {%include check.html%} FIXME
 
 ### Resultado esperado
 
