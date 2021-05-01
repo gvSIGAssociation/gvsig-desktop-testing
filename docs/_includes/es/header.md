@@ -1,6 +1,7 @@
 <script>
 const query=window.location.search;
 const parameters=new URLSearchParams(query);
+parameters.append("check", '<input type="checkbox">');
 </script>
 <table style="width:100%;">
  <tr>
