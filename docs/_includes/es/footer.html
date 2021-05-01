@@ -1,10 +1,9 @@
 <script>
-  // Prueba 
 var tags = document.getElementsByTagName("p");
 for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
-    for (const param of params.keys()) {
+    for (const param of parameters.keys()) {
       text = text.replaceAll("${"+param+"}", parameters.get(param));
     }
     tags[i].innerHTML = text;
@@ -14,7 +13,7 @@ var tags = document.getElementsByTagName("li");
 for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
-    for (const param of params.keys()) {
+    for (const param of parameters.keys()) {
       text = text.replaceAll("${"+param+"}", parameters.get(param));
     }
     tags[i].innerHTML = text;
@@ -24,7 +23,7 @@ var tags = document.getElementsByTagName("span");
 for (i = 0; i < tags.length; i++) {
   text=tags[i].innerHTML;
   if( text != null ) {
-    for (const param of params.keys()) {
+    for (const param of parameters.keys()) {
       text = text.replaceAll("${"+param+"}", parameters.get(param));
     }
     tags[i].innerHTML = text;
@@ -35,7 +34,7 @@ var links = document.getElementsByTagName("a");
 for (i = 0; i < links.length; i++) {
   text = links[i].href;
   if( text != null && text != '') {
-    for (const param of params.keys()) {
+    for (const param of parameters.keys()) {
       text = text.replaceAll("${"+param+"}", parameters.get(param));
     }
     links[i].href = text;
