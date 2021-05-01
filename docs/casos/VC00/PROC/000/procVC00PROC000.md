@@ -24,19 +24,19 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 1. Al iniciarse este procedimiento debera estar abierta la venta de conexo¡iones a base de datos, 
    de titulo "Parametros de conexion" y debera estar activa.
 
-2. Comprobaremos si existe la conexion ${NAME} (NAME). Para ello miraremos si ya existe en el desplegable 
-   del campo "Nombre de conexion" un valor con el nombre ${NAME} (NAME).
+2. Comprobaremos si existe la conexion "${NAME}" (NAME). Para ello miraremos si ya existe en el desplegable 
+   del campo "Nombre de conexion" un valor con el nombre "${NAME}" (NAME).
 
 3. Si existe lo seleccionaremos y pulsaremos el boton inferior que dice "Mas...", seleccionando la
    opcion "Eliminar" en el desplegable.
 
-4. Escribiremos el nombre ${NAME} (NAME) en la caja de texto "Nombre de conexion".
+4. Escribiremos el nombre "${NAME}" (NAME) en la caja de texto "Nombre de conexion".
 
 5. Indicaremos como conector el de H2. Para ello seleccionaremos el valor "H2Spatial" en el desplegable 
    del campo "Conector".
 
 6. Pulsaremos en el boton asociado al campo 'Fichero' y en el dialogo de seleccion de fichero que aparecera
-   introduciremos en el campo "Nombre de archivo" el valor ${PATHNAME} (PATHNAME) y pulsaremos 
+   introduciremos en el campo "Nombre de archivo" el valor "${PATHNAME}" (PATHNAME) y pulsaremos 
    en el boton "Abrir" de ese dialogo.
 
 7. Se habra cerrado el dialogo de seleccion de fichero y deberemos estar de vuelta al dialgo de 
