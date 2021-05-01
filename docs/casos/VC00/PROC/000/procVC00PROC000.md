@@ -21,7 +21,7 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 ### Pasos
 
 
-1. Al iniciarse este procedimiento debera estar abierta la venta de conexo¡iones a base de datos, 
+1. Al iniciarse este procedimiento debera estar abierta la venta de conexiones a base de datos, 
    de titulo "Parametros de conexion" y debera estar activa.
 
 2. Comprobaremos si existe la conexion ```${NAME}``` (NAME). Para ello miraremos si ya existe en el desplegable 
