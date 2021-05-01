@@ -1,3 +1,5 @@
+{% include es/header.md %}
+
 # Plan de prueba "basico" sobre VCSGis.
 
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis.
@@ -12,13 +14,13 @@ Comprueba:
 * Que esto funciona con y sin activar la autenticacion y autorizacion en el repositorio.
 
 Casos de prueba:
-* [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
-* [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP000/testVC00CW00CP000.md).
-* [Añadir capa a la copia de trabajo (add)](../AD00/CP000/testVC00AD00CP000.md).
-* [Subir capa al repositorio local (commit)](../CI00/CP000/testVC00CI00CP000.md).
-* [Descargar capa a la copia de trabajo (checkout)](../CO00/CP000/testVC00CO00CP000.md).
+* ${check} [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
+* ${check} [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP000/testVC00CW00CP000.md).
+* ${check} [Añadir capa a la copia de trabajo (add)](../AD00/CP000/testVC00AD00CP000.md).
+* ${check} [Subir capa al repositorio local (commit)](../CI00/CP000/testVC00CI00CP000.md).
+* ${check} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP000/testVC00CO00CP000.md).
 
 
-
+{% include es/footer.html %}
 
 
