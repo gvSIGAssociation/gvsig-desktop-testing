@@ -24,15 +24,15 @@ otra para acceder a la copia local.
 
 ### Datos de entrada:
 
-1. ${check} **TMPFOLDER**="${tmpfolder}". Carpeta en la que se creara los archivos que se precisen 
+1. ${check} **TMPFOLDER**=```${tmpfolder}```. Carpeta en la que se creara los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
 
-2. ${check} **REPONAME**="${reponame}". Nombre de la conexion a crear asociada al repositorio.
+2. ${check} **REPONAME**=```${reponame}```. Nombre de la conexion a crear asociada al repositorio.
 
-3. ${check} **WCNAME**="${wcname}". Nombre de la copia de trabajo que se va a crear asi como 
+3. ${check} **WCNAME**=```${wcname}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-4. ${check} Tabla *${tablename}* (${tablelink}). Capa a usar en este test. 
+4. ${check} Tabla ```${tablename}``` (${tablelink}). Capa a usar en este test. 
 
 ### Prerrequisitos
 
@@ -40,14 +40,14 @@ otra para acceder a la copia local.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} Tendremos descargada la tabla ${tablename} (${tablelink}) en 
+3. ${check} Tendremos descargada la tabla ```${tablename}``` (${tablelink}) en 
    una ruta conocida en nuestro equipo.
 
 ### Pasos
 
 1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
-   * */${tmpfolder}/${reponame}.mv.db* (*TMPFOLDER*/*REPONAME*.mv.db).
-   * */${tmpfolder}/${wcname}.mv.db* (*TMPFOLDER*/*WCNAME*.mv.db).
+   * ```${tmpfolder}/${reponame}.mv.db``` (*TMPFOLDER*/*REPONAME*.mv.db).
+   * ```${tmpfolder}/${wcname}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    
    En caso de que existan los eliminaremos.
    
@@ -86,10 +86,10 @@ otra para acceder a la copia local.
 13. ${check} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${wcname}&LAYER=${tablename}) 
 
 14. ${check} Debera haber aparecido en la vista una capa 
-    "${tablename}" (${tablelink})
+    ```${tablename}``` (${tablelink})
     con el identificativo de una capa de base de datos H2.
 
-15. ${check} Eliminaremos de la vista la capa "${tablename}" cargada 
+15. ${check} Eliminaremos de la vista la capa ```${tablename}``` cargada 
     a partir del fichero ${tablelink}.
 
 ### Resultado esperado
