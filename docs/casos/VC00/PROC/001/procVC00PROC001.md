@@ -15,7 +15,8 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Datos de entrada
 
-1. {%include check.html%} **TMPFOLDER**="<span id="TMPFOLDER" onload="window.aleert("onload"); document.getElementById('TMPFOLDER').innerHTML = new URLSearchParams(window.location.search).get('TMPFOLDER'); window.alert(new URLSearchParams(window.location.search))"></span>", una carpeta en la que se disponga de acceso para escritura.
+1. {%include check.html%} **TMPFOLDER**="<span id="TMPFOLDER"></span><script>window.alert("Mensajeeee!!")</script>
+   una carpeta en la que se disponga de acceso para escritura.
 
 2. {%include check.html%} **NAME**, nombre de la conexion a crear.
 
