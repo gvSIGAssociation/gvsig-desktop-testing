@@ -11,7 +11,9 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 {% include parameter.html name="wcname" value="CopiaDeTrabajo" %}
 {% include parameter.html name="tablelink" value="<a href='../../data/europa_occidental.csv'>EUROPA_OCCIDENTAL</a>" %}
 {% include parameter.html name="tablename" value="europa_occidental" %}
-
+<script>
+parameters.append("tablename", "europa_occidental");
+</script>
 ## {{ page.title }}
 
 ### Descripción
