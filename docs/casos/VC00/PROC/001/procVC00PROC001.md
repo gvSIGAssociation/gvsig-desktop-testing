@@ -17,4 +17,4 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 2. **TMPFOLDER**="[[TMPFOLDER]]" una carpeta en la que se disponga de acceso para escritura.
 
-{% include es/footer.html %}
+
