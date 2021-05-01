@@ -1,6 +1,6 @@
 {{testcode="VC00AD00CP000"}}
 
-{% include testcode=testcode es/header.md page="casos/VC00/AD00/CP000/testVC00AD00CP000.md"%}
+{% include code=testcode es/header.md page="casos/VC00/AD00/CP000/testVC00AD00CP000.md"%}
 
 ## Añadir capa a copia de trabajo
 
