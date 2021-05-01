@@ -4,7 +4,7 @@ testcode: VC00PROC000
 srcpath: "casos/VC00/PROC/000/procVC00PROC000.md"
 ---
 
-% include es/header.md %}
+{% include es/header.md %}
 
 ## {{ page.title }}
 
@@ -33,10 +33,10 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
    
 ### Resultado esperado
 
-% include es/expectedresult.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
 Si se produce un error reportelo en el test que esta ejecutando.
 
-% include es/footer.md %}
+{% include es/footer.html %}
