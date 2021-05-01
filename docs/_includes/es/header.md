@@ -1,3 +1,7 @@
+<script>
+const query=window.location.search;
+const parameters=new URLSearchParams(query);
+</script>
 <table style="width:100%;">
  <tr>
   <td>{{ include.testcode | default: page.testcode}}</td>
