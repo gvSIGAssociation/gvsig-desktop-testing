@@ -22,7 +22,12 @@ const param=params.get("TMPFOLDER");
 document.getElementById('TMPFOLDER').innerHTML = param;
 </script>" una carpeta en la que se disponga de acceso para escritura.
 
-2. {%include check.html%} **REPONAME**="{%include arg.html name="REPONAME"%}". Nombre de la conexion a crear.
+2. {%include check.html%} **REPONAME**="<span id="REPONAME"></span><script>
+const query=window.location.search;
+const params=new URLSearchParams(query);
+const param=params.get("REPONAME");
+document.getElementById('REPONAME').innerHTML = param;
+</script>". Nombre de la conexion a crear.
 
 ### Pasos
 
@@ -33,8 +38,18 @@ document.getElementById('TMPFOLDER').innerHTML = param;
 
 3. {%include check.html%} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.md) 
    usando: 
-   * CONNAME="{%include arg.html name="REPONAME"%}" (REPONAME)
-   * PATHNAME="{%include arg.html name="TMPFOLDER"%}/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
+   * CONNAME="<span id="REPONAME"></span><script>
+const query=window.location.search;
+const params=new URLSearchParams(query);
+const param=params.get("REPONAME");
+document.getElementById('REPONAME').innerHTML = param;
+</script>" (REPONAME)
+   * PATHNAME="<span id="TMPFOLDER"></span><script>
+const query=window.location.search;
+const params=new URLSearchParams(query);
+const param=params.get("TMPFOLDER");
+document.getElementById('TMPFOLDER').innerHTML = param;
+</script>/{%include arg.html name="REPONAME"%}.mv.db" (TMPFOLDER/REPONAME.mv.db)
 
 4. {%include check.html%} Una vez creada la conexion a la base de datos, habremos vuelto a la ventana de titulo "Inicializar repositorio".
    Pulsaremos el boton "Inicializar repositorio".
