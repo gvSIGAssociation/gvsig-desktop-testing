@@ -33,7 +33,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 ### Pasos
 
 1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
-   * ```${tmpfolder}/${reponame}.mv.db``` (TMPFOLDER/REPONAME.mv.db).
+   * ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db).
    
    En caso de que exista lo eliminaremos.
    
