@@ -28,7 +28,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 2. ${check} Pulsaremos en el boton asociado al campo "Conexión" para crear la conexion a la base de datos.
 
-3. ${check} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.html?CONNAME=${REPONAME}&PATHNAME=${TMPFOLDER}/${REPONAME}) 
+3. ${check} Seguiremos los pasos de [Creacion de una conexion a base de datos H2](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATHNAME=${TMPFOLDER}/${REPONAME}) 
 
 5. ${check} Una vez creada la conexion a la base de datos, habremos vuelto a la ventana de titulo "Inicializar repositorio".
    Pulsaremos el boton "Inicializar repositorio".
