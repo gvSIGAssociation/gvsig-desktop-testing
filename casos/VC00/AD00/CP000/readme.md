@@ -1,1 +1,1 @@
-Test **add** layer to the working copy.
+Tests of the functionality of adding layer to the working copy
