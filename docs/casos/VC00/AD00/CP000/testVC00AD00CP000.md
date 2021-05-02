@@ -12,9 +12,9 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="TABLELINK" value="<a href='../../data/europa_occidental.csv'>EUROPA_OCCIDENTAL</a>" %}
+{% include parameter.html name="TABLELINK" value="<a href='../../data/esp_comunidades.csv'>ESP_COMUNIADES</a>" %}
 
-{% include parameter.html name="TABLENAME" value="europa_occidental" %}
+{% include parameter.html name="TABLENAME" value="esp_comunidades" %}
 
 {% include parameter.html name="FIELDFORLABEL" value="NAME" %}
 
