@@ -1,5 +1,7 @@
-# AD00 Add to working copy functionality tests
+# AD00 Casos de prueba de la funcionalidad "Añadir capa".
 
-* [CP000 Tests of the functionality of adding layer to the working copy](CP000/testVC00AD00CP000.md) (sin autenticación).
+* [CP000 Añadir capa (repositorio local en H2 sin autenticación)](CP000/testVC00AD00CP000.md).
 
-* [CP001 Tests of the functionality of adding layer to the working copy](CP001/testVC00AD00CP001.md) (con autorización).
+* [CP001 Añadir capa (repositorio local en H2 con autorización)](CP001/testVC00AD00CP001.md).
+
+* **FIXME(paco)** [CP003 Añadir capa (repositorio remoto en H2 con autorización)](CP003/testVC00AD00CP003.md).
