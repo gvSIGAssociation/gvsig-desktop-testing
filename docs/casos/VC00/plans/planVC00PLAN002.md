@@ -17,7 +17,9 @@ Comprueba:
 * Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 {% comment %}
+
 * Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
+
 {% endcomment %}
 
 * Que se se pueden crear leyendas asociadas a una capa y se cargan automaticamente al cargarla en una vista.
