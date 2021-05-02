@@ -20,9 +20,17 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 
 ### Descripción
 
-Crearemos una copia local asociada a un repositorio local basado en H2 y añadiremos a la copia local 
-una capa. En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio y
-otra para acceder a la copia local.
+Este caso de prueba verifica que se pueda añadir una capa local a una copia de trabajo
+basada en un repositotio local en H2.
+Para ello:
+* Inicializa un repositorio local de H2.
+* Inicializa una copia de trabajo
+* Añade una capa a la copia de trabajo creada.
+
+Si las bases de datos que vamos a utilizar asociadas al repositorio o la copia de 
+trabajo existen se eliminaran y se volveran a crear, asi como las conexiones a 
+base de datos que se vayan a utilizar.
+
 
 {% include es/checkifthereisalreadyabug.md %}
 
