@@ -1,5 +1,5 @@
 ---
-title: Inicializacion de una copia de trabajo de un repositorio local en H2
+title: Inicializacion de una copia de trabajo de un repositorio local en H2 (sin autenticación)
 testcode: VC00CW00CP000
 srcpath: "casos/VC00/CW00/CP000/testVC00CW00CP000.md"
 ---
@@ -7,9 +7,11 @@ srcpath: "casos/VC00/CW00/CP000/testVC00CW00CP000.md"
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
+
 {% include parameter.html name="REPONAME" value="Repositorio" %}
+
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
-{
+
 ## {{ page.title }}
 
 ### Descripción
@@ -47,7 +49,7 @@ otra para acceder a la copia de trabajo.
 4. ${check} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
    que nos presentara la ventana de titulo "Inicializar repositorio".
 
-5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/001/procVC00PROC001.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
+5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2 (sin autenticación)](../../PROC/001/procVC00PROC001.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
 7. ${check} Tras la creacion del repositorio, seleccionaremos la opcion de menu 
    "Herramientas/VCSGis/Inicializar copia de trabajo" que nos presentara la ventana de 
