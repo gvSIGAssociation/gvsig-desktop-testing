@@ -1,7 +1,7 @@
 ---
-title: Plan de prueba "basico" con la autorizacion activada sobre VCSGis
+title: Plan de prueba "basico" (repositorio local en H2 sin autorizacion)
 testcode: VC00PLAN001
-srcpath: "casos/VC00/plans/basico_con_autorizacion.md"
+srcpath: "casos/VC00/plans/planVC00PLAN001.md"
 ---
 
 {% include es/header.md %}
