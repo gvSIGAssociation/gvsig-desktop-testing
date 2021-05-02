@@ -1,1 +1,5 @@
-<script>parameters.append("{{include.name}}", "{{include.value}}");</script>
+<script>
+  if( !parameters.has("{{include.name}}") ) {
+    parameters.append("{{include.name}}", "{{include.value}}");
+  }
+</script>
