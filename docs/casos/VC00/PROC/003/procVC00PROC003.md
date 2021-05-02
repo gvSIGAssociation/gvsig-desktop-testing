@@ -1,6 +1,6 @@
 ---
 title: Añadir capa a una copia de trabajo asociada a un repositorio local en H2
-testcode: VC00PROC003
+proccode: VC00PROC003
 srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 ---
 
