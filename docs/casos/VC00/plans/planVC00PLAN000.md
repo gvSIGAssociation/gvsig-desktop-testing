@@ -1,7 +1,7 @@
 ---
-title: Plan de prueba "basico" sin la autenticacion activada sobre VCSGis
-plancode: VC00PLAN001
-srcpath: "casos/VC00/plans/basico_sin_autenticacion.md"
+title: Plan de prueba "basico" (repositorio local en H2 sin autenticacion)
+plancode: VC00PLAN000
+srcpath: "casos/VC00/plans/planVC00PLAN000.md"
 ---
 
 {% include es/header.md %}
