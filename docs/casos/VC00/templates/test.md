@@ -1,6 +1,6 @@
 ---
 title: ------------FIXME------------
-testcode: VC00...FIXME...
+proccode: VC00...FIXME...
 srcpath: "casos/VC00/...FIXME..."
 ---
 
