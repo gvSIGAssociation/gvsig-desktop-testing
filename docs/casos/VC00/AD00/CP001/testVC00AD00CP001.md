@@ -16,7 +16,7 @@ srcpath: "casos/VC00/AD00/CP001/testVC00AD00CP001.md"
 
 {% include parameter.html name="TABLENAME" value="esp_comunidades" %}
 
-{% include parameter.html name="FIELDFORLABEL" value="NAME" %}
+{% include parameter.html name="FIELDFORLABEL" value="COM_NAME" %}
 
 {% include parameter.html name="CATEGORY" value="Cartografia base" %}
 
