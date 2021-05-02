@@ -1,4 +1,4 @@
-# VCSGis functionality tests
+# Pruebas de la funcionalidad VCSGis
 
 Puede ver los *planes de prueba* disponibles [aqui](plans/readme.md).
 
