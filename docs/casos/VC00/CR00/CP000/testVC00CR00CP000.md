@@ -7,6 +7,7 @@ srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
+
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
 ## {{ page.title }}
