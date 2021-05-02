@@ -1,6 +1,6 @@
 ---
-title: FIXME
-testcode: VC00PROC...FIXME...
+title: --------FIXME---------
+proccode: VC00PROC...FIXME...
 srcpath: "casos/VC00/PROC...FIXME..."
 ---
 
@@ -10,29 +10,29 @@ srcpath: "casos/VC00/PROC...FIXME..."
 
 ### Descripción
 
-FIXME
+**--------FIXME---------**
 
 ### Datos de entrada
 
-1. {%include check.html%} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
+1. ${check} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 
-3. {%include check.html%} FIXME. 
+3. ${check} **--------FIXME---------**. 
 
 
 ### Pasos
 
-1. {%include check.html%} FIXME
+1. ${check} **--------FIXME---------**
 
-3. {%include check.html%} FIXME
+3. ${check} **--------FIXME---------**
 
-4. {%include check.html%} FIXME
+4. ${check} **--------FIXME---------**
 
 ### Resultado esperado
 
-{% include es/expectedresult.md %}
+{% include es/expectedresult_proc.md %}
 
 ### Reportar fallo
 
-Si se produce un error reportelo en el test que esta ejecutando.
+{% include es/reportbug_proc.md %}
 
