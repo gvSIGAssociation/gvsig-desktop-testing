@@ -1,5 +1,5 @@
 ---
-title: Plan de prueba "basico" (repositorio local en H2 sin autorizacion)
+title: Plan de prueba "basico" (repositorio local en H2 con autorizacion)
 testcode: VC00PLAN001
 srcpath: "casos/VC00/plans/planVC00PLAN001.md"
 ---
