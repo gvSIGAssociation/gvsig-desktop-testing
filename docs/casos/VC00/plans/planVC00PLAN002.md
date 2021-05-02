@@ -12,8 +12,8 @@ Este plan de prueba contiene test para verificar la funcionalidad basica de VCSG
 un repositorio con la autenticacion y autorizacion de usuarios activada.
 
 Comprueba:
-* Que se crean correctamente repositorio sobre una BBDD de H2.
-* Que se crean copia de trabajo asociadas a un repositorio en H2 local y remoto.
+* Que se crea un repositorio sobre una BBDD de H2.
+* Que se crea una copia de trabajo.
 * Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 * Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
