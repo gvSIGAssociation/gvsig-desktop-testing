@@ -1,6 +1,6 @@
 ---
 title: Creacion de una conexion a base de datos H2
-testcode: VC00PROC000
+proccode: VC00PROC000
 srcpath: "casos/VC00/PROC/000/procVC00PROC000.md"
 ---
 
