@@ -7,6 +7,9 @@ if( !parameters.has("check") ) {
 if( !parameters.has("testcode") ) {
  parameters.append("testcode", '{{ include.testcode | default: page.testcode }}');
 }
+if( !parameters.has("plancode") ) {
+ parameters.append("plancode", '{{ include.plancode | default: page.plancode }}');
+}
 if( !parameters.has("proccode") ) {
  parameters.append("proccode", '{{ include.proccode | default: page.proccode }}');
 }
@@ -19,7 +22,7 @@ if( !parameters.has("srcpath") ) {
 </script>
 <table style="width:100%;">
  <tr>
-  <td>{{ include.testcode | default: page.testcode}}</td>
+  <td>{{ include.proccode | default: page.proccode | include.testcode | default: page.testcode | include.plancode | default: page.plancode}}</td>
   <td style="width:100%;"></td>
   <td><a href="https://github.com/gvSIGAssociation/gvsig-desktop-testing/blob/master/docs/{{ include.srcpath | default: page.srcpath }}">Fuente</a></td>
  </tr>
