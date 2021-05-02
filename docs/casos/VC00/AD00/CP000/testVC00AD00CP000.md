@@ -7,9 +7,13 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
+
 {% include parameter.html name="REPONAME" value="Repositorio" %}
+
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
+
 {% include parameter.html name="TABLELINK" value="<a href='../../data/europa_occidental.csv'>EUROPA_OCCIDENTAL</a>" %}
+
 {% include parameter.html name="TABLENAME" value="europa_occidental" %}
 
 ## {{ page.title }}
