@@ -1,7 +1,7 @@
 ---
-title: Plan de prueba "basico" sin autorizacion activada sobre VCSGis
+title: Plan de prueba "basico" sin la autenticacion activada sobre VCSGis
 testcode: VC00PLAN001
-srcpath: "casos/VC00/plans/basico_sin_autorizacion.md"
+srcpath: "casos/VC00/plans/basico_sin_autenticacion.md"
 ---
 
 {% include es/header.md %}
@@ -9,7 +9,7 @@ srcpath: "casos/VC00/plans/basico_sin_autorizacion.md"
 # {{ page.title }}
 
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
-un repositorio que no tiene la autenticacion y autorizacion de usuarios activada.
+un repositorio que no tiene la autenticacion de usuarios activada.
 
 Comprueba:
 * Que se crean correctamente repositorio sobre una BBDD de H2.
