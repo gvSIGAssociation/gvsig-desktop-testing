@@ -8,6 +8,6 @@
 * **FIXME(jose)** [004 Crear un repositorio sobre una base de datos H2 (con autorización)](004/procVC00PROC004.md).
 * **FIXME(paco)** [005 checkout (sin autenticación)](005/procVC00PROC005.md).
 * **FIXME(paco)** [005 checkout (con autorización)](006/procVC00PROC006.md).
-* **FIXME(paco)** [006 Iniciar un servidor de repositorio](006/procVC00PROC006.md).
+* **FIXME(joaquin)** [006 Iniciar un servidor de repositorio](006/procVC00PROC006.md).
 * **FIXME(joaquin)** [007 Inicialización de una copia de trabajo asociada a un repositorio remoto en H2](007/procVC00PROC007.md).
  
