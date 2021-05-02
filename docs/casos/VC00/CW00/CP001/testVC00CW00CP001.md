@@ -1,5 +1,5 @@
 ---
-title: Inicializacion de una copia de trabajo de un repositorio local en H2 (con autorización)
+title: Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)
 testcode: VC00CW00CP001
 srcpath: "casos/VC00/CW00/CP001/testVC00CW00CP001.md"
 ---
