@@ -37,12 +37,13 @@ srcpath: casos/VC00/testVC00CI00CP001.md
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
+3. ${check} El caso de prueba [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md) ha pasado sin errores.
+
 ### Pasos
 
 1. ${check} Si acabmos de pasar el caso de pruebas [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md), 
    "Añadir capa a copia de trabajo (sin autenticación)", continuaremos con el paso 2. 
-   Si no lo pasaremos primero. Si falla [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md)
-   no pasaremos este caso de prueba, ni lo marcaremos como fallido.
+   Si no lo pasaremos antes de continuar. 
    
 2. ${check} Pulsaremos en la opcion de menu "Herramientas/VCSGis/?Mostrar cambios?".
 
