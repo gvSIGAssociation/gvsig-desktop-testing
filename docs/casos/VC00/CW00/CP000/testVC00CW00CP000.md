@@ -1,5 +1,5 @@
 ---
-title: Inicializacion de una copia de trabajo de un repositorio local en H2 (sin autenticación)
+title: Inicializacion de una copia de trabajo (repositorio local en H2 sin autenticación)
 testcode: VC00CW00CP000
 srcpath: "casos/VC00/CW00/CP000/testVC00CW00CP000.md"
 ---
@@ -36,9 +36,8 @@ otra para acceder a la copia de trabajo.
 
 1. Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
 2. El complemento de VCSGis debe estar instalado y activo.
-3. Si no ha pasado el caso de prueba [VC00CR00CP000](../../CR00/CP000/testVC00CR00CP000.md) no
-   es necesario pasar este, ya que este precisa de la funcionalidad testeada en
-   [VC00CR00CP000](../../CR00/CP000/testVC00CR00CP000.md).
+3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba:
+   * [VC00CR00CP000 Creacion de un repositorio de H2 si autenticación](../../CR00/CP000/testVC00CR00CP000.md) 
 
 ### Pasos
 1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
