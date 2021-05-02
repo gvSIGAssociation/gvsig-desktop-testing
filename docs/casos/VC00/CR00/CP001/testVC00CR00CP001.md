@@ -7,6 +7,7 @@ srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
+
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
 ## {{ page.title }}
@@ -19,7 +20,8 @@ dos usuarios:
 * "sara", de clave "sara1", con todos los permisos activados (opcion por defecto).
 * "pedro", de clave "pedro1", sin permiso de "commit".
 
-En el proceso se creara la conexion a la base de datos que va a usarse para acceder al repositorio.
+Durante la ejecucion del caso de prueba se creara la conexion a la base de datos que va a usarse 
+para acceder al repositorio.
 
 {% include es/checkifthereisalreadyabug.md %}
 
