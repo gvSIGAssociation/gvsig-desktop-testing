@@ -10,7 +10,10 @@ srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 
 ### Descripción
 
-
+Este procedimiento describe como añadir añadir una capa ya cargada en el proyecto
+a una copia de trabajo ya creada. Desde donde se invoque al procedimiento debera
+haberse inicializado correctamente la copia de trabajo y haber indicado al usuario
+como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
@@ -29,7 +32,7 @@ srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 ### Pasos
 
 1. ${check} Al iniciarse este procedimiento debera estar abierta la venta de añadir a la copia de 
-   trabajo de titulo "Añair a la copia de trabajo" y debera estar activa.
+   trabajo de titulo "Añadir a la copia de trabajo" y debera estar activa.
 
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
    entrada ```${WCNAME}``` (WCNAME). Si existe la selccionaremos. Si no existe
