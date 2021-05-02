@@ -30,7 +30,7 @@ Casos de prueba:
 * ${check} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
 
 * ${check} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
-* ${check} [Subir capa al repositorio local (commit)](../CI00/CP002/testVC00CI00CP002.md).
+* ${check} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
 * ${check} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
 
 * ${check} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
