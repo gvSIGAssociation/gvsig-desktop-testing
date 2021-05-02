@@ -1,5 +1,5 @@
 ---
-title: Plan de prueba "basico" (repositorio local en H2 con autorizacion)
+title: Plan de prueba "minimo" (repositorio local en H2 con autorizacion)
 testcode: VC00PLAN001
 srcpath: "casos/VC00/plans/planVC00PLAN001.md"
 ---
@@ -9,11 +9,11 @@ srcpath: "casos/VC00/plans/planVC00PLAN001.md"
 # {{ page.title }}
 
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
-un repositorio con la autenticacion y autorizacion de usuarios activada.
+un repositorio local en H2 con la autenticacion y autorizacion de usuarios activada.
 
 Comprueba:
-* Que se crean correctamente repositorio sobre una BBDD de H2.
-* Que se crean copia de trabajo asociadas a un repositorio en H2 local y remoto.
+* Que se crea un repositorio.
+* Que se crea una copia de trabajo.
 * Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 Casos de prueba:
