@@ -1,6 +1,6 @@
 ---
 title: Plan de prueba "basico" sin la autenticacion activada sobre VCSGis
-testcode: VC00PLAN001
+plancode: VC00PLAN001
 srcpath: "casos/VC00/plans/basico_sin_autenticacion.md"
 ---
 
