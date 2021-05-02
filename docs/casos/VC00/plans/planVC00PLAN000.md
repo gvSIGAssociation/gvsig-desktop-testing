@@ -20,7 +20,7 @@ Casos de prueba:
 * ${check} [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
 * ${check} [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP000/testVC00CW00CP000.md).
 * ${check} [Añadir capa a la copia de trabajo (add)](../AD00/CP000/testVC00AD00CP000.md).
-* ${check} [Subir capa al repositorio local (commit)](../CI00/CP000/testVC00CI00CP000.md).
+* ${check} [Subir capa al repositorio local (commit)](../SY00/CP000/testVC00SY00CP000.md).
 * ${check} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP000/testVC00CO00CP000.md).
 
 
