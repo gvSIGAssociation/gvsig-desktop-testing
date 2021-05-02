@@ -5,4 +5,61 @@ srcpath: casos/VC00/testVC00CI00CP001.md
 ---
 
 
-**FIXME**(paco)
+**------------- FIXME (paco) --------------**
+
+
+
+{% include es/header.md %}
+
+{% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
+
+{% include parameter.html name="TABLENAME" value="europa_occidental" %}
+
+
+## {{ page.title }}
+
+### Descripción
+
+
+{% include es/checkifthereisalreadyabug.md %}
+
+### Datos de entrada:
+
+1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
+   de la conexion a la base de datos de la copia de trabajo. 
+
+2. ${check} Tabla ```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
+
+
+### Prerrequisitos
+
+1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+### Pasos
+
+1. ${check} Si acabmos de pasar el caso de pruebas [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md), "Añadir capa a copia de trabajo"
+   continuaremos con el paso 2. Si no lo pasaremos primero. Si falla [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md)
+   no pasaremos este caso de prueba, ni lo marcaremos como fallido.
+   
+2. ${check} Pulsaremos en la opcion de menu "Herramientas/VCSGis/?Mostrar cambios?".
+
+3. ${check} Se habra presentado la ventana ver los cambios entre el repositorio y la copia de trabajo
+   de titulo XXXX.
+
+4. ${check} seleccionaremos la copia de trabajo .... **-----------FIXME------------** 
+
+5. ${check} Activaremos la pestaña .... **-----------FIXME------------** 
+
+6. ${check} .... **-----------FIXME------------** 
+
+### Resultado esperado
+
+{% include es/expectedresult.md %}
+
+### Reportar fallo
+
+{% include es/reportbug.md %}
+
+{% include es/footer.html %}
