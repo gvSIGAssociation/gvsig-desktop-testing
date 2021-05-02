@@ -1,5 +1,5 @@
 ---
-title: Añadir capa a copia de trabajo (con autorización)
+title: Añadir capa a copia de trabajo (repositorio local en H2 con autorización)
 testcode: VC00AD00CP001
 srcpath: "casos/VC00/AD00/CP001/testVC00AD00CP001.md"
 ---
