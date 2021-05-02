@@ -1,0 +1,4 @@
+COD_ORIGENCOORDENADAS/Integer/set/pk=true/set/order=10/set/label=Codigo;ORI_DESCRIPCION/String/set/size=20/set/order=20/set/label=Descipcion
+1;"Mapa"
+2;"Investigacion"
+3;"GPS, PNRGM"
