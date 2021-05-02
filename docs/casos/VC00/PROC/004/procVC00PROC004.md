@@ -47,7 +47,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
    ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db)
    en el sistema de archivos.
    
- **FIXME**:Continuar aqui con la explicacion de la creacion de usuarios. 
+ **FIXME**:Continuar aqui con la explicacion de:
    * Conectarse al espacio de trabajo de base de datos
    * Abrir la tabla de configuracion del repositorio y activar la autentcacion y autorizacion
    * Abrir la tabla de usuarios del repo y dar de alta los dos usuarios
