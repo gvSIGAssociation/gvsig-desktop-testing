@@ -39,9 +39,9 @@ srcpath: casos/VC00/testVC00CI00CP001.md
 
 ### Pasos
 
-1. ${check} Si acabmos de pasar el caso de pruebas [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md), 
-   "Añadir capa a copia de trabajo", continuaremos con el paso 2. 
-   Si no lo pasaremos primero. Si falla [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md)
+1. ${check} Si acabmos de pasar el caso de pruebas [VC00AD00CP001](../../AD00/CP001/testVC00AD00CP001.md), 
+   "Añadir capa a copia de trabajo (con autorizacion)", continuaremos con el paso 2. 
+   Si no lo pasaremos primero. Si falla [VC00AD00CP001](../../AD00/CP001/testVC00AD00CP001.md)
    no pasaremos este caso de prueba, ni lo marcaremos como fallido.
    
 2. ${check} Pulsaremos en la opcion de menu "Herramientas/VCSGis/?Mostrar cambios?".
