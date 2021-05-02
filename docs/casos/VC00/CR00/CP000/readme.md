@@ -1,1 +1,1 @@
-Creation of a repository in an H2 database.
+Creation of a repository in a H2 database.
