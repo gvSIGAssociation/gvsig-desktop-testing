@@ -1,5 +1,5 @@
 ---
-title: Commitar una capa nueva (con autorización)
+title: Commitar una capa nueva (sin autenticación)
 testcode: VC00CI00CP001
 srcpath: casos/VC00/testVC00CI00CP001.md
 ---
@@ -40,7 +40,7 @@ srcpath: casos/VC00/testVC00CI00CP001.md
 ### Pasos
 
 1. ${check} Si acabmos de pasar el caso de pruebas [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md), 
-   "Añadir capa a copia de trabajo", continuaremos con el paso 2. 
+   "Añadir capa a copia de trabajo (sin autenticación)", continuaremos con el paso 2. 
    Si no lo pasaremos primero. Si falla [VC00AD00CP000](../../AD00/CP000/testVC00AD00CP000.md)
    no pasaremos este caso de prueba, ni lo marcaremos como fallido.
    
