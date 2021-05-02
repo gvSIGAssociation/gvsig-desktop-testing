@@ -16,6 +16,10 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 
 {% include parameter.html name="TABLENAME" value="europa_occidental" %}
 
+{% include parameter.html name="FIELDFORLABEL" value="NAME" %}
+
+{% include parameter.html name="CATEGORY" value="Cartografia base" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -45,6 +49,12 @@ base de datos que se vayan a utilizar.
    de la conexion a la base de datos de la copia de trabajo. 
 
 4. ${check} Tabla ```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
+
+3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLENAME}```
+   a usar en etiquetas. 
+
+4. ${check} **CATEGORY**=```${CATEGORY}```. Con la que vamos a añadir la tabla ```${TABLENAME}```
+   a la copia local.
 
 ### Prerrequisitos
 
@@ -95,7 +105,7 @@ base de datos que se vayan a utilizar.
 12. ${check} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Añadir a la copia de trabajo" 
     que nos presentara la ventana de titulo Añadir a la copia de trabajo".
 
-13. ${check} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}) 
+13. ${check} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
 
 14. ${check} Debera haber aparecido en la vista una capa 
     ```${TABLENAME}``` (${TABLELINK})
