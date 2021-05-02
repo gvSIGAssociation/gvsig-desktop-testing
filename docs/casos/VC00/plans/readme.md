@@ -1,4 +1,4 @@
-# VCSGis test plans
+# Planes de prueba de VCSGis 
 
 * [Basico (repositorio local en H2 sin autenticacion)](planVC00PLAN000.md)
  
