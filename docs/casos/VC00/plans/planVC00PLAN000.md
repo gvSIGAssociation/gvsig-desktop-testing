@@ -12,9 +12,9 @@ Este plan de prueba contiene test para verificar la funcionalidad minima de VCSG
 un repositorio local en H2 que no tiene la autenticacion de usuarios activada.
 
 Comprueba:
-* Que se crea un repositorio.
-* Que se crea una copia de trabajo.
-* Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
+1. Que se crea un repositorio.
+1. Que se crea una copia de trabajo.
+1. Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 Casos de prueba:
 1. ${check} [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
