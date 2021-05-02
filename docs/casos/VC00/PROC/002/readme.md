@@ -1,2 +1,2 @@
 
-# Creation of a working copy associated with a local repository in a H2 database.
+Inicialización de una copia de trabajo asociada a un repositorio local en H2.
