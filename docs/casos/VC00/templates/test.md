@@ -35,7 +35,7 @@ srcpath: "casos/VC00/...FIXME..."
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} Tendremos descargada el fichero LAYER en una ruta conocida en nuestro equipo.
+3. ${check} Tendremos descargada el fichero ```${TABLENAME}``` (${TABLELINK}) en una ruta conocida en nuestro equipo.
 
 4. ${check} **------------FIXME------------**
 
