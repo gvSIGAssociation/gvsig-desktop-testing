@@ -28,7 +28,7 @@ Comprueba:
 Casos de prueba:
 * ${check} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
 * ${check} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
-* 
+
 * ${check} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
 * ${check} [Subir capa al repositorio local (commit)](../CI00/CP002/testVC00CI00CP002.md).
 * ${check} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
