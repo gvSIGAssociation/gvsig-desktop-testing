@@ -15,9 +15,6 @@ Comprueba:
 * Que se crean correctamente repositorio sobre una BBDD de H2.
 * Que se crean copia de trabajo asociadas a un repositorio en H2 local y remoto.
 * Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
-* Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
-* Que se se pueden crear leyendas asociadas a una capa y se cargan automaticamente al cargarla en una vista.
-* Que se pueden definir modelos de datos y se puede cargar en los puestos.
 
 Casos de prueba:
 * ${check} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
