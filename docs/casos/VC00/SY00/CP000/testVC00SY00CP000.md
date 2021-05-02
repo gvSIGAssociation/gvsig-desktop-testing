@@ -1,5 +1,5 @@
 ---
-title: Commitar una capa nueva (sin autenticación)
+title: Commitar una capa nueva (repositorio local en H2 sin autenticación)
 testcode: VC00SY00CP000
 srcpath: casos/VC00/SY00/CP000/testVC00SY00CP000.md
 ---
