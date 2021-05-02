@@ -36,6 +36,8 @@ otra para acceder a la copia de trabajo.
 
 1. Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
 2. El complemento de VCSGis debe estar instalado y activo.
+3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba:
+   * [VC00CR00CP001](../../CR00/CP001/testVC00CR00CP001.md) 
 
 ### Pasos
 1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
