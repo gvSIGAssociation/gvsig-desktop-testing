@@ -1,6 +1,6 @@
 ---
 title: Inicialización de una copia de trabajo asociada a un repositorio local en H2
-testcode: VC00PROC002
+proccode: VC00PROC002
 srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 ---
 
