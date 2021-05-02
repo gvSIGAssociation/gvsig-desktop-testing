@@ -1,7 +1,7 @@
 ---
 title: Plan de prueba "basico" sin autorizacion activada sobre VCSGis
 testcode: VC00PLAN001
-srcpath: "casos/VC00/plans/basico.md"
+srcpath: "casos/VC00/plans/basico_sin_autorizacion.md"
 ---
 
 {% include es/header.md %}
