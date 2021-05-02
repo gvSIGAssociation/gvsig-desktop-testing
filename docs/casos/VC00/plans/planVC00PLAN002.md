@@ -1,10 +1,10 @@
 ---
 title: Plan de prueba "basico" (repositorio remoto en H2 con autorizacion)
-testcode: VC00PLAN002
+plancode: VC00PLAN002
 srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 ---
 
-{% include es/header.md %}
+{%1 include es/header.md %}
 
 # {{ page.title }}
 
@@ -38,7 +38,7 @@ Casos de prueba:
 
 * ${check} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
 * ${check} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-* ${check} [Subir cambios en una capa con un plan topologico (sin pasar el plan)](../TP00/CP002/testVC00TP00CP002.md).
+* ${check} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
 
 {% include es/footer.html %}
 
