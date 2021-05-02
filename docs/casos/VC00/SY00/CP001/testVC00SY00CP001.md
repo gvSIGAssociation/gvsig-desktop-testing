@@ -1,7 +1,7 @@
 ---
-title: Commitar una capa nueva (con autorización)
-testcode: VC00CI00CP001
-srcpath: casos/VC00/testVC00CI00CP001.md
+title: Commitar una capa nueva (repositorio local en H2 con autorización)
+testcode: VC00SY00CP001
+srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 ---
 
 
