@@ -1,5 +1,5 @@
 ---
-title: Inicializar un repositorio en H2
+title: Inicializar un repositorio en H2 (sin autenticación)
 testcode: VC00PROC001
 srcpath: "casos/VC00/PROC/001/procVC00PROC001.md"
 ---
