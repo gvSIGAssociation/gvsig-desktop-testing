@@ -1,5 +1,5 @@
 ---
-title: Añadir capa a copia de trabajo
+title: Añadir capa a copia de trabajo (repositorio local en H2 sin autenticación)
 testcode: VC00AD00CP000
 srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 ---
