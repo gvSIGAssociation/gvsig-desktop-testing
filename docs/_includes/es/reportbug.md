@@ -7,5 +7,5 @@ para comprobar si hay abierta una incidencia sobre este caso de prueba.
 Pulse [aqui](https://redmine.gvsig.net/redmine/projects/gvsig-desktop/issues/new?issue[subject]={{include.testcode | default: page.testcode}}+{{include.testtitle| default: page.title| escape | replace: " ", "+" }}) para abrir una indicendia sobre este caso de prueba.
 Indique en la descripcion del ticket en que paso del caso de prueba se ha producido el problema, y describa lo mas
 inequivoco posible que ha observado para decidir que no ha pasado este. En caso de que el problema se produzca en un procedimiento dentro del caso de prueba, indique, ademas del paso dentro del caso de prueba, en que paso del procedimiento se ha producido el problema.
-Recuerde adjuntar los ficheros de *log* generados durante la ejecución del test que a ha fallado al ticket.
+**Recuerde adjuntar los ficheros de *log*** generados durante la ejecución del test que a ha fallado al ticket.
 
