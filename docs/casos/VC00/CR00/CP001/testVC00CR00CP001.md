@@ -1,7 +1,7 @@
 ---
-title: Inicializacion de un repositorio en una base de datos H2
-testcode: VC00CR00CP000
-srcpath: "casos/VC00/CR00/CP000/testVC00CR00CP000.md"
+title: Inicializacion de un repositorio en una base de datos H2 (con autorización)
+testcode: VC00CR00CP001
+srcpath: "casos/VC00/CR00/CP001/testVC00CR00CP001.md"
 ---
 
 {% include es/header.md %}
