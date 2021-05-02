@@ -1,6 +1,6 @@
 ---
 title: Inicializar un repositorio en H2 con la autorización acivada
-testcode: VC00PROC004
+proccode: VC00PROC004
 srcpath: "casos/VC00/PROC/004/procVC00PROC004.md"
 ---
 
