@@ -1,7 +1,7 @@
 ---
 title: Commitar una capa nueva (sin autenticación)
-testcode: VC00CI00CP001
-srcpath: casos/VC00/CI00/testVC00CI00CP001.md
+testcode: VC00SY00CP001
+srcpath: casos/VC00/SY00/testVC00SY00CP001.md
 ---
 
 
