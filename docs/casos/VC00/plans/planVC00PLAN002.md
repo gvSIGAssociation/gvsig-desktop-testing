@@ -4,7 +4,7 @@ plancode: VC00PLAN002
 srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 ---
 
-{%1 include es/header.md %}
+{% include es/header.md %}
 
 # {{ page.title }}
 
