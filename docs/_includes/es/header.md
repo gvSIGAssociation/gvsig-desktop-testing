@@ -16,6 +16,7 @@ if( !parameters.has("title") ) {
 if( !parameters.has("srcpath") ) {
  parameters.append("srcpath", '{{ include.srcpath | default: page.srcpath }}');
 }
+parameters.append("srcpath", '{{ include.srcpath | default: page.srcpath }}');
 </script>
 <table style="width:100%;">
  <tr>
