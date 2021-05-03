@@ -30,10 +30,15 @@ Comprueba:
 1. Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 Casos de prueba:
+
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
+
 1. ${InputUnknownOkError} [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP001/testVC00CW00CP001.md).
+
 1. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP001/testVC00AD00CP001.md).
+
 1. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP001/testVC00SY00CP001.md).
+
 1. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP001/testVC00CO00CP001.md).
 
 <table border="0">
