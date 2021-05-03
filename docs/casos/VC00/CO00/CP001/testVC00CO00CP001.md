@@ -37,7 +37,7 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00CI00CP001, "Commitar una capa nueva (con autorización)"](../../CI00/CP001/testVC00CI00CP001.md) 
+3. ${check} El caso de prueba [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md) 
    (**FIXME** ¿pasar parametros?),
    ha pasado sin errores. 
 
@@ -46,7 +46,7 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 ### Pasos
 
 1. ${check} Si acabamos de pasar el caso de pruebas 
-   [VC00CI00CP001, "Commitar una capa nueva (con autorización)"](../../CI00/CP001/testVC00CI00CP001.md) (**FIXME** ¿pasar parametros?), 
+   [VC00CI00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00CI00CP001.md) (**FIXME** ¿pasar parametros?), 
    continuaremos con el paso 2. 
    Si no lo pasaremos antes de continuar. 
       
