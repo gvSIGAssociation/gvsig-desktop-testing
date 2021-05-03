@@ -11,6 +11,14 @@ srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
 un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
 
+<div class="noprint">
+<style scoped>
+@media print{
+   .noprint{
+       display:none;
+   }
+}
+</style>
 Comprueba:
 1. Que se crea un repositorio.
 1. Que se crea una copia de trabajo.
@@ -29,7 +37,7 @@ Comprueba:
 1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
 
 {% endcomment %}
-
+</div>
 
 Casos de prueba:
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
