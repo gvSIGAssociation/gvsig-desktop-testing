@@ -39,7 +39,7 @@ Casos de prueba:
 
 <table border="0">
 <tr>
-<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text"></td>
+<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text" width="100%"></td>
 </tr>
 <tr>
 <td>Fecha:</td><td><input type="date"></td>
