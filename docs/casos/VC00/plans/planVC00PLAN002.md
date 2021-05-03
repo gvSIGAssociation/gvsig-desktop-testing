@@ -22,8 +22,11 @@ un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios acti
 </style>
    
 Comprueba:
+
 1. Que se crea un repositorio.
+
 1. Que se crea una copia de trabajo.
+
 1. Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
 
 1. Que se se pueden crear leyendas asociadas a una capa y se cargan automaticamente al cargarla en una vista.
@@ -43,15 +46,25 @@ Comprueba:
 
 <form  markdown="1">
 Casos de prueba:
+
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
+
 1. ${InputUnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+
 1. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
+
 1. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
+
 1. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
+
 1. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
+
 1. ${InputUnknownOkError} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
+
 1. ${InputUnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
+
 1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+
 1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 
 {% comment %}
