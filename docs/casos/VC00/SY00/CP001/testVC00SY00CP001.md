@@ -13,7 +13,7 @@ srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="TABLENAME" value="europa_occidental" %}
+{% include parameter.html name="TABLENAME" value="esp_comunidades" %}
 
 
 ## {{ page.title }}
