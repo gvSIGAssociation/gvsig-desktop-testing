@@ -22,14 +22,15 @@ un repositorio local en H2 con la autenticacion y autorizacion de usuarios activ
    }
 }
 </style>
-</div>
-
-<form  markdown="1">
 
 Comprueba:
 1. Que se crea un repositorio.
 1. Que se crea una copia de trabajo.
 1. Que se pueden añdir a la copia de trabajo capas, commitarlas y hacer checkout de ellas.
+
+</div>
+
+<form  markdown="1">
 
 Casos de prueba:
 
@@ -41,25 +42,25 @@ Casos de prueba:
 
 
 <table border="0">
-<tr>
-<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td>
-<td width="90%">
-   <style scoped>
-      .fill {
-         display:table-cell important!; 
-         width:100% important!;
-      }
-   }
-   </style>
-   <input type="text" class="fill">
-</td>
-</tr>
-<tr>
-<td>Fecha:</td><td><input type="date"></td>
-</tr>
-<tr>
-<td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
-</tr>
+   <tr>
+      <td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td>
+      <td width="90%">
+         <style scoped>
+            .fill {
+               display:table-cell important!; 
+               width:100% important!;
+            }
+         }
+         </style>
+         <input type="text" class="fill">
+      </td>
+   </tr>
+   <tr>
+      <td>Fecha:</td><td><input type="date"></td>
+   </tr>
+   <tr>
+      <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
+   </tr>
 </table>
 <input type="reset" value="Restablecer valores">
 </form>
