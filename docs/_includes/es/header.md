@@ -1,6 +1,10 @@
 <script>
 const query=window.location.search;
 const parameters=new URLSearchParams(query);
+if( !parameters.has("UnknownOkError") ) {
+  // https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+  parameters.append("UnknownOkError", '<select><option value="unknown">&#10068;</option><option value="ok">&#9989;</option><option value="error">&#10071;</option></select>');
+}
 if( !parameters.has("check") ) {
  parameters.append("check", '<input type="checkbox">');
 }
