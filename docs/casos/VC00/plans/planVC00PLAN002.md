@@ -19,6 +19,7 @@ un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios acti
    }
 }
 </style>
+   
 Comprueba:
 1. Que se crea un repositorio.
 1. Que se crea una copia de trabajo.
