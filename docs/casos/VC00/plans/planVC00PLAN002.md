@@ -12,7 +12,7 @@ Este plan de prueba contiene test para verificar la funcionalidad basica de VCSG
 un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
 
 
-<div media:type="text/omd" class="noprint">
+<div class="noprint"  markdown="1">
 <style scoped>
 @media print{
    .noprint{
