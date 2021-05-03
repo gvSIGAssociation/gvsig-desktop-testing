@@ -51,9 +51,9 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
       
 1. ${check} **------------FIXME------------**
    * ¿Cerrar gvSIG si esta abierto?
-   * Inicializar ws 2 (usar procVC00PROC???)
+   * Inicializar ws 2 (usar procVC00PROC002)
    * crear o abrir vista
-   * checkout (crear procVC00PROC??? con autorización)
+   * checkout (crear procVC00PROC006 con autorización)
 
 ### Resultado esperado
 
