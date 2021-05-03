@@ -30,9 +30,13 @@ Comprueba:
 <form  markdown="1">
 Casos de prueba:
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
+
 1. ${InputUnknownOkError} [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP000/testVC00CW00CP000.md).
+ 
 1. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP000/testVC00AD00CP000.md).
+
 1. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP000/testVC00SY00CP000.md).
+
 1. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP000/testVC00CO00CP000.md).
 
 <table border="0">
@@ -50,5 +54,4 @@ Casos de prueba:
 </form>
 
 {% include es/footer.html %}
-
 
