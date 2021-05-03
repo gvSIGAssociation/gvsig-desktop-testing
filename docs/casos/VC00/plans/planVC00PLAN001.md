@@ -18,6 +18,8 @@ un repositorio local en H2 con la autenticacion y autorizacion de usuarios activ
    .noprint{
        display:none;
    }
+   .fill {
+   }
 }
 </style>
 </div>
@@ -37,9 +39,20 @@ Casos de prueba:
 1. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP001/testVC00SY00CP001.md).
 1. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP001/testVC00CO00CP001.md).
 
+
 <table border="0">
 <tr>
-<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text" style="display:table-cell important!; width:100% important!"></td>
+<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td>
+<td width="90%">
+   <style scoped>
+      .fill {
+         display:table-cell important!; 
+         width:100% important!;
+      }
+   }
+   </style>
+   <input type="text" class="fill">
+</td>
 </tr>
 <tr>
 <td>Fecha:</td><td><input type="date"></td>
