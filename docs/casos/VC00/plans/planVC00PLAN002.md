@@ -32,23 +32,23 @@ Comprueba:
 
 
 Casos de prueba:
-1. ${check} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
-1. ${check} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+1. ${UnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
+1. ${UnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
 
-1. ${check} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
-1. ${check} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
-1. ${check} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
+1. ${UnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
+1. ${UnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
+1. ${UnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
 
-1. ${check} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
+1. ${UnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
 
-1. ${check} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
-1. ${check} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-1. ${check} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
-1. ${check} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
+1. ${UnknownOkError} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
+1. ${UnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
+1. ${UnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+1. ${UnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 
 {% comment %}
 
-1. ${check} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
+1. ${UnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
 
 {% endcomment %}
 
