@@ -12,7 +12,7 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 
 {% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
 
-{% include parameter.html name="TABLENAME" value="europa_occidental" %}
+{% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
 ## {{ page.title }}
 
@@ -37,8 +37,7 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md) 
-   (**FIXME** ¿pasar parametros?),
+3. ${check} El caso de prueba [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md),
    ha pasado sin errores. 
 
 4. ${check} **------------FIXME------------**
@@ -46,7 +45,7 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 ### Pasos
 
 1. ${check} Si acabamos de pasar el caso de pruebas 
-   [VC00CI00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00CI00CP001.md) (**FIXME** ¿pasar parametros?), 
+   [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md), 
    continuaremos con el paso 2. 
    Si no lo pasaremos antes de continuar. 
       
