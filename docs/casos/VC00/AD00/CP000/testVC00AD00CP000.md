@@ -12,7 +12,7 @@ srcpath: "casos/VC00/AD00/CP000/testVC00AD00CP000.md"
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="TABLELINK" value="<a href='../../data/esp_comunidades.csv'>ESP_COMUNIADES</a>" %}
+{% include parameter.html name="TABLELINK" value="<a href='../../data/esp_comunidades.csv'>ESP_COMUNIDADES</a>" %}
 
 {% include parameter.html name="TABLENAME" value="esp_comunidades" %}
 
@@ -111,7 +111,7 @@ base de datos que se vayan a utilizar.
     ```${TABLENAME}``` (${TABLELINK})
     con el identificativo de una capa de base de datos H2.
 
-15. ${check} Eliminaremos de la vista la capa ```${TABLENAME}``` cargada 
+15. ${check} Eliminaremos de la vista la capa ```${TABLENAME}``` (TABLENAME) cargada 
     a partir del fichero ${TABLELINK}.
 
 ### Resultado esperado
