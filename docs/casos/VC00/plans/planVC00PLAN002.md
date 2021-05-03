@@ -43,7 +43,8 @@ Casos de prueba:
 
 1. ${check} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
 1. ${check} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-1. ${check} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+1. ${check} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+1. ${check} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 
 {% comment %}
 
