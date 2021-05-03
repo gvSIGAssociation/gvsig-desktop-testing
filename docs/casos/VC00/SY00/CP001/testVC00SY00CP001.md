@@ -47,7 +47,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
    continúe con el paso 2. 
    Si no, lo ejecútelo antes de continuar. 
    
-2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/?Mostrar cambios?".
+2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
 3. ${check} Se habrá presentado la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de titulo  "VCSGis Cambios".
