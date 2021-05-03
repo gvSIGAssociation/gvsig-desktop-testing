@@ -38,7 +38,6 @@ Comprueba:
 
 {% endcomment %}
 </div>
-<form>
    
 Casos de prueba:
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
@@ -69,7 +68,6 @@ Casos de prueba:
 <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
 </tr>
 </table>
-<input type="reset" value="Restablecer valores">
-</form>
+<input type="button" value="Restablecer valores" onClick="location.href=location.href">
 
 {% include es/footer.html %}
