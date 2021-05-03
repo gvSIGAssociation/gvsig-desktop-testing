@@ -11,7 +11,8 @@ srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
 un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
 
-<div class="noprint">
+
+<div media:type="text/omd" class="noprint">
 <style scoped>
 @media print{
    .noprint{
