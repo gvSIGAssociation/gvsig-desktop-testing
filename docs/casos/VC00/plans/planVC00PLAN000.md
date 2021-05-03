@@ -29,6 +29,7 @@ Comprueba:
 
 <form  markdown="1">
 Casos de prueba:
+
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP000/testVC00CR00CP000.md).
 
 1. ${InputUnknownOkError} [Crear copia de trabajo asoiada a un repositorio local en H2](../CW00/CP000/testVC00CW00CP000.md).
