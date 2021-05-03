@@ -50,7 +50,7 @@ Casos de prueba:
 1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
 1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 {% comment %}
-1. ${UnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
+1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
 {% endcomment %}
 
 <table border="0">
