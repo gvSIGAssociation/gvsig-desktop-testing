@@ -49,4 +49,16 @@ Casos de prueba:
 
 {% endcomment %}
 
+<table border="0">
+<tr>
+<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text"></td>
+</tr>
+<tr>
+<td>Fecha:</td><td><input type="date"></td>
+</tr>
+<tr>
+<td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
+</tr>
+</table>
+
 {% include es/footer.html %}
