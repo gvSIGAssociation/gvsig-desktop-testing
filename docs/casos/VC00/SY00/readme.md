@@ -4,4 +4,4 @@
 
 * [CP001 Commitar capa nueva (repositorio local en H2 con autorizacion)](CP001/testVC00SY00CP001.md)
 
-* **FIXME(paco)** [CP002 Commitar capa nueva (repositorio remoto en H2 con autorizacion)](CP002/testVC00SY00CP002.md)
+* [CP002 Commitar capa nueva (repositorio remoto en H2 con autorizacion)](CP002/testVC00SY00CP002.md)
