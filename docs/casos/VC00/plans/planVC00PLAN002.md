@@ -47,7 +47,6 @@ del plan de pruebas nos referiremos a ellas como "Servidor" y "Cliente".
 
 <form  markdown="1">
 
-1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
 1. ${InputUnknownOkError} [Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
 3. ${InputUnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
 4. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
