@@ -47,18 +47,9 @@ a la copia de trabajo.
    
    En caso de que existan los eliminaremos.
    
-2. ${check} Iniciaremos gvSIG desktop a partir de la portabla para el ```Cliente```.
+2. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
 
-4. ${check} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
-   que nos presentara la ventana de titulo "Inicializar repositorio".
-
-5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2 (con autorización)](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
-
-7. ${check} Tras la creacion del repositorio, seleccionaremos la opcion de menu 
-   "Herramientas/VCSGis/Inicializar copia de trabajo" que nos presentara la ventana de 
-   titulo "Inicializar copia de trabajo".
-
-7. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo asociada a un repositorio remoto](../../PROC/002/procVC00PROC002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME}) 
+7. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo asociada a un repositorio remoto](../../PROC/008/procVC00PROC008.html?WCNAME=${WCNAME}) 
 
 ### Resultado esperado
 
