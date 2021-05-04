@@ -19,7 +19,7 @@ srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 
 ### Descripción
 
-Este caso verifica que se puede commitar al repositorio una capa recien añadida a una copia de trabajo.
+Este caso verifica que se puede commitar al repositorio una capa recién añadida a una copia de trabajo.
 
 {% include es/checkifthereisalreadyabug.md %}
 
@@ -36,24 +36,24 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 ### Prerrequisitos
 
-1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md),
+3. ${check} El caso de prueba [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorización)"](../../AD00/CP001/testVC00AD00CP001.md),
    ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
-   [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md)
+   [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorización)"](../../AD00/CP001/testVC00AD00CP001.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
-2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
+2. ${check} Pulse en la opción de menu "Herramientas/VCSGis/Mostrar cambios".
 
 3. ${check} Se habrá presentado la ventana que muestra los cambios entre el repositorio y la copia de trabajo
-   de titulo  "VCSGis Cambios".
+   de título  "VCSGis Cambios".
 
 4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
 
