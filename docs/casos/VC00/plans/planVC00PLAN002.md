@@ -20,6 +20,7 @@ un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios acti
    }
 }
 </style>
+## Descripción
    
 Comprueba:
 
@@ -34,21 +35,29 @@ Comprueba:
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
 1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
 {% endcomment %}
+
+## Prerrequisitos
+
+Para pasar este plan de prueba se utilizaran dos versiones portables de gvSIG desktop. A lo largo
+del plan de pruebas nos referiremos a ellas como "Servidor" y "Cliente".
+
 </div>
 
+## Cosos de prueba
+
 <form  markdown="1">
-Casos de prueba:
 
 1. ${InputUnknownOkError} [Crear repositorio sobre H2](../CR00/CP001/testVC00CR00CP001.md).
-1. ${InputUnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
-1. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
-1. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
-1. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
-1. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
-1. ${InputUnknownOkError} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
-1. ${InputUnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
-1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
+1. ${InputUnknownOkError} [Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
+3. ${InputUnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+4. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
+5. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
+6. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
+7. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
+8. ${InputUnknownOkError} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
+9. ${InputUnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
+10. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+11. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 {% comment %}
 1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
 {% endcomment %}
