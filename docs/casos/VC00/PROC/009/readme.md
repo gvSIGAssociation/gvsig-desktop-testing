@@ -1,0 +1,1 @@
+Procedimiento para dar de alta una variable en la tabla de variables

@@ -12,4 +12,5 @@
 * **FIXME(joaquin)** [008 Inicialización de una copia de trabajo asociada a un repositorio remoto en H2](008/procVC00PROC008.md).
 * **FIXME(jose)** [009 Alta de una variable](009/procVC00PROC009.md).
 * **FIXME(jose)** [010 Alta de un usuario](010/procVC00PROC010.md).
+* **FIXME(jose)** [011 Abrir una tabla de una base de datos](011/procVC00PROC011.md).
  

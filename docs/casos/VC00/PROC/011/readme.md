@@ -1,0 +1,1 @@
+Procedimiento para abrir una tabla de una base de datos
