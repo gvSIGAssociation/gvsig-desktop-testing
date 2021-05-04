@@ -53,11 +53,11 @@ Comprueba:
 
 <form  markdown="1">
 
-1. ${InputUnknownOkError} [Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
-3. ${InputUnknownOkError} [Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
-4. ${InputUnknownOkError} [Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
-5. ${InputUnknownOkError} [Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
-6. ${InputUnknownOkError} [Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
+1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
+3. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+4. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
+5. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
+6. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
 7. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
 8. ${InputUnknownOkError} [Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
 9. ${InputUnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
