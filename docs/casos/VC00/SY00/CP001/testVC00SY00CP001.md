@@ -30,6 +30,10 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 2. ${check} Tabla ```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
 
+2. ${check} Usuario ```${USER}``` (${USERLINK}). Identificador de usuario para este test. 
+
+2. ${check} Tabla ```${PASSWORD}``` (${PASSWORDLINK}). Contraseña de usuario para este test. 
+
 
 ### Prerrequisitos
 
@@ -47,12 +51,24 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
    continúe con el paso 2. 
    Si no, lo ejecútelo antes de continuar. 
    
+2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Cerrar sesión".
+
+3. ${check} Se habrá presentado la ventana una ventana con titulo "Cerrar sesión".
+
+4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+
+5. 11. ${check} Pulse el botón de "Cerrar sesión"
+
 2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
 3. ${check} Se habrá presentado la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de titulo  "VCSGis Cambios".
 
 4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+
+3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
+
+3. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
 
 5. ${check} Active la pestaña "Copia de trabajo"
 
