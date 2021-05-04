@@ -71,6 +71,8 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 12. ${check} Una vez termine el proceso, cuyo progreso se puede ver en la barra de estado de este diálogo, se habrá vaciado la tabla de cambios.
 
+13. ${check} Cierre la ventana de cambios. Cierre la ventana de la vista "Sin título". Únicamente deberá estar abierta la ventana del proyecto de gvSIG.
+
 
 
 ### Resultado esperado
