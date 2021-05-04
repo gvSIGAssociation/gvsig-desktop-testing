@@ -12,8 +12,8 @@ srcpath: "casos/VC00/PROC/009/procVC00PROC009.md"
 
 ### Descripción
 
-Este proceso registra en la tabla de variables una nueva entrada o variable, ${VARIABLE},
-además de su valor correspondiente, ${VALUE}.
+Este proceso registra en la tabla de variables una nueva entrada o variable, ```${VARIABLE}```,
+además de su valor correspondiente, ```${VALUE}```.
 
 ### Datos de entrada
 
@@ -42,9 +42,9 @@ además de su valor correspondiente, ${VALUE}.
 7. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
     sin datos a la espera de la nueva información.
 
-8. ${check} Indroduce el nombre del nuevo registro, ${VARIABLE} en el campo correspondiente.
+8. ${check} Indroduce el nombre del nuevo registro, ```${VARIABLE}``` en el campo correspondiente.
 
-9. ${check} Indroduce el valor del nuevo registro, ${VALUE}, en el campo correspondiente.
+9. ${check} Indroduce el valor del nuevo registro, ```${VALUE}```, en el campo correspondiente.
 
 10. ${check} Pulse el icono con la etiqueta "Guardar".
 

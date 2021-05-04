@@ -10,7 +10,7 @@ srcpath: "casos/VC00/PROC/011/procVC00PROC011.md"
 
 ### Descripción
 
-Este proceso accede a la tabla llamada ${TABLENAME} de la base de datos ${BBDD} y la abre.
+Este proceso accede a la tabla llamada ```${TABLENAME}``` de la base de datos ```${BBDD}``` y la abre.
 
 ### Datos de entrada
 
@@ -36,15 +36,15 @@ Este proceso accede a la tabla llamada ${TABLENAME} de la base de datos ${BBDD} 
 
 8. ${check} Tras lo anterior, el diálogo cambia permitiendo seleccionar conexiones a una base de datos.
    
-9. ${check} En el desplegable llamado "Conexión", seleccione la conexión ${BBDD}.
+9. ${check} En el desplegable llamado "Conexión", seleccione la conexión ```${BBDD}```.
    
-10. ${check} La acción anterior recarga uno de los cuadros inferiores con todas las tablas de la base de datos ${BBDD}.
+10. ${check} La acción anterior recarga uno de los cuadros inferiores con todas las tablas de la base de datos ```${BBDD}```.
 
-11. ${check} Seleccione y marque el "check" de la tabla ${TABLENAME}.
+11. ${check} Seleccione y marque el "check" de la tabla ```${TABLENAME}```.
 
 12. ${check} Pulse el botón "Aceptar" situado en la zona inferior del cuadro de diálogo.
 
-13. ${check} Tras lo anterior, se muestra la tabla de nombre ${TABLENAME}.
+13. ${check} Tras lo anterior, se muestra la tabla de nombre ```${TABLENAME}```.
 
 ### Resultado esperado
 

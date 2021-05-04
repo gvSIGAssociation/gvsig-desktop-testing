@@ -65,14 +65,14 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 
 13. ${check} Tras lo anterior, se muestra una ventana de diálogo titulada "Connect".
 
-14. ${check} En el desplegable "Conection" seleccione la conexión llamada ${REPONAME}.
+14. ${check} En el desplegable "Conection" seleccione la conexión llamada ```${REPONAME}```.
 
 15. ${check} Pulse el botón "Connect".
 
 16. ${check} Tras lo anterior, se cierra la ventana que realiza la conexión al espacio de trabajo de la base de datos
    y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
 
-17 ${check} Abra la tabla de configuración del repositorio, ${CONFIGTABLENAME}. Siga los pasos de 
+17 ${check} Abra la tabla de configuración del repositorio, ```${CONFIGTABLENAME}```. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${CONFIGTABLENAME})
 
 18. ${check} Vamos a dar un registro para activar la autenticación.Siga los pasos de 
@@ -81,7 +81,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 19. ${check} Vamos a dar un registro para activar la autorización. Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
 
-20 ${check} Abra la tabla de usuarios del repositorio, ${USERSTABLENAME}. Siga los pasos de 
+20 ${check} Abra la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
 
 21. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 

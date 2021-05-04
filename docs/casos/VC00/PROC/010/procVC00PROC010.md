@@ -10,8 +10,8 @@ srcpath: "casos/VC00/PROC/010/procVC00PROC010.md"
 
 ### Descripción
 
-Este proceso registra en la tabla de usuarios un nuevo usuario, ${NAME}, además de su contraseña, ${PASSWORD}, y las 
-operaciones que puede realizar sobre los datos, ${OPERATIONS}.
+Este proceso registra en la tabla de usuarios un nuevo usuario, ```${NAME}```, además de su contraseña, ```${PASSWORD}```,
+y las operaciones que puede realizar sobre los datos, ```${OPERATIONS}```.
 
 ### Datos de entrada
 
@@ -42,11 +42,11 @@ operaciones que puede realizar sobre los datos, ${OPERATIONS}.
 7. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
     sin datos a la espera de la nueva información.
 
-8. ${check} Indroduce el nombre del nuevo usuario, ${NAME} en el campo correspondiente, Idetifier.
+8. ${check} Indroduce el nombre del nuevo usuario, ```${NAME}```, en el campo correspondiente, Idetifier.
 
-9. ${check} Indroduce la contraseña del nuevo usuario, ${PASSWORD}, en el campo correspondiente, Contraseña.
+9. ${check} Indroduce la contraseña del nuevo usuario, ```${PASSWORD}```, en el campo correspondiente, Contraseña.
 
-10. ${check} Indroduce las operaciones permitidas del nuevo usuario, ${OPERATIONS},
+10. ${check} Indroduce las operaciones permitidas del nuevo usuario, ```${OPERATIONS}```,
     en el campo correspondiente, Allowed operatios.
 
 11. ${check} Pulse el icono con la etiqueta "Guardar".
