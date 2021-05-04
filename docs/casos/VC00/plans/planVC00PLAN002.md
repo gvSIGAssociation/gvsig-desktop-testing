@@ -54,11 +54,11 @@ Comprueba:
 
 <form  markdown="1">
 
-1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
-1. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
-1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
-1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
+   1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
+   1. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+   1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
+   1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
 1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).
    1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
@@ -81,7 +81,7 @@ Comprueba:
 
 <table border="0">
 <tr>
-<td>Persona&nbsp;que&nbsp;ha&nbsp;pasado&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+<td>Responsable&nbsp;de&nbsp;ha&nbsp;pasaar&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
 </tr>
 <tr>
 <td>Fecha:</td><td><input type="date"></td>
