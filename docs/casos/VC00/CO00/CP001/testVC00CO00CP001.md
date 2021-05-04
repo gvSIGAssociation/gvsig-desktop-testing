@@ -60,7 +60,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 1. ${check} Si acaba de ejecutar el caso de pruebas 
    [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md), 
-   continúe con el paso 2. 
+   continúe con el paso 2.
    Si no, ejecútelo antes de continuar. 
    
 2. ${check} Cierre gvSIG.
