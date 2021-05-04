@@ -48,7 +48,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
      * gvSIG desktop portable para el ```Servidor```.
      * gvSIG desktop portable para el ```Cliente```.
      * 
-   Que estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
+   Estas estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
 
 </div>
 
