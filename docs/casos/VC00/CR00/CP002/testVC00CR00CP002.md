@@ -40,7 +40,7 @@ para acceder al repositorio.
 
 ### Pasos
 
-1. ${check} Comprobaremos que no este iniciado gvSIG desktop a partir de la version portable 
+1. ${check} Comprobaremos que no este iniciado gvSIG desktop a partir de la portable 
    para el ```Servidor```. Si lo esta deberiamos cerrarla.
    
 3. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
@@ -48,7 +48,7 @@ para acceder al repositorio.
    
    En caso de que exista lo eliminaremos.
    
-2. ${check} Iniciaremos gvSIG desktop a partir de la version portable para el ```Servidor```.
+2. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Servidor```.
 
 3. ${check} Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
    presentara la ventana de titulo "Inicializar repositorio".
