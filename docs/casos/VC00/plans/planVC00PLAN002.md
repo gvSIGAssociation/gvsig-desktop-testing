@@ -43,7 +43,7 @@ del plan de pruebas nos referiremos a ellas como "Servidor" y "Cliente".
 
 </div>
 
-## Cosos de prueba
+## Casos de prueba
 
 <form  markdown="1">
 
