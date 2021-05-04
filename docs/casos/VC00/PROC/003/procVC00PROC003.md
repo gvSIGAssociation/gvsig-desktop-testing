@@ -38,6 +38,15 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    entrada ```${WCNAME}``` (WCNAME). Si existe la selccionaremos. Si no existe
    abortaremos el procedimiento.
    
+
+
+3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
+
+3. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
+
+
+
+   
 4. ${check} Activaremos la pestaña "Capas" y en el arbol que presenta seleccionaremos
     la opcion ```${LAYER}``` (LAYER). Si esta no existe abortaremos el procedimiento.
 

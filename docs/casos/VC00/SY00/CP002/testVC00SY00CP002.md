@@ -1,7 +1,7 @@
 ---
-title: Commitar una capa nueva (repositorio local en H2 sin autenticación)
-testcode: VC00SY00CP000
-srcpath: casos/VC00/SY00/CP000/testVC00SY00CP000.md
+title: Commitar una capa nueva (repositorio remoto en H2 con autorización)
+testcode: VC00SY00CP002
+srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 ---
 
 {% include es/header.md %}
@@ -40,20 +40,20 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00AD00CP000, "Añadir capa a copia de trabajo (repositorio local sin autenticación)"](../../AD00/CP000/testVC00AD00CP000.md),
+3. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorización)"](../../AD00/CP002/testVC00AD00CP002.md),
    ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
-   [VC00AD00CP000, "Añadir capa a copia de trabajo (repositorio local sin autenticación)"](../../AD00/CP000/testVC00AD00CP000.md)
+   [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorización)"](../../AD00/CP002/testVC00AD00CP002.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
-2. ${check} Pulse en la opción de menu "Herramientas/VCSGis/Mostrar cambios".
+2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
 3. ${check} Se habrá presentado la ventana que muestra los cambios entre el repositorio y la copia de trabajo
-   de título  "VCSGis Cambios".
+   de titulo  "VCSGis Cambios".
 
 4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
 

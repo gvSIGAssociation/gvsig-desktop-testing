@@ -4,3 +4,5 @@
 
 * [CP001 Creacion de un repositorio de H2 con autorización](CP001/testVC00CR00CP001.md)
 
+* [CP002 Iniciar un servidor VCSGis contra un repositorio de H2 con autorización](CP002/testVC00CR00CP002.md)
+
