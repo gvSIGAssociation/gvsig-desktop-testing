@@ -1,5 +1,5 @@
 ---
-title: Commitar una capa nueva (repositorio local en H2 con autorización)
+title: Commitar una capa nueva (repositorio remoto en H2 con autorización)
 testcode: VC00SY00CP002
 srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 ---
@@ -40,13 +40,13 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md),
+3. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md),
    ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
-   [VC00AD00CP002, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md)
+   [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
