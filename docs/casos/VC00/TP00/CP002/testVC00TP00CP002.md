@@ -119,42 +119,42 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 26. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios"
 
-28. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
+27. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de título  "VCSGis Cambios".
 
-29. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+28. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
 
-30. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
+29. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
     a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
     puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
     A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
     "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-31. ${check} Pulse la casilla de verificación asociada a la capa ```${ENTITIE1}``` (ENTITIE1).
+30. ${check} Pulse la casilla de verificación asociada a la capa ```${ENTITIE1}``` (ENTITIE1).
 
-32. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
+31. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-33. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+32. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
 
-34. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
+33. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
 
-35. ${check} Pulse el botón de "Commit"
+34. ${check} Pulse el botón de "Commit"
 
-36. ${check} Como consecuencia de lo anterior, se muestra una ventana que indica que es imposible realizar la 
+35. ${check} Como consecuencia de lo anterior, se muestra una ventana que indica que es imposible realizar la 
     acción de commit puesto que hay elementos  de la capa ```${ENTITIE1}``` (ENTITIE1) que no cumplen el 
     plan topológico ```${TPNAME}```.
     
-37. ${check} Pulse el botón de "Aceptar"
+36. ${check} Pulse el botón de "Aceptar"
 
-38. ${check} Tras esto , se muestra la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})". 
+37. ${check} Tras esto , se muestra la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})". 
     La cual presenta un error correspondiente a la provincia de "Valencia"
     
-39. ${check} Cierre la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})".
+38. ${check} Cierre la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})".
 
-40. ${check} Cierre la ventana titulada "Mostrar cambios".
+39. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-41. ${check} Deja la vista "Sin título" en primer plano y activa.
+40. ${check} Deja la vista "Sin título" en primer plano y activa.
     
 ### Resultado esperado
 
