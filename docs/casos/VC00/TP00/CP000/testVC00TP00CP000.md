@@ -155,8 +155,8 @@ la copia de trabajo ${WCNAME}.
     ```${TPDESCRIPTION}```, en el campo correspondiente, Descripción.
 
 38. ${check} En la pestaña "Plan" de la ventana se indroduce el plan topológico en formatao JSON del 
-    nuevo plan topológico. Este se obtiene de la opción "Copy topology plan to clipboard" de la 
-    ventana "Plan de topología" del módulo de topología.
+    nuevo plan topológico: 
+
     ```
     {"name":"provinciasDebenTenerPoblaciones","dataSets":[
       {"name":"esp_provincias","fullName":"esp_provincias.csv"},
@@ -168,7 +168,9 @@ la copia de trabajo ${WCNAME}.
     ],
     "tolerance":0
     }
-    ```, en el campo correspondiente.
+    ```
+    Este se obtiene de la opción "Copy topology plan to clipboard" de la 
+    ventana "Plan de topología" del módulo de topología.
 
 39. ${check} Pulse el icono con la etiqueta "Guardar".
 
@@ -178,6 +180,8 @@ la copia de trabajo ${WCNAME}.
 41. ${check} Cierre el formulario.
 
 42. ${check} Cierre la tabla en cuestión
+
+43. ${check} Tras lo anterior, la vista "Sin títul" queda activa y visible.
 
 
 ### Resultado esperado
