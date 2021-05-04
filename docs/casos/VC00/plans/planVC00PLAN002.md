@@ -38,8 +38,14 @@ Comprueba:
 
 ## Prerrequisitos
 
-Para pasar este plan de prueba se utilizaran dos versiones portables de gvSIG desktop. A lo largo
-del plan de pruebas nos referiremos a ellas como "Servidor" y "Cliente".
+1. La version de gvSIG desktop a utilizar sera la **2.6.0-3220**.
+
+1. Para pasar este plan de prueba **se utilizaran dos portables de gvSIG desktop**. A lo largo
+   del plan de pruebas nos referiremos a ellas como:
+     * gvSIG desktop portable para el ```Servidor```.
+     * gvSIG desktop portable para el ```Cliente```.
+     * 
+   Que estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
 
 </div>
 
