@@ -56,8 +56,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 
 <form  markdown="1">
 
-1. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
-   
+1. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).<br>
    Solo es necesario pasar los siguientes casos de prueba si ha fallado el test VC00CO00CP002.
    1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
    1. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
