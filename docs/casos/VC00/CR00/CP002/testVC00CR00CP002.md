@@ -40,7 +40,10 @@ para acceder al repositorio.
 
 ### Pasos
 
-1. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
+1. ${check} Comprobaremos que no este iniciado gvSIG desktop a partir de la version portable 
+   para el ```Servidor```. Si lo esta deberiamos cerrarla.
+   
+3. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
    * ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db).
    
    En caso de que exista lo eliminaremos.
