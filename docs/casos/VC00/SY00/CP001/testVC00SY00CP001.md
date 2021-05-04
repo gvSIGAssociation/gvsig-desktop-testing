@@ -48,7 +48,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
    [VC00AD00CP001, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
-   Si no, lo ejecútelo antes de continuar.
+   Si no, ejecútelo antes de continuar.
    
 2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
