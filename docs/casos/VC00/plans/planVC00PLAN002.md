@@ -57,14 +57,14 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 <form  markdown="1">
 
 1. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).<br>
-   Solo es necesario pasar los siguientes casos de prueba si ha fallado el test VC00CO00CP002.
+   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba VC00CO00CP002.
    1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
    1. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
    1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
    1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
 1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).<br>
-   Solo es necesario pasar los siguientes casos de prueba si ha fallado el test XXXXXX.
+   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba XXXXXX.
    1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
    1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
    1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que no pasen el plan).
