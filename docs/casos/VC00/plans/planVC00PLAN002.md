@@ -60,10 +60,10 @@ Comprueba:
 1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
-1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
-1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que no pasen el plan).
 1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).
+   1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
+   1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
+   1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que no pasen el plan).
 1. ${InputUnknownOkError} Descargar una revision en concreto de una capa a la copia de trabajo.
 1. ${InputUnknownOkError} Exportar una capa a una fecha dada.
 1. ${InputUnknownOkError} Exportar una capa a una revision dada.
