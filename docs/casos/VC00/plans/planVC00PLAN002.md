@@ -87,13 +87,13 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 
 <table border="0">
 <tr>
-<td nowarp>Responsable de pasaa rel plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+<td nowarp>Responsable de pasar el plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+</tr>
+<tr>
+<td>Fecha de ejecucion del plan:</td><td><input type="date"></td>
 </tr>
 <tr>
 <td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values=""2.6.0-3221></td>
-</tr>
-<tr>
-<td>Fecha:</td><td><input type="date"></td>
 </tr>
 <tr>
 <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
