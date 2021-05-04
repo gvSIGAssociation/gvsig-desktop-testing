@@ -54,7 +54,7 @@ Comprueba:
 <form  markdown="1">
 
 1. ${InputUnknownOkError} [VC00CR00CP002 Iniciar servidor](../CR00/CP002/testVC00CR00CP002.md).
-3. ${InputUnknownOkError} [VC00CW00CP002Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
+3. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
 4. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
 5. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio local (commit)](../SY00/CP002/testVC00SY00CP002.md).
 6. ${InputUnknownOkError} [VC00CO00CP002 Descargar capa a la copia de trabajo (checkout)](../CO00/CP002/testVC00CO00CP002.md).
