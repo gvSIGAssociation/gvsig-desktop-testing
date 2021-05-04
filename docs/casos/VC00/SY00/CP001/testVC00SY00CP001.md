@@ -69,7 +69,7 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 10. ${check} Pulse el botón de "Commit"
 
-11. ${check} Una vez termine el proceso, cuyo progreso se puede ver en la barra de estado de este diálogo, se habrá vaciado la tabla de cambios.
+11. ${check} Una vez termine el proceso, cuyo progreso se puede ver en la barra de estado de este diálogo, se habrá vaciado la tabla de cambios y se habrán deshabilitado los botones de "Refrescar", "Revertir" y "Commit".
 
 12. ${check} Cierre la ventana de cambios. 
 
