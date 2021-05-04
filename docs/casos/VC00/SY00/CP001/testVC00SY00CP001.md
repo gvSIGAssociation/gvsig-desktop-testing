@@ -58,7 +58,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 6. ${check} Se habrá mostrado el contenido de la pestaña "Copia de trabajo" donde podrá apreciar, a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo. A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar", "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-7. ${check} Pulse la casilla de verificación asociada a la capa añadida
+7. ${check} Pulse la casilla de verificación asociada a la capa ```${TABLENAME}``` (TABLENAME).
 
 8. ${check} En la tabla de cambios se habrán mostrado los cambios necesarios para insertar esta capa en el repositorio y se habrán habilitado los botones de "Refrescar", "Revertir" y "Commit".
 
