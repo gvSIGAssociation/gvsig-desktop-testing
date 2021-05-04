@@ -20,7 +20,7 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include parameter.html name="TPDESCRIPTION" value="Las provincias deben tener alguna población" %}
 
-{% include parameter.html name="TABLE2_FIELDFORLABEL" value="" %}
+{% include parameter.html name="TABLE2_FIELDFORLABEL" value="esp_poblaciones" %}
 
 {% include parameter.html name="CATEGORY" value="Cartografia base" %}
 
