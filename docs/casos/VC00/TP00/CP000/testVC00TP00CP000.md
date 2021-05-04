@@ -26,6 +26,8 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
+{% include parameter.html name="REPONAME" value="Repositorio" %}
+
 
 ## {{ page.title }}
 

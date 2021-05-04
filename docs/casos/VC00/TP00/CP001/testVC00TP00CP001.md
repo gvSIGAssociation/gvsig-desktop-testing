@@ -8,6 +8,7 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 {% include es/header.md %}
 
+{% include parameter.html name="REPONAME" value="Repositorio" %}
 
 {% include parameter.html name="TPNAME" value="tp1" %}
 

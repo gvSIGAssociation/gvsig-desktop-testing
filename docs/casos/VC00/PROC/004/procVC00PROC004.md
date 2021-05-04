@@ -9,6 +9,7 @@ srcpath: "casos/VC00/PROC/004/procVC00PROC004.md"
 {% include es/header.md %}
 
 {% include parameter.html name="CONFIGTABLENAME" value="VCSGISREPO_CONFIG" %}
+
 {% include parameter.html name="USERSTABLENAME" value="VCSGISREPO_USERS" %}
 
 
