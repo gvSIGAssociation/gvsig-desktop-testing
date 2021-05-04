@@ -26,7 +26,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 
 ### Datos de entrada
 
-1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se creara los archivos que se precisen 
+1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecución del test. Deberemos tener permiso de escritura en ella.
 
 2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión a crear y del repositorio.
