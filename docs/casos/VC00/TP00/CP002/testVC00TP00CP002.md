@@ -51,7 +51,7 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 7. ${check} **USER**=```${USER}```. Nombre del usuario que realizará las operaciones con las tablas del repositorio.
 
-8. ${check} **PASSWORD**=```${PASWORD}```. Contraseña del usuario que realizará las operaciones con las 
+8. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña del usuario que realizará las operaciones con las 
    tablas del repositorio.
 
 
