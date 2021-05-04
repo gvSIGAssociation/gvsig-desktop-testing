@@ -15,6 +15,10 @@ srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 
 {% include parameter.html name="TABLENAME" value="esp_comunidades" %}
 
+{% include parameter.html name="USER" value="sara" %}
+
+{% include parameter.html name="PASSWORD" value="sara1" %}
+
 
 ## {{ page.title }}
 
