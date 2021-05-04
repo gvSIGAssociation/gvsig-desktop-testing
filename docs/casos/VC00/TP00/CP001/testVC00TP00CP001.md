@@ -24,15 +24,17 @@ Este proceso asigna el plan topológico ${TPNAME} a la entidad o capa del reposi
 
 1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
-2. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asaignar.
+2. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
 3. ${check} **ENTITIE**=```${ENTITIE}```. Capa o entidad del repositorio a la cual se le asigna el plan topológico.
 
 
 ### Pasos
-
-1. ${check} Una vez creado el repositorio y teniendo registradas en al menos una entidad sobre la cuale se busca aplicar
-    el plan topológico se abre la tabla ```VCSGISREPO_ENTITIES``` de este. Siga los pasos de 
+1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00TP00CP000,
+    "Cargar un plan topológico en el repositorio"
+    y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
+    
+2. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
 
 2. ${check} Una vez abierta la tabla y estando esta activa se procede a asignar el plan a a entidad. Para ello 
@@ -59,12 +61,16 @@ Este proceso asigna el plan topológico ${TPNAME} a la entidad o capa del reposi
 
 11. ${check} Como consecuencia de la última acción el campo "Topology plan" presentara el valor ${TPNAME}.
 
-12. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar la edición pulse 
+12. ${check} Localice el campo "Topology plan mode" y seleccione la opción "Mandatory" del desplegable.
+
+13. ${check} Pulse el icono con la etiqueta "Guardar".
+
+14. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terminar la edición pulse 
     el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
 
-13. ${check} Cierre el formulario.
+15. ${check} Cierre el formulario.
 
-14. ${check} Cierre la tabla en cuestión
+16. ${check} Cierre la tabla en cuestión
 
 
 ### Resultado esperado
