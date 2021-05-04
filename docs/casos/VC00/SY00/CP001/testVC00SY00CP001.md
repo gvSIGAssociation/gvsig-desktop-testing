@@ -65,7 +65,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 9. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
 
-11. ${check} Introduzca en el campo "Comentario" el texto "Adición de la capa de autonomías"
+11. ${check} Introduzca en el campo "Comentario" el texto "Adición de la capa de ${TABLENAME}"
 
 11. ${check} Pulse el botón de "Commit"
 
