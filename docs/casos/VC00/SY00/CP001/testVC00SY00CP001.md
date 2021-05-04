@@ -8,7 +8,7 @@ srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="TABLENAME" value="esp_comunidades" %}
+{% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
 {% include parameter.html name="USER" value="sara" %}
 
