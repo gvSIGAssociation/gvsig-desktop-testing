@@ -10,7 +10,7 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
-{% include parameter.html name="TPNAME" value="tp1" %}
+{% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
 
 {% include parameter.html name="ENTITIE" value="esp_provincias" %}
 
