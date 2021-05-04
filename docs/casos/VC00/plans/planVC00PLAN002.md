@@ -31,6 +31,7 @@ Comprueba:
 1. Que la integración con el marco de topologia funciona, pudiendose registrar planes
    de topologia en el repositorio, asociarlos a tablas de este, y pasarlos antes de subir cambios
    al repositorio.
+   
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
 1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
