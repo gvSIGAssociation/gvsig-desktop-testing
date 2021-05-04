@@ -63,8 +63,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
    1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
    1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
-1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).
-   
+1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).<br>
    Solo es necesario pasar los siguientes casos de prueba si ha fallado el test XXXXXX.
    1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
    1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
