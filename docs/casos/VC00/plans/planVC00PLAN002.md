@@ -63,8 +63,12 @@ Comprueba:
 9. ${InputUnknownOkError} [Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
 10. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
 11. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
+12. ${InputUnknownOkError} Descargar una revision en concreto de una capa a la copia de trabajo.
+13. ${InputUnknownOkError} Exportar una capa a una fecha dada.
+14. ${InputUnknownOkError} Exportar una capa a una revision dada.
 {% comment %}
 1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
+1. ${InputUnknownOkError} Importar historial.
 {% endcomment %}
 
 <table border="0">
