@@ -40,13 +40,13 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00AD00CP001, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md),
+3. ${check} El caso de prueba [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md),
    ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
-   [VC00AD00CP001, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md)
+   [VC00AD00CP001, "Añadir capa a copia de trabajo (repositorio local con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
