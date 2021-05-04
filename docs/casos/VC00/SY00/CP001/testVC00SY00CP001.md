@@ -73,9 +73,9 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 12. ${check} Cierre la ventana de cambios. 
 
-13. Cierre la ventana de la vista "Sin título". 
+13. ${check} Cierre la ventana de la vista "Sin título". 
 
-14. . Únicamente deberá estar abierta la ventana del proyecto de gvSIG.
+14. ${check} Únicamente deberá estar abierta la ventana del proyecto de gvSIG.
 
 ### Resultado esperado
 
