@@ -43,9 +43,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 4. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
 
-5. ${check} **USER**=```${USER}```. Nombre de la tabla a descargar
+5. ${check} **USER**=```${USER}```. Identificador de usuario.
 
-6. ${check} **PASSWORD**=```${PASSWORD}```. Nombre de la tabla a descargar
+6. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
 ### Prerrequisitos
 
