@@ -20,10 +20,6 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include parameter.html name="DESCRIPTION" value="plan topológico número 1" %}
 
-{% include parameter.html name="TOPOLOGYPLAN" value="{"name":"TopologyPlan-17936F43271",
-"dataSets":[{"name":"esp_provincias","fullName":${DATANAME1LINK}},{"name":"esp_poblaciones","fullName":${DATANAME2LINK}}],
-"rules":[{"__factoryId":"ContainsPoint","dataSet2":"esp_poblaciones","dataSet1":"esp_provincias","tolerance":0}],
-"tolerance":0}" %}
 
 
 
