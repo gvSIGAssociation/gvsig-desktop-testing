@@ -58,10 +58,10 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 ### Pasos
 
-1. ${check} Si acabamos de pasar el caso de pruebas 
+1. ${check} Si acaba de ejecutar el caso de pruebas 
    [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md), 
-   continuaremos con el paso 2. 
-   Si no lo pasaremos antes de continuar. 
+   continúe con el paso 2. 
+   Si no, ejecútelo antes de continuar. 
 2. ${check} Cierre gvSIG.
 3. ${check} Compruebe que no exista el fichero:
    * ```${TMPFOLDER}/${WCNAME2}.mv.db``` (*TMPFOLDER*/*WCNAME2*.mv.db).
