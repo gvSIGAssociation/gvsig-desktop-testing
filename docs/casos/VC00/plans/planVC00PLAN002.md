@@ -32,6 +32,8 @@ Comprueba:
    de topologia en el repositorio, asociarlos a tablas de este, y pasarlos antes de subir cambios
    al repositorio.
    
+El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
+
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
 1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
@@ -39,7 +41,7 @@ Comprueba:
 
 ## Prerrequisitos
 
-1. La version de gvSIG desktop a utilizar sera la **2.6.0-3220**.
+1. La version de gvSIG desktop a utilizar sera la 2.6.0-3221 o superior.
 
 1. Para pasar este plan de prueba **se utilizaran dos portables de gvSIG desktop**. A lo largo
    del plan de pruebas nos referiremos a ellas como:
@@ -85,7 +87,10 @@ Comprueba:
 
 <table border="0">
 <tr>
-<td>Responsable&nbsp;de&nbsp;ha&nbsp;pasaar&nbsp;el&nbsp;plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+<td nowarp>Responsable de pasaa rel plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+</tr>
+<tr>
+<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values=""2.6.0-3221></td>
 </tr>
 <tr>
 <td>Fecha:</td><td><input type="date"></td>
