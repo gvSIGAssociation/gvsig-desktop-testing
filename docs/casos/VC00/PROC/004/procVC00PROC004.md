@@ -79,7 +79,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
 
 19. ${check} Vamos a dar un registro para activar la autorización. Siga los pasos de 
-    [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
+    [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
 
 20 ${check} Abra la tabla de usuarios del repositorio, ${USERSTABLENAME}. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
