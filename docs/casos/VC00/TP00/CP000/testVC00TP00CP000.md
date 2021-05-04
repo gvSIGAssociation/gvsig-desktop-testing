@@ -31,9 +31,9 @@ Este proceso carga un plan topológico en el repositorio.
 
 ### Datos de entrada
 
-1. ${check} Archivo de datos 1 ```${DATANAME1}``` (${DATANAME1LINK}). Capa numero 1 a usar en este test. 
+1. ${check} Archivo de datos 1: ```${DATANAME1}``` (${DATANAME1LINK}). Capa número 1 a usar en este test. 
 
-2. ${check} Archivo de datos 2 ```${DATANAME2}``` (${DATANAME2LINK}). Capa numero 2 a usar en este test. 
+2. ${check} Archivo de datos 2: ```${DATANAME2}``` (${DATANAME2LINK}). Capa número 2 a usar en este test. 
 
 3. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
@@ -71,12 +71,13 @@ Este proceso carga un plan topológico en el repositorio.
 8. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
     sin datos a la espera de la nueva información.
 
-9. ${check} Indroduce el nombre del nuevo plan topológico, ```${NAME}``` en el campo correspondiente, Nombre.
+9. ${check} En la pestaña "General" de la ventana indroduce el nombre del nuevo plan topológico, ```${NAME}``` en 
+    el campo correspondiente, Nombre.
 
-10. ${check} Indroduce la descripción del nuevo plan topológico, ```${DESCRIPTION}```, en el campo correspondiente, Descripción.
+10. ${check} En la pestaña "General" de la ventana indroduce la descripción del nuevo plan topológico, ```${DESCRIPTION}```, en el campo correspondiente, Descripción.
 
-11. ${check} Indroduce el plan topológico en formatao JSON del nuevo plan topológico, ```${TOPOLOGYPLAN}```,
-     en el campo correspondiente, Serialized topology plan in JSON .
+11. ${check} En la pestaña "Plan" de la ventana indroduce el plan topológico en formatao JSON del nuevo plan topológico,
+    ```${TOPOLOGYPLAN}```, en el campo correspondiente, Serialized topology plan in JSON .
 
 11. ${check} Pulse el icono con la etiqueta "Guardar".
 

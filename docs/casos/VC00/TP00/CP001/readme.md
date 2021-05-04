@@ -1,0 +1,1 @@
+Asociar un plan topológico a una capa.
