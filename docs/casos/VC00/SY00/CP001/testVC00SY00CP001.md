@@ -4,11 +4,6 @@ testcode: VC00SY00CP001
 srcpath: casos/VC00/SY00/CP001/testVC00SY00CP001.md
 ---
 
-
-**------------- FIXME (paco) --------------**
-
-
-
 {% include es/header.md %}
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
