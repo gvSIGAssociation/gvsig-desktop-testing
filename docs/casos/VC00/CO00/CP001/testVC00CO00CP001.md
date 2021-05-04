@@ -21,6 +21,8 @@ srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
 
 ## {{ page.title }}
 
+**EN CONSTRUCCION**
+
 ### Descripción
 
 Este caso de prueba verifica que se puede obtener una capa de un repositorio en una copia de trabajo nueva. Para ello:
