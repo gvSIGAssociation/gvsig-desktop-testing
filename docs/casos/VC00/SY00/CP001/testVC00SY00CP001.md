@@ -32,11 +32,11 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo. 
 
-2. ${check} Tabla ```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
+2. ${check} **TABLENAME** ```${TABLENAME}```. Capa a usar en este test. 
 
-2. ${check} Usuario ```${USER}``` (${USERLINK}). Identificador de usuario para este test. 
+2. ${check} **USER** ```${USER}```. Identificador de usuario para este test. 
 
-2. ${check} Tabla ```${PASSWORD}``` (${PASSWORDLINK}). Contraseña de usuario para este test. 
+2. ${check} **PASSWORD** ```${PASSWORD}```. Contraseña de usuario para este test. 
 
 
 ### Prerrequisitos
@@ -50,31 +50,17 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 ### Pasos
 
-1. ${check} Si acaba de ejecutar el caso de pruebas 
-   [VC00AD00CP001, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md), 
-   continúe con el paso 2. 
-   Si no, lo ejecútelo antes de continuar. 
+1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
+   [VC00AD00CP001, "Añadir capa a copia de trabajo (con autorizacion)"](../../AD00/CP001/testVC00AD00CP001.md)
+   y no ha cerrado gvSIG, continúe con el paso 2. 
+   Si no, lo ejecútelo antes de continuar.
    
-2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Cerrar sesión".
-
-3. ${check} Se habrá presentado la ventana una ventana con titulo "Cerrar sesión".
-
-4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
-
-5. ${check} Pulse el botón de "Cerrar sesión"
-
 2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
 3. ${check} Se habrá presentado la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de titulo  "VCSGis Cambios".
 
 4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
-
-3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
-
-3. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
-
-5. ${check} Active la pestaña "Copia de trabajo"
 
 6. ${check} Se habrá mostrado el contenido de la pestaña "Copia de trabajo" donde podrá apreciar, a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo. A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar", "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
