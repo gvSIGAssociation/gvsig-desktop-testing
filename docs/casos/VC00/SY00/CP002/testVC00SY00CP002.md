@@ -19,7 +19,7 @@ srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 
 ### Descripción
 
-Este caso verifica que se puede commitar al repositorio una capa recien añadida a una copia de trabajo.
+Este caso verifica que se puede commitar al repositorio una capa recién añadida a una copia de trabajo.
 
 {% include es/checkifthereisalreadyabug.md %}
 
@@ -36,17 +36,17 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 ### Prerrequisitos
 
-1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md),
+3. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorización)"](../../AD00/CP002/testVC00AD00CP002.md),
    ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)
-   [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorizacion)"](../../AD00/CP002/testVC00AD00CP002.md)
+   [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorización)"](../../AD00/CP002/testVC00AD00CP002.md)
    y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
@@ -69,7 +69,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 10. ${check} Pulse el botón de "Commit"
 
-11. ${check} Una vez termine el proceso, cuyo progreso se puede ver en la barra de estado de este diálogo, se habrá vaciado la tabla de cambios.
+11. ${check} Una vez termine el proceso, cuyo progreso se puede ver en la barra de estado de este diálogo, se habrá vaciado la tabla de cambios y se habrán deshabilitado los botones de "Refrescar", "Revertir" y "Commit".
 
 12. ${check} Cierre la ventana de cambios. 
 
