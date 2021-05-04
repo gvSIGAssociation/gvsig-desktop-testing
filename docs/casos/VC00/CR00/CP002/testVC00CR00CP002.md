@@ -45,7 +45,7 @@ para acceder al repositorio.
    
    En caso de que exista lo eliminaremos.
    
-2. ${check} Iniciaremos gvSIG desktop a partir de la version portabla ```Servidor```.
+2. ${check} Iniciaremos gvSIG desktop a partir de la version portable para el ```Servidor```.
 
 3. ${check} Una vez iniciado seleccionaremos la opcion de menu "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
    presentara la ventana de titulo "Inicializar repositorio".
