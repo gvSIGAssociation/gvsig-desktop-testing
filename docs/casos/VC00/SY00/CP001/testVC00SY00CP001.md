@@ -61,7 +61,7 @@ Este caso verifica que se puede commitar al repositorio una capa recien añadida
 
 4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
 
-5. 11. ${check} Pulse el botón de "Cerrar sesión"
+5. ${check} Pulse el botón de "Cerrar sesión"
 
 2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
