@@ -27,7 +27,7 @@ Este caso de prueba verifica que se puede obtener una capa de un repositorio en 
 * Inicializa una nueva copia de trabajo
 * Descarga una capa (checkout) del repositorio sobre la copia de trabajo.
 
-Si las base de datos que vamos a utilizar asociada a la copia de 
+Si la base de datos que se va a utilizar asociada a la copia de 
 trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 {% include es/checkifthereisalreadyabug.md %}
