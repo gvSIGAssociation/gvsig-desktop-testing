@@ -53,13 +53,13 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00SY00CP000, "Commitar una capa nueva (sin autenticación)"](../../SY00/CP001/testVC00SY00CP000.md),
+3. ${check} El caso de prueba [VC00SY00CP000, "Commitar una capa nueva (sin autenticación)"](../../SY00/CP000/testVC00SY00CP000.md),
    ha pasado sin errores. 
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas 
-   [VC00SY00CP000, "Commitar una capa nueva (sin autenticación)"](../../SY00/CP001/testVC00SY00CP000.md), 
+   [VC00SY00CP000, "Commitar una capa nueva (sin autenticación)"](../../SY00/CP000/testVC00SY00CP000.md), 
    continúe con el siguiente paso, si no, ejecútelo antes de continuar. 
    
 2. ${check} Cierre gvSIG.
