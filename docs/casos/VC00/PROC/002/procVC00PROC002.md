@@ -49,7 +49,7 @@ debera estar creada cuando se ejecute este procedimiento.
    ni en ventanas ni en la barra de mensajes de gvSIG desktop.
 
 10. ${check} Abriremos un explorador de archivos del sistema y comprobaremos que se ha creado el archivo 
-    ```${TMPFOLDER}/${WCNAME}.mv.db``` (TMPFOLDER/${WCNAME}.mv.db)
+    ```${TMPFOLDER}/${WCNAME}.mv.db``` (TMPFOLDER/WCNAME.mv.db)
     en el sistema de archivos.
 
 ### Resultado esperado
