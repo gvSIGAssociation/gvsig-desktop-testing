@@ -120,9 +120,9 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}``` en el campo correspondiente.
 
 20. ${check} Localiza el campo "Recurso" y de los dos iconos adyacentes a este pulse el que presenta una flecha
-   ascendente de color azul.
+    ascendente de color azul.
 
-   [IconoSubirRecurso]!(iconoSubirRecurso.png)
+    ![IconoSubirRecurso](iconoSubirRecurso.png)
 
 21. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
     Seleccione el correspondiente a ```${LEYENDA_NAME}``` (${LEYENDA_LINK}).
