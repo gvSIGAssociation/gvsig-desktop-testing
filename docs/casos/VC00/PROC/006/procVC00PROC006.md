@@ -37,17 +37,17 @@ Obtiene una copia local de una capa existente en
 
 2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
 
-3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione '''${WCNAME}'''(WCNAME).
+3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WCNAME}```(WCNAME).
 
 4. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
 
-5. ${check} En el cuadro de texto "Usuario" introduzca '''${USER}'''(USER)
+5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER)
 
-6. ${check} En el cuadro de texto "Contraseña" introduzca '''${PASSWORD}'''(PASSWORD)
+6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD)
 
 7. ${check} Pulse el botón "Aceptar"
 
-8. ${check} En la lista de tabla habrá aparecido la tabla '''${TABLENAME}'''(TABLENAME)
+8. ${check} En la lista de tabla habrá aparecido la tabla ```${TABLENAME}```(TABLENAME)
 
 9. ${check} Selecciónela.
 
@@ -64,7 +64,7 @@ Obtiene una copia local de una capa existente en
 
 14. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla".
 
-15. ${check} Y se habrá añadido a la vista seleccionada la capa '''${TABLENAME}'''(TABLENAME).
+15. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
 
 ### Resultado esperado
 
