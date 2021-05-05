@@ -29,7 +29,7 @@ srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 
 ### Descripción
 
-Este proceso prueba que no es posible hacer un commit de una capa, ${ENTITIE},que no cumple un plan 
+Este proceso prueba que no es posible hacer un commit de una capa, ${ENTITIE1},que no cumple un plan 
 topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 ### Datos de entrada
@@ -101,7 +101,7 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 17. ${check} Seleccione la opción "Comenzar edición" del desplegable.
 
 18. ${check} Seleccione la provincia de "Valencia" y desplacela fuera del área de la península ibérica hasta
-    asegurarse de que no contenga ningúna población en su interior (Punto).
+    asegurarse de que no contenga ningúna población en su interior (Punto) de la capa ```${ENTITIE2}```.
 
 19. ${check} Seleccione la capa ```${ENTITIE1}``` en el Toc.
 
@@ -117,7 +117,7 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 25. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
 
-26. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios"
+26. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios".
 
 27. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de título  "VCSGis Cambios".
