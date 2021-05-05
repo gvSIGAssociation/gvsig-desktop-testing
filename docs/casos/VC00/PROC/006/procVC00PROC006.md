@@ -1,5 +1,5 @@
 ---
-title: Obtención de una copia local (checkout) desde repositorio local con autenticación
+title: Obtención de una copia local (checkout) desde repositorio con autenticación
 proccode: procVC00PROC006
 srcpath: "casos/VC00/PROC/006/procVC00PROC006"
 ---
