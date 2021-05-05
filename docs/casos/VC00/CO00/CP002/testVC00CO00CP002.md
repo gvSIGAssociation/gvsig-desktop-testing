@@ -1,5 +1,5 @@
 ---
-title: Descargar capa a la copia de trabajo (repositorio local con autorización).
+title: Descargar capa a la copia de trabajo (repositorio remoto con autorización).
 proccode: VC00CO00CP002
 srcpath: "casos/VC00/CP000/testVC00CO00CP002.md"
 ---
