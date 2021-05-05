@@ -49,8 +49,8 @@ Este proceso carga un plan topológico en el repositorio.
 
 6. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el checkout.
 
-7. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Etiqueta de la capa ${TABLE2_NAME} cargada en
-la copia de trabajo ${WCNAME}.
+7. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Etiqueta de la 
+   capa ```${TABLE2_NAME}``` (TABLE2_NAME)cargada en la copia de trabajo ```${WCNAME}``` (WCNAME).
 
 8. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
 

@@ -44,10 +44,10 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
 4. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
 5. ${check} **ENTITIE1**=```${ENTITIE1}```. Capa o entidad del repositorio a la cual se le asigna el 
-   plan topológico ${TPNAME}.
+   plan topológico ```${TPNAME}``` (TPNAME).
 
 6. ${check} **ENTITIE2**=```${ENTITIE2}```. Capa o entidad del repositorio necesaria para 
-    aplicar el plan topológico ${TPNAME}.
+    aplicar el plan topológico ```${TPNAME}``` (TPNAME).
 
 7. ${check} **USER**=```${USER}```. Nombre del usuario que realizará las operaciones con las tablas del repositorio.
 
