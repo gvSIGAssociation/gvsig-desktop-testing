@@ -29,8 +29,8 @@ srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 
 ### Descripción
 
-Este proceso prueba que no es posible hacer un commit de una capa, ${ENTITIE1},que no cumple un plan 
-topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
+Este proceso prueba que no es posible hacer un commit de una capa, ```${ENTITIE1}``` (ENTITIE1), que no cumple un plan 
+topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, ```${REPONAME}``` (REPONAME).
 
 ### Datos de entrada
 

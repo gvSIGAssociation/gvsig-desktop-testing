@@ -29,8 +29,8 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 
 ### Descripción
 
-Este proceso prueba que es posible hacer un commit de una capa, ${ENTITIE1},que cumple un plan 
-topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
+Este proceso prueba que es posible hacer un commit de una capa, ```${ENTITIE1}``` (ENTITIE1), que cumple un plan 
+topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, ```${REPONAME}``` (REPONAME).
 
 ### Datos de entrada
   

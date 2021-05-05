@@ -19,7 +19,8 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 ### Descripción
 
-Este proceso asigna el plan topológico ${TPNAME} (TPNAME) a la entidad o capa del repositorio ${ENTITIE} (ENTITIE).
+Este proceso asigna el plan topológico ```${TPNAME}``` (TPNAME) a la entidad o capa del 
+repositorio ```${ENTITIE}``` (ENTITIE).
 
 ### Datos de entrada
 
