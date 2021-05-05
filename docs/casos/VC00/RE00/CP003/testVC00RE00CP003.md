@@ -20,7 +20,7 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
-{% include parameter.html name="LEYENDA_NAME" value="esp_provincias" %}
+{% include parameter.html name="LEYENDA_NAME" value="esp_provincias.gvsleg" %}
 
 {% include parameter.html name="LEYENDA_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS</a>" %}
 
@@ -34,11 +34,11 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 ### Descripción
 
 Este proceso carga la leyenda ```${LEYENDA_NAME}``` (${LEYENDA_LINK}) como recurso en el 
-repositorio ```${REPONAME}``` (REPONAME)y la asigna a la capa ```${TABLE_NAME}``` (${TABLE_LINK}).
+repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}``` (${TABLE_LINK}).
 
 ### Datos de entrada
 
-1. ${check} Archivo de datos 1: ```${TABLE_NAME}``` (${TABLE_LINK}). Capa número 1 a usar en este test. 
+1. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Capa a usar en este test. 
 
 2. ${check} Archivo con leyenda predefinida: ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). 
    Leyenda predefinida para la capa ```${TABLE_NAME}``` (${TABLE_LINK}). 
@@ -117,7 +117,7 @@ repositorio ```${REPONAME}``` (REPONAME)y la asigna a la capa ```${TABLE_NAME}``
 19. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
     sin datos a la espera de la nueva información.
 
-19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}.gvsleg``` en el campo correspondiente.
+19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}``` en el campo correspondiente.
 
 20. ${check} Localiza el campo "Recurso" y de los dos iconos adyacentes a este pulse el que presenta una flecha
    ascendente de color azul.
@@ -130,7 +130,7 @@ repositorio ```${REPONAME}``` (REPONAME)y la asigna a la capa ```${TABLE_NAME}``
 22. ${check} Pulse en el boton "Abrir".
 
 23. ${check} De vuelta en el formulario de la tabla de recursos ```CBASE_RESOURCES``` el campo "Recursos" tiene
-    que estar relleno con el tamaño del archivo ```${LEYENDA_NAME}.gvsleg```.
+    que estar relleno con el tamaño del archivo ```${LEYENDA_NAME}```.
 
 24. ${check} Pulse el icono con la etiqueta "Guardar".
 
@@ -211,7 +211,7 @@ repositorio ```${REPONAME}``` (REPONAME)y la asigna a la capa ```${TABLE_NAME}``
 54. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
 55. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
-    leyenda ```${LEYENDA_NAME}.gvsleg```.
+    leyenda ```${LEYENDA_NAME}```.
 
 
 
