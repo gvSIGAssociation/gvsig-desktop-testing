@@ -1,7 +1,7 @@
 ---
 title: Descargar capa a la copia de trabajo (repositorio local con autorización).
-proccode: VC00CO00CP001
-srcpath: "casos/VC00/CP001/testVC00CO00CP001.md"
+proccode: VC00CO00CP002
+srcpath: "casos/VC00/CP000/testVC00CO00CP002.md"
 ---
 
 {% include es/header.md %}
@@ -60,7 +60,8 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 1. ${check} Si acaba de ejecutar el caso de pruebas 
    [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md), 
-   continúe con el paso 2, si no, ejecútelo antes de continuar. 
+   continúe con el paso 2.
+   Si no, ejecútelo antes de continuar. 
    
 2. ${check} Cierre gvSIG.
 
@@ -70,7 +71,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 4. ${check} Abra gvSIG
 
-5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)](../../PROC/002/procVC00PROC002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
+5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
 
 6. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
 

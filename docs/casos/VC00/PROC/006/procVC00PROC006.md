@@ -1,10 +1,18 @@
 ---
-title: Obtención de una copia local (checkout) desde repositorio local con autenticación
+title: Obtención de una copia local (checkout) desde repositorio con autenticación
 proccode: procVC00PROC006
 srcpath: "casos/VC00/PROC/006/procVC00PROC006"
 ---
 
 {% include es/header.md %}
+
+{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+
+{% include parameter.html name="TABLENAME" value="esp_provincias" %}
+
+{% include parameter.html name="USER" value="sara" %}
+
+{% include parameter.html name="PASSWORD" value="sara1" %}
 
 ## {{ page.title }}
 
@@ -29,17 +37,17 @@ Obtiene una copia local de una capa existente en
 
 2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
 
-3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione '''${WCNAME}'''(WCNAME).
+3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WCNAME}```(WCNAME).
 
 4. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
 
-5. ${check} En el cuadro de texto "Usuario" introduzca '''${USER}'''(USER)
+5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER)
 
-6. ${check} En el cuadro de texto "Contraseña" introduzca '''${PASSWORD}'''(PASSWORD)
+6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD)
 
 7. ${check} Pulse el botón "Aceptar"
 
-8. ${check} En la lista de tabla habrá aparecido la tabla '''${TABLENAME}'''(TABLENAME)
+8. ${check} En la lista de tabla habrá aparecido la tabla ```${TABLENAME}```(TABLENAME)
 
 9. ${check} Selecciónela.
 
@@ -56,7 +64,7 @@ Obtiene una copia local de una capa existente en
 
 14. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla".
 
-15. ${check} Y se habrá añadido a la vista seleccionada la capa '''${TABLENAME}'''(TABLENAME).
+15. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
 
 ### Resultado esperado
 
@@ -66,4 +74,4 @@ Obtiene una copia local de una capa existente en
 
 {% include es/reportbug_proc.md %}
 
-
+{% include es/footer.html %}

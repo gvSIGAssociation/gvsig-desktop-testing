@@ -1,7 +1,7 @@
 ---
-title: Inicialización de una copia de trabajo (repositorio local en H2)
-proccode: VC00PROC002
-srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
+title: Inicialización de una copia de trabajo (repositorio remoto)
+proccode: VC00PROC008
+srcpath: "casos/VC00/PROC/008/procVC00PROC008.md"
 ---
 
 {% include es/header.md %}
@@ -10,15 +10,17 @@ srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 
 ### Descripción
 
-Este procedimiento inicializa una copia de trabajo asociada a un repositorio local. La conexion al repositorio
-debera estar creada cuando se ejecute este procedimiento.
+Este procedimiento inicializa una copia de trabajo asociada a un repositorio remoto. 
+El servidor debera estar iniciado al ejecutar este procedimiento.
+
 
 ### Datos de entrada
 
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se creara los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
-
-2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a usar para seleccionar el repositorio.
+   
+2. ${check} **REPOURL**=```${REPOURL}```. Url en la que se esta ejecutando el 
+   servidor de VCSGis a usar en la copia de trabajo.
 
 3. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
@@ -28,10 +30,9 @@ debera estar creada cuando se ejecute este procedimiento.
 1. ${check} Al iniciarse este procedimiento debera estar abierta la venta de inicializacion de copias de 
    trabajo de titulo "Inicializar copia de trabajo" y debera estar activa.
 
-2. ${check} Marcaremos la opcion de "Servidor de base de datos".
+2. ${check} Marcaremos la opcion de "Repositorio remoto".
 
-3. ${check} En el desplegable de "Conexion" seleccionaremos ```${REPONAME}``` (REPONAME). 
-   Si no esta esta opcion en el desplegable abortamos test, marcandolo como fallido.
+3. ${check} En el campo "URL" introduciremos el valor ```${REPOURL}``` (REPOURL). 
 
 4. ${check} Marcaremos la opcion de "Base de datos personal (H2Spatial)
 

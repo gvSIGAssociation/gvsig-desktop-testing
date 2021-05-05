@@ -8,10 +8,6 @@ srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 
 # {{ page.title }}
 
-Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
-un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
-
-
 <div class="noprint"  markdown="1">
 <style scoped>
 @media print{
@@ -22,6 +18,9 @@ un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios acti
 </style>
 ## Descripción
    
+Este *plan de prueba* contiene *casos de prueba* para verificar la funcionalidad basica de VCSGis sobre 
+un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
+
 Comprueba:
 
 1. Que se crea un repositorio.
@@ -32,7 +31,7 @@ Comprueba:
    de topologia en el repositorio, asociarlos a tablas de este, y pasarlos antes de subir cambios
    al repositorio.
    
-El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
+El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
@@ -47,7 +46,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
    del plan de pruebas nos referiremos a ellas como:
      * gvSIG desktop portable para el ```Servidor```.
      * gvSIG desktop portable para el ```Cliente```.
-     * 
+     
    Estas estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
 
 </div>
@@ -63,11 +62,11 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
    1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
    1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
-1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que sí pasen el plan).<br>
-   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba XXXXXX.
+1. ${InputUnknownOkError} [VC00TP00CP003 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).<br>
+   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba VC00TP00CP003.
    1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
    1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-   1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que no pasen el plan).
+   1. ${InputUnknownOkError} [VC00TP00CP002 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md)
 1. ${InputUnknownOkError} Descargar una revision en concreto de una capa a la copia de trabajo.
 1. ${InputUnknownOkError} Exportar una capa a una fecha dada.
 1. ${InputUnknownOkError} Exportar una capa a una revision dada.
@@ -75,10 +74,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 {% comment %}
 
 1. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
-1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
-1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
-
-1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00RE00CP003.md).
+1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00MO00CP001.md).
 1. ${InputUnknownOkError} Importar historial.
 
 {% endcomment %}
@@ -91,13 +87,14 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 <td>Fecha de ejecucion del plan:</td><td><input type="date"></td>
 </tr>
 <tr>
-<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values=""2.6.0-3221></td>
+<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values="2.6.0-3221"></td>
 </tr>
 <tr>
 <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
 </tr>
 </table>
 <input type="reset" value="Restablecer valores">
+<input type="button" value="Imprimir" onclick="window.print();">
 </form>
 
 {% include es/footer.html %}
