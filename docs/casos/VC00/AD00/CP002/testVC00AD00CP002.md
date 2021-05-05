@@ -25,7 +25,7 @@ srcpath: "casos/VC00/AD00/CP002/testVC00AD00CP002.md"
 ### Descripción
 
 Este caso de prueba verifica que se pueda añadir una capa local a una copia de trabajo
-basada en un repositotio remoto en H2 con la autrización activada.
+basada en un repositotio remoto en H2 con la autorización activada.
 Para ello:
 * Inicializa un repositorio remoto de H2.
 * Inicializa una copia de trabajo
