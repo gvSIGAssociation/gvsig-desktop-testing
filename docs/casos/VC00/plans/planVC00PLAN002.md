@@ -8,10 +8,6 @@ srcpath: "casos/VC00/plans/planVC00PLAN002.md"
 
 # {{ page.title }}
 
-Este plan de prueba contiene test para verificar la funcionalidad basica de VCSGis sobre 
-un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
-
-
 <div class="noprint"  markdown="1">
 <style scoped>
 @media print{
@@ -22,6 +18,9 @@ un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios acti
 </style>
 ## Descripción
    
+Este *plan de prueba* contiene *casos de prueba* para verificar la funcionalidad basica de VCSGis sobre 
+un repositorio remoto en H2 con la autenticacion y autorizacion de usuarios activada.
+
 Comprueba:
 
 1. Que se crea un repositorio.
@@ -32,7 +31,7 @@ Comprueba:
    de topologia en el repositorio, asociarlos a tablas de este, y pasarlos antes de subir cambios
    al repositorio.
    
-El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
+El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
 
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
@@ -47,7 +46,7 @@ El plan ed pruebas se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
    del plan de pruebas nos referiremos a ellas como:
      * gvSIG desktop portable para el ```Servidor```.
      * gvSIG desktop portable para el ```Cliente```.
-     * 
+     
    Estas estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
 
 </div>
