@@ -1,1 +1,1 @@
-Procedimiento para la btención de una revisión concreta de una tabla desde repositorio sin autenticación
+Procedimiento para la obtención de una revisión de una tabla desde repositorio sin autenticación
