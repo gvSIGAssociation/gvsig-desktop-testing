@@ -13,4 +13,6 @@
 * [009 Alta de una variable](009/procVC00PROC009.md).
 * [010 Alta de un usuario](010/procVC00PROC010.md).
 * [011 Abrir una tabla de una base de datos](011/procVC00PROC011.md).
+* [012 checkout de una revisión (sin autenticación)](012/procVC00PROC012.md).
+* [013 checkout de una revisión (con autorización)](013/procVC00PROC013.md).
  
