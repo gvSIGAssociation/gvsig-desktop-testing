@@ -54,11 +54,21 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
 8. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña del usuario que realizará las operaciones con las 
    tablas del repositorio.
 
+### Prerrequisitos
+
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
+
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} El complemento de Topología debe estar instalado y activo.
+
+4. ${check} El caso de prueba [VC00TP00CP001, "Asociar un plan topológico a una capa"](../../TP00/CP001/testVC00TP00CP001.md),
+   ha pasado sin errores.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00TP00CP001,
-    "Cargar un plan topológico en el repositorio"
+    "Asociar un plan topológico a una capa"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
 2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` y cierre gvSIG Desktop.

@@ -30,7 +30,17 @@ repositorio ```${ENTITIE}``` (ENTITIE).
 
 3. ${check} **ENTITIE**=```${ENTITIE}```. Capa o entidad del repositorio a la cual se le asigna el plan topológico.
 
+### Prerrequisitos
 
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
+
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} El complemento de Topología debe estar instalado y activo.
+
+4. ${check} El caso de prueba [VC00TP00CP000, "Cargar un plan topológico en el repositorio"](../../TP00/CP000/testVC00TP00CP000.md),
+   ha pasado sin errores.
+   
 ### Pasos
 1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00TP00CP000,
     "Cargar un plan topológico en el repositorio"

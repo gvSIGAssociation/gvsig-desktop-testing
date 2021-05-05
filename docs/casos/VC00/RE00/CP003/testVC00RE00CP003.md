@@ -1,7 +1,7 @@
 ---
-title: Cargar un plan topológico en el repositorio
-proccode: VC00TP00CP0000
-srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
+title: Asociar leyenda a una capa (repositorio remoto en H2 con autorización)
+proccode: VC00RE00CP0003
+srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 ---
 
 **EN CONSTRUCCION**
@@ -53,17 +53,6 @@ Este proceso carga un plan topológico en el repositorio.
    capa ```${TABLE2_NAME}``` (TABLE2_NAME)cargada en la copia de trabajo ```${WCNAME}``` (WCNAME).
 
 8. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
-
-### Prerrequisitos
-
-1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
-
-2. ${check} El complemento de VCSGis debe estar instalado y activo.
-
-3. ${check} El complemento de Topología debe estar instalado y activo.
-
-4. ${check} El caso de prueba [VC00AD00CP002, "Añadir capa a copia de trabajo (repositorio remoto con autorización)"](../../AD00/CP002/testVC00AD00CP002.md),
-   ha pasado sin errores.
 
 ### Pasos
 

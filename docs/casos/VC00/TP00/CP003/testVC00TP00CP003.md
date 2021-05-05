@@ -46,6 +46,17 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
 5. ${check} **ENTITIE2**=```${ENTITIE2}```. Capa o entidad del repositorio necesaria para 
     aplicar el plan topológico ```${TPNAME}``` (TPNAME).
 
+### Prerrequisitos
+
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
+
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} El complemento de Topología debe estar instalado y activo.
+
+4. ${check} El caso de prueba 
+   [VC00TP00CP002, "Subir cambios en una capa con un plan topológico (que no pasen el plan)"](../../TP00/CP002/testVC00TP00CP002.md),
+   ha pasado sin errores.
 
 ### Pasos
 
