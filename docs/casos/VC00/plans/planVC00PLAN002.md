@@ -89,7 +89,7 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 <td>Fecha de ejecucion del plan:</td><td><input type="date"></td>
 </tr>
 <tr>
-<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values=""2.6.0-3221></td>
+<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values="2.6.0-3221"></td>
 </tr>
 <tr>
 <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
