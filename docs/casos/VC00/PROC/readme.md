@@ -6,8 +6,8 @@
 * [002 Inicialización de una copia de trabajo asociada a un repositorio local en H2](002/procVC00PROC002.md).
 * [003 Añadir capa a una copia de trabajo asociada a un repositorio local en H2](003/procVC00PROC003.md).
 * [004 Crear un repositorio sobre una base de datos H2 (con autorización)](004/procVC00PROC004.md).
-* **FIXME(paco)** [005 checkout (sin autenticación)](005/procVC00PROC005.md).
-* **FIXME(paco)** [006 checkout (con autorización)](006/procVC00PROC006.md).
+* [005 checkout (sin autenticación)](005/procVC00PROC005.md).
+* [006 checkout (con autorización)](006/procVC00PROC006.md).
 * [007 Iniciar un servidor de repositorio](007/procVC00PROC007.md).
 * [008 Inicialización de una copia de trabajo asociada a un repositorio remoto en H2](008/procVC00PROC008.md).
 * [009 Alta de una variable](009/procVC00PROC009.md).
