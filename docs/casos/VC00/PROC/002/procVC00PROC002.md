@@ -1,5 +1,5 @@
 ---
-title: Inicialización de una copia de trabajo asociada a un repositorio local en H2
+title: Inicialización de una copia de trabajo (repositorio local en H2)
 proccode: VC00PROC002
 srcpath: "casos/VC00/PROC/002/procVC00PROC002.md"
 ---
