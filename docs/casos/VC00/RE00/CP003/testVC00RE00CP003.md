@@ -22,11 +22,13 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="LEYENDA_NAME" value="esp_provincias.gvsleg" %}
 
-{% include parameter.html name="LEYENDA_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS</a>" %}
+{% include parameter.html name="LEYENDA_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS.GVSLEG</a>" %}
 
 {% include parameter.html name="USER" value="sara" %}
 
 {% include parameter.html name="PASSWORD" value="sara1" %}
+
+{% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
 
 ## {{ page.title }}
@@ -38,24 +40,27 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 ### Datos de entrada
 
-1. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Capa a usar en este test. 
+1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
+   durante la ejecución del test. Deberemos tener permiso de escritura en ella. 
 
-2. ${check} Archivo con leyenda predefinida: ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). 
+2. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Capa a usar en este test. 
+
+3. ${check} Archivo con leyenda predefinida: ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). 
    Leyenda predefinida para la capa ```${TABLE_NAME}``` (${TABLE_LINK}). 
 
-3. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
+4. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
-4. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el 
+5. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el 
    proceso de registrar el recurso.
 
-5. ${check} **WCNAME2**=```${WCNAME2}```. Nombre de la copia de trabajo sobre la que se realiza el checkout 
+6. ${check} **WCNAME2**=```${WCNAME2}```. Nombre de la copia de trabajo sobre la que se realiza el checkout 
    de la capa con la leyenda asignada.
 
-6. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
+7. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
 
-7. ${check} **USER**=```${USER}```. Identificador de usuario.
+8. ${check} **USER**=```${USER}```. Identificador de usuario.
 
-8. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
+9. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
 ### Prerrequisitos
 
@@ -114,7 +119,7 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 17. ${check} Pulse el icono con la etiqueta "Nuevo" recientemente habilitado.
 
-19. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
+18. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
     sin datos a la espera de la nueva información.
 
 19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}``` en el campo correspondiente.
