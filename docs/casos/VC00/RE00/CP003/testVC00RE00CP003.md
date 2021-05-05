@@ -28,6 +28,10 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
+{% include parameter.html name="LEYENDA_NAME" value="esp_provincias" %}
+
+{% include parameter.html name="LEYENDA_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS</a>" %}
+
 
 ## {{ page.title }}
 
@@ -41,51 +45,108 @@ Este proceso carga un plan topológico en el repositorio.
 
 2. ${check} Archivo de datos 2: ```${TABLE2_NAME}``` (${TABLE2_LINK}). Capa número 2 a usar en este test. 
 
-3. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
+3. ${check} Archivo con leyenda predefinida: ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). 
+   Leyenda predefinida para la capa ```${TABLE1_NAME}``` (${TABLE1_LINK}). 
 
-4. ${check} **NAME**=```${TPNAME}```. Nombre del nuevo plan topológico a registrar.
+4. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
-5. ${check} **DESCRIPTION**=```${TPDESCRIPTION}```. Descripción del nuevo plan topológico a registrar.
+5. ${check} **NAME**=```${TPNAME}```. Nombre del nuevo plan topológico a registrar.
 
-6. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el checkout.
+6. ${check} **DESCRIPTION**=```${TPDESCRIPTION}```. Descripción del nuevo plan topológico a registrar.
 
-7. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Etiqueta de la 
+7. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el checkout.
+
+8. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Etiqueta de la 
    capa ```${TABLE2_NAME}``` (TABLE2_NAME)cargada en la copia de trabajo ```${WCNAME}``` (WCNAME).
 
-8. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
+9. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
 
+### Prerrequisitos
+
+1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
+
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} El caso de prueba 
+   [VC00SY00CP002, "Commitar una capa nueva (repositorio remoto en H2 con autorización)"](../../SY00/CP002/testVC00SY00CP002.md),
+   ha pasado sin errores.
+   
 ### Pasos
 
-1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00AD00CP002,
-    "Añadir capa a copia de trabajo (repositorio remoto en H2 con autorización)"
+1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00SY00CP002,
+    "Commitar una capa nueva (repositorio remoto en H2 con autorización)"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
     
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` puesto que va a subir capas y hacer commit
-    de información al repositorio.
+2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` puesto que en primer lugar va a crear 
+   una tabla de recursos que posteriormente va a rellenar con la leyenda de la capa. Tras esto va a hacer commit 
+   de dicha información al repositorio.
 
-3. ${check} Proceda a cargar la capa ```${TABLE2_NAME}``` (${TABLE2_LINK}) en la vista que hay creada 
-   en el proyecto. Para ello pulse el menú "Vista".
+3. ${check} Proceda a crear la tabla de recursos. Para ello pulse el menú "Herramientas".
    
-4. ${check} Pulse la opción "Añadir capa" del desplegable anterior.
+4. ${check} Pulse la opción "VCSGis" del desplegable anterior.
 
-5. ${check} Seleccione la pestaña "Archivo".
+5. ${check} Seleccione la opción "Administración".
 
-6. ${check} Pulse el botón de "Añadir".
+6. ${check} Pulse del desplegable la opción "Crear tabla de recursos".
 
-7. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
-    Seleccione el correspondiente a ```${TABLE2_NAME}``` (${TABLE2_LINK}).
+7. ${check} Se presenta un cuadro de diálogo titulado "Crear tabla de recursos".
      
-8. ${check} Pulse en el boton "Abrir".
+8. ${check} En el campo "Copia de trabajo" seleccione ```${WCNAME}``` (WCNAME). Esta copia de trabajo tiene 
+   que disponer de la capa, ```${TABLE1_NAME}``` (${TABLE1_LINK}), a la cual se desea asignar el recurso.
 
-9. ${check} De vuelta en el dialogo de "Añadir capa" pulse el botón "Aceptar" 
-    para cargarla en la vista.
+9. ${check} En el campo "Nombre de tabla" especifique el nombre ```CBASE_RESOURCES``` puesto que la 
+   capa ```${TABLE1_NAME}``` (${TABLE1_LINK}) presenta la categoría ```${CATEGORY}``` (CATEGORY)
 
-10. ${check} Seleccione la opción de menu "Herramientas"
+10. ${check} Pulse el botón "Aceptar".
 
-11. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
+11. ${check} Con la tabla de recursos ```CBASE_RESOURCES``` ya creada hay que introducir esta el fichero
+    ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). Abra la tabla de recursos ```CBASE_RESOURCES```. Siga los pasos de 
+    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=$CBASE_RESOURCES)
 
-12. ${check} Del desplegable surgido en la acción anterior pulse la opción "Añadir a la copia de trabajo",
-    la cual presenta la ventana de título "Añadir a la copia de trabajo".
+12. ${check} Una vez abierta la tabla y estando esta activa se procede a añadir en esta un nuevo registro. Para ello 
+    seleccione "Tabla" en el menú de gvSIG Desktop.
+
+13. ${check} Seleccione del despeglable anterior la opción "Show form". 
+
+14. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla de recursos.
+
+15. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
+   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
+   encuentra en la zona media de estos.
+
+16. ${check} La acción anterior habilita una serie de iconos.
+
+17. ${check} Pulse el icono con la etiqueta "Nuevo" recientemente habilitado.
+
+19. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
+    sin datos a la espera de la nueva información.
+
+19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}.gvsleg``` en el campo correspondiente.
+
+20. ${check} Localiza el campo "Recurso" y de los dos iconos adyacentes a este pulse el que presenta una flecha
+   ascendente de color azul.
+
+   [IconoSubirRecurso]!(../iconoSubirRecurso.png)
+
+
+
+
+
+
+
+
+
+
+   
+
+10. ${check} Pulse el icono con la etiqueta "Guardar".
+
+11. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar la edición pulse 
+    el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
+
+12. ${check} Cierre el formulario.
+
+13. ${check} Cierre la tabla en cuestión
 
 13. ${check} Siga los pasos de 
     [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
