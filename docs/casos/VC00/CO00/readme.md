@@ -5,4 +5,4 @@
 
 * [CP001 Descargar capa a la copia de trabajo (repositorio local en H2 con autorizacion)](CP001/testVC00CO00CP001.md)
 
-* **FIXME(paco)** [CP002 Descargar capa a la copia de trabajo (repositorio remoto en H2 con autorizacion)](CP002/testVC00CO00CP002.md)
+* [CP002 Descargar capa a la copia de trabajo (repositorio remoto en H2 con autorizacion)](CP002/testVC00CO00CP002.md)
