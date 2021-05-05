@@ -1,5 +1,5 @@
 ---
-title: Obtención de una copia local (checkout) desde repositorio sin autenticación
+title: Obtención de una revisión de una tabla desde repositorio sin autenticación
 proccode: procVC00PROC005
 srcpath: "casos/VC00/PROC/012/procVC00PROC012"
 ---
