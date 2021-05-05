@@ -6,6 +6,14 @@ srcpath: "casos/VC00/PROC/006/procVC00PROC006"
 
 {% include es/header.md %}
 
+{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+
+{% include parameter.html name="TABLENAME" value="esp_provincias" %}
+
+{% include parameter.html name="USER" value="sara" %}
+
+{% include parameter.html name="PASSWORD" value="sara1" %}
+
 ## {{ page.title }}
 
 ### Descripción
