@@ -40,19 +40,24 @@ Obtiene una copia local de una capa existente en
 5. ${check} Selecciónela.
 
 6. ${check} Se habrán habilitado los siguientes controles:
-  * "No añadir la capa al proyecto"
+  * Sobrescribir tabla
+  * * "No añadir la capa al proyecto"
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-7. ${check} Pulse el botón "Obtener copia local (checkout)"
+7. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
-8. ${check} El cuadro de diálogo habrá mostrado el proceso de descarga en su barra de estado.
+8. ${check} Selecciones la revisión ```${REVISION}```(REVISION)
 
-9. ${check} Se habrán deshabilitado todos los controles mencionados en el punto 6. 
+9. ${check} Pulse el botón "Aceptar"
 
-10. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla".
+10. En el cuadro de texto "Rvisión" habrá aparecido el número de revisión seguido de su fecha.
 
-11. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
+11. ${check} Pulse el botón "Obtener copia local (checkout)"
+
+12. ${check} El cuadro de diálogo habrá mostrado el proceso de descarga en su barra de estado.
+
+13. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME) en el estado en que estaba en la revisión seleccionada.
 
 ### Resultado esperado
 
