@@ -96,6 +96,7 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 </tr>
 </table>
 <input type="reset" value="Restablecer valores">
+<input type="button" value="Imprimir" onclick="window.print();">
 </form>
 
 {% include es/footer.html %}
