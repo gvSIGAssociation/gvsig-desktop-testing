@@ -26,9 +26,9 @@ Obtiene una copia local de una capa existente en
 
 2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
 
-3. ${check} **USER**=```${USER}```. Nombre de usuario para este test
+3. ${check} **USER**=```${USER}```. Nombre de usuario
 
-4. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario para este test
+4. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario
 
 
 ### Pasos
