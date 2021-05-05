@@ -62,11 +62,11 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
    1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
    1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
 1. ${InputUnknownOkError} Asociar leyenda a una capa.
-1. ${InputUnknownOkError} [VC00TP00CP002 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).<br>
-   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba VC00TP00CP002.
+1. ${InputUnknownOkError} [VC00TP00CP003 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).<br>
+   Solo es necesario pasar los siguientes casos de prueba si ha fallado el caso de prueba VC00TP00CP003.
    1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
    1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-   1. ${InputUnknownOkError} Subir cambios en una capa con un plan topologico (que no pasen el plan).
+   1. ${InputUnknownOkError} [VC00TP00CP002 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP002/testVC00TP00CP002.md)
 1. ${InputUnknownOkError} Descargar una revision en concreto de una capa a la copia de trabajo.
 1. ${InputUnknownOkError} Exportar una capa a una fecha dada.
 1. ${InputUnknownOkError} Exportar una capa a una revision dada.
@@ -74,8 +74,6 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 {% comment %}
 
 1. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
-1. ${InputUnknownOkError} [Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
-
 1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00MO00CP001.md).
 1. ${InputUnknownOkError} Importar historial.
 
