@@ -3,7 +3,7 @@ title: Obtención de una revisión de una tabla desde repositorio sin autenticac
 proccode: procVC00PROC005
 srcpath: "casos/VC00/PROC/012/procVC00PROC012"
 ---
-* --- FIXME --- *
+--- *FIXME* --- 
 
 {% include es/header.md %}
 
