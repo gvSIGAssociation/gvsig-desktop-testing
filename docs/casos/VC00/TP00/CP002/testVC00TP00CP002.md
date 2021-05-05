@@ -61,14 +61,14 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
     "Cargar un plan topológico en el repositorio"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Cierre gvSIG.
+2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` y cierre gvSIG Desktop.
 
 3. ${check} Compruebe que no exista el fichero:
    * ```${TMPFOLDER}/${WCNAME}.mv.db``` (TMPFOLDER/WCNAME.mv.db). 
    
    En caso de que exista elimínelo.
 
-4. ${check} Abra gvSIG
+4. ${check} Abra la aplicación gvSIG Desktop ```cliente```.
 
 5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
    [Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)](../../PROC/008/procVC00PROC008.md.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME})
@@ -82,7 +82,7 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 9. ${check} Del desplegable surgido en la acción anterior pulse la opción "Obtener copia local (checkout)" 
 
-10. ${check} Tras lo anterior, se muestra la venanacon el título "Obtener copia local (checkout)".
+10. ${check} Tras lo anterior, se muestra la ventana con el título "Obtener copia local (checkout)".
 
 11. ${check} Siga los pasos de [Obtención de una copia local (checkout)](../../PROC/006/procVC00PROC006.html?WCNAME=${WCNAME}&TABLENAME=${ENTITIE1}&USER=${USER}&PASSWORD=${PASSWORD})
 
@@ -94,16 +94,16 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
     * ```${ENTITIE1}``` (ENTITIE1).
     * ```${ENTITIE2}``` (ENTITIE2).
 
-15. ${check} Seleccione la capa ```${ENTITIE1}``` en el Toc.
+15. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
 
 16. ${check} Pulse botón derecho del mouse.
 
 17. ${check} Seleccione la opción "Comenzar edición" del desplegable.
 
 18. ${check} Seleccione la provincia de "Valencia" y desplacela fuera del área de la península ibérica hasta
-    asegurarse de que no contenga ningúna población en su interior (Punto) de la capa ```${ENTITIE2}```.
+    asegurarse de que no contenga ningúna población en su interior (Punto) de la capa ```${ENTITIE2}``` (ENTITIE2).
 
-19. ${check} Seleccione la capa ```${ENTITIE1}``` en el Toc.
+19. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
 
 20. ${check} Pulse botón derecho del mouse.
 
@@ -113,7 +113,7 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
 
 23. ${check} Seleccione la opción "Guardar" para almacenar los cambios.
 
-24. ${check} Pulse la opción de menú "Herramientas".
+24. ${check} Tras realizar cambios va a proceder a subir estos al repositorio. Pulse la opción de menú "Herramientas".
 
 25. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
 

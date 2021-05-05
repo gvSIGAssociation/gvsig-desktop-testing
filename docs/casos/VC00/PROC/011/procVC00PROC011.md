@@ -20,7 +20,7 @@ Este proceso accede a la tabla llamada ```${TABLENAME}``` de la base de datos ``
 
 
 ### Pasos
-1. ${check} Para inicial el proceso acceda al menú Mostrar .
+1. ${check} Para inicial el proceso acceda al menú "Mostrar".
 
 2. ${check} Seleccione del despeglable anterior la opción "Gestor de proyecto". 
 

@@ -53,56 +53,59 @@ topológico, ${TPNAME}, asignado previamente en el repositorio, ${REPONAME}.
     "Subir cambios en una capa con un plan topológico (que no pasen el plan)"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Seleccione la capa ```${ENTITIE1}``` en el Toc.
+2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente```.
 
-3. ${check} Pulse botón derecho del mouse.
+3. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
 
-4. ${check} Seleccione la opción "Comenzar edición" del desplegable.
+4. ${check} Pulse botón derecho del mouse.
 
-5. ${check} Seleccione la provincia de "Valencia" y desplacela dentro del área de la península ibérica hasta
-    asegurarse de que contenga alguna población en su interior (Punto) de la capa ```${ENTITIE2}```.
+5. ${check} Seleccione la opción "Comenzar edición" del desplegable.
 
-6. ${check} Seleccione la capa ```${ENTITIE1}``` en el Toc.
+6. ${check} Seleccione la provincia de "Valencia" y desplacela dentro del área de la península ibérica hasta
+    asegurarse de que contenga alguna población en su interior (Punto) de la capa ```${ENTITIE2}``` (ENTITIE2).
 
-7. ${check} Pulse botón derecho del mouse.
+7. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
 
-8. ${check} Seleccione la opción "Terminar edición" del desplegable.
+8. ${check} Pulse botón derecho del mouse.
 
-9. ${check} Tras realizar lo anterior, se despliega un ventana de diálogo titulada "Terminar edición".
+9. ${check} Seleccione la opción "Terminar edición" del desplegable.
 
-10. ${check} Seleccione la opción "Guardar" para almacenar los cambios.
+10. ${check} Tras realizar lo anterior, se despliega un ventana de diálogo titulada "Terminar edición".
 
-11. ${check} Pulse la opción de menú "Herramientas".
+11. ${check} Seleccione la opción "Guardar" para almacenar los cambios.
 
-12. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
+12. ${check} Pulse la opción de menú "Herramientas".
 
-13. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios".
+13. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
 
-14. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
+14. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios".
+
+15. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
    de título  "VCSGis Cambios".
 
-15. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+16. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
 
-16. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
+17. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
     a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
     puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
     A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
     "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-17. ${check} Pulse la casilla de verificación asociada a la capa ```${ENTITIE1}``` (ENTITIE1).
+18. ${check} Pulse la casilla de verificación asociada a la capa ```${ENTITIE1}``` (ENTITIE1).
 
-18. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
+19. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-19. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+20. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
 
-20. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
+21. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
 
-21. ${check} Pulse el botón de "Commit"
+22. ${check} Pulse el botón de "Commit"
 
-22. ${check} Cierre la ventana titulada "Mostrar cambios".
+23. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-23. ${check} Deja la vista "Sin título" en primer plano y activa.
+24. ${check} Deja la vista "Sin título" en primer plano y activa.
+
     
 ### Resultado esperado
 
