@@ -73,7 +73,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 4. ${check} Abra gvSIG
 
-5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)](../../PROC/008/procVC00PROC008.md.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
+5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)](../../PROC/002/procVC00PROC002.md.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
 
 6. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
 
