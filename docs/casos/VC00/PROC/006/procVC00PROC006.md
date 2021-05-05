@@ -74,4 +74,4 @@ Obtiene una copia local de una capa existente en
 
 {% include es/reportbug_proc.md %}
 
-{% include es/footer.md %}
+{% include es/footer.html %}
