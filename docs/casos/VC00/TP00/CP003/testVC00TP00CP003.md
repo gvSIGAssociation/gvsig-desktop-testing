@@ -14,7 +14,7 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 
 {% include parameter.html name="ENTITIE1" value="esp_provincias" %}
 
-{% include parameter.html name="ENTITIE2" value="esp_provincias" %}
+{% include parameter.html name="ENTITIE2" value="esp_poblaciones" %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
