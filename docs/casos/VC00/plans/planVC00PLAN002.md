@@ -28,10 +28,10 @@ Comprueba:
 1. Que se pueden añdir a la copia de trabajo capas (add), subir cambios al repositorio (commit) y obtener copias locales de tablas del repositorio.
 1. Que se se pueden crear leyendas asociadas a una capa y se cargan automaticamente al cargarla en una vista.
 1. Que la integración con el marco de topologia funciona, pudiendose registrar planes
-   de topologia en el repositorio, asociarlos a tablas de este, y pasarlos antes de subir cambios
+   de topologia en el repositorio, asociarlos a tablas de este, y ejecutarlos antes de subir cambios
    al repositorio.
    
-El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop.
+El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop.
 
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
@@ -82,7 +82,7 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 
 <table border="0">
 <tr>
-<td nowarp>Responsable de pasar el plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
+<td nowarp>Responsable de ejecutar el plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
 </tr>
 <tr>
 <td>Fecha de ejecucion del plan:</td><td><input type="date"></td>
