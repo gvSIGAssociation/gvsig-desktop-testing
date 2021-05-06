@@ -70,21 +70,23 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 4. ${check} Abra gvSIG
 
-5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
+5. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Inicializar copia de trabajo" que nos presentara la ventana de titulo "Inicializar copia de trabajo".
 
-6. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+6. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
 
-7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
+7. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
 
-8. ${check} Siga los pasos de [Obtención de una copia local (checkout) desde repositorio con autenticación](../../PROC/006/procVC00PROC006.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD})
+8. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
 
-9. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+9. ${check} Siga los pasos de [Obtención de una copia local (checkout) desde repositorio con autenticación](../../PROC/006/procVC00PROC006.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD})
 
-10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
+10. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-11. Cierre la vista.
+11. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
 
-12. Solo debe quedar abierta la ventana del "Gestor de proyecto"
+12. Cierre la vista.
+
+13. Solo debe quedar abierta la ventana del "Gestor de proyecto"
 
 ### Resultado esperado
 
