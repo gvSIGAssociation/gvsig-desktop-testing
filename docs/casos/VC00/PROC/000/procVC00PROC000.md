@@ -14,7 +14,7 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 
 ### Datos de entrada
 
-1. ${check} **PATHNAME**=```${PATHNAME}```. ruta completa en la que crear la base de datos H2.
+1. ${check} **PATHNAME**=```${PATHNAME}```. Ruta completa en la que crear la base de datos H2.
 
 2. ${check} **NAME**=```${NAME}```. Nombre de la conexion a crear.
 
