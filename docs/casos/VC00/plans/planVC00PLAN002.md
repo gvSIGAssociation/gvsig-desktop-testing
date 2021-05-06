@@ -75,8 +75,6 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop
 1. ${InputUnknownOkError} Importar historial.
 1. ${InputUnknownOkError} Definir y descargar un modelo de datos.
 
-{% endcomment %}
-
 <table border="0">
 <tr>
 <td nowarp>Responsable de ejecutar el plan:</td><td width="90%"><input type="text" style="display:table-cell; width:100%"></td>
