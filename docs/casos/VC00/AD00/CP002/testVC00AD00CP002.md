@@ -78,8 +78,8 @@ base de datos que se vayan a utilizar.
 3. ${check} Cerciórese de que la vista que se ha creado al arrancar gvSIG se encuentra 
    en "EPSG:4326", de no ser así cambie la proyección de la vista.
 
-4. ${check} Seleccione la opcion de menu "Herramientas/VCSGis/Administración/Inicializar repositorio" 
-   que presentara la ventana de titulo "Inicializar repositorio".
+4. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Administración/Inicializar repositorio" 
+   que presentara la ventana de título "Inicializar repositorio".
 
 5. ${check} Siga los pasos de [Inicializar un repositorio en H2 (con autorización)](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
