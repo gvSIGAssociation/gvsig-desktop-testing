@@ -54,7 +54,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
    Si esta no existe aborte el procedimiento.
 
-10. ${check} En el campo "Categoria" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
+10. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
 
 11. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
