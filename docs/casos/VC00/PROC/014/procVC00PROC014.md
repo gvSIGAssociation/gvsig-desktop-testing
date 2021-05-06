@@ -1,7 +1,7 @@
 ---
-title: Añadir capa a una copia de trabajo asociada a un repositorio local en H2
-proccode: VC00PROC003
-srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
+title: Añadir tabla a una copia de trabajo asociada a un repositorio local en H2
+proccode: VC00PROC014
+srcpath: "casos/VC00/PROC/014/procVC00PROC014.md"
 ---
 
 {% include es/header.md %}
@@ -10,7 +10,7 @@ srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 
 ### Descripción
 
-Este procedimiento describe como añadir una capa ya cargada en el proyecto
+Este procedimiento describe como añadir una tabla ya cargada en el proyecto
 a una copia de trabajo ya creada. Desde donde se invoque al procedimiento debera
 haberse inicializado correctamente la copia de trabajo y haber indicado al usuario
 como mostrar la ventana de "Añadir a la copia de trabajo".
@@ -20,12 +20,12 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo ```${WCNAME}``` (WCNAME).
+2. ${check} **TABLE**=```${TABLE}```. Nombre de la tabla a añadir a la copia de trabajo ```${WCNAME}``` (WCNAME).
 
-3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la capa a añadir
+3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
    a usar en "Campo para etiqueta". 
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la capa al 
+4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la tabla al 
    añadirla a la copia local. 
 
 ### Pasos
@@ -36,25 +36,25 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
    entrada ```${WCNAME}``` (WCNAME). Si existe seleccionela. Si no existe
    termine el procedimiento.
-
+   
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
 
 4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
- 
-5. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
-    la opción ```${LAYER}``` (LAYER). Si esta no existe termine el procedimiento.
 
-6. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
+5. ${check} Active la pestaña "Tablas" y seleccione
+    la opción ```${TABLE}``` (TABLE). Si esta no existe termine el procedimiento.
 
-7. ${check} Debera aparecer en el desplegable de vistas "Sin titulo".
+6. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
-8. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
+7. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
 
-9. ${check} En el desplegable del  campo "Campo para etiqueta" seleccione 
+8. ${check} En el desplegable del  campo "Campo para etiqueta" introduzca 
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
-   Si esta no existe aborte el procedimiento.
+   Si esta no existe termine el procedimiento.
 
-10. ${check} En el campo "Categoria" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
+9. ${check} En el campo para "Etiqueta" no especifique nada.
+
+10. ${check} En el campo "Categoria" introduzca el valor ```${CATEGORY}``` (CATEGORY).
 
 11. ${check} Pulse el boton "Añadir a la copia de trabajo".
 

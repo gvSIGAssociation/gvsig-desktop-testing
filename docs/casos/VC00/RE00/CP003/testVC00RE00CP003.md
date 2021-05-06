@@ -30,6 +30,8 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
+{% include parameter.html name="FIELDFORLABEL" value="Nombre" %}
+
 
 ## {{ page.title }}
 
@@ -56,11 +58,14 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 6. ${check} **WCNAME2**=```${WCNAME2}```. Nombre de la copia de trabajo sobre la que se realiza el checkout 
    de la capa con la leyenda asignada.
 
-7. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
+7. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
+   a usar en "Campo para etiqueta".
 
-8. ${check} **USER**=```${USER}```. Identificador de usuario.
+8. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la capa al hacer checkout.
 
-9. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
+9. ${check} **USER**=```${USER}```. Identificador de usuario.
+
+10. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
 ### Prerrequisitos
 
@@ -95,8 +100,7 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 8. ${check} En el campo "Copia de trabajo" seleccione ```${WCNAME}``` (WCNAME). Esta copia de trabajo tiene 
    que disponer de la capa, ```${TABLE_NAME}``` (${TABLE_LINK}), a la cual se desea asignar el recurso.
 
-9. ${check} En el campo "Nombre de tabla" especifique el nombre ```CBASE_RESOURCES``` puesto que la 
-   capa ```${TABLE_NAME}``` (${TABLE_LINK}) presenta la categoría ```${CATEGORY}``` (CATEGORY)
+9. ${check} En el campo "Nombre de tabla" especifique el nombre ```CBASE_RESOURCES```.
 
 10. ${check} Pulse el botón "Aceptar".
 
@@ -112,8 +116,8 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 14. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla de recursos.
 
 15. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
-   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-   encuentra en la zona media de estos.
+    etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
+    encuentra en la zona media de estos.
 
 16. ${check} La acción anterior habilita una serie de iconos.
 
@@ -146,80 +150,105 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 27. ${check} Cierre la tabla en cuestión.
 
-28. ${check} AÑADIR  TABLA A COPIA DE TRABAJO
+28. ${check} Añada la tabla de recursos ```CBASE_RESOURCES``` a la copia de trabajo. Siga los pasos de 
+    [Añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WCNAME=${WCNAME}&TABLE=CBASE_RESOURCE&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY})
 
-29. ${check} COMMIT
+29. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
 
-28. ${check} Minimice la aplicación gvSIG Desktop ```cliente````.
+30. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
+   de título  "VCSGis Cambios".
 
-29. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
+31. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+
+32. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
+    a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
+    puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
+    A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
+    "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
+
+33. ${check} Pulse la casilla de verificación asociada a la tabla ```CBASE_RESOURCE```.
+
+34. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
+    habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
+
+35. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+
+36. ${check} Introduzca en el campo "Comentario" el texto "Añadir tabla de recursos: ```CBASE_RESOURCE```"
+
+37. ${check} Pulse el botón de "Commit"
+
+38. ${check} Cierre la ventana titulada "Mostrar cambios".
+
+39. ${check} Minimice la aplicación gvSIG Desktop ```cliente````.
+
+40. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
     registrar el recurso a la capa ```${TABLE_NAME}``` (${TABLE_LINK}).
 
-30. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este. Siga los pasos de 
+41. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=$VCSGISREPO_ENTITIES) 
 
-31. ${check} Una vez abierta la tabla y estando esta activa se procede a asignar el recurso a la entidad. Para ello 
+42. ${check} Una vez abierta la tabla y estando esta activa se procede a asignar el recurso a la entidad. Para ello 
     seleccione "Tabla" en el menú de gvSIG Desktop.
 
-32. ${check} Seleccione del despeglable anterior la opción "Show form". 
+43. ${check} Seleccione del despeglable anterior la opción "Show form". 
 
-33. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
+44. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
     de entidades.
 
-34. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
+45. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
     etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
     encuentra en la zona media de estos.
 
-35. ${check} La acción anterior habilita una serie de iconos.
+46. ${check} La acción anterior habilita una serie de iconos.
 
-36. ${check} Seleccione con ayuda de los iconos "Anterior" y "Siguiente" la página del formulario de la 
+47. ${check} Seleccione con ayuda de los iconos "Anterior" y "Siguiente" la página del formulario de la 
     entidad ```${TABLE_NAME}``` (${TABLE_LINK}).
 
-37. ${check} Localice el campo "Resources" y rellenelo con el nombre de la tabla de recursos ```CBASE_RESOURCES```.
+48. ${check} Localice el campo "Resources" y rellenelo con el nombre de la tabla de recursos ```CBASE_RESOURCES```.
 
-38. ${check} Pulse el icono con la etiqueta "Guardar".
+49. ${check} Pulse el icono con la etiqueta "Guardar".
 
-39. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terminar la edición pulse 
+50. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terminar la edición pulse 
     el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
 
-40. ${check} Cierre el formulario.
+51. ${check} Cierre el formulario.
 
-41. ${check} Cierre la tabla en cuestión
+52. ${check} Cierre la tabla en cuestión
 
-42. ${check} Minimice la aplicación gvSIG Desktop ```servidor````.
+53. ${check} Minimice la aplicación gvSIG Desktop ```servidor````.
 
-43. ${check} Active la aplicación gvSIG Desktop ```cliente```. A partir de ahora va a comprobar que la capa
+54. ${check} Active la aplicación gvSIG Desktop ```cliente```. A partir de ahora va a comprobar que la capa
     ```${TABLE_NAME}``` (${TABLE_LINK}) dispone de la leyenda como recurso asociado. Para ello hay que realizar
     un checkout de esta.
 
-44. ${check} Cierre la aplicación gvSIG Desktop ```cliente```.
+55. ${check} Cierre la aplicación gvSIG Desktop ```cliente```.
 
-45. ${check} Compruebe que no exista el fichero:
+56. ${check} Compruebe que no exista el fichero:
    * ```${TMPFOLDER}/${WCNAME2}.mv.db``` (*TMPFOLDER*/*WCNAME2*.mv.db).
    En caso de que exista elimínelo.
 
-46. ${check} Abra la aplicación gvSIG Desktop ```cliente```.
+57. ${check} Abra la aplicación gvSIG Desktop ```cliente```.
 
-47. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
+58. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
    [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
 
-48. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
+59. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
    de no ser asi cámbie la proyección de la vista.
 
-49. ${check} Seleccione la opción de menú "Herramientas"
+60. ${check} Seleccione la opción de menú "Herramientas"
 
-50. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
+61. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
 
-51. ${check} Del desplegable surgido en la acción anterior pulse la opción "Obtener copia local (checkout)" 
+62. ${check} Del desplegable surgido en la acción anterior pulse la opción "Obtener copia local (checkout)" 
 
-52. ${check} Tras lo anterior, se muestra la ventana con el título "Obtener copia local (checkout)".
+63. ${check} Tras lo anterior, se muestra la ventana con el título "Obtener copia local (checkout)".
 
-53. ${check} Siga los pasos de 
+64. ${check} Siga los pasos de 
     [Obtención de una copia local (checkout)](../../PROC/006/procVC00PROC006.html?WCNAME=${WCNAME2}&TABLENAME=${TABLE_NAME}&USER=${USER}&PASSWORD=${PASSWORD})
 
-54. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+65. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-55. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
+66. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
     leyenda ```${LEYENDA_NAME}```.
 
 
