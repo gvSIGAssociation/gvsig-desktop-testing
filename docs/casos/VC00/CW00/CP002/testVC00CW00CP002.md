@@ -39,7 +39,7 @@ a la copia de trabajo.
 
 ### Pasos
 
-1. ${check} seguiremos los pasos indicados en el caso de prueba:
+1. ${check} Seguiremos los pasos indicados en el caso de prueba:
    * [VC00CR00CP002 Iniciar un servidor VCSGis contra un repositorio en una base de datos H2 (con autorización)](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
 
 3. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
