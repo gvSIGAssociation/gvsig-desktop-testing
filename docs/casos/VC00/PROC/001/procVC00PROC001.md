@@ -23,7 +23,7 @@ En el proceso se creara la conexion a la base de datos que va a usarse para acce
 
 ### Pasos
 
-1. ${check} Cuando iniciemos este procedimiento deberems estar viendo
+1. ${check} Cuando iniciemos este procedimiento deberemos estar viendo
    la ventana de creacion de repositorio, con titulo "Inicializar repositorio" y estara activa.
 
 2. ${check} Pulsaremos en el boton asociado al campo "Conexión" para crear la conexion a la base de datos.
