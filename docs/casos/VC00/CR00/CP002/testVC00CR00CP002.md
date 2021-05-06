@@ -56,14 +56,14 @@ para acceder al repositorio.
 
 5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
-6. Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
+6. ${check} Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
    una ventana de título "Servidor VCSGis".
 
-7. En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
+7. ${check} En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
 
-8. Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
+8. ${check} Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
 
-9. En el cuadro de texto "Mensajes" habrá aparecido algo como:
+9. ${check} En el cuadro de texto "Mensajes" habrá aparecido algo como:
    ```
    2021-05-04 09:23:50.839 - Creating server...
    2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:/home/jjdelcerro/dbs/test1;MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...

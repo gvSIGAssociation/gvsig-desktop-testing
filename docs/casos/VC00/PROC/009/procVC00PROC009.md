@@ -51,10 +51,9 @@ además de su valor correspondiente, ```${VALUE}```.
 11. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar la edición pulse 
     el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
 
-12. ${check} Cierre el formulario.
+12. ${check} Como consecuencia de lo anterior se despliega una ventana, pulse en la opción "Guardar".
 
-13. ${check} Cierre la tabla en cuestión
-
+13. ${check} Cierre el formulario.
 
 ### Resultado esperado
 

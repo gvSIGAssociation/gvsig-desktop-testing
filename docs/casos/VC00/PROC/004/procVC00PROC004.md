@@ -75,16 +75,20 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 15. ${check} Vamos a crear un registro para activar la autorización. Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
 
-16. ${check} Abra la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. Siga los pasos de 
+16. ${check} Cierre la tabla ```${CONFIGTABLENAME}```.
+
+17. ${check} Abra la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
 
-17. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 
+18. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 
     [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=pedro&PASSWORD=pedro1&OPERATIONS=add,entities,update,checkout,history,topologyplan,users)
 
-18. ${check} Vamos a dar de alta el usuario "sara" con todos los permisos. Siga los pasos de 
+19. ${check} Vamos a dar de alta el usuario "sara" con todos los permisos. Siga los pasos de 
     [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=sara&PASSWORD=sara1&OPERATIONS=add,entities,commit,update,checkout,history,topologyplan,users)
 
-19. ${check} Reinicie gvSIG Desktop para que los cambios tengan efecto.
+20. ${check} Cierre la tabla ```${USERSTABLENAME}```.
+
+21. ${check} Reinicie gvSIG Desktop para que los cambios tengan efecto.
 
 
 ### Resultado esperado
