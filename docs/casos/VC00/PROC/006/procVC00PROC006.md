@@ -66,6 +66,8 @@ Obtiene una copia local de una capa existente en
 
 15. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
 
+16. ${check} Pulse el botón "Cerrar" y deberá haberse cerrado la ventana de "Obtener copia local (checkout)"
+
 ### Resultado esperado
 
 {% include es/expectedresult_proc.md %}
