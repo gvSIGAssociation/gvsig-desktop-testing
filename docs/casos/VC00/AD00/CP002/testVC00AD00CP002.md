@@ -106,7 +106,7 @@ Para ello abra el diálogo de añadir capa desde el menú vista, "Vista/Añadir 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" 
     que mostrará la ventana de título "Añadir a la copia de trabajo".
 
-13. ${check} Siga los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
+13. ${check} Siga los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
 
 14. ${check} Deberá haber aparecido en la vista una capa 
     ```${TABLENAME}``` (${TABLELINK})
