@@ -82,9 +82,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
 
-11. Cierre la vista.
+11. ${check} Cierre la vista.
 
-12. Solo debe quedar abierta la ventana del "Gestor de proyecto"
+12. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
 
 ### Resultado esperado
 
