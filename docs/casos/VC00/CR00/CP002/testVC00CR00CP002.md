@@ -44,26 +44,26 @@ para acceder al repositorio.
 1. ${check} Comprobaremos que no este iniciado gvSIG desktop a partir de la portable 
    para el ```Servidor```. Si lo esta deberiamos cerrarlo.
    
-3. ${check} Antes de iniciar gvSIG desktop comprobaremos que no exista el fichero:
+2. ${check} Antes de iniciar gvSIG desktop comprobaremos que no exista el fichero:
    * ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db).
    
    En caso de que exista lo eliminaremos.
    
-2. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Servidor```.
+3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Servidor```.
 
-3. ${check} Una vez iniciado seleccionaremos la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
-   presentara la ventana de título "Inicializar repositorio".
+4. ${check} Una vez iniciado seleccionaremos la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
+   presenta la ventana de título "Inicializar repositorio".
 
-4. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
+5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
-5. Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
+6. Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
    una ventana de título "Servidor VCSGis".
 
-6. En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
+7. En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
 
-7. Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
+8. Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
 
-8. En el cuadro de texto "Mensajes" habrá aparecido algo como:
+9. En el cuadro de texto "Mensajes" habrá aparecido algo como:
    ```
    2021-05-04 09:23:50.839 - Creating server...
    2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:/home/jjdelcerro/dbs/test1;MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...

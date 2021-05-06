@@ -34,64 +34,57 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 
 
 ### Pasos
-1. ${check} Para inicial el proceso de crear el repositorio diríjase a la pestaña "Herramientas".
 
-2. ${check} Seleccione del despeglable la opción "VCSGis". 
-
-3. ${check} Seleccione la opción "Administración".
-
-4. ${check} Pulse la opción "Inicializar repositorio".
-
-5. ${check} Cuando se inicia este procedimiento se debe ver la ventana de creación de repositorio,
+1. ${check} Cuando se inicia este procedimiento se debe ver la ventana de creación de repositorio,
    con título "Inicializar repositorio" y esta estará activa.
 
-6. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexion a la base de datos. Este se situa en
+2. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexion a la base de datos. Este se situa en
    adyacente al desplegable que indica las diferentes conexiones.
 
-7. ${check} Siga los pasos de [Creación de una conexión a base de datos H2](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATHNAME=${TMPFOLDER}/${REPONAME}) 
+3. ${check} Siga los pasos de [Creación de una conexión a base de datos H2](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATHNAME=${TMPFOLDER}/${REPONAME}) 
 
-8. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
+4. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
    pulse el botón "Inicializar repositorio". 
    
-9. ${check}Tras lo anterior, se cierra la ventana de inicialización del repositorio
+5. ${check}Tras lo anterior, se cierra la ventana de inicialización del repositorio
    y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
    
-10. ${check} Abra el explorador de archivos del sistema y compruebe que se ha creado el archivo 
+6. ${check} Abra el explorador de archivos del sistema y compruebe que se ha creado el archivo 
    ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db) en el sistema de archivos.
 
-11. ${check} Una vez creado el repositorio tiene que realizarse la configuración de este. Para inicial el proceso 
+7. ${check} Una vez creado el repositorio tiene que realizarse la configuración de este. Para inicial el proceso 
    de configuración del repositorio diríjase a la pestaña "Archivo".
 
-12. ${check} Seleccione la opción "Connect to database workspase".
+8. ${check} Seleccione la opción "Connect to database workspase".
 
-13. ${check} Tras lo anterior, se muestra una ventana de diálogo titulada "Connect".
+9. ${check} Tras lo anterior, se muestra una ventana de diálogo titulada "Connect".
 
-14. ${check} En el desplegable "Conection" seleccione la conexión llamada ```${REPONAME}```.
+10. ${check} En el desplegable "Conection" seleccione la conexión llamada ```${REPONAME}```.
 
-15. ${check} Pulse el botón "Connect".
+11. ${check} Pulse el botón "Connect".
 
-16. ${check} Tras lo anterior, se cierra la ventana que realiza la conexión al espacio de trabajo de la base de datos
+12. ${check} Tras lo anterior, se cierra la ventana que realiza la conexión al espacio de trabajo de la base de datos
    y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
 
-17. ${check} Abra la tabla de configuración del repositorio, ```${CONFIGTABLENAME}```. Siga los pasos de 
+13. ${check} Abra la tabla de configuración del repositorio, ```${CONFIGTABLENAME}```. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${CONFIGTABLENAME})
 
-18. ${check} Vamos a crear un registro para activar la autenticación. Siga los pasos de 
+14. ${check} Vamos a crear un registro para activar la autenticación. Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
 
-19. ${check} Vamos a crear un registro para activar la autorización. Siga los pasos de 
+15. ${check} Vamos a crear un registro para activar la autorización. Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
 
-20. ${check} Abra la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. Siga los pasos de 
+16. ${check} Abra la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. Siga los pasos de 
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
 
-21. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 
+17. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 
     [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=pedro&PASSWORD=pedro1&OPERATIONS=add,entities,update,checkout,history,topologyplan,users)
 
-22. ${check} Vamos a dar de alta el usuario "sara" con todos los permisos. Siga los pasos de 
+18. ${check} Vamos a dar de alta el usuario "sara" con todos los permisos. Siga los pasos de 
     [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=sara&PASSWORD=sara1&OPERATIONS=add,entities,commit,update,checkout,history,topologyplan,users)
 
-23. ${check} Reinicie gvSIG Desktop para que los cambios tengan efecto.
+19. ${check} Reinicie gvSIG Desktop para que los cambios tengan efecto.
 
 
 ### Resultado esperado
