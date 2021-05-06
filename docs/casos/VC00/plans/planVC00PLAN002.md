@@ -72,11 +72,8 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop
 1. ${InputUnknownOkError} Descargar una revision en concreto de una capa a la copia de trabajo.
 1. ${InputUnknownOkError} Exportar una capa a una fecha dada.
 1. ${InputUnknownOkError} Exportar una capa a una revision dada.
-
-{% comment %}
-
-1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00MO00CP001.md).
 1. ${InputUnknownOkError} Importar historial.
+1. ${InputUnknownOkError} Definir y descargar un modelo de datos.
 
 {% endcomment %}
 
