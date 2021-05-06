@@ -42,12 +42,16 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 
 1. La version de gvSIG desktop a utilizar sera la 2.6.0-3221 o superior.
 
-1. Para pasar este plan de prueba **se utilizaran dos portables de gvSIG desktop**. A lo largo
+1. Para ejecutar este plan de prueba **se utilizaran dos portables de gvSIG desktop**. A lo largo
    del plan de pruebas nos referiremos a ellas como:
      * gvSIG desktop portable para el ```Servidor```.
      * gvSIG desktop portable para el ```Cliente```.
      
    Estas estaran descomprimidas en dos carpetas distintas en el sistema de ficheros.
+   
+   Durante la ejecución del plan de pruebas se ira indicando en cada caso que gvSIG desktop hay que 
+   iniciar y con cual trabajar según las operaciones que se vayan a realizar. Siendo la pauta
+   normal que a lo largo de la ejecución del plan esten iniciados los dos gvSIG desktop.
 
 </div>
 
