@@ -75,7 +75,6 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3220 de gvSIG desktop
 
 {% comment %}
 
-1. ${InputUnknownOkError} [Asociar leyenda a una capa](CP003/testVC00RE00CP003.md).
 1. ${InputUnknownOkError} [Definir y descargar un modelo de datos](CP003/testVC00MO00CP001.md).
 1. ${InputUnknownOkError} Importar historial.
 
