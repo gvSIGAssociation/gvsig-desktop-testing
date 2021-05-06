@@ -46,7 +46,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 6. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
-7. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
+7. ${check} Debera aparecer en el valor del campo "nombre" ```${TABLE}``` (TABLE).
 
 8. ${check} En el desplegable del  campo "Campo para etiqueta" introduzca 
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
