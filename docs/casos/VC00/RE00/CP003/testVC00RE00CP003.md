@@ -144,7 +144,11 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 26. ${check} Cierre el formulario.
 
-27. ${check} Cierre la tabla en cuestión
+27. ${check} Cierre la tabla en cuestión.
+
+28. ${check} AÑADIR  TABLA A COPIA DE TRABAJO
+
+29. ${check} COMMIT
 
 28. ${check} Minimice la aplicación gvSIG Desktop ```cliente````.
 
