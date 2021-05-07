@@ -47,9 +47,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 6. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
-7. ${check} **REVISION0**=```${REVISION0}```. Primera revisión a descargar
+7. ${check} **REVISION0**=```0```. Primera revisión a descargar
 
-8. ${check} **REVISION1**=```${REVISION1}```. Segunda revisión a descargar
+8. ${check} **REVISION1**=```3```. Segunda revisión a descargar
 
 ### Prerrequisitos
 
