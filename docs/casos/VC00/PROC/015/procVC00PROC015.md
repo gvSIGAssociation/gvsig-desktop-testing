@@ -16,6 +16,8 @@ srcpath: "casos/VC00/PROC/015/procVC00PROC015"
 
 {% include parameter.html name="DATE" value="01/01/2021" %}
 
+{% include parameter.html name="EXPORTTABLENAME" value="ESP_PROVINCIAS_20210101_000000_0" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -35,7 +37,6 @@ Exportar una capa en el estado en que estuviese en una fecha concreta
 5. ${check} **DATE**=```${DATE}```. Fecha
 
 6. ${check} **EXPORTTABLENAME**=```${EXPORTTABLENAME}```. Nombre de la tabla exportada
-
 
 ### Pasos
 
