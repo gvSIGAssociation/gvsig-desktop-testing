@@ -1,1 +1,1 @@
-Test de "Descargar capa a la copia de trabajo (repositorio local con autorización)"
+Test de "Descargar capa a la copia de trabajo (repositorio remoto con autorización)"
