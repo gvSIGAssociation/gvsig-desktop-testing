@@ -18,6 +18,6 @@
 * [014 Añadir tabla a una copia de trabajo asociada a un repositorio local en H2](014/procVC00PROC014.md).
 * [015 Exportar una capa a una fecha concreta con autenticación](015/procVC00PROC015.md).
 * [016 Exportar una capa a una fecha concreta sin autenticación](016/procVC00PROC016.md).
-* [017 Exportar una revisión concreta de una con autenticación](017/procVC00PROC017.md).
-* [018 Exportar una revisión concreta de una sin autenticación](018/procVC00PROC018.md).
+* [017 Exportar una revisión concreta de una capa con autenticación](017/procVC00PROC017.md).
+* [018 Exportar una revisión concreta de una capa sin autenticación](018/procVC00PROC018.md).
 
