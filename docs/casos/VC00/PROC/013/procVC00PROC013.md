@@ -67,7 +67,7 @@ Obtiene una copia local de una capa existente en
 
 13. ${check} Pulse el botón "Aceptar"
 
-14. En el cuadro de texto "Rvisión" habrá aparecido el número de revisión seguido de su fecha.
+14. En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
 
 16. ${check} Pulse el botón "Obtener copia local (checkout)"
 
