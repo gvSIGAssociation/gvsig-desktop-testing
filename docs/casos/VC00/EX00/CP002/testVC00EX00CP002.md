@@ -24,6 +24,10 @@ srcpath: "casos/VC00/EX00/CP002/testVC00EX00CP002.md"
 
 {% include parameter.html name="REVISION1" value="3" %}
 
+{% include parameter.html name="EXPORTTABLENAME0" value="ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX" %}
+
+{% include parameter.html name="EXPORTTABLENAME1" value="ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX" %}
+
 ## {{ page.title }}
 
 ### Descripción
