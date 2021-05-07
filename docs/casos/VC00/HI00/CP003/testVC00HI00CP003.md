@@ -46,7 +46,7 @@ Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia d
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecución del test. Deberemos tener permiso de escritura en ella. 
 
-2. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos a añadir al modelo ```${MODEL}``` (MODEL). 
+2. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos que contiene el historial. 
 
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
    a usar en "Campo para etiqueta".
