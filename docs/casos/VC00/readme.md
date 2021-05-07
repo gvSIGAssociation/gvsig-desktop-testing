@@ -12,6 +12,7 @@ Puede ver los *planes de prueba* disponibles [aqui](plans/readme.md).
 * [MO00 Relacionados con la gestión de modelos de datos](MO00/readme.md).
 * [TP00 Relacionados con la gestión de topología](TP00/readme.md).
 * [EX00 Relacionados con la exportación](EX00/readme.md).
+* [HI00 Relacionados con la importación de un historial](HI00/readme.md).
 
 Puede ver los *procedimientos* disponibles [aquí](PROC/readme.md).
 
