@@ -22,7 +22,7 @@ srcpath: "casos/VC00/PROC/013/procVC00PROC013"
 
 ### Descripción
 
-Obtiene una copia local de una capa existente en 
+Obtiene una copia local de una revisiónde una capa existente en 
 
 ### Datos de entrada
 
