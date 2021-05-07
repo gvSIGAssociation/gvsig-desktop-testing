@@ -39,8 +39,7 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 
 ### Descripción
 
-Este proceso define un modelo de datos, ```${MODEL}``` (MODEL), con las capas ```esp_provincias``` y ```esp_poblaciones``` y la tabla ```${TABLE_NAME}``` (TABLE_LINK). Tras definirlo
-se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCNAME2).
+Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia de trabajo ```${WCNAME}``` (WCNAME).
 
 ### Datos de entrada
 
