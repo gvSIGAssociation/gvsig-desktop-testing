@@ -14,6 +14,8 @@ srcpath: "casos/VC00/PROC/018/procVC00PROC018"
 
 {% include parameter.html name="REVISION" value="0" %}
 
+{% include parameter.html name="EXPORTTABLENAME" value="ESP_PROVINCIAS_R0_XXXXXXX_XXXXXX_XXX" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -62,7 +64,7 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 12. ${check} Se habrá cerrado el selector de revisiones. Habrá aparecido la revisión y su fecha en el cuadro de texto.
 
-13. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir de el nombre en mayúsculas de la tabla a exportar ${TABLENAME}```(TABLENAME)``` y de la revisión seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME).
+13. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir de el nombre en mayúsculas de la tabla a exportar ${TABLENAME}```(TABLENAME)``` y de la revisión seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME) (este nombre dependerá de en qué momento se creó la revisión).
 
 14. ${check} Pulse el botón "Exportar"
 
