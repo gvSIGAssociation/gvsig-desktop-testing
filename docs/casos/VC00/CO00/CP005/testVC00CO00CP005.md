@@ -85,7 +85,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 9. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la ${REVISION0}.
+10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la revisión ${REVISION0}.
 
 11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa"
 
@@ -95,7 +95,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 14. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-15. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la ${REVISION1}.
+15. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la revisión ${REVISION1}.
 
 16. ${check} Cierre la vista.
 
