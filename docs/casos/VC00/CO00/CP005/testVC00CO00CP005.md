@@ -71,7 +71,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    
 2. ${check} Cierre gvSIG.
 
-3. ${check} --- FIXME ---- Eliminar cualquier rastro de ${WCNAME2}
+3. ${check} **--- FIXME  Eliminar cualquier rastro de ${WCNAME2} ---**
 
 4. ${check} Abra gvSIG
 
