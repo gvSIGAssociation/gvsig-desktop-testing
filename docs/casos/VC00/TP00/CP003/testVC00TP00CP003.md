@@ -107,7 +107,7 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
 19. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-20. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+20. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "4/05/2021"
 
 21. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
 
