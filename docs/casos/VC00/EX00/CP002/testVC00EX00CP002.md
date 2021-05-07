@@ -60,9 +60,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 8. ${check} **REVISION1**=```3```. Segunda revisión a exportar
 
-8. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX```. Nombre de la primera tabla exportada
+[//]: # (9. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX```. Nombre de la primera tabla exportada)
 
-8. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX```. Nombre de la segunda tabla exportada
+[//]: # (10. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX```. Nombre de la segunda tabla exportada)
 
 ### Prerrequisitos
 
