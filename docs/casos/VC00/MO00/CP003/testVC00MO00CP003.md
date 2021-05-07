@@ -137,7 +137,7 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
 
 23. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-24. ${check} Minimice la aplicación gvSIG Desktop ```cliente````.
+24. ${check} Minimice la aplicación gvSIG Desktop ```cliente```.
 
 25. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
     registrar el modelo de datos las diferentes capas.
