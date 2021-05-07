@@ -63,7 +63,7 @@ Obtiene una copia local de una revisiónde una capa existente en
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-11. ${check} La casilla de verificación "Sobreescribir tabla" ${OVERWRITE} estará seleccionado.
+11. ${check} La casilla de verificación "Sobreescribir tabla" ${OVERWRITE} estará seleccionada.
 
 11. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
@@ -71,7 +71,7 @@ Obtiene una copia local de una revisiónde una capa existente en
 
 13. ${check} Pulse el botón "Aceptar"
 
-14. En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
+14. ${check} En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
 
 16. ${check} Pulse el botón "Obtener copia local (checkout)"
 
