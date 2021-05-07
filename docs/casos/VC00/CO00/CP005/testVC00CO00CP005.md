@@ -1,7 +1,7 @@
 ---
-title: Descargar capa a la copia de trabajo (repositorio remoto con autorización).
-proccode: VC00CO00CP002
-srcpath: "casos/VC00/CP000/testVC00CO00CP002.md"
+title: Obtener una revision concreta de una capa (repositorio remoto con autorización).
+proccode: VC00CO00CP005
+srcpath: "casos/VC00/CP005/testVC00CO00CP005.md"
 ---
 
 {% include es/header.md %}
