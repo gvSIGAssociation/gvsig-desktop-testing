@@ -14,7 +14,7 @@ srcpath: "casos/VC00/PROC/018/procVC00PROC018"
 
 {% include parameter.html name="REVISION" value="0" %}
 
-{% include parameter.html name="EXPORTTABLENAME" value="ESP_PROVINCIAS_R0_XXXXXXX_XXXXXX_XXX" %}
+{% include parameter.html name="EXPORTTABLENAME" value="ESP_PROVINCIAS_R${REVISION}_XXXXXXX_XXXXXX_XXX" %}
 
 ## {{ page.title }}
 
