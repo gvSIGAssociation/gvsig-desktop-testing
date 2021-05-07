@@ -16,4 +16,6 @@
 * [012 checkout de una revisión (sin autenticación)](012/procVC00PROC012.md).
 * [013 checkout de una revisión (con autorización)](013/procVC00PROC013.md).
 * [014 Añadir tabla a una copia de trabajo asociada a un repositorio local en H2](014/procVC00PROC014.md).
+* [015 Exportar una capa a una fecha concreta con autenticación](015/procVC00PROC015.md).
+* [016 Exportar una capa a una fecha concreta sin autenticación](016/procVC00PROC016.md).
  
