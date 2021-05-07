@@ -71,7 +71,7 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop
 1. ${InputUnknownOkError} [VC00TP00CP003 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 1. ${InputUnknownOkError} [VC00CO00CP005 Obtener una revision concreta de una capa](../CO00/CP005/testVC00CO00CP005.md).
 1. ${InputUnknownOkError} [VC00EX00CP016 Exportar una capa a una fecha dada].
-1. ${InputUnknownOkError} [VC00EX00CP005 Exportar una capa a una revision dada](../CO00/CP005/testVC00EX00CP005.md).
+1. ${InputUnknownOkError} [VC00EX00CP005 Exportar una capa a una revision dada](../EX00/CP005/testVC00EX00CP005.md).
 1. ${InputUnknownOkError} Importar historial.
 1. ${InputUnknownOkError} [VC00MO00CP003 Definir y descargar un modelo de datos](../MO00/CP003/testVC00MO00CP003.md).
 
