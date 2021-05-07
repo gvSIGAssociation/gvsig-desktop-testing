@@ -3,7 +3,6 @@ title: Obtención de una revisión de una tabla desde repositorio sin autenticac
 proccode: procVC00PROC005
 srcpath: "casos/VC00/PROC/012/procVC00PROC012"
 ---
---- *FIXME* --- 
 
 {% include es/header.md %}
 
@@ -13,11 +12,13 @@ srcpath: "casos/VC00/PROC/012/procVC00PROC012"
 
 {% include parameter.html name="REVISION" value="revision" %}
 
+{% include parameter.html name="OVERWRITE" value="no" %}
+
 ## {{ page.title }}
 
 ### Descripción
 
-Obtiene una copia local de una capa existente en 
+Obtiene una copia local de una revisiónde una capa existente en 
 
 ### Datos de entrada
 
@@ -45,19 +46,21 @@ Obtiene una copia local de una capa existente en
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-7. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
+7. ${check} La casilla de verificación "Sobreescribir tabla" ${OVERWRITE} estará seleccionado.
 
-8. ${check} Selecciones la revisión ```${REVISION}```(REVISION)
+11. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
-9. ${check} Pulse el botón "Aceptar"
+12. ${check} Seleccione la revisión ```${REVISION}```(REVISION)
 
-10. En el cuadro de texto "Rvisión" habrá aparecido el número de revisión seguido de su fecha.
+13. ${check} Pulse el botón "Aceptar"
 
-11. ${check} Pulse el botón "Obtener copia local (checkout)"
+14. En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
+
+16. ${check} Pulse el botón "Obtener copia local (checkout)"
 
 12. ${check} El cuadro de diálogo habrá mostrado el proceso de descarga en su barra de estado.
 
-13. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME) en el estado en que estaba en la revisión seleccionada.
+14. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME) en el estado en que estaba en la revisión seleccionada.
 
 ### Resultado esperado
 
