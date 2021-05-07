@@ -1,7 +1,7 @@
 ---
 title: Exportar una revision concreta de una capa (repositorio remoto con autorización).
 proccode: VC00EX00CP002
-srcpath: "casos/VC00/CP002/testVC00CO00CP002.md"
+srcpath: "casos/VC00/EX00/CP002/testVC00EX00CP002.md"
 ---
 
 **--- EN CONSTRUCCIÓN ---**
