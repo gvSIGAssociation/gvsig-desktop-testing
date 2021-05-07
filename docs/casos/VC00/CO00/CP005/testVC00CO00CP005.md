@@ -87,9 +87,11 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la revisión ${REVISION0}.
 
-11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa"
+11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa".
 
-12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
+12. Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
+
+12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
 13. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio](../../PROC/012/procVC00PROC012.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&OVERWRITE=sí)
 
@@ -99,7 +101,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 16. ${check} Cierre la vista.
 
-17. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
+17. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto".
 
 ### Resultado esperado
 
