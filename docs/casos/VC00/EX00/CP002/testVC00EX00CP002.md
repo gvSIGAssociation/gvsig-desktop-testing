@@ -103,7 +103,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
-13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/016/procVC00PROC016.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
+13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/018/procVC00PROC018.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
 14. ${check} Cierre el cuadro de diálogo "Exportar".
 
