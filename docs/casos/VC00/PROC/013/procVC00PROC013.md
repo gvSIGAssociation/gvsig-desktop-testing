@@ -63,7 +63,7 @@ Obtiene una copia local de una capa existente en
 
 11. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
-12. ${check} Selecciones la revisión ```${REVISION}```(REVISION)
+12. ${check} Seleccione la revisión ```${REVISION}```(REVISION)
 
 13. ${check} Pulse el botón "Aceptar"
 
