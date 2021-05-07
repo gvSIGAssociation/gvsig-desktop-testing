@@ -99,7 +99,7 @@ Este proceso carga un plan topológico en el repositorio.
     la cual presenta la ventana de título "Añadir a la copia de trabajo".
 
 13. ${check} Siga los pasos de 
-    [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
+    [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
 
 14. ${check} Debera haber aparecido en la vista una capa 
     ```${TABLE2_NAME}```(${TABLE2_LINK}) con el identificativo de una capa de base de datos H2.
