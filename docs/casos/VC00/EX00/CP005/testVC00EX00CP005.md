@@ -24,9 +24,9 @@ srcpath: "casos/VC00/EX00/CP005/testVC00EX00CP005.md"
 
 {% include parameter.html name="DATE1" value="5/5/21" %}
 
-[//]: # ({% include parameter.html name="EXPORTTABLENAME0" value="ESP_PROVINCIAS_20210503_000000_0" %})
+{% include parameter.html name="EXPORTTABLENAME0" value="ESP_PROVINCIAS_20210503_000000_0" %}
 
-[//]: # ({% include parameter.html name="EXPORTTABLENAME1" value="ESP_PROVINCIAS_20210505_000000_0" %})
+{% include parameter.html name="EXPORTTABLENAME1" value="ESP_PROVINCIAS_20210505_000000_0" %}
 
 
 ## {{ page.title }}
@@ -61,9 +61,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 8. ${check} **DATE1**=```5/5/21```. Segunda fecha a exportar
 
-8. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_20210503_000000_0```. Nombre de la primera tabla exportada
+[//]: # (9. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_20210503_000000_0```. Nombre de la primera tabla exportada)
 
-8. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_20210505_000000_0```. Nombre de la segunda tabla exportada
+[//]: # (10. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_20210505_000000_0```. Nombre de la segunda tabla exportada)
 
 ### Prerrequisitos
 
