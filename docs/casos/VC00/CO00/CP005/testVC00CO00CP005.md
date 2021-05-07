@@ -47,26 +47,28 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 6. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
+7. ${check} **REVISION0**=```${REVISION0}```. Primera revisión a descargar
+
+8. ${check} **REVISION1**=```${REVISION1}```. Segunda revisión a descargar
+
 ### Prerrequisitos
 
 1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El caso de prueba [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md),
+3. ${check} El caso de prueba [VC00TP00CP003, "Subir cambios en una capa con un plan topológico (que sí pasen el plan)"](../../TP00/CP003/testVC00TP00CP003.md),
    ha pasado sin errores. 
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas 
-   [VC00SY00CP001, "Commitar una capa nueva (con autorización)"](../../SY00/CP001/testVC00SY00CP001.md), 
+   [VC00TP00CP003, "Subir cambios en una capa con un plan topológico (que sí pasen el plan)"](../../TP00/CP003/testVC00TP00CP003.md), 
    continúe con el siguiente paso, si no, ejecútelo antes de continuar. 
    
 2. ${check} Cierre gvSIG.
 
-3. ${check} Compruebe que no exista el fichero:
-   * ```${TMPFOLDER}/${WCNAME2}.mv.db``` (*TMPFOLDER*/*WCNAME2*.mv.db).
-   En caso de que exista elimínelo.
+3. ${check} --- FIXME ---- Eliminar cualquier rastro de ${WCNAME2}
 
 4. ${check} Abra gvSIG
 
@@ -76,15 +78,25 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
 
-8. ${check} Siga los pasos de [Obtención de una copia local (checkout) desde repositorio con autenticación](../../PROC/006/procVC00PROC006.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD})
+8. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio con autenticación](../../PROC/013/procVC00PROC013.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&OVERWRITE=no)
 
 9. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
+10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la ${REVISION0}.
 
-11. ${check} Cierre la vista.
+11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa"
 
-12. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
+12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
+
+13. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio con autenticación](../../PROC/013/procVC00PROC013.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&OVERWRITE=sí)
+
+14. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+
+15. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la ${REVISION1}.
+
+16. ${check} Cierre la vista.
+
+17. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
 
 ### Resultado esperado
 
