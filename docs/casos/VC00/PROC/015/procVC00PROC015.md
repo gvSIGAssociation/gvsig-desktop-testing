@@ -71,7 +71,7 @@ Exportar una capa en el estado en que estuviese en una fecha concreta
 
 13. ${check} Pulse en el botón de selección de fecha e introduzca la fecha ```${DATE}```(DATE)
 
-14. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir de el nombre de la tabla a exportar ${TABLENAME}```(TABLENAME)``` y la fecha seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME).
+14. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir de el nombre de la tabla a exportar y la fecha seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME).
 
 15. ${check} Pulse el botón "Exportar"
 
