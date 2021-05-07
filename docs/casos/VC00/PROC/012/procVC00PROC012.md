@@ -48,17 +48,17 @@ Obtiene una copia local de una revisiónde una capa existente en
 
 7. ${check} La casilla de verificación "Sobreescribir tabla" ${OVERWRITE} estará seleccionado.
 
-11. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
+8. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
-12. ${check} Seleccione la revisión ```${REVISION}```(REVISION)
+9. ${check} Seleccione la revisión ```${REVISION}```(REVISION)
 
-13. ${check} Pulse el botón "Aceptar"
+10. ${check} Pulse el botón "Aceptar"
 
-14. En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
+11. ${check} En el cuadro de texto "Revisión" habrá aparecido el número de revisión seguido de su fecha.
 
-16. ${check} Pulse el botón "Obtener copia local (checkout)"
+12. ${check} Pulse el botón "Obtener copia local (checkout)"
 
-12. ${check} El cuadro de diálogo habrá mostrado el proceso de descarga en su barra de estado.
+13. ${check} El cuadro de diálogo habrá mostrado el proceso de descarga en su barra de estado.
 
 14. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME) en el estado en que estaba en la revisión seleccionada.
 
