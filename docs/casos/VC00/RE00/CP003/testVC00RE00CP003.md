@@ -16,7 +16,7 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo3" %}
 
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
