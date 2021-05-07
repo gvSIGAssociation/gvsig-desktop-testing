@@ -81,10 +81,10 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
     [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
 
 18. ${check} Vamos a dar de alta el usuario "pedro" con todos los permisos excepto el de "commit". Siga los pasos de 
-    [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=pedro&PASSWORD=pedro1&OPERATIONS=add,entities,update,checkout,history,topologyplan,users)
+    [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=pedro&PASSWORD=pedro1&OPERATIONS=add,entities,update,checkout,history,topologyplans,users)
 
 19. ${check} Vamos a dar de alta el usuario "sara" con todos los permisos. Siga los pasos de 
-    [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=sara&PASSWORD=sara1&OPERATIONS=add,entities,commit,update,checkout,history,topologyplan,users)
+    [Alta de un usuario](../../PROC/010/procVC00PROC010.html?NAME=sara&PASSWORD=sara1&OPERATIONS=add,entities,commit,update,checkout,history,topologyplans,users)
 
 20. ${check} Cierre la tabla ```${USERSTABLENAME}```.
 
