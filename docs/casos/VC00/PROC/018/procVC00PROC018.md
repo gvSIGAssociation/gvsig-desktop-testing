@@ -64,7 +64,7 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 12. ${check} Se habrá cerrado el selector de revisiones. Habrá aparecido la revisión y su fecha en el cuadro de texto.
 
-13. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir de el nombre en mayúsculas de la tabla a exportar ${TABLENAME}```(TABLENAME)``` y de la revisión seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME) (este nombre dependerá de en qué momento se creó la revisión).
+13. ${check} En el cuadro de texto "Nombre de la tabla" aparecerá un nombre propuesto calculado a partir del nombre en mayúsculas de la tabla a exportar y de la revisión seleccionada ```${EXPORTTABLENAME}```(EXPORTTABLENAME) (este nombre dependerá de en qué momento se creó la revisión).
 
 14. ${check} Pulse el botón "Exportar"
 
