@@ -4,8 +4,6 @@ proccode: procVC00PROC015
 srcpath: "casos/VC00/PROC/015/procVC00PROC015"
 ---
 
-**--- EN CONSTRUCCIÓN ---**
-
 {% include es/header.md %}
 
 {% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
