@@ -14,9 +14,11 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 
 ### Datos de entrada
 
-1. ${check} **PATHNAME**=```${PATHNAME}```. Ruta completa en la que crear la base de datos H2.
+1. ${check} **PATHNAME**=```${PATH}```. Ruta completa en la que crear la base de datos H2.
 
-2. ${check} **NAME**=```${NAME}```. Nombre de la conexion a crear.
+2. ${check} **PATHNAME**=```${FILENAME}```. Nombre del fichero (sin ruta) a utilizar para crear la base de datos H2.
+
+3. ${check} **NAME**=```${NAME}```. Nombre de la conexion a crear.
 
 ### Pasos
 
@@ -35,7 +37,8 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 5. ${check} Indicaremos como conector el de H2. Para ello seleccionaremos el valor "H2Spatial" en el desplegable 
    del campo "Conector".
 
-6. ${check} Pulsaremos en el boton asociado al campo 'Fichero' y en el dialogo de seleccion de fichero que aparecera
+6. ${check} Pulsaremos en el boton asociado al campo 'Fichero' y en el dialogo de seleccion de fichero que aparecera 
+   navegue hasta el directorio ${PATYH] (PATH) e introduzca "RepositorioAuth
    introduciremos en el campo "Nombre de archivo" el valor ```${PATHNAME}``` (PATHNAME) y pulsaremos 
    en el boton "Abrir" de ese dialogo.
 
