@@ -63,7 +63,7 @@ Obtiene una copia local de una capa existente en
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-11. ${check} La casilla de verificación "Sobreescribir tabla" estará ${OVERWRITE} seleccionado.
+11. ${check} La casilla de verificación "Sobreescribir tabla" ${OVERWRITE} estará seleccionado.
 
 11. ${check} Pulse el botón de seleccionar revisión. Se mostrará un diálogo de selección de revisiones de la tabla.
 
