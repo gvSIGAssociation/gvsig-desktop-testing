@@ -58,7 +58,7 @@ repositorio ```${ENTITIE}``` (ENTITIE).
 5. ${check} Seleccione del despeglable anterior la opción "Show form". 
 
 6. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
-   de planes topológicos.
+   de entidades del repositorio.
 
 7. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
    etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
