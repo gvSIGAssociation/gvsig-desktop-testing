@@ -1,5 +1,5 @@
 ---
-title: Exportar una revisión concreta de una con autenticación
+title: Exportar una revisión concreta de una capa con autenticación
 proccode: procVC00PROC017
 srcpath: "casos/VC00/PROC/017/procVC00PROC017"
 ---
@@ -22,7 +22,7 @@ srcpath: "casos/VC00/PROC/017/procVC00PROC017"
 
 ### Descripción
 
-Exportar una capa en el estado en que estuviese en una fecha concreta
+Exportar una capa en el estado en que estuviese en una revisión concreta
 
 ### Datos de entrada
 
