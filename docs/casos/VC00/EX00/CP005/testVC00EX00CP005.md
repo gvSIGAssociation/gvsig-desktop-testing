@@ -92,7 +92,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
 
-8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/017/procVC00PROC015.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
+8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/015/procVC00PROC015.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
 
 9. ${check} Cierre el cuadro de diálogo "Exportar".
 
