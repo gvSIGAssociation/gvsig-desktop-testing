@@ -56,6 +56,10 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 8. ${check} **REVISION1**=```3```. Segunda revisión a exportar
 
+8. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX```. Nombre de la primera tabla exportada
+
+8. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX```. Nombre de la segunda tabla exportada
+
 ### Prerrequisitos
 
 1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
@@ -83,11 +87,11 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
 
-8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/017/procVC00PROC017.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&EXPORTTABLENAME=)
+8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/017/procVC00PROC017.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
 
 9. ${check} Cierre el cuadro de diálogo "Exportar".
 
-10. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la revisión ${REVISION0}.
+10. ${check} En la vista se habrá añadido la capa ```${EXPORTTABLENAME0}```(EXPORTTABLENAME0) en el estado de la revisión ${REVISION0}.
 
 11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa".
 
@@ -95,11 +99,11 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
-13. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio](../../PROC/012/procVC00PROC012.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=)
+13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/016/procVC00PROC016.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
-14. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+14. ${check} Cierre el cuadro de diálogo "Exportar".
 
-15. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME) en el estado de la revisión ${REVISION1}.
+15. ${check} En la vista se habrá añadido la capa ```${EXPORTTABLENAME1}```(EXPORTTABLENAME1) en el estado de la revisión ${REVISION1}.
 
 16. ${check} Cierre la vista.
 
