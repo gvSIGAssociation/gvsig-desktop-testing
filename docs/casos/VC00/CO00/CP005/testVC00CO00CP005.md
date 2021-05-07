@@ -78,7 +78,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
 
-8. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio con autenticación](../../PROC/013/procVC00PROC013.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&OVERWRITE=no)
+8. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio](../../PROC/013/procVC00PROC013.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&OVERWRITE=no)
 
 9. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
@@ -88,7 +88,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos presentara la ventana de titulo "Obtener copia local (checkout)".
 
-13. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio con autenticación](../../PROC/013/procVC00PROC013.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&OVERWRITE=sí)
+13. ${check} Siga los pasos de [Obtención de una revisión de una capa desde repositorio](../../PROC/012/procVC00PROC012.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&OVERWRITE=sí)
 
 14. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
