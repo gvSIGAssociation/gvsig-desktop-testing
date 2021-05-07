@@ -18,6 +18,9 @@ srcpath: "casos/VC00/CP005/testVC00CO00CP005.md"
 
 {% include parameter.html name="PASSWORD" value="sara1" %}
 
+{% include parameter.html name="REVISION0" value="0" %}
+
+{% include parameter.html name="REVISION1" value="3" %}
 
 ## {{ page.title }}
 
