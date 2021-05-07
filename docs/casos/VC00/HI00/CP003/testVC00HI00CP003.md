@@ -123,7 +123,7 @@ Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia d
 
 18. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
-19. ${check} Debera aparecer en el valor del campo "nombre" ```${TABLE}``` (TABLE).
+19. ${check} Debera aparecer en el valor del campo "nombre" ```${TABLE_NAME}``` (TABLE_NAME).
 
 20. ${check} En el desplegable del  campo "Campo para etiqueta" introduzca 
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
