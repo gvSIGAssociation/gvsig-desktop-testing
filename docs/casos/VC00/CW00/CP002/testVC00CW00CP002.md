@@ -46,7 +46,7 @@ a la copia de trabajo.
 1. ${check} Seguiremos los pasos indicados en el caso de prueba:
    * [VC00CR00CP002 Iniciar un servidor VCSGis](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
 
-2. Una vez iniciado el ´´´Servidor´´´ pasaremos a iniciar un gvSIG edsktop para usarlo como ´´´Cliente´´´.  Antes comprobaremos 
+2. Una vez iniciado el ```Servidor``` pasaremos a iniciar un gvSIG Desktop para usarlo como ```Cliente```.  Antes comprobaremos 
     que no exista el fichero:
     * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    
