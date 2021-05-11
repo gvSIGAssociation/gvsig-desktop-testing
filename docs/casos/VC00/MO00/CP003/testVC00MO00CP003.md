@@ -95,7 +95,7 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
 
 6. ${check} Marque la opción "Tabla".
 
-7. ${check} Pulse el botón "Nuevo". Solo tiene que estas ese habilitado.
+7. ${check} Pulse el botón "Nuevo". Solo tiene que estar ese habilitado.
 
 8. ${check} Como resultado de lo anterior se muestra una ventana de diálogo titulada "Nueva Tabla". 
 
@@ -208,7 +208,7 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
 
 54. ${check} Pulse el botón "Conectar a modelo de datos".
 
-55. ${check} Tras la carga del modelo, pulse el botón "Cerrar". Una vez ejecutado lo anterior la copiad e trabajo ```${WCNAME2}``` (WCNAME2) disponede los elementos
+55. ${check} Tras la carga del modelo, pulse el botón "Cerrar". Una vez ejecutado lo anterior la copia de trabajo ```${WCNAME2}``` (WCNAME2) disponede los elementos
     que conforman el modelo de datos ```${MODEL}``` (MODEL).
 
 56. ${check} La vista "Sin título" se queda activa y vacía.
