@@ -10,56 +10,47 @@ srcpath: "casos/VC00/PROC/010/procVC00PROC010.md"
 
 ### Descripción
 
-Este proceso registra en la tabla de usuarios un nuevo usuario, ```${NAME}```, además de su contraseña, ```${PASSWORD}```,
-y las operaciones que puede realizar sobre los datos, ```${OPERATIONS}```.
+Este proceso registra en la tabla de usuarios un nuevo usuario. Le indicaremos su nombre, clave y las operaciones
+que tendrá pemitidas realizar.
 
 ### Datos de entrada
 
-1. ${check} **NAME**=```${NAME}```. Nombre del nuevo usuario a registrar.
+1. ${check} **NAME**=```${NAME}```. Nombre del nuevo usuario.
 
-2. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña del nuevo usuario a registrar.
+2. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña del nuevo usuario.
 
 3. ${check} **OPERATIONS**=```${OPERATIONS}```. Operaciones que puede realizar el nuevo usuario sobre la base de datos.
 
 
 ### Pasos
 
-1. ${check} Una vez abierta la tabla y estando esta activa se procede a añadir en esta un nuevo registro o usuario. Para ello 
-    seleccione "Tabla" en el menú de gvSIG Desktop.
+1. ${check} Para iniciarse este proceso debera estar abierta la tabla de usuarios del repositorio.
 
-2. ${check} Seleccione del despeglable anterior la opción "Show form". 
+2. ${check} Seleccione la opción de menú "Tabla/Show form". 
 
-3. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla de variables.
+3. ${check} Se mostrará una ventana con el formulario asociado a la tabla de variables.
 
-4. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
+4. ${check} Para dar de alta un registro hay que iniciar la edición. Pulse el icono con la
    etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-   encuentra en la zona media de estos.
+   encuentra en la zona media de estos. Al hacerlo se habilitaran otros iconos.
 
-5. ${check} La acción anterior habilita una serie de iconos.
+6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
+    sin datos.
 
-6. ${check} Pulse el icono con la etiqueta "Nuevo" recientemente habilitado.
+8. ${check} Indroduzca el nombre del usuario, ```${NAME}```, en el campo "Identifier".
 
-7. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
-    sin datos a la espera de la nueva información.
+9. ${check} Indroduzca la clave del usuario, ```${PASSWORD}```, en el campo "Contraseña".
 
-8. ${check} Indroduce el nombre del nuevo usuario, ```${NAME}```, en el campo correspondiente, "Identifier".
+10. ${check} Indroduzca las operaciones permitidas del usuario, ```${OPERATIONS}```,
+    en el campo  "Allowed operations".
 
-9. ${check} Indroduce la contraseña del nuevo usuario, ```${PASSWORD}```, en el campo correspondiente, "Contraseña".
+10. ${check} Pulse el icono con la etiqueta "Guardar".
 
-10. ${check} Indroduce las operaciones permitidas del nuevo usuario, ```${OPERATIONS}```,
-    en el campo correspondiente, Allowed operatios.
+11. ${check} Pulse el icono con la etiqueta "Terminar edición". 
 
-11. ${check} Pulse el icono con la etiqueta "Guardar".
+12. ${check} Se presentrara una ventana, pulse en la opción "Guardar".
 
-12. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar la edición pulse 
-    el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
-
-13. ${check} Como consecuencia de lo anterior se despliega una ventana, pulse en la opción "Guardar".
-
-14. ${check} Cierre el formulario.
-
-15. ${check} Cierre la tabla en cuestión
-
+13. ${check} Cierre el formulario.
 
 ### Resultado esperado
 

@@ -35,9 +35,10 @@ para acceder al repositorio.
 
 ### Prerrequisitos
 
-1. Un gvSIG desktop instalado y funcional para ser usado como ```Servidor``` de la versión indicada
+1. ${check} Un gvSIG desktop instalado y funcional para ser usado como ```Servidor``` de la versión indicada
    en el plan de pruebas.
-3. El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} El complemento de VCSGis debe estar instalado y activo.
 
 ### Pasos
 
@@ -66,12 +67,14 @@ para acceder al repositorio.
 9. ${check} En el cuadro de texto "Mensajes" habrá aparecido algo como:
    ```
    2021-05-04 09:23:50.839 - Creating server...
-   2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:/home/jjdelcerro/dbs/test1;MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...
+   2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:${TMPFOLDER}/${REPONAME};MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...
 
    ```
    
    Pueden cambiar las fechas y las rutas que aparezcan.
-   
+
+10.  Iconice la ventana de la aplicacion gvSIG desktop usada como ```Servidor```.
+
 ### Resultado esperado
 
 {% include es/expectedresult.md %}

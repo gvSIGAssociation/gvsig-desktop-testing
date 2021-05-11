@@ -8,21 +8,27 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include es/header.md %}
 
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
+
 {% include parameter.html name="TABLE_NAME" value="esp_provincias" %}
 
 {% include parameter.html name="TABLE_LINK" value="<a href='../../data/esp_provincias.csv'>ESP_PROVINCIAS</a>" %}
 
-{% include parameter.html name="CATEGORY" value="Cartografia base" %}
+{% include parameter.html name="RESOURCES_TABLE_NAME" value="RES_CARTOGRAFIA_BASE" %}
 
-{% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
+{% include parameter.html name="RESOURCES_CATEGORY" value="Cartografia base" %}
+
+
+
+
 
 {% include parameter.html name="WCNAME2" value="CopiaDeTrabajo3" %}
 
 {% include parameter.html name="REPONAME" value="Repositorio" %}
 
-{% include parameter.html name="LEYENDA_NAME" value="esp_provincias.gvsleg" %}
+{% include parameter.html name="LEGEND_NAME" value="esp_provincias.gvsleg" %}
 
-{% include parameter.html name="LEYENDA_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS.GVSLEG</a>" %}
+{% include parameter.html name="LEGEND_LINK" value="<a href='../../data/esp_provincias.gvsleg'>ESP_PROVINCIAS.GVSLEG</a>" %}
 
 {% include parameter.html name="USER" value="sara" %}
 
@@ -37,8 +43,8 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 ### Descripción
 
-Este proceso carga la leyenda ```${LEYENDA_NAME}``` (${LEYENDA_LINK}) como recurso en el 
-repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}``` (${TABLE_LINK}).
+Este proceso crea una tabla de recursos, la sube al repositorio y la asocia como tabla de recursos 
+de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la capa.
 
 ### Datos de entrada
 
@@ -47,12 +53,10 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 2. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Capa a usar en este test. 
 
-3. ${check} Archivo con leyenda predefinida: ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). 
-   Leyenda predefinida para la capa ```${TABLE_NAME}``` (${TABLE_LINK}). 
+3. ${check} Archivo con leyenda  ```${LEGEND_NAME}``` (${LEGEND_LINK}) a usar como la keyenda por defecto
+   para la capa ```${TABLE_NAME}``` (${TABLE_LINK}). 
 
-4. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
-
-5. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el 
+5. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo sobre la que se realiza el 
    proceso de registrar el recurso.
 
 6. ${check} **WCNAME2**=```${WCNAME2}```. Nombre de la copia de trabajo sobre la que se realiza el checkout 
@@ -74,84 +78,70 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
 3. ${check} El caso de prueba 
-   [VC00SY00CP002, "Commitar una capa nueva (repositorio remoto en H2 con autorización)"](../../SY00/CP002/testVC00SY00CP002.md),
+   [VC00SY00CP002, "Commitar una capa nueva"](../../SY00/CP002/testVC00SY00CP002.md),
    ha pasado sin errores.
    
 ### Pasos
 
-1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00SY00CP002,
-    "Commitar una capa nueva (repositorio remoto en H2 con autorización)"
-    y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
-    
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` puesto que en primer lugar va a crear 
-   una tabla de recursos que posteriormente va a rellenar con la leyenda de la capa. Tras esto va a hacer commit 
-   de dicha información al repositorio.
+1. ${check} Si acaba de ejecutar el caso de pruebas 
+   [VC00SY00CP002 "commitar una capa nueva"](../../SY00/CP002/testVC00SY00CP002.md)
+    (hace menos de 1 hora) y aun tiene abierto gvSIG desktop  ```Servidor``` 
+    continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-3. ${check} Proceda a crear la tabla de recursos. Para ello pulse el menú "Herramientas".
-   
-4. ${check} Pulse la opción "VCSGis" del desplegable anterior.
+3. ${check} Active la aplicación gvSIG desktop  ```Cliente``` 
 
-5. ${check} Seleccione la opción "Administración".
-
-6. ${check} Pulse del desplegable la opción "Crear tabla de recursos".
+3. ${check} Vamos a crear la tabla de recursos. Seleccione la opción de menú "Herramientas/VCSGis/Administración/Crear tabla de recursos".
 
 7. ${check} Se presenta un cuadro de diálogo titulado "Crear tabla de recursos".
      
-8. ${check} En el campo "Copia de trabajo" seleccione ```${WCNAME}``` (WCNAME). Esta copia de trabajo tiene 
-   que disponer de la capa, ```${TABLE_NAME}``` (${TABLE_LINK}), a la cual se desea asignar el recurso.
+8. ${check} En el desplegable del campo "Copia de trabajo" seleccione la opción ```${WORKINGCOPY}``` (WORKINGCOPY). 
 
-9. ${check} En el campo "Nombre de tabla" especifique el nombre ```CBASE_RESOURCES```.
+9. ${check} En el campo "Nombre de tabla" especifique el nombre ```${RESOURCES_TABLE_NAME}```.
 
 10. ${check} Pulse el botón "Aceptar".
 
-11. ${check} Con la tabla de recursos ```CBASE_RESOURCES``` ya creada hay que introducir esta el fichero
-    ```${LEYENDA_NAME}``` (${LEYENDA_LINK}). Abra la tabla de recursos ```CBASE_RESOURCES```. Siga los pasos de 
-    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=$CBASE_RESOURCES)
+11. ${check} Vamos a guardar la leyenda en la tabla de recursos.  Siga los pasos de 
+    [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME})
 
 12. ${check} Una vez abierta la tabla y estando esta activa se procede a añadir en esta un nuevo registro. Para ello 
-    seleccione "Tabla" en el menú de gvSIG Desktop.
+    seleccione la opción de menú "Tabla/Show form". 
 
-13. ${check} Seleccione del despeglable anterior la opción "Show form". 
+14. ${check} Como resultado se abrira una ventana que muestra el formulario asociado a la tabla de recursos.
 
-14. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla de recursos.
+15. ${check} Iniciaremos edicón pulsando en el boton con la etiqueta "Comenzar edición". 
+    Los botones se muestran en la zona inferior de la ventana y el de comenzar edición se encuentra en la zona media de estos.
 
-15. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
-    etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-    encuentra en la zona media de estos.
+16. ${check} La acción anterior habilita una serie de botones. Pulse el boton con la etiqueta "Nuevo".
 
-16. ${check} La acción anterior habilita una serie de iconos.
+18. ${check} Se habilitaran los campos del formulario y se mostraran sin datos.
 
-17. ${check} Pulse el icono con la etiqueta "Nuevo" recientemente habilitado.
+19. ${check} Indroduzca el valor ```${LEGEND_NAME}``` (LEGEND_NAME) en el campo "Nombre".
 
-18. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
-    sin datos a la espera de la nueva información.
-
-19. ${check} Indroduce el nombre del nuevo recurso, ```${LEYENDA_NAME}``` en el campo correspondiente.
-
-20. ${check} Localiza el campo "Recurso" y de los dos iconos adyacentes a este pulse el que presenta una flecha
-    ascendente de color azul.
-
-    ![IconoSubirRecurso](iconoSubirRecurso.png)
+19. ${check} Pulse el boton de cargar datos asociado al campo "Recurso". Podra identificarlo por contener
+    una flecha hacia arriba ![IconoSubirRecurso](iconoSubirRecurso.png) .
 
 21. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
-    Seleccione el correspondiente a ```${LEYENDA_NAME}``` (${LEYENDA_LINK}).
-     
-22. ${check} Pulse en el boton "Abrir".
+    Seleccione el correspondiente a ```${LEGEND_NAME}``` (${LEGEND_LINK}).
+    y pulse en el boton "Abrir".
 
-23. ${check} De vuelta en el formulario de la tabla de recursos ```CBASE_RESOURCES``` el campo "Recursos" tiene
-    que estar relleno con el tamaño del archivo ```${LEYENDA_NAME}```.
+23. ${check} De vuelta en el formulario de la tabla de recursos el campo "Recurso" tiene
+    que estar relleno con el tamaño del archivo ```${LEGEND_NAME}```.
 
 24. ${check} Pulse el icono con la etiqueta "Guardar".
 
-25. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar 
-    la edición pulse el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
+25. ${check} Termine edicion pulsando en el boton con la "Terminar edición". 
+    Este se encuentra la zona media de los iconos.  Al hacerlo se le preguntara si desea
+    guardar los cambios, pulse en "aceptar".
 
 26. ${check} Cierre el formulario.
 
-27. ${check} Cierre la tabla en cuestión.
+27. ${check} Cierre la tabla ${RESOURCES_TABLE_NAME}.
 
-28. ${check} Añada la tabla de recursos ```CBASE_RESOURCES``` a la copia de trabajo. Siga los pasos de 
-    [Añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WCNAME=${WCNAME}&TABLE=CBASE_RESOURCE&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY})
+
+
+
+28. ============FIXME==========    ${check} Añada la tabla de recursos ```${RESOURCES_TABLE_NAME}``` a la copia de trabajo. Siga los pasos de 
+    [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WCNAME=${WCNAME}&TABLE=CBASE_RESOURCE&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY})
 
 29. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
 
@@ -179,7 +169,7 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 38. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-39. ${check} Minimice la aplicación gvSIG Desktop ```cliente````.
+39. ${check} Cierre la aplicación gvSIG Desktop ```cliente````.
 
 40. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
     registrar el recurso a la capa ```${TABLE_NAME}``` (${TABLE_LINK}).
@@ -217,23 +207,21 @@ repositorio ```${REPONAME}``` (REPONAME) y la asigna a la capa ```${TABLE_NAME}`
 
 53. ${check} Minimice la aplicación gvSIG Desktop ```servidor````.
 
-54. ${check} Active la aplicación gvSIG Desktop ```cliente```. A partir de ahora va a comprobar que la capa
-    ```${TABLE_NAME}``` (${TABLE_LINK}) dispone de la leyenda como recurso asociado. Para ello hay que realizar
-    un checkout de esta.
-
-55. ${check} Cierre la aplicación gvSIG Desktop ```cliente```.
-
-56. ${check} Compruebe que no exista el fichero:
-   * ```${TMPFOLDER}/${WCNAME2}.mv.db``` (*TMPFOLDER*/*WCNAME2*.mv.db).
+3. ${check} Compruebe que no exista el fichero:
+   * ```${TMPFOLDER}/${WORKINGCOPY2}.mv.db``` (TMPFOLDER/WORKINGCOPY2.mv.db).
    En caso de que exista elimínelo.
 
-57. ${check} Abra la aplicación gvSIG Desktop ```cliente```.
-
-58. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
-   [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
+4. ${check} Abra gvSIG desktop ```Cliente```.
 
 59. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
    de no ser asi cámbie la proyección de la vista.
+
+5. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY2}``` en caso de que existise.
+   Para ello siga los pasos indicados en 
+   [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY2})
+
+58. ${check} Inicialice una copia de trabajo. Siga los pasos de 
+   [Inicializacion de una copia de trabajo ](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY2})
 
 60. ${check} Seleccione la opción de menú "Herramientas"
 

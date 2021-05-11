@@ -14,31 +14,29 @@ Este proceso accede a la tabla llamada ```${TABLENAME}``` de la base de datos ``
 
 ### Datos de entrada
 
-1. ${check} **BBDD**=```${BBDD}```. Nombre de la base de datos.
+1. ${check} **CONNAME**=```${CONNAME}```. Nombre de la base de datos.
 
 2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla que se desea abrir.
 
 
 ### Pasos
-1. ${check} Para inicial el proceso acceda al menú "Mostrar".
+1. ${check} Seleccione la opción de menú "Mostrar/Gestor de proyecto".
 
-2. ${check} Seleccione del despeglable anterior la opción "Gestor de proyecto". 
+3. ${check} Se mostrara la ventana del gestor de proyecto, con ese mismo título.
 
-3. ${check} Cuando se inicia este procedimiento se debe ver la ventana del gestor de proyecto, con ese mismo título.
+4. ${check} Seleccione la opción "Tabla".
 
-4. ${check} Marque la opción "Tabla".
+5. ${check} Pulse el botón "Nuevo". 
 
-5. ${check} Pulse el botón "Nuevo". Solo tiene que estas ese habilitado.
-
-6. ${check} Como resultado de lo anterior se muestra una ventana de diálogo titulada "Nueva Tabla". 
+6. ${check} Se muestra una ventana de diálogo titulada "Nueva Tabla". 
 
 7. ${check} De las pestañas situadas en la zona superior de la ventana seleccione la opción "Base de datos".
 
 8. ${check} Tras lo anterior, el diálogo cambia permitiendo seleccionar conexiones a una base de datos.
    
-9. ${check} En el desplegable llamado "Conexión", seleccione la conexión ```${BBDD}```.
+9. ${check} En el desplegable "Conexión", seleccione la conexión ```${CONNAME}```.
    
-10. ${check} La acción anterior recarga uno de los cuadros inferiores con todas las tablas de la base de datos ```${BBDD}```.
+10. ${check} Se mostrarán las tablas de la base de datos ```${CONNAME}```.
 
 11. ${check} Seleccione y marque el "check" de la tabla ```${TABLENAME}```.
 

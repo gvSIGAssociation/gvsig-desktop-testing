@@ -39,12 +39,12 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 2. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexion a la base de datos. Este se situa
    adyacente al desplegable con las diferentes conexiones.
 
-3. ${check} Siga los pasos de [Crear una conexión a base de datos H2](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATHNAME=${TMPFOLDER}/${REPONAME}) 
+3. ${check} Siga los pasos de [Crear una conexión a base de datos H2](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATH=${TMPFOLDER}&FILENAME=${REPONAME}) 
 
 4. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
    pulse el botón "Inicializar repositorio". 
    
-5. ${check}Se cierra la ventana de inicialización del repositorio
+5. ${check}Se habrá cerrado la ventana de inicialización del repositorio
    y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
    
 6. ${check} Abra el explorador de archivos del sistema y compruebe que se ha creado el archivo 
@@ -59,8 +59,8 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
     No debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
 
 10. ${check} Siga los pasos de 
-    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${CONFIGTABLENAME})
-    para crear abrir la tabla de configuración del repositorio, ```${CONFIGTABLENAME}```.
+    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=${CONFIGTABLENAME})
+    para abrir la tabla de configuración del repositorio, ```${CONFIGTABLENAME}```.
 
 11. ${check} Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
@@ -73,7 +73,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 13. ${check} Cierre la ventana de la tabla ```${CONFIGTABLENAME}```.
 
 14. ${check} Siga los pasos de 
-    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=${USERSTABLENAME})
+    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=${USERSTABLENAME})
     Para abrir la tabla de usuarios del repositorio, ```${USERSTABLENAME}```. 
 
 15. ${check} Siga los pasos de 

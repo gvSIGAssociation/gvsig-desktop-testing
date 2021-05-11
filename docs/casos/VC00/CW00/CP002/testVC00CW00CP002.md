@@ -12,6 +12,8 @@ srcpath: "casos/VC00/CW00/CP002/testVC00CW00CP002.md"
 
 {% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
 
+{% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -33,23 +35,26 @@ a la copia de trabajo.
 ### Prerrequisitos
 
 1. Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+
 2. El complemento de VCSGis debe estar instalado y activo.
+
 3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba:
    * [VC00CR00CP002 Iniciar un servidor VCSGis contra un repositorio en una base de datos H2 (con autorización)](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
 
 ### Pasos
 
 1. ${check} Seguiremos los pasos indicados en el caso de prueba:
-   * [VC00CR00CP002 Iniciar un servidor VCSGis contra un repositorio en una base de datos H2 (con autorización)](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
+   * [VC00CR00CP002 Iniciar un servidor VCSGis](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
 
-3. ${check} Antes de iniciar gvSIG desktop comprobaremos que no existan los ficheros:
-   * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
+2. Una vez iniciado el ´´´Servidor´´´ pasaremos a iniciar un gvSIG edsktop para usarlo como ´´´Cliente´´´.  Antes comprobaremos 
+    que no exista el fichero:
+    * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    
-   En caso de que existan los eliminaremos.
+   En caso de que exista lo eliminaremos.
    
-2. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
+3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
 
-7. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo asociada a un repositorio remoto](../../PROC/008/procVC00PROC008.html?WCNAME=${WCNAME}) 
+4. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WCNAME=${WCNAME}) 
 
 ### Resultado esperado
 

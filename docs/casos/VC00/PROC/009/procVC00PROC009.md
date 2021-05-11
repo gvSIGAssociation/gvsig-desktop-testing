@@ -12,46 +12,39 @@ srcpath: "casos/VC00/PROC/009/procVC00PROC009.md"
 
 ### Descripción
 
-Este proceso registra en la tabla de variables una nueva entrada o variable, ```${VARIABLE}```,
-además de su valor correspondiente, ```${VALUE}```.
+Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 ### Datos de entrada
 
-1. ${check} **VARIABLE**=```${VARIABLE}```. Nombre de la nueva variable a registrar.
+1. ${check} **VARIABLE**=```${VARIABLE}```. Nombre de la nueva variable a dar ed alta.
 
 2. ${check} **VALUE**=```${VALUE}```. Valor de a nueva variable.
 
 
 ### Pasos
 
-1. ${check} Una vez abierta la tabla y estando esta activa se procede a añadir en esta un nuevo registro. Para ello 
-    seleccione "Tabla" en el menú de gvSIG Desktop.
+1. ${check} Para iniciar el proceso debará estar abierta la tabla de variables del repositorio.
 
-2. ${check} Seleccione del despeglable anterior la opción "Show form". 
+2. ${check} Seleccione la opción de menú "Tabla/Show form". 
 
-3. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla de variables.
+3. ${check} Se mostrará una ventana con el formulario asociado a la tabla de variables.
 
-4. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
+4. ${check} Para dar de alta un registro hay que iniciar la edición. Pulse el icono con la
    etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-   encuentra en la zona media de estos.
+   encuentra en la zona media de estos. Al hacerlo se habilitaran otros iconos.
 
-5. ${check} La acción anterior habilita una serie de iconos.
+6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
+    sin datos.
 
-6. ${check} Pulse el icono con la etiqueta "Nuevo" recientemente habilitado.
+8. ${check} Indroduzca el valor del nombre, ```${VARIABLE}``` en el campo "Nombre".
 
-7. ${check} Como consecuencia de lo anterior, algunos de los campos de la página actual del formulario se muestran
-    sin datos a la espera de la nueva información.
-
-8. ${check} Indroduce el nombre del nuevo registro, ```${VARIABLE}``` en el campo correspondiente.
-
-9. ${check} Indroduce el valor del nuevo registro, ```${VALUE}```, en el campo correspondiente.
+9. ${check} Indroduzca el valor, ```${VALUE}```, en el campo "Valor".
 
 10. ${check} Pulse el icono con la etiqueta "Guardar".
 
-11. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terinar la edición pulse 
-    el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
+11. ${check} Pulse el icono con la etiqueta "Terminar edición". 
 
-12. ${check} Como consecuencia de lo anterior se despliega una ventana, pulse en la opción "Guardar".
+12. ${check} Se presentrara una ventana, pulse en la opción "Guardar".
 
 13. ${check} Cierre el formulario.
 

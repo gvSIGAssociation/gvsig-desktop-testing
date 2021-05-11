@@ -16,7 +16,7 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
 
 1. ${check} **PATHNAME**=```${PATH}```. Ruta completa en la que crear la base de datos H2.
 
-2. ${check} **PATHNAME**=```${FILENAME}```. Nombre del fichero (sin ruta) a utilizar para crear la base de datos H2.
+2. ${check} **FILENAME**=```${FILENAME}```. Nombre del fichero (sin ruta) a utilizar para crear la base de datos H2.
 
 3. ${check} **NAME**=```${NAME}```. Nombre de la conexion a crear.
 
@@ -38,14 +38,13 @@ Crea una conexion a una base de datos H2, si la conexion ya existe se eliminara 
    del campo "Conector".
 
 6. ${check} Pulsaremos en el boton asociado al campo 'Fichero' y en el dialogo de seleccion de fichero que aparecera 
-   navegue hasta el directorio ${PATYH] (PATH) e introduzca "RepositorioAuth
-   introduciremos en el campo "Nombre de archivo" el valor ```${PATHNAME}``` (PATHNAME) y pulsaremos 
-   en el boton "Abrir" de ese dialogo.
+   navegue hasta el directorio ```${PATH}``` (PATH) e introduzca ```${FILENAME}``` en el campo "Nombre de archivo".
+   Una vez hecho esto pulsaremos   en el boton "Abrir" de ese dialogo.
 
-7. ${check} Se habra cerrado el dialogo de seleccion de fichero y deberemos estar de vuelta al dialgo de 
-   creacion de conexion a base de datos.
+7. ${check} Se habrá cerrado el dialogo de selección de fichero y deberemos estar de vuelta al dialgo de 
+   creación de conexión a base de datos.
 
-8. ${check} Pulsaremos el boton "Aceptar", que cerrara la ventana.
+8. ${check} Pulsaremos el botón "Aceptar", que cerrara la ventana.
    
 ### Resultado esperado
 

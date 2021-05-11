@@ -16,7 +16,7 @@ srcpath: "casos/VC00/AD00/CP002/testVC00AD00CP002.md"
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
-{% include parameter.html name="FIELDFORLABEL" value="COM_NAME" %}
+{% include parameter.html name="FIELDFORLABEL" value="PRO_NAME" %}
 
 {% include parameter.html name="CATEGORY" value="Cartografia base" %}
 
@@ -58,7 +58,8 @@ base de datos que se vayan a utilizar.
 
 ### Prerrequisitos
 
-1. ${check} Un gvSIG desktop instalado y funcional cuya version sea la indicada en el plan de pruebas.
+1. ${check} Un gvSIG desktop instalado y funcional para ser usado como ```Servidor``` de la versión indicada
+   en el plan de pruebas.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
@@ -67,53 +68,27 @@ base de datos que se vayan a utilizar.
 
 ### Pasos
 
-1. ${check} Antes de iniciar gvSIG desktop compruebe que no existan los ficheros:
-   * ```${TMPFOLDER}/${REPONAME}.mv.db``` (*TMPFOLDER*/*REPONAME*.mv.db).
-   * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
-   
-   En caso de que existan elimínelos.
-   
-2. ${check} Inicie gvSIG desktop.
+1. ${check} Si acaba de ejecutar el caso de pruebas 
+   [VC00CW00CP002, Inicializacion de una copia de trabajo](../../CW00/CP002/testVC00CW00CP002.md)
+   (hace menos de 1 hora) y no ha cerrado gvSIG, continúe con el paso 2. 
+   Si no, ejecútelo antes de continuar.
 
-3. ${check} Cerciórese de que la vista que se ha creado al arrancar gvSIG se encuentra 
-   en "EPSG:4326", de no ser así cambie la proyección de la vista.
+2. ${check} En este punto deberemos tener abierta la aplicacion gvSIG desktop ´´´Cliente´´´.
 
-4. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Administración/Inicializar repositorio" 
-   que presentara la ventana de título "Inicializar repositorio".
+3. ${check} Comprobaremos  que la vista que se ha creado al arrancar gvSIG se encuentra 
+   en "EPSG:4326", de no ser así cambie la proyección de la vista asignandole esta.
 
-5. ${check} Siga los pasos de [Inicializar un repositorio en H2 (con autorización)](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
+4. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" 
+   que mostrará la ventana de título "Añadir a la copia de trabajo".
 
-6. ${check} Siga los pasos de [Iniciar un servidor de repositorio](../../PROC/007/procVC00PROC007.html?TMPFOLDER=REPONAME=${REPONAME})
+5. ${check} Siga los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
 
-7. ${check} Seleccione la opción de menú 
-   "Herramientas/VCSGis/Inicializar copia de trabajo" que presentará la ventana de 
-   titulo "Inicializar copia de trabajo".
+6. ${check} Deberá haber aparecido en la vista una capa 
+   ```${TABLENAME}``` (${TABLELINK})
+   con el icono identificativo de una capa de base de datos H2.
 
-7. ${check} Siga los pasos de [Inicialización de una copia de trabajo asociada a un repositorio remoto en H2.](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME}) 
-   
-8. ${check} Cargue la capa ${TABLELINK} en la vista que se ha abierto por defecto en el proyecto. 
-Para ello abra el diálogo de añadir capa desde el menú vista, "Vista/Añadir capa".
-
-9. ${check} Seleccione la pestaña "Archivo" y pulse el botón de "Añadir".
-
-10. ${check} Se mostrará el cuadro de diálogo para seleccionar un fichero. 
-    Seleccione el correspondiente a ${TABLELINK} 
-    y pulse el boton "Abrir".
-
-11. ${check} De vuelta en el diálogo de "Añadir capa" pule el boton "Aceptar" 
-    para cargarla en la vista.
-
-12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" 
-    que mostrará la ventana de título "Añadir a la copia de trabajo".
-
-13. ${check} Siga los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
-
-14. ${check} Deberá haber aparecido en la vista una capa 
-    ```${TABLENAME}``` (${TABLELINK})
-    con el identificativo de una capa de base de datos H2.
-
-15. ${check} Elimine de la vista la capa ```${TABLENAME}``` cargada 
-    a partir del fichero ${TABLELINK}.
+7. ${check} Elimine de la vista la capa ```${TABLENAME}``` cargada 
+   a partir del fichero ${TABLELINK} (dejando la de H2).
 
 ### Resultado esperado
 
