@@ -28,7 +28,7 @@ para acceder al repositorio.
 
 ### Datos de entrada
 
-1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearan los archivos que se precisen 
+1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecución del caso de prueba. Deberemos tener permiso de escritura en ella.
 
 2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión a crear asociada al repositorio.
