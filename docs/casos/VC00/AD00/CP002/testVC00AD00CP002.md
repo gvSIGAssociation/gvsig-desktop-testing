@@ -73,7 +73,7 @@ base de datos que se vayan a utilizar.
    (hace menos de 1 hora) y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
 
-2. ${check} En este punto deberemos tener abierta la aplicacion gvSIG desktop ´´´Cliente´´´.
+2. ${check} En este punto deberemos tener abierta la aplicación gvSIG Desktop ```Cliente```.
 
 3. ${check} Comprobaremos  que la vista que se ha creado al arrancar gvSIG se encuentra 
    en "EPSG:4326", de no ser así cambie la proyección de la vista asignandole esta.
