@@ -50,9 +50,9 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
    (hace menos de 1 hora) y no ha cerrado gvSIG, continúe con el paso 2. 
    Si no, ejecútelo antes de continuar.
    
-2. ${check} Pulse en la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
+2. ${check} Pulse en la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
-3. ${check} Se habrá presentado la ventana de titulo  "VCSGis Cambios" que muestra los cambios entre el repositorio y la copia de trabajo.
+3. ${check} Se habrá presentado la ventana de título  "VCSGis Cambios" que muestra los cambios entre el repositorio y la copia de trabajo.
 
 4. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WCNAME).
 
