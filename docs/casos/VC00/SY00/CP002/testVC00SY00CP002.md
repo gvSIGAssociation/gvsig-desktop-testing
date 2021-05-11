@@ -54,7 +54,7 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 3. ${check} Se habrá presentado la ventana de titulo  "VCSGis Cambios" que muestra los cambios entre el repositorio y la copia de trabajo.
 
-4. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
+4. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WCNAME).
 
 5. ${check} Se habrá mostrado el contenido de la pestaña "Copia de trabajo" donde podrá apreciar, a la izquierda, 
    un selector en forma de árbol (selector de entidades) que contiene la categoría que le puso a la capa cuando la añadió y, 
