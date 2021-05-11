@@ -54,7 +54,7 @@ a la copia de trabajo.
    
 3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
 
-4. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WCNAME=${WCNAME}) 
+4. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WCNAME}) 
 
 ### Resultado esperado
 
