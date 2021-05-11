@@ -51,7 +51,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
    ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db) en el sistema de archivos.
 
 7. ${check} En la aplicación de gvSIG desktop seleccione la opción de menu "Archivo/Connect to database workspase" 
-   que mostrara una ventana de diálogo titulada "Connect".
+   que mostrará una ventana de diálogo titulada "Connect".
 
 8. ${check} En el desplegable "Conection" seleccione la conexión llamada ```${REPONAME}```.
 
