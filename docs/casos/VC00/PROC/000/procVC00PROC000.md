@@ -24,7 +24,7 @@ Crea una conexión a una base de datos H2, si la conexión ya existe se eliminar
 
 
 1. ${check} Al iniciarse este procedimiento debera estar abierta la venta de conexiones a base de datos, 
-   de titulo "Parámetros de conexion" y debera estar activa.
+   de título "Parámetros de conexión" y debera estar activa.
 
 2. ${check} Comprobaremos si existe la conexión ```${NAME}``` (NAME). Para ello miraremos si ya existe en el desplegable 
    del campo "Nombre de conexión" un valor con el nombre ```${NAME}``` (NAME).
