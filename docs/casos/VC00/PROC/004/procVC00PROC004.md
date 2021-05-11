@@ -64,7 +64,7 @@ En el proceso se creará la conexión a la base de datos que va a usarse para ac
 
 11. ${check} Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
-    para añadir un registro que active la autenticacion en el repositorio.
+    para añadir un registro que active la autenticación en el repositorio.
 
 12. ${check} Siga los pasos de 
     [Alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
