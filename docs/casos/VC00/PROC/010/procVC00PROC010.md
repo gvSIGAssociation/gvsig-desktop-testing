@@ -48,7 +48,7 @@ que tendrá pemitidas realizar.
 
 11. ${check} Pulse el icono con la etiqueta "Terminar edición". 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Guardar".
+12. ${check} Se presentrara una ventana, pulse en la opción "Si". Dicha opción termina edición y guarda los cambios.
 
 13. ${check} Cierre el formulario.
 
