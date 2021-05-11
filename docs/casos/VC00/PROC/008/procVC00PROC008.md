@@ -38,7 +38,7 @@ El servidor debera estar iniciado al ejecutar este procedimiento.
 
 5. ${check} Pulsaremos el boton asociado al campo "Fichero" y no aparecera el dialogo de seleccionar fichero.
    
-6. ${check} Navegaremos a la carpeta ´´`${TMPFOLDER}´´´ (TMPFOLDER), indicaremos como nombre 
+6. ${check} Navegaremos a la carpeta ```${TMPFOLDER}``` (TMPFOLDER), indicaremos como nombre 
    de fichero  ```${WORKINGCOPY}``` (WORKINGCOPY) y pulsaremos el boton "Abrir".
    Se cerrar el dialogo de seleccion de fichero y volveremos al dialogo de "Inicializar copia de trbajo".
    
