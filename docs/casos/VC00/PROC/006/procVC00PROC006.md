@@ -61,7 +61,7 @@ Obtiene una copia local de una capa existente en
 
 12. ${check} Se habrán deshabilitado todos los controles mencionados en el punto 9. 
 
-13. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla".
+13. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla", pero no estara seleccionada.
 
 14. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
 
