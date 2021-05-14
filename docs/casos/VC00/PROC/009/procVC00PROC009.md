@@ -16,7 +16,7 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 ### Datos de entrada
 
-1. ${check} **VARIABLE**=```${VARIABLE}```. Nombre de la nueva variable a dar ed alta.
+1. ${check} **VARIABLE**={% include var_tag.html var="VARIABLE" %}. Nombre de la nueva variable a dar ed alta.
 
 2. ${check} **VALUE**=```${VALUE}```. Valor de a nueva variable.
 
@@ -36,7 +36,7 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
     sin datos.
 
-8. ${check} Indroduzca el valor del nombre, ```${VARIABLE}``` en el campo "Nombre".
+8. ${check} Indroduzca el valor del nombre, ```${VARIABLE}``` en el campo "Nombre"  {% include var_copy.html var="VARIABLE"%}.
 
 9. ${check} Indroduzca el valor, ```${VALUE}```, en el campo "Valor".
 
