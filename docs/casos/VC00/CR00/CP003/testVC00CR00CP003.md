@@ -8,6 +8,18 @@ srcpath: "casos/VC00/CR00/CP003/testVC00CR00CP003.md"
 
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
+{% include parameter.html name="SERVER" value="127.0.0.1" %}
+
+{% include parameter.html name="PORT" value="1521" %}
+
+{% include parameter.html name="DATABASE" value="orcl" %}
+
+{% include parameter.html name="USER" value="P1" %}
+
+{% include parameter.html name="PASSWORD" value="oracle" %}
+
+{% include parameter.html name="MODE" value="Servicio" %}
+
 ## {{ page.title }}
 
 ### Descripción
@@ -26,7 +38,20 @@ para acceder al repositorio.
 
 ### Datos de entrada
 
-2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión a crear asociada al repositorio.
+1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión a crear asociada al repositorio.
+
+2. ${check} **SERVER**=```${SERVER}```. Direccion o nombre del servidor donde esta ejecutandose la instancia de Oracle.
+
+3. ${check} **PORT**=```${PORT}```. Puerto TCP en el que esta escuchando el servicio de Oracle.
+
+4. ${check} **DATABASE**=```${DATABASE}```. Nombre de la base de datos a la que nos vamos a conectar.
+
+5. ${check} **USER**=```${USER}```. Nombre del usuario de Oracle con el que nos vamos a conectar.
+
+6. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario.
+
+7. ${check} **MODE**=```${MODE}```. Mode de la conexion, debera ser "SID" o "Servicio".
+
 
 ### Prerrequisitos
 
@@ -65,7 +90,8 @@ para acceder al repositorio.
 5. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexion a la base de datos. Este se situa
    junto al desplegable con las diferentes conexiones.
 
-6. ${check} Siga los pasos de [crear una conexión a base de datos](../../PROC/000/procVC00PROC020.html?NAME=${REPONAME}&PATH=${TMPFOLDER}&FILENAME=${REPONAME}) 
+6. ${check} Siga los pasos de 
+   [crear una conexión a base de datos](../../PROC/000/procVC00PROC020.html?NAME=${REPONAME}&SERVER=${SERVER}&PORT=${PORT}&DATABASE=${DATABASE}&USER=${USER}&PASSWORD=${PASSWORD}&MODE=${MODE}) 
 
 7. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
    pulse el botón "Inicializar repositorio". 
