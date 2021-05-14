@@ -62,37 +62,36 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    [VC00SY00CP001 commitar una capa nueva](../../SY00/CP001/testVC00SY00CP001.md), 
    continúe con el siguiente paso, si no, ejecútelo antes de continuar. 
    
-2. ${check} Cierre gvSIG desktop ```Cliente```.
-
-3. ${check} Compruebe que no exista el fichero:
+2. ${check} Compruebe que no exista el fichero:
    * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
-   En caso de que exista elimínelo.
+   En caso de que exista debera:
+   * ${check} Cerrar gvSIG desktop ```Cliente```.
+   * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-4. ${check} Abra gvSIG desktop ```Cliente```.
-
-5. ${check} Eliminaremos el r5gistro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+3. ${check} Eliminaremos el r5gistro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
    Para ello siga los pasos indicados en 
-   [eEliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
+   [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
-6. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+4. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
 
-7. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
+5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
    menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
    [inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY})
 
-8. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos 
+6. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Obtener copia local (checkout)" que nos 
    presentara la ventana de titulo "Obtener copia local (checkout)".
 
-9. ${check} Siga los pasos de 
+7. ${check} Siga los pasos de 
    [obtención de una copia local (checkout) desde repositorio con autenticación](../../PROC/006/procVC00PROC006.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD})
 
-10. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+8. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-11. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
+9. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
 
-12. ${check} Cierre la vista.
+10. ${check} Cierre la vista.
 
-13. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
+11. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
 
 ### Resultado esperado
 
