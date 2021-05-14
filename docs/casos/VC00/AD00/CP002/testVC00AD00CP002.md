@@ -60,7 +60,7 @@ base de datos que se vayan a utilizar.
 4. ${check} **CATEGORY**=```${CATEGORY}```. Con la que vamos a añadir la tabla ```${TABLENAME}```
    a la copia local.
 
-5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${USER}``` a utilizar cuando se requiera autenticar al
+5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${PASSWORD}``` a utilizar cuando se requiera autenticar al
    usuario que esta realizando la opracion.
 
 ### Prerrequisitos
