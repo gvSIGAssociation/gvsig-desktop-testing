@@ -5,16 +5,6 @@ srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 ---
 
 {% include es/header.md %}
-<script>
-function clipboard_copy(id_elemento) {
-  var aux = document.createElement("input");
-  aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
-  document.body.appendChild(aux);
-  aux.select();
-  document.execCommand("copy");
-  document.body.removeChild(aux);
-}   
-</script>
 
 ## {{ page.title }}
 
@@ -27,7 +17,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
-1. ${check} **WORKINGCOPY test**=<code id="WORKINGCOPY" class="language-plaintext highlighter-rouge">${WORKINGCOPY}</code>. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**={% include var_tag.html var=WORKINGCOPY" %}. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
 2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo.
