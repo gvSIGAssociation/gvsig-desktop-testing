@@ -14,7 +14,7 @@ Crea una conexión a una base de datos de Oracle, si la conexión ya existe se e
 
 ### Datos de entrada
 
-1. ${check} **NAME**=```${NAME}```. Nombre de la conexion a crear.
+1. ${check} **NAME**={% include var_tag.html var="NAME" %}. Nombre de la conexion a crear.
 
 2. ${check} **SERVER**=```${SERVER}```. Direccion o nombre del servidor donde esta ejecutandose la instancia de Oracle.
 
@@ -46,7 +46,7 @@ si no coinciden.
 3. ${check} Si existe lo seleccionaremos y pulsaremos el botón inferior que dice "Mas...", seleccionando la
    opción "Eliminar" en el desplegable.
 
-4. ${check} Escribiremos el nombre ```${NAME}``` (NAME) en la caja de texto "Nombre de conexión".
+4. ${check} Introduciremos el nombre ```${NAME}``` (NAME) {% include var_copy.html var="NAME"%} en la caja de texto "Nombre de conexión".
 
 5. ${check} Indicaremos como conector "Oracle Server".
 
