@@ -55,7 +55,7 @@ para acceder al repositorio.
 4. ${check} Una vez iniciado seleccionaremos la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
    presenta la ventana de título "Inicializar repositorio".
 
-5. ${check} Seguiremos los pasos de [Inicializar un repositorio en H2](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
+5. ${check} Seguiremos los pasos de [inicializar repositorio](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
 
 6. ${check} Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
    una ventana de título "Servidor VCSGis".
