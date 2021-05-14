@@ -1,5 +1,5 @@
 ---
-title: Añadir capa a una copia de trabajo asociada a un repositorio local en H2
+title: Añadir capa a una copia de trabajo 
 proccode: VC00PROC003
 srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 ---
@@ -17,16 +17,19 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo ```${WCNAME}``` (WCNAME).
+2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo.
 
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la capa a añadir
    a usar en "Campo para etiqueta". 
 
 4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la capa al 
-   añadirla a la copia local. 
+   añadirla a la copia de trabajo. 
+
+5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${USER}``` a utilizar cuando se requiera autenticar al
+   usuario que esta realizando la opracion.
 
 ### Pasos
 
@@ -34,7 +37,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    trabajo de titulo "Añadir a la copia de trabajo" y debera estar activa.
 
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
-   entrada ```${WCNAME}``` (WCNAME). Si existe seleccionela. Si no existe
+   entrada ```${WORKINGCOPY}``` (WORKINGCOPY). Si existe seleccionela. Si no existe
    termine el procedimiento.
 
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
