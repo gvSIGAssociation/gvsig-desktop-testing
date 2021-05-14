@@ -47,7 +47,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 5. ${check} Pulse el boton "Aceptar" que cerrara la ventana y le devolvera el control a la ventana "Añadir a la copia de trabajo".
 
 6. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
-    la opción ```${LAYER}``` (LAYER). Si esta no existe termine el procedimiento.
+    la opción ```${LAYER}``` (LAYER). Si esta no existe aborte el caso de prueba.
 
 7. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
 
