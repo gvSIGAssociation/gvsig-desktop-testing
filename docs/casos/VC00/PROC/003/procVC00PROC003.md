@@ -28,7 +28,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la capa al 
    añadirla a la copia de trabajo. 
 
-5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${USER}``` a utilizar cuando se requiera autenticar al
+5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${PASSWORD}``` a utilizar cuando se requiera autenticar al
    usuario que esta realizando la opracion.
 
 ### Pasos
