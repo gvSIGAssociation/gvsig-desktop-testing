@@ -45,7 +45,7 @@ a la copia de trabajo.
 
 2. ${check} Una vez iniciado el ```Servidor``` pasaremos a iniciar un gvSIG Desktop para usarlo como ```Cliente```.  Antes comprobaremos 
    que no exista el fichero:
-   * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
+   * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    En caso de que exista lo eliminaremos.
    
 3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
