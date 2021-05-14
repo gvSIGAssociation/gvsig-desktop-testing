@@ -17,7 +17,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
-1. ${check} **WORKINGCOPY**={% include var_tag.html var="WORKINGCOPY" %}. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
 2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo.
@@ -25,7 +25,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la capa a añadir
    a usar en "Campo para etiqueta". 
 
-4. ${check} **CATEGORY**=<code id="CATEGORY" class="language-plaintext highlighter-rouge">${CATEGORY}</code>. Categoria a la que se asociara la capa al 
+4. ${check} **CATEGORY**={% include var_tag.html var="CATEGORY" %}. Categoria a la que se asociara la capa al 
    añadirla a la copia de trabajo. 
 
 5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${PASSWORD}``` a utilizar cuando se requiera autenticar al
@@ -59,7 +59,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
    Si esta no existe aborte el procedimiento.
 
-11. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY) <button onclick="clipboard_copy('CATEGORY')">Copiar</button>.
+11. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY) {% include var_copy.html var="CATEGORY"%}.
 
 12. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
