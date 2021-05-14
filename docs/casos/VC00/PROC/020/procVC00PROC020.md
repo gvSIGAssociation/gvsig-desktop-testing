@@ -1,6 +1,6 @@
 ---
 title: Crear una conexion a base de datos Oracle
-proccode: VC00PROC000
+proccode: VC00PROC020
 srcpath: "casos/VC00/PROC/020/procVC00PROC020.md"
 ---
 
