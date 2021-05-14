@@ -37,7 +37,7 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 4. ${check} **PASSWORD** ```${PASSWORD}```. Contraseña de usuario para este test. 
 
-5. ${check} Fecha de entrada en vigor para el commit {% include var_tag.html var="EFFECTIVEDATE" %}.
+5. ${check} Fecha de entrada en vigor para el commit {% include var_tag.html var="EFECTIVEDATE" %}.
 
 5. ${check} Comentario para el commit {% include var_tag.html var="COMMENT" %}.
 
@@ -63,7 +63,7 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 3. ${check} Se habrá presentado la ventana de título  "VCSGis Cambios" que muestra los cambios entre el repositorio y la copia de trabajo.
 
-4. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WCNAME).
+4. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
 5. ${check} Se habrá mostrado el contenido de la pestaña "Copia de trabajo" donde podrá apreciar, a la izquierda, 
    un selector en forma de árbol (selector de entidades) que contiene la categoría que le puso a la capa cuando la añadió y, 
