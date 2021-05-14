@@ -10,10 +10,6 @@ srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
-{% include parameter.html name="USER" value="sara" %}
-
-{% include parameter.html name="PASSWORD" value="sara1" %}
-
 {% include parameter.html name="EFECTIVEDATE" value="3/05/2021" %}
 
 {% include parameter.html name="COMMENT" value="Adición de la capa de esp_provincias" %}
@@ -32,10 +28,6 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo. 
 
 2. ${check} **TABLENAME** ```${TABLENAME}```. Capa a usar en este test. 
-
-3. ${check} **USER** ```${USER}```. Identificador de usuario para este test. 
-
-4. ${check} **PASSWORD** ```${PASSWORD}```. Contraseña de usuario para este test. 
 
 5. ${check} Fecha de entrada en vigor para el commit {% include var_tag.html var="EFECTIVEDATE" %}.
 
