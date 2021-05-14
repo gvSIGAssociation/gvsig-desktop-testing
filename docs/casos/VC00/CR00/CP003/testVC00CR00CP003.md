@@ -58,7 +58,9 @@ para acceder al repositorio.
 1. ${check} Un gvSIG desktop instalado y funcional para ser usado como ```Servidor``` de la versión indicada
    en el plan de pruebas.
 
-3. ${check} El complemento de VCSGis debe estar instalado y activo.
+2. ${check} El complemento de VCSGis debe estar instalado y activo.
+
+3. ${check} Disponer de una herramienta de administracion de Oracle como puede ser el "Oracle SQL Developer".
 
 ### Pasos
 
@@ -66,7 +68,7 @@ para acceder al repositorio.
    para el ```Servidor```. Si lo esta deberiamos cerrarlo.
    
 2. Comprobaremos que en la base de datos de Oracle en la que vayamos a crear el repositorio no existen las tablas 
-   que va a crear la inicializacion del repositorio. Para ello puede utilizar la herramienta "SQLDeveloper".
+   que va a crear la inicializacion del repositorio. Para ello puede utilizar la herramienta *"Oracle SQL Developer"*.
    Puede ejecutar las siguientes sentencias para eliminarlas en caso de que existan:
    ```
    BEGIN  EXECUTE  immediate 'DROP TABLE "GVSIGD_CONFIG"'; EXCEPTION WHEN OTHERS THEN NULL; END;
@@ -76,7 +78,6 @@ para acceder al repositorio.
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_DATA"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_ENTITIES"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_HOOKS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
-   BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_RESOURCES"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_REVISIONS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_TOPOLOGYPLANS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_USERS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
@@ -99,7 +100,7 @@ para acceder al repositorio.
 8. ${check} Una vez se haya terminado la inicialización del repositorio se cerrara la ventana "Inicializar repositorio"
    y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
    
-9. ${check} Compruebe que se han creado las tablas en la base de datos de Oracle, usando, por ejemplo, el SQLDeveloper. 
+9. ${check} Compruebe que se han creado las tablas en la base de datos de Oracle, usando, por ejemplo, el *"Oracle SQL Developer"*. 
    Se tienen que haber creado las siguientes tablas:
    * GVSIGD_CONFIG
    * GVSIGD_REPOSITORY
@@ -108,10 +109,13 @@ para acceder al repositorio.
    * VCSGISREPO_DATA
    * VCSGISREPO_ENTITIES
    * VCSGISREPO_HOOKS
-   * VCSGISREPO_RESOURCES
    * VCSGISREPO_REVISIONS
    * VCSGISREPO_TOPOLOGYPLANS
    * VCSGISREPO_USERS
+   Las tablas deben estar creadas y las siguientes deben tener filas:
+   * GVSIGD_REPOSITORY (7)
+   * GVSIGD_RESOURCES (7)
+   * VCSGISREPO_CONFIG (1)
   
 10. ${check} En la aplicación de gvSIG desktop seleccione la opción de menu "Archivo/Connect to database workspase" 
     que mostrará una ventana de diálogo titulada "Connect".
