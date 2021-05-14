@@ -14,6 +14,10 @@ srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 
 {% include parameter.html name="PASSWORD" value="sara1" %}
 
+{% include parameter.html name="EFECTIVEDATE" value="3/05/2021" %}
+
+{% include parameter.html name="COMMENT" value="Adición de la capa de esp_provincias" %}
+
 
 ## {{ page.title }}
 
@@ -29,9 +33,14 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 
 2. ${check} **TABLENAME** ```${TABLENAME}```. Capa a usar en este test. 
 
-2. ${check} **USER** ```${USER}```. Identificador de usuario para este test. 
+3. ${check} **USER** ```${USER}```. Identificador de usuario para este test. 
 
-2. ${check} **PASSWORD** ```${PASSWORD}```. Contraseña de usuario para este test. 
+4. ${check} **PASSWORD** ```${PASSWORD}```. Contraseña de usuario para este test. 
+
+5. ${check} Fecha de entrada en vigor para el commit {% include var_tag.html var="EFFECTIVEDATE" %}.
+
+5. ${check} Comentario para el commit {% include var_tag.html var="COMMENT" %}.
+
 
 
 ### Prerrequisitos
@@ -66,9 +75,9 @@ Este caso verifica que se puede commitar al repositorio una capa recién añadid
 7. ${check} En la tabla de cambios se habrán mostrado los cambios necesarios para insertar esta capa en el repositorio y se habrán habilitado 
    los botones de "Refrescar", "Revertir" y "Commit".
 
-8. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+8. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha ```${EFECTIVEDATE}``` {% include var_copy.html var="EFECTIVEDATE"%}.
 
-9. ${check} Introduzca en el campo "Comentario" el texto "Adición de la capa de ${TABLENAME}"
+9. ${check} Introduzca en el campo "Comentario" el texto ```${COMMENT}``` {% include var_copy.html var="COMMENT"%}.
 
 10. ${check} Pulse el botón de "Commit"
 
