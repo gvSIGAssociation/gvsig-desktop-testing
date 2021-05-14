@@ -38,7 +38,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
    entrada ```${WORKINGCOPY}``` (WORKINGCOPY). Si existe seleccionela. Si no existe
-   termine el procedimiento.
+   aborte el caso de prueba.
 
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
 
