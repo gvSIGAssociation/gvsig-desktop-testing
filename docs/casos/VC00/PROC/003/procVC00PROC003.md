@@ -44,24 +44,26 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
  
-5. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
+5. ${check} Pulse el boton "Aceptar" que cerrara la ventana y le devolvera el control a la ventana "Añadir a la copia de trabajo".
+
+6. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
     la opción ```${LAYER}``` (LAYER). Si esta no existe termine el procedimiento.
 
-6. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
+7. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
 
-7. ${check} Debera aparecer en el desplegable de vistas "Sin titulo".
+8. ${check} Debera aparecer en el desplegable de vistas "Sin titulo".
 
-8. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
+9. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
 
-9. ${check} En el desplegable del  campo "Campo para etiqueta" seleccione 
+10. ${check} En el desplegable del  campo "Campo para etiqueta" seleccione 
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
    Si esta no existe aborte el procedimiento.
 
-10. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
+11. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
 
-11. ${check} Pulse el boton "Añadir a la copia de trabajo".
+12. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
-12. ${check} Se debera cerrar la ventana sin presentar ningun mensaje de error,
+13. ${check} Se debera cerrar la ventana sin presentar ningun mensaje de error,
     ni en ventanas ni en la barra de mensajes de gvSIG desktop.
 
 ### Resultado esperado
