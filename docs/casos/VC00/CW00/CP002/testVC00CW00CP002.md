@@ -8,9 +8,7 @@ srcpath: "casos/VC00/CW00/CP002/testVC00CW00CP002.md"
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
-
-{% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
 
@@ -29,7 +27,7 @@ a la copia de trabajo.
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se creara los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener  permiso de escritura en ella.
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
 ### Prerrequisitos
@@ -38,23 +36,23 @@ a la copia de trabajo.
 
 2. El complemento de VCSGis debe estar instalado y activo.
 
-3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba:
-   * [VC00CR00CP002 Iniciar un servidor VCSGis contra un repositorio en una base de datos H2 (con autorización)](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
+3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba "Iniciar servidor" del plan de pruebas.
 
 ### Pasos
 
-1. ${check} Seguiremos los pasos indicados en el caso de prueba:
-   * [VC00CR00CP002 Iniciar un servidor VCSGis](../../CR00/CP002/VC00CR00CP002.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}).
+1. ${check} Si acaba de ejecutar el caso de pruebas "iniciar servidor" del plan de pruebas pasa el paso 2, en caso
+   contrario ejecutelo antes de continuar.
 
-2. Una vez iniciado el ```Servidor``` pasaremos a iniciar un gvSIG Desktop para usarlo como ```Cliente```.  Antes comprobaremos 
-    que no exista el fichero:
-    * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
-   
+2. ${check} Una vez iniciado el ```Servidor``` pasaremos a iniciar un gvSIG Desktop para usarlo como ```Cliente```.  Antes comprobaremos 
+   que no exista el fichero:
+   * ```${TMPFOLDER}/${WCNAME}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    En caso de que exista lo eliminaremos.
    
 3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Cliente```.
 
-4. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WCNAME}) 
+4. ${check} Seleccionaremos la opción de menú "Herramientas/VCSGis/Inicializar copia de trabajo".
+
+5. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY}) 
 
 ### Resultado esperado
 
