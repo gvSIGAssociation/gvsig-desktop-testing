@@ -54,26 +54,48 @@ para acceder al repositorio.
 
 4. ${check} Una vez iniciado seleccionaremos la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que nos
    presenta la ventana de título "Inicializar repositorio".
-
-5. ${check} Seguiremos los pasos de [inicializar repositorio](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
-
-6. ${check} Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
-   una ventana de título "Servidor VCSGis".
-
-7. ${check} En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
-
-8. ${check} Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
-
-9. ${check} En el cuadro de texto "Mensajes" habrá aparecido algo como:
-   ```
-   2021-05-04 09:23:50.839 - Creating server...
-   2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:${TMPFOLDER}/${REPONAME};MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...
-
-   ```
    
-   Pueden cambiar las fechas y las rutas que aparezcan.
+5. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexion a la base de datos. Este se situa
+   adyacente al desplegable con las diferentes conexiones.
 
-10.  Iconice la ventana de la aplicacion gvSIG desktop usada como ```Servidor```.
+6. ${check} Siga los pasos de [crear una conexión a base de datos](../../PROC/000/procVC00PROC000.html?NAME=${REPONAME}&PATH=${TMPFOLDER}&FILENAME=${REPONAME}) 
+
+7. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
+   pulse el botón "Inicializar repositorio". 
+   
+8. ${check} Se habrá cerrado la ventana de inicialización del repositorio
+   y no debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
+   
+9. ${check} Abra el explorador de archivos del sistema y compruebe que se ha creado el archivo 
+   ```${TMPFOLDER}/${REPONAME}.mv.db``` (TMPFOLDER/REPONAME.mv.db) en el sistema de archivos.
+
+10. ${check} En la aplicación de gvSIG desktop seleccione la opción de menu "Archivo/Connect to database workspase" 
+    que mostrará una ventana de diálogo titulada "Connect".
+
+11. ${check} En el desplegable "Conection" seleccione la conexión llamada ```${REPONAME}```.
+
+12. ${check} Pulse el botón "Connect" que cierra la ventana que realiza la conexión al espacio de trabajo de la base de datos.
+     No debe aparecer ningun mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
+   
+13. ${check} Seguiremos los pasos de [activar autenticación y autorización en el repositorio](../../PROC/004/procVC00PROC004.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME})
+
+14. ${check} Pulsaremos la opción de menú "Herramientas/VCSGis/Administración/Servidor VCSGis". Al hacerlo aparecerá 
+    una ventana de título "Servidor VCSGis".
+
+15. ${check} En el desplegable asociado al campo "Base de datos" debera existir la opción ```${REPONAME}```, la seleccionaremos.
+
+16. ${check} Pulsaremos en el boton "Reiniciar" y maximizaremos la ventana.
+
+17. ${check} En el cuadro de texto "Mensajes" habrá aparecido algo como:
+    ```
+    2021-05-04 09:23:50.839 - Creating server...
+    2021-05-04 09:23:50.939 - Starting server with repository jdbc:h2:file:${TMPFOLDER}/${REPONAME};MODE=PostgreSQL;SCHEMA=PUBLIC;ALLOW_LITERALS=ALL...
+ 
+    ```
+   
+    Pueden cambiar las fechas y las rutas que aparezcan.
+
+18.  Iconice la ventana de la aplicacion gvSIG desktop usada como ```Servidor```.
 
 ### Resultado esperado
 
