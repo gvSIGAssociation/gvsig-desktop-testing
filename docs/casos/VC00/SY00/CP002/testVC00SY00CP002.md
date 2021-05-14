@@ -1,5 +1,5 @@
 ---
-title: Commitar una capa nueva (repositorio remoto en H2 con autorización)
+title: Commitar una capa nueva (repositorio remoto con autorización)
 testcode: VC00SY00CP002
 srcpath: casos/VC00/SY00/CP002/testVC00SY00CP002.md
 ---
