@@ -37,9 +37,9 @@ que tendrá pemitidas realizar.
 6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
     sin datos.
 
-8. ${check} Indroduzca el nombre del usuario, ```${NAME}```, en el campo "Identifier".
+8. ${check} Indroduzca en el campo "Identificador", ```${NAME}```.
 
-9. ${check} Indroduzca la clave del usuario, ```${PASSWORD}```, en el campo "Contraseña".
+9. ${check} Indroduzca en el campo "Contraseña", ```${PASSWORD}```.
 
 10. ${check} Indroduzca las operaciones permitidas del usuario, ```${OPERATIONS}```,
     en el campo  "Allowed operations".
