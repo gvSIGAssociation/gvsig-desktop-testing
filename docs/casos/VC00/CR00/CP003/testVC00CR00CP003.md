@@ -70,7 +70,7 @@ para acceder al repositorio.
 2. Comprobaremos que en la base de datos de Oracle en la que vayamos a crear el repositorio no existen las tablas 
    que va a crear la inicializacion del repositorio. Para ello puede utilizar la herramienta *"Oracle SQL Developer"*.
    Puede ejecutar las siguientes sentencias para eliminarlas en caso de que existan:
-   ```
+   <code id="DROP_TABLES" class="language-plaintext highlighter-rouge">
    BEGIN  EXECUTE  immediate 'DROP TABLE "GVSIGD_CONFIG"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "GVSIGD_REPOSITORY"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "GVSIGD_RESOURCES"'; EXCEPTION WHEN OTHERS THEN NULL; END;
@@ -81,7 +81,8 @@ para acceder al repositorio.
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_REVISIONS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_TOPOLOGYPLANS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
    BEGIN  EXECUTE  immediate 'DROP TABLE "VCSGISREPO_USERS"'; EXCEPTION WHEN OTHERS THEN NULL; END;
-   ```
+   </code>
+   {% include var_copy.html var="DROP_TABLES"%}
    
 3. ${check} Iniciaremos gvSIG desktop a partir de la portable para el ```Servidor```.
 
