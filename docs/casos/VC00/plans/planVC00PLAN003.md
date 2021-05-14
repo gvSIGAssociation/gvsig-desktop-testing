@@ -6,6 +6,8 @@ srcpath: "casos/VC00/plans/planVC00PLAN003.md"
 
 {% include es/header.md %}
 
+{% include parameter.html name="GVSIGVERSION" value="2-6-0-3222" %}
+
 # {{ page.title }}
 
 <div class="noprint"  markdown="1">
@@ -32,7 +34,7 @@ Comprueba:
    al repositorio.
 1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
    
-El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop.
+El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG desktop.
 
 {% comment %}
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
@@ -40,7 +42,7 @@ El *plan de pruebas* se ha diseñado para la version 2.6.0-3221 de gvSIG desktop
 
 ## Prerrequisitos
 
-1. La version de gvSIG desktop a utilizar sera la 2.6.0-3222 o superior.
+1. La version de gvSIG desktop a utilizar sera la ${GVSIGVERSION} o superior.
 
 1. Para ejecutar este plan de prueba **se utilizaran dos portables de gvSIG desktop**. A lo largo
    del plan de pruebas nos referiremos a ellas como:
@@ -86,7 +88,7 @@ FIXME: Voy por aqui.
 <td>Fecha de ejecucion del plan:</td><td><input type="date"></td>
 </tr>
 <tr>
-<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values="2.6.0-3221"></td>
+<td nowrap>Version de gvSIG desktop utilizada:</td><td><input type="text" values=""></td>
 </tr>
 <tr>
 <td colspan="2">Notas:<br><textarea rows="10" cols="80"></textarea></td>
