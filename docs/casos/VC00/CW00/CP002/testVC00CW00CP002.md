@@ -1,5 +1,5 @@
 ---
-title: Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)
+title: Inicializacion de una copia de trabajo (repositorio remoto con autorización)
 testcode: VC00CW00CP002
 srcpath: "casos/VC00/CW00/CP002/testVC00CW00CP002.md"
 ---
@@ -16,7 +16,7 @@ srcpath: "casos/VC00/CW00/CP002/testVC00CW00CP002.md"
 
 ### Descripción
 
-Inicializa una copia de trabajo asociada a un repositorio remoto basado en H2.
+Inicializa una copia de trabajo asociada a un repositorio remoto en el que esta activa la autorizacion.
 En el proceso se creara la conexion a la base de datos que va a usarse para acceder 
 a la copia de trabajo.
 
