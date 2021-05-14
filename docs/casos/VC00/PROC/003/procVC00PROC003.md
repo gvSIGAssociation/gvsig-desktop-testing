@@ -5,6 +5,16 @@ srcpath: "casos/VC00/PROC/003/procVC00PROC003.md"
 ---
 
 {% include es/header.md %}
+<script>
+function clipboard_copy(id_elemento) {
+  var aux = document.createElement("input");
+  aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+  document.body.appendChild(aux);
+  aux.select();
+  document.execCommand("copy");
+  document.body.removeChild(aux);
+}   
+</script>
 
 ## {{ page.title }}
 
@@ -25,7 +35,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la capa a añadir
    a usar en "Campo para etiqueta". 
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la capa al 
+4. ${check} **CATEGORY**=<code id="CATEGORY" class="language-plaintext highlighter-rouge">${CATEGORY}</code>. Categoria a la que se asociara la capa al 
    añadirla a la copia de trabajo. 
 
 5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${PASSWORD}``` a utilizar cuando se requiera autenticar al
@@ -59,7 +69,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
    Si esta no existe aborte el procedimiento.
 
-11. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY).
+11. ${check} En el campo "Categoría" introduzca el valor  ```${CATEGORY}``` (CATEGORY) <button onclick="clipboard_copy('CATEGORY')">Copiar</button>.
 
 12. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
