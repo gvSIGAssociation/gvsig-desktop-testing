@@ -61,7 +61,7 @@ El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG de
 
 <form  markdown="1">
 
-1. ${InputUnknownOkError} [VC00CR00CP003 Iniciar servidor](../CR00/CP002/testVC00CR00CP003.md).
+1. ${InputUnknownOkError} [VC00CR00CP003 Iniciar servidor](../CR00/CP003/testVC00CR00CP003.md).
 1. ${InputUnknownOkError} [VC00CW00CP002 Crear copia de trabajo](../CW00/CP002/testVC00CW00CP002.md).
 1. ${InputUnknownOkError} [VC00AD00CP002 Añadir capa a la copia de trabajo (add)](../AD00/CP002/testVC00AD00CP002.md).
 1. ${InputUnknownOkError} [VC00SY00CP002 Subir capa al repositorio (commit)](../SY00/CP002/testVC00SY00CP002.md).
