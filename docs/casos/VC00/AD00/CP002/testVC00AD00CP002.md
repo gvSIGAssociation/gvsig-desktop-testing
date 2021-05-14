@@ -100,14 +100,14 @@ base de datos que se vayan a utilizar.
 8. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" 
    que mostrará la ventana de título "Añadir a la copia de trabajo".
 
-9. ${check} Siga los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD}) 
+9. ${check} Siga los pasos de [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD}) 
 
 10. ${check} Deberá haber aparecido en la vista una capa 
     ```${TABLENAME}``` (${TABLELINK})
     con el icono identificativo de una capa de base de datos H2.
 
 11. ${check} Elimine de la vista la capa ```${TABLENAME}``` cargada 
-    a partir del fichero ${TABLELINK} (dejando la de H2).
+    a partir del fichero ${TABLELINK} dejando la de H2.
 
 ### Resultado esperado
 
