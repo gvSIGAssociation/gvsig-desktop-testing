@@ -38,7 +38,7 @@ para acceder al repositorio.
 
 ### Datos de entrada
 
-1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión a crear asociada al repositorio.
+1. ${check} **REPONAME**={% include var_tag.html var="REPONAME" %}. Nombre de la conexión a crear asociada al repositorio.
 
 2. ${check} **SERVER**=```${SERVER}```. Direccion o nombre del servidor donde esta ejecutandose la instancia de Oracle.
 
@@ -92,7 +92,7 @@ para acceder al repositorio.
    junto al desplegable con las diferentes conexiones.
 
 6. ${check} Siga los pasos de 
-   [crear una conexión a base de datos](../../PROC/000/procVC00PROC020.html?NAME=${REPONAME}&SERVER=${SERVER}&PORT=${PORT}&DATABASE=${DATABASE}&USER=${USER}&PASSWORD=${PASSWORD}&MODE=${MODE}) 
+   [crear una conexión a base de datos](../../PROC/020/procVC00PROC020.html?NAME=${REPONAME}&SERVER=${SERVER}&PORT=${PORT}&DATABASE=${DATABASE}&USER=${USER}&PASSWORD=${PASSWORD}&MODE=${MODE}) 
 
 7. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
    pulse el botón "Inicializar repositorio". 
