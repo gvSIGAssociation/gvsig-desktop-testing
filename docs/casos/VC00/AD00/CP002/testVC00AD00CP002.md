@@ -1,5 +1,5 @@
 ---
-title: Añadir capa a copia de trabajo (repositorio remoto en H2 con autorización)
+title: Añadir capa a copia de trabajo (repositorio remoto con autorización)
 testcode: VC00AD00CP002
 srcpath: "casos/VC00/AD00/CP002/testVC00AD00CP002.md"
 ---
@@ -29,16 +29,7 @@ srcpath: "casos/VC00/AD00/CP002/testVC00AD00CP002.md"
 ### Descripción
 
 Este caso de prueba verifica que se pueda añadir una capa local a una copia de trabajo
-basada en un repositotio remoto en H2 con la autorización activada.
-Para ello:
-* Inicializa un repositorio remoto de H2.
-* Inicializa una copia de trabajo
-* Añade una capa a la copia de trabajo creada.
-
-Si las bases de datos que vamos a utilizar asociadas al repositorio o la copia de 
-trabajo existen se eliminaran y se volveran a crear, asi como las conexiones a 
-base de datos que se vayan a utilizar.
-
+basada en un repositotio remoto con la autorización activada.
 
 {% include es/checkifthereisalreadyabug.md %}
 
