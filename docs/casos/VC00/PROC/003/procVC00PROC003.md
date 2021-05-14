@@ -17,7 +17,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
-1. ${check} **WORKINGCOPY**=<code id="WORKINGCOPY" class="language-plaintext highlighter-rouge">${WORKINGCOPY}</code>. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY test**=<code id="WORKINGCOPY" class="language-plaintext highlighter-rouge">${WORKINGCOPY}</code>. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
 2. ${check} **LAYER**=```${LAYER}```. Nombre de la capa a añadir a la copia de trabajo.
