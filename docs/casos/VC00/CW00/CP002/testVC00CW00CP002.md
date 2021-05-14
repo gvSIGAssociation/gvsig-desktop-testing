@@ -36,15 +36,14 @@ a la copia de trabajo.
 
 2. El complemento de VCSGis debe estar instalado y activo.
 
-3. Antes de pasar este caso de prueba deben de haber pasado los siguientes casos de prueba "Iniciar servidor" del plan de pruebas.
+3. Antes de pasar este caso de prueba deben de haber pasado el caso de prueba "Iniciar servidor" del plan de pruebas.
 
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas "iniciar servidor" del plan de pruebas pasa el paso 2, en caso
    contrario ejecutelo antes de continuar.
 
-2. ${check} Una vez iniciado el ```Servidor``` pasaremos a iniciar un gvSIG Desktop para usarlo como ```Cliente```.  Antes comprobaremos 
-   que no exista el fichero:
+2. ${check} Comprobaremos que no exista el fichero:
    * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (*TMPFOLDER*/*WCNAME*.mv.db).
    En caso de que exista lo eliminaremos.
    
@@ -52,7 +51,7 @@ a la copia de trabajo.
 
 4. ${check} Seleccionaremos la opción de menú "Herramientas/VCSGis/Inicializar copia de trabajo".
 
-5. ${check} Seguiremos los pasos de [Inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY}) 
+5. ${check} Seguiremos los pasos de [inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY}) 
 
 ### Resultado esperado
 
