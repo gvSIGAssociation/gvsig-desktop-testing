@@ -15,11 +15,11 @@ que tendrá pemitidas realizar.
 
 ### Datos de entrada
 
-1. ${check} **NAME**=```${NAME}```. Nombre del nuevo usuario.
+1. ${check} **NAME**=`{% include var_tag.html var="NAME" %}. Nombre del nuevo usuario.
 
-2. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña del nuevo usuario.
+2. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}. Contraseña del nuevo usuario.
 
-3. ${check} **OPERATIONS**=```${OPERATIONS}```. Operaciones que puede realizar el nuevo usuario sobre la base de datos.
+3. ${check} **OPERATIONS**={% include var_tag.html var="OPERATIONS" %}. Operaciones que puede realizar el nuevo usuario sobre la base de datos.
 
 
 ### Pasos
@@ -37,11 +37,11 @@ que tendrá pemitidas realizar.
 6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
     sin datos.
 
-8. ${check} Indroduzca en el campo "Identificador", ```${NAME}```.
+8. ${check} Indroduzca en el campo "Identificador", ```${NAME}``` {% include var_copy.html var="NAME"%}.
 
-9. ${check} Indroduzca en el campo "Contraseña", ```${PASSWORD}```.
+9. ${check} Indroduzca en el campo "Contraseña", ```${PASSWORD}``` {% include var_copy.html var="PASSWORD"%}.
 
-10. ${check} Indroduzca las operaciones permitidas del usuario, ```${OPERATIONS}```,
+10. ${check} Indroduzca las operaciones permitidas del usuario, ```${OPERATIONS}``` {% include var_copy.html var="OPERATIONS"%},
     en el campo  "Allowed operations".
 
 10. ${check} Pulse el icono con la etiqueta "Guardar".
