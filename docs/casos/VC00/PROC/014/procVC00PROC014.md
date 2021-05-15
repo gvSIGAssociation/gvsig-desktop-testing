@@ -1,5 +1,5 @@
 ---
-title: Añadir tabla a una copia de trabajo asociada a un repositorio local en H2
+title: Añadir tabla a una copia de trabajo asociada
 proccode: VC00PROC014
 srcpath: "casos/VC00/PROC/014/procVC00PROC014.md"
 ---
@@ -17,15 +17,15 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 ### Datos de entrada
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-2. ${check} **TABLE**=```${TABLE}```. Nombre de la tabla a añadir a la copia de trabajo ```${WCNAME}``` (WCNAME).
+2. ${check} **TABLE**=```${TABLE}```. Nombre de la tabla a añadir a la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
    a usar en "Campo para etiqueta". 
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a la que se asociara la tabla al 
+4. ${check} **CATEGORY**={% include var_tag.html var="CATEGORY" %}. Categoria a la que se asociara la tabla al 
    añadirla a la copia local. 
 
 ### Pasos
@@ -34,15 +34,16 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    trabajo de titulo "Añadir a la copia de trabajo" y debera estar activa.
 
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
-   entrada ```${WCNAME}``` (WCNAME). Si existe seleccionela. Si no existe
+   entrada ```${WORKINGCOPY}``` (WORKINGCOPY). Si existe seleccionela. Si no existe
    termine el procedimiento.
    
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
 
-4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
+4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER), en el "Contraseña" ```${PASSWORD}``` (PASSWORD)
+   y pulse "Aceptar".
 
-5. ${check} Active la pestaña "Tablas" y seleccione
-    la opción ```${TABLE}``` (TABLE). Si esta no existe termine el procedimiento.
+5. ${check} Devuelta a la ventana "Añadir a la copia de trabajo", active la pestaña "Tablas" y seleccione
+    la opción ```${TABLE}``` (TABLE). Si esta no existe aborte el caso de prueba.
 
 6. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
@@ -50,11 +51,11 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 8. ${check} En el desplegable del  campo "Campo para etiqueta" introduzca 
    la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
-   Si esta no existe termine el procedimiento.
+   Si esta no existe aborte el caso de prueba.
 
 9. ${check} En el campo para "Etiqueta" no especifique nada.
 
-10. ${check} En el campo "Categoria" introduzca el valor ```${CATEGORY}``` (CATEGORY).
+10. ${check} En el campo "Categoria" introduzca el valor ```${CATEGORY}``` (CATEGORY) {% include var_copy.html var="CATEGORY"%}.
 
 11. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
