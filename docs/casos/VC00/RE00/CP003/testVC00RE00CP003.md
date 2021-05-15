@@ -115,9 +115,9 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 
 10. ${check} Como resultado se abrira una ventana que muestra el formulario asociado a la tabla de recursos.
 
-11. ${check} Iniciaremos edicón pulsando en el boton "Comenzar edición". 
+11. ${check} Iniciaremos edicón pulsando en el boton "Comenzar edición" del formulario. 
 
-12. ${check} La acción anterior habilita una serie de botones. Pulse el boton "Nuevo".
+12. ${check} La acción anterior habilita una serie de botones. Pulse el boton "Nuevo" del formulario.
 
 13. ${check} Se habilitaran los campos del formulario. Indroduzca el valor ```${RESOURCE_NAME}``` (RESOURCE_NAME) 
     en el campo "Nombre" {% include var_copy.html var="RESOURCE_NAME"%}.
@@ -132,9 +132,9 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 16. ${check} De vuelta en el formulario de la tabla de recursos el campo "Recurso" tiene
     que estar relleno con el tamaño del archivo ```${LEGEND_NAME}```.
 
-17. ${check} Pulse el boton "Guardar".
+17. ${check} Pulse el boton "Guardar" del formulario.
 
-18. ${check} Termine edicion pulsando en el boton "Terminar edición". 
+18. ${check} Termine edicion pulsando en el boton "Terminar edición" del formulario. 
     Al hacerlo se le preguntara si desea guardar los cambios, pulse en "aceptar".
 
 19. ${check} Cierre el formulario.
@@ -183,16 +183,16 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 35. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
     de entidades.
 
-36. ${check} pulse el boton "Comenzar edición".
+36. ${check} pulse el boton "Comenzar edición" del formulario.
 
-37. ${check} Seleccione con ayuda de los iconos "Anterior" y "Siguiente" el registro de la 
+37. ${check} Seleccione con ayuda de los botones "Anterior" y "Siguiente"  del formulario el registro de la 
     entidad ```${TABLE_NAME}```.
 
 38. ${check} Introduzca el valor ```${RESOURCES_TABLE_NAME}``` en el campo "Resources" {% include var_copy.html var="RESOURCES_TABLE_NAME"%}.
 
-39. ${check} Pulse el boton "Guardar".
+39. ${check} Pulse el boton "Guardar" del formulario.
 
-40. ${check} Pulse el boton "Terminar edición".
+40. ${check} Pulse el boton "Terminar edición" del formulario.
 
 41. ${check} Cierre el formulario.
 
