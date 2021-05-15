@@ -18,7 +18,7 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 1. ${check} **VARIABLE**={% include var_tag.html var="VARIABLE" %}. Nombre de la nueva variable a dar ed alta.
 
-2. ${check} **VALUE**=```${VALUE}```. Valor de a nueva variable.
+2. ${check} **VALUE**={% include var_tag.html var="VALUE" %}. Valor de a nueva variable.
 
 
 ### Pasos
@@ -29,20 +29,17 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 3. ${check} Se mostrará una ventana con el formulario asociado a la tabla de variables.
 
-4. ${check} Para dar de alta un registro hay que iniciar la edición. Pulse el icono con la
-   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-   encuentra en la zona media de estos. Al hacerlo se habilitaran otros iconos.
+11. ${check} Pulse el boton "Comenzar edición" del formulario. 
 
-6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se muestrarán
-    sin datos.
+12. ${check} Pulse el boton "Nuevo" del formulario.
 
-8. ${check} Indroduzca el valor del nombre, ```${VARIABLE}``` en el campo "Nombre"  {% include var_copy.html var="VARIABLE"%}.
+8. ${check} Indroduzca en el campo "Nombre" el valor ```${VARIABLE}``` {% include var_copy.html var="VARIABLE"%}.
 
-9. ${check} Indroduzca el valor, ```${VALUE}```, en el campo "Valor".
+9. ${check} Indroduzca en el campo "Valor" el valor  ```${VALUE}``` {% include var_copy.html var="VALUE"%}.
 
-10. ${check} Pulse el icono con la etiqueta "Guardar".
+10. ${check} Pulse el boton "Guardar" del formulario.
 
-11. ${check} Pulse el icono con la etiqueta "Terminar edición". 
+11. ${check} Pulse el boton "Terminar edición" del formulario. 
 
 12. ${check} Se presentrara una ventana, pulse en la opción "Si". Dicha opción termina edición y guarda los cambios.
 
