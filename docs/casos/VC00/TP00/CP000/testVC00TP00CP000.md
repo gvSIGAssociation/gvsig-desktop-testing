@@ -31,7 +31,7 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 ### Descripción
 
-Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en el un plan topologico sobre una de ellas.
+Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en el un plan topologico que usa ambas capas.
 
 ### Datos de entrada
 
