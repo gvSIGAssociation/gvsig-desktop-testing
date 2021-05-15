@@ -20,13 +20,17 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-2. ${check} **TABLE**=```${TABLE}```. Nombre de la tabla a añadir a la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
+1. ${check} **TABLE**=```${TABLE}```. Nombre de la tabla a añadir a la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
-3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
+1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
    a usar en "Campo para etiqueta". 
 
-4. ${check} **CATEGORY**={% include var_tag.html var="CATEGORY" %}. Categoria a la que se asociara la tabla al 
+1. ${check} **CATEGORY**={% include var_tag.html var="CATEGORY" %}. Categoria a la que se asociara la tabla al 
    añadirla a la copia local. 
+
+1. ${check} **USER**={% include var_tag.html var="USER" %}.
+
+1. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}.
 
 ### Pasos
 
@@ -39,8 +43,11 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
 
-4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER), en el "Contraseña" ```${PASSWORD}``` (PASSWORD)
-   y pulse "Aceptar".
+4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) {% include var_copy.html var="USER"%}
+ 
+6. ${check} Introduzca en el campo de texto "Contraseña" el valor ```${PASSWORD}``` (PASSWORD) {% include var_copy.html var="PASSWORD"%}
+
+7. Pulse "Aceptar".
 
 5. ${check} Devuelta a la ventana "Añadir a la copia de trabajo", active la pestaña "Tablas" y seleccione
     la opción ```${TABLE}``` (TABLE). Si esta no existe aborte el caso de prueba.
