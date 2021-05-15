@@ -75,7 +75,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 
 1. ${check} **RESOURCE_NAME**={% include var_tag.html var="RESOURCE_NAME" %}. Nombre del recurso a dar de alta en la nueva tabla de recursos.
 
-1. ${check} **LEGEND_NAME**=```${LEGEND_NAME}```, (${LEGEND_LINK). Nombre del fichero en el que tenemos almacenada la leyenda.
+1. ${check} **LEGEND_NAME**=```${LEGEND_NAME}```, (${LEGEND_LINK}). Nombre del fichero en el que tenemos almacenada la leyenda.
 
 
 ### Prerrequisitos
