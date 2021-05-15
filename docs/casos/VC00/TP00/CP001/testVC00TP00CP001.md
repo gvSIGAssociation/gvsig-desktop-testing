@@ -8,7 +8,7 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 {% include es/header.md %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
+{% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
 {% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
 
@@ -58,7 +58,7 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 
 11. ${check} Pulse el boton "Comenzar edición" del formulario. 
 
-9. ${check} Con ayuda de los botones "Anterior" y "Siguiente" del formulario seleccione la entidad ```${LAYER_NAME}````(LAYER_NAME).
+9. ${check} Con ayuda de los botones "Anterior" y "Siguiente" del formulario seleccione la entidad ```${LAYER_NAME}``` (LAYER_NAME).
 
 10. ${check} Localice el campo "Topology plan" y pulse el boton  "Select item to list" asociado a ese campo.
 
@@ -70,7 +70,7 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 13. ${check} Pulse el boton "Aceptar", que cerrara el dialogo de seleccion de plan topologico y le devolvera
     al formulario de entidades.
 
-13. ${check} Se habra presentado en el campo  "Topology plan" presentara el valor ```${TPNAME}``` (TPNAME).
+13. ${check} Se habra presentado en el campo  "Topology plan" el valor ```${TPNAME}``` (TPNAME).
 
 14. ${check} Localice el campo "Topology plan mode" y seleccione la opción ```Mandatory``` del desplegable.
 
@@ -78,7 +78,7 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 
 11. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Si". Dicha opción termina edición y guarda los cambios.
+12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
 
 13. ${check} Cierre el formulario de entidades.
 
