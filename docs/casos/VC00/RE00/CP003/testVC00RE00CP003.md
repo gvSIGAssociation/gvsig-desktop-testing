@@ -95,7 +95,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
     (hace menos de 1 hora) y aun tiene abierto gvSIG desktop  ```Servidor``` 
     continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente``` 
+2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```. 
 
 3. ${check} Vamos a crear la tabla de recursos. Seleccione la opción de menú "Herramientas/VCSGis/Administración/Crear tabla de recursos".
 
