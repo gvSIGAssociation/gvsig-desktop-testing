@@ -6,7 +6,7 @@ srcpath: "casos/VC00/plans/planVC00PLAN003.md"
 
 {% include es/header.md %}
 
-{% include parameter.html name="GVSIGVERSION" value="2-6-0-3222" %}
+{% include parameter.html name="GVSIGVERSION" value="2.6.0-3222" %}
 
 # {{ page.title }}
 
@@ -32,7 +32,9 @@ Comprueba:
 1. Que la integración con el marco de topologia funciona, pudiendose registrar planes
    de topologia en el repositorio, asociarlos a tablas de este, y ejecutarlos antes de subir cambios
    al repositorio.
-1. Que se pueden definir modelos de datos y se puede cargar en los puestos.
+1. Que se puede recuperar una tabla a una revision dada o exportarla a una revision o fecha efectiva dada.
+2. Que se puede cargar un historico de datos a partir de los datos recuperados de la aplicacion INCA.
+3. Que se pueden definir modelos de datos y se puede cargar en los puestos.
    
 El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG desktop.
 
@@ -68,12 +70,12 @@ El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG de
 1. ${InputUnknownOkError} [VC00CO00CP002 Obtener copia de trabajo de una capa (checkout)](../CO00/CP002/testVC00CO00CP002.md).
 1. ${InputUnknownOkError} [VC00RE00CP0003 Asociar leyenda a una capa](../RE00/CP003/testVC00RE00CP003.md).
 1. ${InputUnknownOkError} [VC00TP00CP000 Cargar un plan topologico en el repositorio](../TP00/CP000/testVC00TP00CP000.md).
+1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
 
 FIXME: Voy por aqui.
 
-1. ${InputUnknownOkError} [VC00TP00CP001 Asociar un plan topologico a una capa](../TP00/CP001/testVC00TP00CP001.md).
-1. ${InputUnknownOkError} [VC00TP00CP002 Subir cambios en una capa con un plan topologico (que no pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
-1. ${InputUnknownOkError} [VC00TP00CP003 Subir cambios en una capa con un plan topologico (que sí pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
+1. ${InputUnknownOkError} [VC00TP00CP002 Subir cambios en una capa con un plan topologico asociado (que no pasen el plan)](../TP00/CP002/testVC00TP00CP002.md).
+1. ${InputUnknownOkError} [VC00TP00CP003 Subir cambios en una capa con un plan topologico asociado (que sí pasen el plan)](../TP00/CP003/testVC00TP00CP003.md).
 1. ${InputUnknownOkError} [VC00CO00CP005 Obtener una revision concreta de una capa](../CO00/CP005/testVC00CO00CP005.md).
 1. ${InputUnknownOkError} [VC00EX00CP005 Exportar una capa a una fecha dada](../EX00/CP005/testVC00EX00CP005.md).
 1. ${InputUnknownOkError} [VC00EX00CP002 Exportar una capa a una revision dada](../EX00/CP002/testVC00EX00CP002.md).
