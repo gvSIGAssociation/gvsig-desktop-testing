@@ -12,84 +12,77 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 {% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
 
-{% include parameter.html name="ENTITIE" value="esp_provincias" %}
+{% include parameter.html name="LAYER_NAME" value="esp_provincias" %}
 
 
 ## {{ page.title }}
 
 ### Descripción
 
-Este proceso asigna el plan topológico ```${TPNAME}``` (TPNAME) a la entidad o capa del 
-repositorio ```${ENTITIE}``` (ENTITIE).
+Este proceso asigna el plan topológico a una capa existente en el repositorio.
+Tanto la capa como el plan topologico deben estar dados de alta en el repositorio previamente.
 
 ### Datos de entrada
 
 1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
-2. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
+1. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
-3. ${check} **ENTITIE**=```${ENTITIE}```. Capa o entidad del repositorio a la cual se le asigna el plan topológico.
+1. ${check} **LAYER_NAME**=```${LAYER_NAME}```. Capa a la cual se le va a asignar el plan topológico.
 
 ### Prerrequisitos
 
 1. ${check} Un gvSIG desktop instalado y funcional cuya versión sea la indicada en el plan de pruebas.
 
-2. ${check} El complemento de VCSGis debe estar instalado y activo.
+1. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} El complemento de Topología debe estar instalado y activo.
+1. ${check} El complemento de Topología debe estar instalado y activo.
 
-4. ${check} El caso de prueba [VC00TP00CP000, "Cargar un plan topológico en el repositorio"](../../TP00/CP000/testVC00TP00CP000.md),
+1. ${check} El caso de prueba [VC00TP00CP000, "Cargar un plan topológico en el repositorio"](../../TP00/CP000/testVC00TP00CP000.md),
    ha pasado sin errores.
    
 ### Pasos
-1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00TP00CP000,
-    "Cargar un plan topológico en el repositorio"
+
+1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora)  "Cargar un plan topológico en el repositorio"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```servidor``` puesto que va a configurar el 
-    servidor para asignar el plan topológico a una capa o entidad del repositorio.
+2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```Servidor```.
 
-3. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este. Siga los pasos de 
-    [Abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?BBDD=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
+3. ${check} Abra la tabla ```VCSGISREPO_ENTITIES```, para ello siga los pasos de 
+    [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
 
-4. ${check} Una vez abierta la tabla y estando esta activa se procede a asignar el plan a la entidad. Para ello 
-    seleccione "Tabla" en el menú de gvSIG Desktop.
+4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form"
 
-5. ${check} Seleccione del despeglable anterior la opción "Show form". 
-
-6. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
+6. ${check} Como resultado se presentara una ventana que muestra el formulario asociado a la tabla 
    de entidades del repositorio.
 
-7. ${check} Para registrar cambios en esta hay que iniciar la edición. Para iniciar la edición pulse el icono con la
-   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se
-   encuentra en la zona media de estos.
+11. ${check} Pulse el boton "Comenzar edición" del formulario. 
 
-8. ${check} La acción anterior habilita una serie de iconos.
+9. ${check} Con ayuda de los botones "Anterior" y "Siguiente" del formulario seleccione la entidad ```${LAYER_NAME}````(LAYER_NAME).
 
-9. ${check} Seleccione con ayuda de los iconos "Anterior" y "Siguiente" la página del formulario de la 
-   entidad ```${ENTITIE}````(ENTITIE).
+10. ${check} Localice el campo "Topology plan" y pulse el boton  "Select item to list" asociado a ese campo.
 
-10. ${check} Localice el campo "Topology plan" y pulse el icono adyacente a este con etiqueta "Select item to list".
+11. ${check} Se presentara una ventana con los diferentes planes topológicos disponibles en el repositorio.
 
-11. ${check} Tras lo anterior, se despliega una ventana con los diferentes planes topológicos disponibles 
-    en el repositorio ```${REPONAME}``` (REPONAME).
+12. ${check} Seleccione el plan topológico ```${TPNAME}``` (TPNAME) si no aparece el plan topologico indicado en la
+    lista aborte la ejeccion del plan de prueba.
 
-12. ${check} Seleccione el plan topológico ```${TPNAME}``` (TPNAME).
+13. ${check} Pulse el boton "Aceptar", que cerrara el dialogo de seleccion de plan topologico y le devolvera
+    al formulario de entidades.
 
-13. ${check} Como consecuencia de la última acción el campo "Topology plan" presentara el valor ```${TPNAME}``` (TPNAME).
+13. ${check} Se habra presentado en el campo  "Topology plan" presentara el valor ```${TPNAME}``` (TPNAME).
 
 14. ${check} Localice el campo "Topology plan mode" y seleccione la opción ```Mandatory``` del desplegable.
 
-15. ${check} Pulse el icono con la etiqueta "Guardar".
+10. ${check} Pulse el boton "Guardar" del formulario.
 
-16. ${check} Para terminar el proceso y trás guardar cambios hay que terminar la edición. Para terminar la edición pulse 
-    el icono con la etiqueta "Terminar edición". Este se encuentra la zona media de los iconos. 
+11. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-17. ${check} Cierre el formulario.
+12. ${check} Se presentrara una ventana, pulse en la opción "Si". Dicha opción termina edición y guarda los cambios.
 
-18. ${check} Cierre la tabla en cuestión
+13. ${check} Cierre el formulario de entidades.
 
-19. ${check} Tras lo anterior, la ventana "Servidor VCSGis" queda activa y visible.
+18. ${check} Cierre la tabla en de entidades
 
 
 ### Resultado esperado
