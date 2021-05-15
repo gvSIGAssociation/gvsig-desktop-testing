@@ -78,7 +78,7 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 
 11. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
+12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guardar los cambios.
 
 13. ${check} Cierre el formulario de entidades.
 
