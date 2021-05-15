@@ -146,31 +146,9 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 
 22. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
 
-23. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
-    de título  "VCSGis Cambios".
-
-24. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
-
-25. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
-    a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
-    puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
-    A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
-    "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
-
-26. ${check} Marque la casilla de verificación asociada a la tabla ```${RESOURCES_TABLE_NAME}```.
-
-27. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
-    habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
-
-28. ${check} Introduzca en el campo "Fecha de entrada en vigor" la 
-    fecha ```${RESOURCES_TABLE_EFECTIVEDATE}``` {% include var_copy.html var="RESOURCES_TABLE_EFECTIVEDATE"%}.
-
-29. ${check} Introduzca en el campo "Comentario" el 
-    texto ```${RESOURCES_TABLE_COMMENT}``` {% include var_copy.html var="RESOURCES_TABLE_COMMENT"%}.
-
-30. ${check} Pulse el botón de "Commit"
-
-31. ${check} Cierre la ventana titulada "Mostrar cambios".
+14. ${check} Siga los pasos de 
+    [commit de una tabla](../../PROC/021/VC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME}&EFECTIVEDATE=${RESOURCES_TABLE_EFECTIVEDATE}&COMMENT=${RESOURCES_TABLE_COMMENT}) 
+    para subir la tabla al reposiorio.
 
 32. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
     asociar la tabla de recursos a la capa ```${TABLE_NAME}```.
