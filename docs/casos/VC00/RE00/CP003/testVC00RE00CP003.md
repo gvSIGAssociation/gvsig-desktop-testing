@@ -142,7 +142,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 20. ${check} Cierre la tabla ${RESOURCES_TABLE_NAME}.
 
 21. ${check} Añada la tabla de recursos ```${RESOURCES_TABLE_NAME}``` a la copia de trabajo, para eso siga los pasos de 
-    [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKIONGCOPY=${WORKIONGCOPY}&TABLE=${RESOURCES_TABLE_NAME}&FIELDFORLABEL=${RESOURCES_TABLE_FIELDFORLABEL}&CATEGORY=${RESOURCES_TABLE_CATEGORY})
+    [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKIONGCOPY=${WORKIONGCOPY}&TABLE=${RESOURCES_TABLE_NAME}&FIELDFORLABEL=${RESOURCES_TABLE_FIELDFORLABEL}&CATEGORY=${RESOURCES_TABLE_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD})
 
 22. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
 
