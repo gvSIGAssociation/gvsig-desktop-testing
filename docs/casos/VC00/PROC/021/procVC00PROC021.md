@@ -1,5 +1,5 @@
 ---
-title: Commit simple de una capa.
+title: Commit simple de una tabla.
 proccode: VC00PROC021
 srcpath: "casos/VC00/PROC/021/procVC00PROC021.md"
 ---
