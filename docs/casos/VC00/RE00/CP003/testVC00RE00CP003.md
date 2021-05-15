@@ -16,7 +16,7 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 
 {% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
-{% include parameter.html name="WORKINGCOPY2" value="CopiaDeTrabajo" %}
+{% include parameter.html name="WORKINGCOPY2" value="CopiaDeTrabajo2" %}
 
 {% include parameter.html name="TABLE_NAME" value="esp_provincias" %}
 
