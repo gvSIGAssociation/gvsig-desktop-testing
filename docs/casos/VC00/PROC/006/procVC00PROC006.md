@@ -24,11 +24,12 @@ Obtiene una copia local de una capa existente en
 
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo donde se descargará la capa.
 
-2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
+1. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
 
-3. ${check} **USER**=```${USER}```. Nombre de usuario
+1. ${check} **USER**={% include var_tag.html var="USER" %}.
 
-4. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario
+1. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}.
+
 
 
 ### Pasos
@@ -42,9 +43,9 @@ Obtiene una copia local de una capa existente en
 
 4. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
 
-5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER)
+5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
 
-6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD)
+6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
 
 7. ${check} Pulse el botón "Aceptar"
 
