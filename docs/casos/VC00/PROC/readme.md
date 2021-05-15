@@ -21,5 +21,5 @@
 * [017 Exportar una revisión concreta de una capa con autenticación](017/procVC00PROC017.md).
 * [018 Exportar una revisión concreta de una capa sin autenticación](018/procVC00PROC018.md).
 * [019 Eliminar copia de trabajo del registro de copias de trabajo](019/procVC00PROC019.md).
-* [020 Activar autenticacion y autorizacion en un repositorio](020/procVC00PROC020.md).
+* [020 Crear una conexion a base de datos Oracle](020/procVC00PROC020.md).
 
