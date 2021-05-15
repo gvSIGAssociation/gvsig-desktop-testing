@@ -1,10 +1,8 @@
 ---
-title: Subir cambios en una capa con un plan topológico (que no pasen el plan)
+title: Subir cambios en una capa con un plan topológico asociado (que no pasen el plan)
 proccode: VC00TP00CP0002
 srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 ---
-
-**EN CONSTRUCCION**
 
 {% include es/header.md %}
 
@@ -29,8 +27,8 @@ srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 
 ### Descripción
 
-Este proceso prueba que no es posible hacer un commit de una capa, ```${ENTITIE1}``` (ENTITIE1), que no cumple un plan 
-topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, ```${REPONAME}``` (REPONAME).
+Este proceso prueba que no es posible hacer un commit de una capa con un plan topologico asociado sin que los
+datos a "commitar" cumplan dicho plan topologico.
 
 ### Datos de entrada
 
@@ -67,18 +65,11 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
 
 ### Pasos
 
-1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) VC00TP00CP001,
-    "Asociar un plan topológico a una capa"
+1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) 
+   [VC00TP00CP001, "Asociar un plan topológico a una capa"](../../TP00/CP001/testVC00TP00CP001.md)
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente``` y cierre gvSIG Desktop.
-
-3. ${check} Compruebe que no exista el fichero:
-   * ```${TMPFOLDER}/${WCNAME}.mv.db``` (TMPFOLDER/WCNAME.mv.db). 
-   
-   En caso de que exista elimínelo.
-
-4. ${check} Abra la aplicación gvSIG Desktop ```cliente```.
+2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```Cliente``` .
 
 5. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
    [Inicializacion de una copia de trabajo (repositorio local en H2 con autorización)](../../PROC/008/procVC00PROC008.md.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME})
