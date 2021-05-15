@@ -1,5 +1,5 @@
 ---
-title: Asociar leyenda a una capa (repositorio remoto en H2 con autorización)
+title: Asociar leyenda a una capa (repositorio remoto con autorización)
 proccode: VC00RE00CP0003
 srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 ---
