@@ -61,7 +61,7 @@ Este proceso carga un plan topológico en el repositorio.
 
 2. ${check} Active la aplicación gvSIG Desktop ```Servidor```. Vamos a registrar el servidor un plan topológico.
 
-3. ${check} Abra la tabla ```VCSGISREPO_TOPOLOGYPLANS``` de este para ello siga los pasos de 
+3. ${check} Abra la tabla ```VCSGISREPO_TOPOLOGYPLANS```, para ello siga los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_TOPOLOGYPLANS)
 
 4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form".
@@ -72,11 +72,11 @@ Este proceso carga un plan topológico en el repositorio.
 
 7. ${check} Pulse el boton "Nuevo" del formulario.
 
-8. ${check} En el campo "Nombre" de la pestaña "General" d introduzca el valor ```${TPNAME}``` {% include var_copy.html var="TPNAME"%}.
+8. ${check} En el campo "Nombre" de la pestaña "General" introduzca el valor ```${TPNAME}``` {% include var_copy.html var="TPNAME"%}.
 
 9. ${check} En el campo "Descripcion" la pestaña "General" introduzca el valor ```${TPDESCRIPTION}``` {% include var_copy.html var="TPDESCRIPTION"%}.
 
-10. ${check} En la pestaña "Plan" introduzca el plan topológico en formatao Json. Introduzca el valor: 
+10. ${check} En la pestaña "Plan" debe introducir el plan topológico en formatao Json. Introduzca el valor: 
     <PRE id="DROP_TABLES" class="language-plaintext highlighter-rouge">
     {"name":"provinciasDebenTenerPoblaciones","dataSets":[
       {"name":"esp_provincias","fullName":"esp_provincias.csv"},
@@ -98,7 +98,7 @@ Este proceso carga un plan topológico en el repositorio.
 
 12. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-13. ${check} Se presentrara una ventana, pulse en la opción "Si". Dicha opción termina edición y guarda los cambios.
+13. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
 
 14. ${check} Cierre el formulario.
 
