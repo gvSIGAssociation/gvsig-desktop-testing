@@ -113,6 +113,7 @@ para acceder al repositorio.
    * VCSGISREPO_REVISIONS
    * VCSGISREPO_TOPOLOGYPLANS
    * VCSGISREPO_USERS
+
    Las tablas deben estar creadas y las siguientes deben tener filas:
    * GVSIGD_REPOSITORY (7)
    * GVSIGD_RESOURCES (7)
