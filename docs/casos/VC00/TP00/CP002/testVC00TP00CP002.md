@@ -52,16 +52,16 @@ datos a "commitar" cumplan dicho plan topologico.
 
 2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
-3. ${check} La vista "Sin titulo" deberan activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
+3. ${check} La vista "Sin titulo" debera estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el Toc.
+4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
 5. ${check} Seleccione la opcion de menu "Capa/Comenzar edicion".
 
 6. ${check} Seleccione la provincia de "Valencia" y desplacela fuera del área de la península ibérica hasta
     asegurarse de que no solape con ningun punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-7. ${check} Si no lo esta seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el Toc.
+7. ${check} Si no lo esta seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
 8. ${check} Seleccione la opcion de menu "Capa/Terminar edicion" (end_editingJList).
 
@@ -86,9 +86,11 @@ datos a "commitar" cumplan dicho plan topologico.
 16. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "3/05/2021"
+17. ${check} Introduzca en el campo "Fecha de entra en vigor" la 
+    fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
 
-18. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${LAYER1_NAME}"
+18. ${check} Introduzca en el campo "Comentario" el   
+    texto <code id="COMMENT" class="language-plaintext highlighter-rouge">Modificación de la capa de ${LAYER1_NAME}</code> {% include var_copy.html var="COMMENT"%}
 
 19. ${check} Pulse el botón de "Commit"
 
