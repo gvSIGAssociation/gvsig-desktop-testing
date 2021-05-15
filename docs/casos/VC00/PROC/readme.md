@@ -22,5 +22,5 @@
 * [018 Exportar una revisión concreta de una capa sin autenticación](018/procVC00PROC018.md).
 * [019 Eliminar copia de trabajo del registro de copias de trabajo](019/procVC00PROC019.md).
 * [020 Crear una conexion a base de datos Oracle](020/procVC00PROC020.md).
-* [021 Commit simple de una tabla](020/procVC00PROC020.md).
+* [021 Commit simple de una tabla](021/procVC00PROC021.md).
 
