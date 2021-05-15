@@ -8,26 +8,11 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include es/header.md %}
 
-{% include parameter.html name="TABLE1_NAME" value="esp_provincias" %}
-
-{% include parameter.html name="TABLE2_NAME" value="esp_poblaciones" %}
-
-{% include parameter.html name="TABLE1_LINK" value="<a href='../../data/esp_provincias.csv'>ESP_PROVINCIAS</a>" %}
-
-{% include parameter.html name="TABLE2_LINK" value="<a href='../../data/esp_poblaciones.csv'>ESP_POBLACIONES</a>" %}
+{% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
 {% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
 
 {% include parameter.html name="TPDESCRIPTION" value="Las provincias deben tener alguna población" %}
-
-{% include parameter.html name="TABLE2_FIELDFORLABEL" value="esp_poblaciones" %}
-
-{% include parameter.html name="CATEGORY" value="Cartografia base" %}
-
-{% include parameter.html name="WCNAME" value="CopiaDeTrabajo" %}
-
-{% include parameter.html name="REPONAME" value="Repositorio" %}
-
 
 ## {{ page.title }}
 
