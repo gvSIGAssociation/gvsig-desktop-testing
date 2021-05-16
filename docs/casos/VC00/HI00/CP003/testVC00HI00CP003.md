@@ -36,6 +36,10 @@ Este caso de prueba verifica que la herramienta de importacion de historial y co
 correctamente. Hay que tener en cuenta que el diseño de la herramienta de carga de historial esta limitado a
 cargar los datos obtenidos a partir del INCA.
 
+
+{% include es/checkifthereisalreadyabug.md %}
+
+
 ### Datos de entrada
 
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo sobre la que se va a trabajar.
@@ -161,10 +165,10 @@ cargar los datos obtenidos a partir del INCA.
 
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
