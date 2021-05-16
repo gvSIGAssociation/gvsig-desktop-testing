@@ -83,6 +83,7 @@ cargar los datos obtenidos a partir del INCA.
     * Obtener una revision concreta de una capa.
     * Exportar una capa a una fecha dada.
     * Exportar una capa a una revision dada.
+    * Definir y descargar un modelo de datos.
 
    Y ha pasado correctamente continue con el paso 2.
    Si no, ejecúte alguno de estos antes de continuar.
