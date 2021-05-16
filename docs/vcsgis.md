@@ -68,6 +68,7 @@ Notas para descargar la web:
   cd gvsigassociation.github.io/gvsig-desktop-testing
   rm index.html
   mv vcsgis.html index.html
+  
   ```
 * Una vez descargado, el raiz de la web estara en la carpeta ```gvsigassociation.github.io/gvsig-desktop-testing```.
 
