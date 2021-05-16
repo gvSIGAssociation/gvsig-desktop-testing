@@ -1,5 +1,5 @@
 ---
-title: Importar historial (repositorio remoto en H2 con autorización)
+title: Importar historial (repositorio remoto con autorización)
 proccode: VC00HI00CP0003
 srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 ---
@@ -84,71 +84,80 @@ Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia d
     "Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente```.
+2. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
 
-3. ${check} La copia de trabajo ```${WCNAME}``` (WCNAME) no dispone de información por lo que se busca cargar en ella un historial.
+3. Seleccione la opción "Mostrar/Gestor de proyecto".
 
-4. ${check} Para ello hay que cargar la tabla de historial en gvSIG Desktop. Seleccione la opción "Mostrar/Gestor de proyecto".
+5. ${check} Seleccione el tipo de documento "Tabla".
 
-5. ${check}Marque la opción "Tabla".
+6. ${check} Pulse el botón "Nuevo".
 
-6. ${check} Pulse el botón "Nuevo". Solo tiene que estas ese habilitado.
+7. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
 
-7. ${check} Como resultado de lo anterior se muestra una ventana de diálogo titulada "Nueva Tabla". 
+8. ${check} Seleccione la pestaña "Archivo".
 
-8. ${check} De las pestañas situadas en la zona superior de la ventana seleccione la opción "Archivo".
+9. ${check} Pulse en el boton "Añadir".
 
-9. ${check} De los botones situados en la zona derecha de la ventana seleccione la opción "Añadir".
+10. ${check} Se mostrara el diálogo para seleccionar un fichero. 
+    Seleccione el fichero correspondiente a ```${TABLE_NAME}``` (${TABLE_LINK}) y pulse el boton "Abrir" que cerrara este dialogo.
 
-10. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
-    Seleccione el correspondiente a ```${TABLE_NAME}``` (${TABLE_LINK}).
+11. ${check} De vuelta en el dialogo de "Nueva tabla" pulse el botón "Aceptar".
 
-11. ${check} Pulse el botón "Aceptar" situado en la zona inferior del cuadro de diálogo.
+12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Importar historial".
 
-12. ${check} Ejecute la opción "Herramientas/VCSGis/Importar historial".
+13. ${check} Se presentara una ventana de título  "Importar historial".
 
-13. ${check} Se visualiza la ventana que los parámetros necesarios para realizar la importación
-   de título  "Importar historial".
+14. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY}``` (WORKINGCOPY).
+    Si no existe aborte el caso de prueba.
 
-14. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
-   entrada ```${WCNAME}``` (WCNAME). Si existe seleccionela. Si no existe
-   termine el procedimiento.
-   
-15. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
+4. ${check} Si le aparece un dialogo con título "Inicio de sessión de usuario":
+   * ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
+   * ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
+   * ${check} Pulse el botón "Aceptar"
 
-16. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
-
-17. ${check} Active la pestaña "Tablas" y seleccione
-    la opción ```${TABLE_NAME}``` (TABLE_LINK). Si esta no existe termine el procedimiento.
+17. ${check} En la ventana de título  "Importar historial" active la pestaña "Tablas" y seleccione
+    la opción ```${TABLE_NAME}``` (TABLE_LINK). Si esta no existe aborte el procedimiento.
 
 18. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
-19. ${check} Debera aparecer en el valor del campo "nombre" ```${TABLE_NAME}``` (TABLE_NAME).
+19. ${check} Debera aparecer el campo "nombre" con en el valor ```${TABLE_NAME}``` (TABLE_NAME).
 
-20. ${check} En el desplegable del  campo "Campo para etiqueta" introduzca 
-   la opción ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
-   Si esta no existe termine el procedimiento.
+20. ${check} En el desplegable del campo "Campo para etiqueta" seleccione el valor ```${FIELDFORLABEL}``` (FIELDFORLABEL). 
+   Si no existe aborte el caso de prueba.
 
 21. ${check} En el campo para "Etiqueta" no especifique nada.
 
-22. ${check} En el campo "Categoria" introduzca el valor ```${CATEGORY}``` (CATEGORY).
+22. ${check} En el campo "Categoria" introduzca el valor ```${CATEGORY}``` (CATEGORY) {% include var_copy.html var="CATEGORY"%}.
 
-23. ${check} En el campo "Campo del intedificador" introduzca el valor ```${IDENTIFICADOR}``` (IDENTIFICADOR).
+23. ${check} En el desplegable del campo "Campo del intedificador" seleccione el valor ```${IDENTIFICADOR}``` (IDENTIFICADOR).
+    Si no existe aborte el caso de prueba.
 
-24. ${check} En el campo "Campo contador" introduzca el valor ```${CONTADOR}``` (CONTADOR).
+24. ${check} En el desplegable del campo "Campo contador" seleccione el valor ```${CONTADOR}``` (CONTADOR).
+    Si no existe aborte el caso de prueba.
 
-25. ${check} Marque la opción "Usar fecha de revisión".
+25. ${check} Seleccione la opción "Usar fecha de revisión".
 
-26. ${check} Seleccione en el campo "Campo de fecha de revisión" el valor ```${REVISION}``` (REVISION).
+26. ${check} En el desplegable del campo "Campo de fecha de revisión" seleccione el valor ```${REVISION}``` (REVISION).
 
 27. ${check} Pulse el boton "Importar historial".
 
-28. ${check} Tras la importación del historial, pulse el botón "Cerrar". Una vez ejecutado lo anterior la copia de trabajo ```${WCNAME}``` (WCNAME) dispone del
-    historial. Hay que especificar que el proceso de importación también realiza commits por lo que el repositorio también dispone del historial.
+28. ${check} Tras la importación del historial, pulse el botón "Cerrar". 
 
-29. ${check} La vista "Sin título" se queda activa y vacía.
+30. ${check} Seleccione la opcion de menu "Herramientas/VCSGis/Mostrar revisiones".
 
+13. ${check} Se presentara una ventana de título  "Revisiones".
 
+13. ${check} Se presentara una ventana de título  "Importar historial".
+
+14. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY}``` (WORKINGCOPY).
+    Si no existe aborte el caso de prueba.
+
+14. ${check} En el desplegable del campo "Tabla" seleccione el valor ```${TABLE_NAME}``` (TABLE_NAME).
+    Si no existe aborte el caso de prueba.
+    
+14. ${check} En la tabla de la parte inferior del dialogo deberan haber aperecido XXX lineas.
+
+14. ${check} Cierre el dialogo de titulo "Revisiones".
 
 ### Resultado esperado
 
