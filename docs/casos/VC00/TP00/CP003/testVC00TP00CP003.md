@@ -24,6 +24,8 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 Este caso de prueba comprueba que se pueden subir cambios a una capa que tiene asignado un plan de topologia
 cuando la capa cumple dicho plan topologico.
 
+{% include es/checkifthereisalreadyabug.md %}
+
 ### Datos de entrada
   
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia nueva de trabajo sobre la cual se realizará un checkout.
@@ -107,10 +109,10 @@ cuando la capa cumple dicho plan topologico.
     
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
