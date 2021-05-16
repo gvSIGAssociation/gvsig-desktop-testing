@@ -69,7 +69,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
    * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-3. ${check} Eliminaremos el r5gistro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+3. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
    Para ello siga los pasos indicados en 
    [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
