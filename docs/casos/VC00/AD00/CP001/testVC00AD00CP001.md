@@ -105,7 +105,7 @@ base de datos que se vayan a utilizar.
 12. ${check} Seleccionaremos la opcion de menu "Herramientas/VCSGis/Añadir a la copia de trabajo" 
     que nos presentara la ventana de titulo Añadir a la copia de trabajo".
 
-13. ${check} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
+13. ${check} Seguiremos los pasos de [Añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WCNAME=${WCNAME}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}) 
 
 14. ${check} Debera haber aparecido en la vista una capa 
     ```${TABLENAME}``` (${TABLELINK})
