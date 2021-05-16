@@ -19,9 +19,9 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 
 {% include parameter.html name="PASSWORD" value="sara1" %}
 
-{% include parameter.html name="FIELDFORLABEL" value="extinca" %}
+{% include parameter.html name="CATEGORY" value="Señalizacion vertical" %}
 
-{% include parameter.html name="CATEGORY" value="Historial" %}
+{% include parameter.html name="FIELDFORLABEL" value="extinca" %}
 
 {% include parameter.html name="IDENTIFICADOR" value="extinca" %}
 
