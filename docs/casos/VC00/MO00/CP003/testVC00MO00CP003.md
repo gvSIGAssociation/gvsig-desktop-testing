@@ -14,7 +14,7 @@ srcpath: "casos/VC00/MO00/CP003/testVC00MO00CP003.md"
 
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
-{% include parameter.html name="REPOURL" value="??????????????????????" %}
+{% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
 
 {% include parameter.html name="TABLE_NAME" value="origen_coordenadas" %}
 
@@ -97,24 +97,24 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
    * ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
      de no ser asi cámbie la proyección de la vista.
 
-2. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
+3. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
 
-3. Seleccione la opción "Mostrar/Gestor de proyecto".
+4. Seleccione la opción "Mostrar/Gestor de proyecto".
 
-4. ${check} Seleccione el tipo de documento "Tabla".
+5. ${check} Seleccione el tipo de documento "Tabla".
 
-5. ${check} Pulse el botón "Nuevo".
+6. ${check} Pulse el botón "Nuevo".
 
-6. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
+7. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
 
-7. ${check} Seleccione la pestaña "Archivo".
+8. ${check} Seleccione la pestaña "Archivo".
 
-8. ${check} Pulse en el boton "Añadir".
+9. ${check} Pulse en el boton "Añadir".
 
-9. ${check} Se mostrara el diálogo para seleccionar un fichero. 
+10. ${check} Se mostrara el diálogo para seleccionar un fichero. 
     Seleccione el fichero correspondiente a ```${TABLE_NAME}``` (${TABLE_LINK}) y pulse el boton "Abrir" que cerrara este dialogo.
 
-10. ${check} De vuelta en el dialogo de "Nueva tabla" pulse el botón "Aceptar".
+11. ${check} De vuelta en el dialogo de "Nueva tabla" pulse el botón "Aceptar".
 
 12. ${check} Pulse el botón "Aceptar" situado en la zona inferior del cuadro de diálogo.
 
@@ -122,105 +122,105 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
     [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKINGCOPY=${WORKINGCOPY}&TABLE=${TABLE_NAME}&FIELDFORLABEL=${TABLE_FIELDFORLABEL}&CATEGORY=${TABLE_CATEGORY})
     
 14. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Mostrar cambios".
-15. 
-16. ${check} Siga los pasos de 
+
+15. ${check} Siga los pasos de 
     [commit de una tabla](../../PROC/021/VC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE_NAME}&EFECTIVEDATE=${TABLE_EFECTIVEDATE}&COMMENT=${TABLE_COMMENT}) 
     para subir la capa al reposiorio.
 
-23. ${check} Cierre la ventana titulada "Mostrar cambios".
+16. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-24. ${check} Minimice la aplicación gvSIG Desktop ```Cliente```.
+17. ${check} Minimice la aplicación gvSIG Desktop ```Cliente```.
 
-25. ${check} Active la aplicación gvSIG Desktop ```Servidor```. 
+18. ${check} Active la aplicación gvSIG Desktop ```Servidor```. 
     Vamos a configurar el servidor para registrar el modelo de datos.
 
-26. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este, para ello siga los pasos de 
+19. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este, para ello siga los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
 
-27. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form". 
+20. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form". 
 
-29. ${check} Se mostrara una ventana con el formulario asociado a la tabla  ```VCSGISREPO_ENTITIES```.
+21. ${check} Se mostrara una ventana con el formulario asociado a la tabla  ```VCSGISREPO_ENTITIES```.
 
-11. ${check} Pulse el boton "Comenzar edición" del formulario. 
+22. ${check} Pulse el boton "Comenzar edición" del formulario. 
 
-32. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_provincias```.
+23. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_provincias```.
 
-33. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+24. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
 
-10. ${check} Pulse el boton "Guardar" del formulario.
+25. ${check} Pulse el boton "Guardar" del formulario.
  
-32. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_poblaciones```.
+26. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_poblaciones```.
 
-33. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+27. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
 
-10. ${check} Pulse el boton "Guardar" del formulario.
+28. ${check} Pulse el boton "Guardar" del formulario.
 
-32. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```${TABLE_NAME}```.
+29. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```${TABLE_NAME}```.
 
-33. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+30. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
 
-10. ${check} Pulse el boton "Guardar" del formulario.
+31. ${check} Pulse el boton "Guardar" del formulario.
 
-11. ${check} Pulse el boton "Terminar edición" del formulario. 
+32. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guardar los cambios.
+33. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guardar los cambios.
 
-13. ${check} Cierre el formulario de ```VCSGISREPO_ENTITIES```.
+34. ${check} Cierre el formulario de ```VCSGISREPO_ENTITIES```.
 
-39. ${check} Cierre la tabla ```VCSGISREPO_ENTITIES```
+35. ${check} Cierre la tabla ```VCSGISREPO_ENTITIES```
 
-41. ${check} Minimice la aplicación gvSIG Desktop ```Servidor```.
+36. ${check} Minimice la aplicación gvSIG Desktop ```Servidor```.
 
-25. ${check} Active la aplicación gvSIG Desktop ```Cliente```. 
+37. ${check} Active la aplicación gvSIG Desktop ```Cliente```. 
 
-43. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
+38. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
    [Inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY2})
 
-45. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Conectar a modelo de datos" 
+39. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Conectar a modelo de datos" 
 
-46. ${check} Se muestra la ventana con el título "Conectar a modelo de datos".
+40. ${check} Se muestra la ventana con el título "Conectar a modelo de datos".
 
-47. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY2}``` (WORKINGCOPY2).
+41. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY2}``` (WORKINGCOPY2).
 
-48. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
+41. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
 
-47. ${check} En el cuadro de texto "Usuario" introduzca ${USER} (USER) {% include var_copy.html var="USER"%}
+42. ${check} En el cuadro de texto "Usuario" introduzca ${USER} (USER) {% include var_copy.html var="USER"%}
 
-49. ${check} En el cuadro de texto "Contraseña" introduzca ${PASSWORD} (PASSWORD) {% include var_copy.html var="PASSWORD"%}
+44. ${check} En el cuadro de texto "Contraseña" introduzca ${PASSWORD} (PASSWORD) {% include var_copy.html var="PASSWORD"%}
 
-51. ${check} Pulse el botón "Aceptar"
+45. ${check} Pulse el botón "Aceptar"
 
-52. ${check} Devuelta al dialogo de "Conectar a modelo de datos", en el desplegable del 
+46. ${check} Devuelta al dialogo de "Conectar a modelo de datos", en el desplegable del 
     campo "Modelo de datos" seleccione ```${MODEL}``` (MODEL).
 
-53. ${check} La lista inferior se rellenará con las diferentes tablas que componen ese modelo de datos.
+47. ${check} La lista inferior se rellenará con las diferentes tablas que componen ese modelo de datos.
 
-54. ${check} Pulse el botón "Conectar a modelo de datos".
+48. ${check} Pulse el botón "Conectar a modelo de datos".
 
-55. ${check} Tras la carga del modelo, pulse el botón "Cerrar". 
+49. ${check} Tras la carga del modelo, pulse el botón "Cerrar". 
 
-3. Seleccione la opción "Mostrar/Gestor de proyecto".
+50. Seleccione la opción "Mostrar/Gestor de proyecto".
 
-4. ${check} Seleccione el tipo de documento "Tabla".
+51. ${check} Seleccione el tipo de documento "Tabla".
 
-5. ${check} Pulse el botón "Nuevo".
+52. ${check} Pulse el botón "Nuevo".
 
-6. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
+53. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
 
-6. ${check} Seleccione la pestaña "VCSGis".
+54. ${check} Seleccione la pestaña "VCSGis".
 
-47. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY2}``` (WORKINGCOPY2).
+55. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY2}``` (WORKINGCOPY2).
 
 56. ${check} La lista de tablas debera rellenarse con las tablas del repositorio.
 
-56. ${check} Obserbaremos que las tablas:
+57. ${check} Obserbaremos que las tablas:
     * esp_provincias
     * esp_poblaciones
     * origen_coordenadas
     
     Deberan aparecer marcadas como disponibles en la copia de trabajo.
     
-56. ${check} Pulse el boton cancelar para cerrar el dialogo de "Nueva tabla".
+58. ${check} Pulse el boton cancelar para cerrar el dialogo de "Nueva tabla".
 
 ### Resultado esperado
 
