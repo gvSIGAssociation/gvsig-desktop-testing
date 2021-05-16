@@ -68,11 +68,12 @@ Notas para descargar la web:
   cd gvsigassociation.github.io/gvsig-desktop-testing
   rm index.html
   mv vcsgis.html index.html
-  mkdir ${VERSION_FOLDER}
   ```
 * Una vez descargado, el raiz de la web estara en la carpeta ```gvsigassociation.github.io/gvsig-desktop-testing```.
 
 * Dejar en "casos" solo la carpeta "VC00".
+* 
+* Crear la carpteta de la version (2_6_0_3222) en el raiz de la web.
 
 </div>
 
