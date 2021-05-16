@@ -78,7 +78,7 @@ correctamente.
 1. ${check} **TABLE_COMMIT**=```${TABLE_COMMIT}```. Mensaje a usar cuando se sube la
    tabla ```${TABLE_NAME}``` al repositorio.
 
-1. ${check} **MODEL**={% include var_tag.html var="MODEL" %}. Nombre del modelo de datos
+1. ${check} **MODEL_NAME**={% include var_tag.html var="MODEL_NAME" %}. Nombre del modelo de datos
 
 1. ${check} **USER**={% include var_tag.html var="USER" %}. Identificador de usuario.
 
@@ -162,19 +162,19 @@ correctamente.
 
 23. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_provincias```.
 
-24. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
+24. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL_NAME}``` (MODEL_NAME) {% include var_copy.html var="MODEL_NAME"%}. 
 
 25. ${check} Pulse el boton "Guardar" del formulario.
  
 26. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_poblaciones```.
 
-27. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
+27. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL_NAME}``` (MODEL_NAME) {% include var_copy.html var="MODEL_NAME"%}. 
 
 28. ${check} Pulse el boton "Guardar" del formulario.
 
 29. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```${TABLE_NAME}```.
 
-30. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
+30. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL_NAME}``` (MODEL_NAME) {% include var_copy.html var="MODEL_NAME"%}. 
 
 31. ${check} Pulse el boton "Guardar" del formulario.
 
@@ -208,7 +208,7 @@ correctamente.
 45. ${check} Pulse el botón "Aceptar"
 
 46. ${check} Devuelta al dialogo de "Conectar a modelo de datos", en el desplegable del 
-    campo "Modelo de datos" seleccione ```${MODEL}``` (MODEL).
+    campo "Modelo de datos" seleccione ```${MODEL_NAME}``` (MODEL_NAME).
 
 47. ${check} La lista inferior se rellenará con las diferentes tablas que componen ese modelo de datos.
 
