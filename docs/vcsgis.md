@@ -58,8 +58,11 @@ Notas para descargar la web:
 * Para descargar la web de los casos de prueba:
   ```
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/
+  wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/vcsgis.html
   ```
-* Una vez descargada, dejar en "casos" solo la carpeta "VC00".
+* Una vez descargado, el raiz de la web estara en la carpeta ```gvsigassociation.github.io/gvsig-desktop-testing```.
+
+* Dejar en "casos" solo la carpeta "VC00".
 
 * En el raiz, crear la carpeta "2_6_0_3222" para meter las distro, los videos y el pdf.
 
