@@ -43,16 +43,17 @@ basada en un repositotio remoto con la autorización activada.
 3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-4. ${check} Tabla ```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
+4. ${check} **TABLENAME**=```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
 
 3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLENAME}```
    a usar en etiquetas. 
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Con la que vamos a añadir la tabla ```${TABLENAME}```
+4. ${check} **CATEGORY**=```${CATEGORY}```. Categoaria a aosciar a la tabla ```${TABLENAME}``` al añadirla
    a la copia local.
 
-5. ${check} **USER**=```${USER}``` y **PASSWORD**=```${PASSWORD}``` a utilizar cuando se requiera autenticar al
-   usuario que esta realizando la opracion.
+5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
+
+7. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
 
 ### Prerrequisitos
 
