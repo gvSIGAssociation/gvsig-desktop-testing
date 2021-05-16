@@ -4,15 +4,13 @@ proccode: VC00EX00CP002
 srcpath: "casos/VC00/EX00/CP002/testVC00EX00CP002.md"
 ---
 
-**--- EN CONSTRUCCIÓN ---**
-
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
+{% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo2" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
@@ -46,23 +44,23 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 1. ${check} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 
-2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a crear asociada al repositorio.
+1. ${check} **REPOURL**=```${REPOURL}```. Direccion donde esta el servidor del repopsiyotio a usar.
 
-3. ${check} **WORKINGCOPY**=```${WCNAME2}``` a usar en este test. 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}``` a usar en este test. 
 
-4. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
+1. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
 
-5. ${check} **USER**=```${USER}```. Identificador de usuario.
+1. ${check} **USER**=```${USER}```. Identificador de usuario.
 
-6. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
+1. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
-7. ${check} **REVISION0**=```0```. Primera revisión a exportar
+1. ${check} **REVISION0**=```0```. Primera revisión a exportar
 
-8. ${check} **REVISION1**=```3```. Segunda revisión a exportar
+1. ${check} **REVISION1**=```3```. Segunda revisión a exportar
 
-[//]: # (9. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX```. Nombre de la primera tabla exportada)
+[//]: # (1. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_R0_XXXXXXXX_XXXXXX_XXX```. Nombre de la primera tabla exportada)
 
-[//]: # (10. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX```. Nombre de la segunda tabla exportada)
+[//]: # (1. ${check} **EXPORTTABLENAME1**=```ESP_PROVINCIAS_R3_XXXXXXXX_XXXXXX_XXX```. Nombre de la segunda tabla exportada)
 
 ### Prerrequisitos
 
@@ -79,19 +77,26 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    [VC00TP00CP003, "Subir cambios en una capa con un plan topológico (que sí pasen el plan)"](../../TP00/CP003/testVC00TP00CP003.md), 
    continúe con el siguiente paso, si no, ejecútelo antes de continuar. 
    
-2. ${check} Cierre gvSIG.
+2. ${check} Compruebe que no exista el fichero:
+   * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   En caso de que exista debera:
+   * ${check} Cerrar gvSIG desktop ```Cliente```.
+   * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-3. ${check} **--- FIXME  Eliminar cualquier rastro de ${WCNAME2} ---**
+3. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+   Para ello siga los pasos indicados en 
+   [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
-4. ${check} Abra gvSIG
-
-5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
-
-6. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+4. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+   
+5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
+   menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
+   [inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY})
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
 
-8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/017/procVC00PROC017.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
+8. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/017/procVC00PROC017.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
 
 9. ${check} Cierre el cuadro de diálogo "Exportar".
 
@@ -103,15 +108,11 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
-13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/018/procVC00PROC018.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
+13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/018/procVC00PROC018.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
 14. ${check} Cierre el cuadro de diálogo "Exportar".
 
 15. ${check} En la vista se habrá añadido la capa ```${EXPORTTABLENAME1}```(EXPORTTABLENAME1) en el estado de la revisión ${REVISION1}.
-
-16. ${check} Cierre la vista.
-
-17. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto".
 
 ### Resultado esperado
 
