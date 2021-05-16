@@ -8,7 +8,7 @@
 * [004 Activar autenticación y autorización en el repositorio](004/procVC00PROC004.md).
 * [005 checkout (sin autenticación)](005/procVC00PROC005.md).
 * [006 checkout (con autorización)](006/procVC00PROC006.md).
-* [007 Iniciar un servidor de repositorio](007/procVC00PROC007.md).
+* 007 Iniciar un servidor de repositorio.
 * [008 Inicialización de una copia de trabajo asociada a un repositorio remoto en H2](008/procVC00PROC008.md).
 * [009 Alta de una variable](009/procVC00PROC009.md).
 * [010 Alta de un usuario](010/procVC00PROC010.md).
