@@ -59,6 +59,7 @@ Notas para descargar la web:
   ```
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/vcsgis.html
+  
   ```
 * Una vez descargado, el raiz de la web estara en la carpeta ```gvsigassociation.github.io/gvsig-desktop-testing```.
 
