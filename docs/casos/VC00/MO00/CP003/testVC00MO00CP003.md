@@ -48,6 +48,8 @@ Posteriormente se crea una nueva copia de trabajo y se conecta al modelo creado,
 asociado a la tabla esp_poblaciones y se comprueba que las relaciones entra las tres tablas se muestran
 correctamente.
 
+{% include es/checkifthereisalreadyabug.md %}
+
 ### Datos de entrada
 
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
@@ -243,10 +245,10 @@ correctamente.
 
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
