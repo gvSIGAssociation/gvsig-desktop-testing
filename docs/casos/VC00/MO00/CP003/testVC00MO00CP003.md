@@ -220,10 +220,10 @@ correctamente.
 
 55. ${check} Se mostrara una ventana con el formulario asociado a la tabla  ```esp_poblaciones```.
 
-56. ${check} En el formulario debera obserbar que el campo "ZZZZZZ" es un desplegable con los 
+56. ${check} En el formulario debera obserbar que el campo "Origen de las coordenadas" es un desplegable con los 
     valores de la tabla ${TABLE_LINK}.
     
-57. ${check} En el formulario debera obserbar que el campo "ZZZZZZ" es un enlace con los datos 
+57. ${check} En el formulario debera obserbar que el campo "Provincia" es un enlace con los datos 
     de la tabla ```esp_provincias```, y en su caja de texto aparece el nombre de una provincia.
     
 58. ${check} Cierre el formulario de ```esp_poblaciones```.
