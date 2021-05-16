@@ -6,9 +6,9 @@
  
 * [Minimo (repositorio local en H2 con autorización)](planVC00PLAN001.md)
 
-{% endcomment %}
-
 * [Basico (repositorio remoto en base de datos H2 con autorización)](planVC00PLAN002.md)
+
+{% endcomment %}
 
 * [Basico (repositorio remoto en base de datos Oracle con autorización)](planVC00PLAN003.md)
 
