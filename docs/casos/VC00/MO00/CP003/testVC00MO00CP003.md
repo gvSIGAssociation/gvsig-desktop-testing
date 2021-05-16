@@ -39,8 +39,14 @@ srcpath: "casos/VC00/MO00/CP003/testVC00MO00CP003.md"
 
 ### Descripción
 
-Este proceso define un modelo de datos, ```${MODEL}``` (MODEL), con las capas ```esp_provincias``` y ```esp_poblaciones``` y la tabla ```${TABLE_NAME}``` (TABLE_LINK). Tras definirlo
-se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCNAME2).
+Este caso de prueba declara en el repostorio un modelo de datos formado por las tablas:
+   * esp_provincias
+   * esp_poblaciones
+   * origen_coordenadas
+   
+Posteriormente se crea una nueva copia de trabajo y se conecta al modelo creado, se abre el formulario 
+asociado a la tabla esp_poblaciones y se comprueba que las relaciones entra las tres tablas se muestran
+correctamente.
 
 ### Datos de entrada
 
@@ -207,20 +213,22 @@ se procede a descargar dicho modelo en la copia de trabajo ```${WCNAME2}``` (WCN
 
 53. ${check} Se mostrara la ventana de diálogo titulada "Nueva tabla". 
 
-54. ${check} Seleccione la pestaña "VCSGis".
+53. ${check} Abra la tabla ```esp_poblaciones```, para ello siga los pasos de 
+    [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${WORKINGCOPY2}&TABLENAME=esp_poblaciones)
 
-55. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY2}``` (WORKINGCOPY2).
+54. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form". 
 
-56. ${check} La lista de tablas debera rellenarse con las tablas del repositorio.
+55. ${check} Se mostrara una ventana con el formulario asociado a la tabla  ```esp_poblaciones```.
 
-57. ${check} Obserbaremos que las tablas:
-    * esp_provincias
-    * esp_poblaciones
-    * origen_coordenadas
+56. ${check} En el formulario debera obserbar que el campo "ZZZZZZ" es un desplegable con los 
+    valores de la tabla ${TABLE_LINK}.
     
-    Deberan aparecer marcadas como disponibles en la copia de trabajo.
+57. ${check} En el formulario debera obserbar que el campo "ZZZZZZ" es un enlace con los datos 
+    de la tabla ```esp_provincias```, y en su caja de texto aparece el nombre de una provincia.
     
-58. ${check} Pulse el boton cancelar para cerrar el dialogo de "Nueva tabla".
+58. ${check} Cierre el formulario de ```esp_poblaciones```.
+
+59. ${check} Cierre la tabla ```esp_poblaciones```
 
 ### Resultado esperado
 
