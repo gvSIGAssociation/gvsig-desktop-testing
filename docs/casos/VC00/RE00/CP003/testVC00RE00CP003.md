@@ -180,7 +180,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 
 44. ${check} Compruebe si exite el fichero 
     * ```${TMPFOLDER}/${WORKINGCOPY2}.mv.db``` (TMPFOLDER/WORKINGCOPY2.mv.db).
-    En caso de que exista, cierre la aplicacion gvSIG Desktop ```Cliente````, eliminelo y abra de nuevo gvSIG desktop ```Cliente```.
+    En caso de que exista, cierre la aplicacion gvSIG Desktop ```Cliente```, eliminelo y abra de nuevo gvSIG desktop ```Cliente```.
 
 45. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
    de no ser asi cámbie la proyección de la vista.
@@ -202,7 +202,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 51. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
 52. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
-    leyenda ```${LEYENDA_NAME}```.
+    leyenda ```${LEGEND_NAME}```.
 
 
 
