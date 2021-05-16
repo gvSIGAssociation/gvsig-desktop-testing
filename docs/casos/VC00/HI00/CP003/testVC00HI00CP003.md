@@ -34,7 +34,9 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 
 ### Descripción
 
-Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia de trabajo ```${WCNAME}``` (WCNAME).
+Este caso de prueba verifica que la herramienta de importacion de historial y consulta de revisiones funcionan
+correctamente. Hay que tener en cuenta que el diseño de la herramienta de carga de historial esta limitado a
+cargar los datos obtenidos a partir del INCA.
 
 ### Datos de entrada
 
