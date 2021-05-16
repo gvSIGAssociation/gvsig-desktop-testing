@@ -4,47 +4,35 @@ proccode: VC00TP00CP0003
 srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 ---
 
-**EN CONSTRUCCION**
-
 {% include es/header.md %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
+
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
 
-{% include parameter.html name="ENTITIE1" value="esp_provincias" %}
+{% include parameter.html name="LAYER1_NAME" value="esp_provincias" %}
 
-{% include parameter.html name="ENTITIE2" value="esp_poblaciones" %}
-
-{% include parameter.html name="TMPFOLDER" value="/tmp" %}
-
-{% include parameter.html name="WCNAME" value="CopiaDeTrabajo2" %}
-
-{% include parameter.html name="USER" value="sara" %}
-
-{% include parameter.html name="PASSWORD" value="sara1" %}
-
+{% include parameter.html name="LAYER2_NAME" value="esp_poblaciones" %}
 
 ## {{ page.title }}
 
 ### Descripción
 
-Este proceso prueba que es posible hacer un commit de una capa, ```${ENTITIE1}``` (ENTITIE1), que cumple un plan 
-topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, ```${REPONAME}``` (REPONAME).
+Este caso de prueba comprueba que se pueden subir cambios a una capa que tiene asignado un plan de topologia
+cuando la capa cumple dicho plan topologico.
 
 ### Datos de entrada
   
-1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia nueva de trabajo sobre la cual se realizará un checkout.
 
-2. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia nueva de trabajo sobre la cual se realizará un checkout.
+1. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
-3. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
+1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa que vamos a editar y no vamos a poder commitar
+   por tener asignado un plan de topologia que no va a cumplir tras la edicion.
 
-4. ${check} **ENTITIE1**=```${ENTITIE1}```. Capa o entidad del repositorio a la cual se le asigna el 
-   plan topológico ```${TPNAME}``` (TPNAME).
+1. ${check} **LAYER2_NAME**=```${LAYER2_NAME}```. 
 
-5. ${check} **ENTITIE2**=```${ENTITIE2}```. Capa o entidad del repositorio necesaria para 
-    aplicar el plan topológico ```${TPNAME}``` (TPNAME).
 
 ### Prerrequisitos
 
@@ -64,54 +52,49 @@ topológico, ```${TPNAME}``` (TPNAME), asignado previamente en el repositorio, `
     "Subir cambios en una capa con un plan topológico (que no pasen el plan)"
     y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
 
-2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```cliente```.
+2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
-3. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
+3. ${check} La vista "Sin titulo" debera estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-4. ${check} Pulse botón derecho del mouse.
+4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-5. ${check} Seleccione la opción "Comenzar edición" del desplegable.
+5. ${check} Seleccione la opcion de menu "Capa/Comenzar edicion".
 
 6. ${check} Seleccione la provincia de "Valencia" y desplacela dentro del área de la península ibérica hasta
-    asegurarse de que contenga alguna población en su interior (Punto) de la capa ```${ENTITIE2}``` (ENTITIE2).
+    asegurarse de que solape con ningun punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-7. ${check} Seleccione la capa ```${ENTITIE1}``` (ENTITIE1) en el Toc.
+7. ${check} Si no lo esta seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-8. ${check} Pulse botón derecho del mouse.
+8. ${check} Seleccione la opcion de menu "Capa/Terminar edicion" (end_editingJList).
 
-9. ${check} Seleccione la opción "Terminar edición" del desplegable.
+9. ${check} Aparecera una ventana de titulo "Terminar edición".
 
-10. ${check} Tras realizar lo anterior, se despliega un ventana de diálogo titulada "Terminar edición".
+10. ${check} Seleccione la opción "Guardar".
 
-11. ${check} Seleccione la opción "Guardar" para almacenar los cambios.
+11. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
-12. ${check} Pulse la opción de menú "Herramientas".
+12. ${check} Se presentara una ventana de título  "VCSGis Cambios".
 
-13. ${check} Del desplegable surgido en la acción anterior seleccione la opción "VCSGis".
+13. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
-14. ${check} Del desplegable surgido en la acción anterior pulse la opción "Mostrar cambios".
-
-15. ${check} Se visualiza la ventana que muestra los cambios entre el repositorio y la copia de trabajo
-   de título  "VCSGis Cambios".
-
-16. ${check} Seleccione la copia de trabajo ```${WCNAME}``` (WCNAME).
-
-17. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
+14. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
     a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
     puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
     A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
     "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-18. ${check} Pulse la casilla de verificación asociada a la capa ```${ENTITIE1}``` (ENTITIE1).
+15. ${check} Pulse la casilla de verificación asociada a la capa ```${LAYER1_NAME}``` (LAYER1_NAME).
 
-19. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
+16. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-20. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha "4/05/2021"
+17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
 
-21. ${check} Introduzca en el campo "Comentario" el texto "Modificación de la capa de ${ENTITIE1}"
+18. ${check} Introduzca en el campo "Comentario" el texto <code id="COMMENT" class="language-plaintext highlighter-rouge">Modificación de la capa de ${LAYER1_NAME}</code> {% include var_copy.html var="COMMENT"%}
 
-22. ${check} Pulse el botón de "Commit"
+19. ${check} Pulse el botón de "Commit"
+
+20. ${check} Se mostrara una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})" y se cerrara automaticamente.
 
 23. ${check} Cierre la ventana titulada "Mostrar cambios".
 
