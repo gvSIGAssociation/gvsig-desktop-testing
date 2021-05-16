@@ -47,6 +47,8 @@ srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 Este proceso crea una tabla de recursos, la sube al repositorio y la asocia como tabla de recursos 
 de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la capa.
 
+{% include es/checkifthereisalreadyabug.md %}
+
 ### Datos de entrada
 
 1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion asciada al repositorio.
@@ -204,14 +206,12 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 52. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
     leyenda ```${LEGEND_NAME}```.
 
-
-
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
