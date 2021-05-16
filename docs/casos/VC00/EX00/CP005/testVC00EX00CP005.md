@@ -45,19 +45,19 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 1. ${check} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 
-2. ${check} **REPOURL**=```${REPOURL}```. Direccion donde esta el servidor del repopsiyotio a usar.
+1. ${check} **REPOURL**=```${REPOURL}```. Direccion donde esta el servidor del repopsiyotio a usar.
 
-3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}``` a usar en este test. 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}``` a usar en este test. 
 
-4. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
+1. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
 
-5. ${check} **USER**=```${USER}```. Identificador de usuario.
+1. ${check} **USER**=```${USER}```. Identificador de usuario.
 
-6. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
+1. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
 
-7. ${check} **DATE0**=```3/5/21```. Primera fecha a exportar
+1. ${check} **DATE0**=```3/5/21```. Primera fecha a exportar
 
-8. ${check} **DATE1**=```5/5/21```. Segunda fecha a exportar
+1. ${check} **DATE1**=```5/5/21```. Segunda fecha a exportar
 
 [//]: # (9. ${check} **EXPORTTABLENAME0**=```ESP_PROVINCIAS_20210503_000000_0```. Nombre de la primera tabla exportada)
 
