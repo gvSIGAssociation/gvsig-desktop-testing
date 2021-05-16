@@ -1,3 +1,7 @@
+---
+title: Entrega VCSGis para gvSIG desktop
+srcpath: "vcsgis.md"
+---
 {% include es/header.md %}
 
 {% include parameter.html name="VERSION" value="2.6.0-3222" %}
