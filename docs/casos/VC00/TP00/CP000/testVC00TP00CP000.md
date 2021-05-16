@@ -76,7 +76,7 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
     Se preentara la ventana de titulo "Añadir a la copia de trabajo".
 
 13. ${check} Siga los pasos de 
-    [añadir capa a la copia de trabajo](../../PROC/003/VC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&TABLE2_CATEGORY=${CATEGORY}) 
+    [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&TABLE2_CATEGORY=${CATEGORY}) 
     para añadir la capa a la copia de trabajo.
 
 14. ${check} Debera haber aparecido en la vista una capa 
@@ -88,7 +88,7 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 12. ${check} Seleccione la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
 
 14. ${check} Siga los pasos de 
-    [commit de una capa](../../PROC/021/VC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE2_NAME}&EFECTIVEDATE=${TABLE2_EFECTIVEDATE}&COMMENT=${TABLE2_COMMENT}) 
+    [commit de una capa](../../PROC/021/procVC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE2_NAME}&EFECTIVEDATE=${TABLE2_EFECTIVEDATE}&COMMENT=${TABLE2_COMMENT}) 
     para subir la capa al reposiorio.
 
 2. ${check} **Active la aplicación gvSIG Desktop ```Servidor```**. Vamos a registrar el servidor un plan topológico.
