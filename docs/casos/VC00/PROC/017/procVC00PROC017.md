@@ -1,7 +1,7 @@
 ---
 title: Exportar una revisión concreta de una capa con autenticación
 proccode: procVC00PROC017
-srcpath: "casos/VC00/PROC/017/procVC00PROC017"
+srcpath: "casos/VC00/PROC/017/procVC00PROC017.md"
 ---
 
 {% include es/header.md %}
@@ -34,7 +34,7 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 1. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}.
 
-1. ${check} **REVISION**=```${REVISION}```. Fecha
+1. ${check} **REVISION**=```${REVISION}```. Revision a exportar
 
 1. ${check} **EXPORTTABLENAME**=```${EXPORTTABLENAME}```. Nombre de la tabla exportada
 
