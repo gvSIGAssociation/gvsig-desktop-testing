@@ -55,12 +55,10 @@ A los videos grabados de cada uno de los casos de prueba se puede acceder desde 
 {% comment %}
 
 Notas para descargar la web:
-
 * Para descargar la web de los casos de prueba:
-
-  ´´´
+  ```
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/
-  ´´´
+  ```
 * Una vez descargada, dejar en "casos" solo la carpeta "VC00".
 
 * En el raiz, crear la carpeta "2_6_0_3222" para meter las distro, los videos y el pdf.
