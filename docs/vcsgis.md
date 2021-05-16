@@ -11,12 +11,12 @@ Antes de pasar el plan de pruebas "basico" de VCSGis es recomendable que tenga e
      * Servidor
      * Cliente 
 
-   Y dentro de las capetas "Servidor" y "Cliente" se ha descomprimido el zip con la portable de forma que dentro
-   de cada uno de ellas haya este el fichero "gvSIG.sh" que arranca la aplicacion.
+   Y dentro de las capetas "Servidor" y "Cliente" se descomprimira el zip con la portable de forma que dentro
+   de cada uno de ellas este directamente el fichero que arranca gvSIG desktop ("gvSIG.sh").
 
 2. Identificar una carpeta donde guardar los archivos temporales que se precisen 
    durante la ejecucion del plan de pruebas, y tener claro cual es. A lo largo del plan se
-   le indicaran referencias a ella.
+   haran referencias a ella.
 
 3. Descargar los archivos que van a ser necesarios durante la ejecucion del plan de pruebas
    a una carpeta en disco de forma que sean facilmente localizables cuando se requieran
@@ -31,7 +31,7 @@ Se puede acceder al plan de pruebas desde:
 
 * [Plan de pruebas](casos/VC00/plans/planVC00PLAN003.md)
 
-Y a los videos grabados de casa uno de los casos de prueba desde los siguientes enlaces:
+A los videos grabados de cada uno de los casos de prueba se puede acceder desde los siguientes enlaces:
 1. [```VC00CR00CP003``` Iniciar servidor](videos/VC00CR00CP003.mp4).
 1. [```VC00CW00CP002``` Crear copia de trabajo](videos/VC00CW00CP002.mp4).
 1. [```VC00AD00CP002``` Añadir capa a la copia de trabajo (add)](videos/VC00AD00CP002.mp4).
