@@ -218,7 +218,7 @@ correctamente.
 
 49. ${check} Tras la carga del modelo, pulse el botón "Cerrar". 
 
-50. Seleccione la opción "Mostrar/Gestor de proyecto".
+50. ${check} Seleccione la opción "Mostrar/Gestor de proyecto".
 
 51. ${check} Seleccione el tipo de documento "Tabla".
 
