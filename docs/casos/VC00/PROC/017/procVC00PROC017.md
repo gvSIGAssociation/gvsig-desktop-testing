@@ -4,11 +4,9 @@ proccode: procVC00PROC017
 srcpath: "casos/VC00/PROC/017/procVC00PROC017"
 ---
 
-**--- EN CONSTRUCCIÓN ---**
-
 {% include es/header.md %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo2" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
@@ -28,17 +26,17 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 ### Datos de entrada
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo donde se descargará la capa.
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo donde se descargará la capa.
 
-2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
+1. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
 
-3. ${check} **USER**=```${USER}```. Nombre de usuario
+1. ${check} **USER**={% include var_tag.html var="USER" %}.
 
-4. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario
+1. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}.
 
-5. ${check} **REVISION**=```${REVISION}```. Fecha
+1. ${check} **REVISION**=```${REVISION}```. Fecha
 
-6. ${check} **EXPORTTABLENAME**=```${EXPORTTABLENAME}```. Nombre de la tabla exportada
+1. ${check} **EXPORTTABLENAME**=```${EXPORTTABLENAME}```. Nombre de la tabla exportada
 
 
 ### Pasos
@@ -47,13 +45,13 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
 
-3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WCNAME}```(WCNAME).
+3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WORKINGCOPY}```(WORKINGCOPY).
 
 4. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
 
-5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER)
+5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
 
-6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD)
+6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
 
 7. ${check} Pulse el botón "Aceptar"
 
@@ -68,7 +66,7 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-11. ${check} Pulse sobre "Revisión"
+11. ${check} Seleccione la opción "Revisión"
 
 12. ${check} Se habrá habilitado el botón de selección de revisión que está a la derecha.
 
