@@ -1,5 +1,5 @@
 ---
-title: Añadir tabla a una copia de trabajo asociada
+title: Añadir tabla a una copia de trabajo
 proccode: VC00PROC014
 srcpath: "casos/VC00/PROC/014/procVC00PROC014.md"
 ---
