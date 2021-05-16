@@ -53,25 +53,36 @@ correctamente.
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecución del test. Deberemos tener permiso de escritura en ella. 
 
-2. ${check} Archivo de datos: ```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos a añadir al modelo ```${MODEL}``` (MODEL). 
+1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
 
-3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla a añadir
-   a usar en "Campo para etiqueta".
+1. ${check} **REPOURL**=```${REPOURL}```. Direccion y puerto del servidor de VCSGis.
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la tabla.
-
-5. ${check} **MODEL**= ```${MODEL}```. Nombre del modelo de datos
-
-6. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
-
-7. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo sobre la que se realiza el 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo sobre la que se realiza el 
    proceso de registrar el modelo.
 
-8. ${check} **WCNAME2**=```${WCNAME2}```. Nombre de la copia de trabajo sobre que se descargará el modelo.
+1. ${check} **WORKINGCOPY2**=```${WORKINGCOPY2}```. Nombre de la copia de trabajo sobre que se comprobara 
+   que se descarga correctamente el modelo.
 
-9. ${check} **USER**=```${USER}```. Identificador de usuario.
+1. ${check} **TABLE_NAME**=```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos con un diccionario de valores 
+   a añadir al modelo. 
 
-10. ${check} **PASSWORD**=```${PASSWORD}```. Contraseña de usuario.
+1. ${check} **TABLE_FIELDFORLABEL**=```${TABLE_FIELDFORLABEL}```. Nombre del campo a utilizar para etiquetar los 
+   registros de ${TABLE_NAME).
+
+1. ${check} **TABLE_CATEGORY**=```${TABLE_CATEGORY}```. Categoria a asignar la tabla ```${TABLE_NAME}``` al
+   añadirla al repositorio.
+
+1. ${check} **TABLE_EFECTIVEDATE**=```${TABLE_EFECTIVEDATE}```. Fecha efectiva a asignar cuando se sube la 
+   tabla ```${TABLE_NAME}``` al repositorio.
+
+1. ${check} **TABLE_COMMIT**=```${TABLE_COMMIT}```. Mensaje a usar cuando se sube la
+   tabla ```${TABLE_NAME}``` al repositorio.
+
+1. ${check} **MODEL**={% include var_tag.html var="MODEL" %}. Nombre del modelo de datos
+
+1. ${check} **USER**={% include var_tag.html var="USER" %}. Identificador de usuario.
+
+1. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}. Contraseña de usuario.
 
 ### Prerrequisitos
 
@@ -151,19 +162,19 @@ correctamente.
 
 23. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_provincias```.
 
-24. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+24. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
 
 25. ${check} Pulse el boton "Guardar" del formulario.
  
 26. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```esp_poblaciones```.
 
-27. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+27. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
 
 28. ${check} Pulse el boton "Guardar" del formulario.
 
 29. ${check} Con ayuda de los botones "Anterior" y "Siguiente" de formulario localice la entidad ```${TABLE_NAME}```.
 
-30. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL). 
+30. ${check} En el campo "Data Models" introduzca en el valor ```${MODEL}``` (MODEL) {% include var_copy.html var="MODEL"%}. 
 
 31. ${check} Pulse el boton "Guardar" del formulario.
 
@@ -221,7 +232,7 @@ correctamente.
 55. ${check} Se mostrara una ventana con el formulario asociado a la tabla  ```esp_poblaciones```.
 
 56. ${check} En el formulario debera obserbar que el campo "Origen de las coordenadas" es un desplegable con los 
-    valores de la tabla ${TABLE_LINK}.
+    valores de la tabla ${TABLE_LINK} y que contiene seleccionado uno de ellos.
     
 57. ${check} En el formulario debera obserbar que el campo "Provincia" es un enlace con los datos 
     de la tabla ```esp_provincias```, y en su caja de texto aparece el nombre de una provincia.
