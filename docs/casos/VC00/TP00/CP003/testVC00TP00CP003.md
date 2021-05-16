@@ -13,6 +13,8 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 
 {% include parameter.html name="LAYER1_NAME" value="esp_provincias" %}
 
+{% include parameter.html name="LAYER1_EFECTIVEDATE" value="3/05/2021" %}
+
 {% include parameter.html name="LAYER2_NAME" value="esp_poblaciones" %}
 
 ## {{ page.title }}
@@ -30,6 +32,8 @@ cuando la capa cumple dicho plan topologico.
 
 1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa que vamos a editar y no vamos a poder commitar
    por tener asignado un plan de topologia que no va a cumplir tras la edicion.
+
+1. ${check} **LAYER1_EFECTIVEDATE**={% include var_tag.html var="LAYER1_EFECTIVEDATE" %}. Fecha a usar al realizar el commit de las modificaciones en la capa ```${LAYER1_NAME}```.
 
 1. ${check} **LAYER2_NAME**=```${LAYER2_NAME}```. 
 
@@ -88,7 +92,7 @@ cuando la capa cumple dicho plan topologico.
 16. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
     habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
 
-17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
+17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha ${EFECTIVEDATE} {% include var_copy.html var="EFECTIVEDATE"%}
 
 18. ${check} Introduzca en el campo "Comentario" el texto <code id="COMMENT" class="language-plaintext highlighter-rouge">Modificación de la capa de ${LAYER1_NAME}</code> {% include var_copy.html var="COMMENT"%}
 
