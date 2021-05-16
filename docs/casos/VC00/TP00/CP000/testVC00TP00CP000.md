@@ -36,6 +36,8 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en el un plan topologico que usa ambas capas.
 
+{% include es/checkifthereisalreadyabug.md %}
+
 ### Datos de entrada
 
 1. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexión y del repositorio.
@@ -155,10 +157,10 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
