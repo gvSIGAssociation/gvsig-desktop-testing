@@ -15,10 +15,6 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 
 {% include parameter.html name="TABLE_LINK" value="<a href='../../data/reservas.csv'>RESERVAS</a>" %}
 
-{% include parameter.html name="USER" value="sara" %}
-
-{% include parameter.html name="PASSWORD" value="sara1" %}
-
 {% include parameter.html name="CATEGORY" value="Señalizacion vertical" %}
 
 {% include parameter.html name="FIELDFORLABEL" value="extinca" %}
@@ -28,6 +24,10 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 {% include parameter.html name="CONTADOR" value="id" %}
 
 {% include parameter.html name="REVISION" value="revisiondate" %}
+
+{% include parameter.html name="USER" value="sara" %}
+
+{% include parameter.html name="PASSWORD" value="sara1" %}
 
 
 ## {{ page.title }}
@@ -43,10 +43,10 @@ Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia d
 1. ${check} **TABLE_NAME**=```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos que contiene los datos del 
    historico a cargar. 
 
+1. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la tabla al subirla al repositorio.
+
 1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo a usar cuando se requiera etiquetar 
    un registro de la tabla```${TABLE_NAME}``` (TABLE_NAME).
-
-1. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la tabla al subirla al repositorio.
 
 1. ${check} **IDENTIFICADOR**=```${IDENTIFICADOR}```..
 
