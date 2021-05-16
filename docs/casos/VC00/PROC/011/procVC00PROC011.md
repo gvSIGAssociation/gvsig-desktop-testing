@@ -10,7 +10,7 @@ srcpath: "casos/VC00/PROC/011/procVC00PROC011.md"
 
 ### Descripción
 
-Este proceso accede a la tabla llamada ```${TABLENAME}``` de la base de datos ```${BBDD}``` y la abre.
+Este proceso carga una tabla de base de datos desde la conexion a la base de datos indicada.
 
 ### Datos de entrada
 
