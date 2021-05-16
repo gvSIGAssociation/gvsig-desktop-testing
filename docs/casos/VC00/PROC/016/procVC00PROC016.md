@@ -4,15 +4,15 @@ proccode: procVC00PROC016
 srcpath: "casos/VC00/PROC/016/procVC00PROC016"
 ---
 
-**--- EN CONSTRUCCIÓN ---**
-
 {% include es/header.md %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
 {% include parameter.html name="DATE" value="01/01/2021" %}
+
+{% include parameter.html name="EXPORTTABLENAME" value="ESP_PROVINCIAS_20210101_000000_0" %}
 
 ## {{ page.title }}
 
@@ -22,7 +22,7 @@ Exportar una capa en el estado en que estuviese en una fecha concreta
 
 ### Datos de entrada
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo donde se descargará la capa.
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo donde se descargará la capa.
 
 2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
 
@@ -37,7 +37,7 @@ Exportar una capa en el estado en que estuviese en una fecha concreta
 
 2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
 
-3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WCNAME}```(WCNAME).
+3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WORKINGCOPY}```(WORKINGCOPY).
 
 8. ${check} En la lista de tabla habrá aparecido la tabla ```${TABLENAME}```(TABLENAME)
 
@@ -50,7 +50,7 @@ Exportar una capa en el estado en que estuviese en una fecha concreta
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
-11. ${check} Pulse sobre "Fecha de entrada en vigor"
+11. ${check} Seleccione la opción "Fecha de entrada en vigor"
 
 12. ${check} Se habrá habilitado, tanto el cuadro de texto como el botón de selección de fecha adjunto.
 
