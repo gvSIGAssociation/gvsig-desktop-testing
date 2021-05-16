@@ -13,7 +13,7 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 
 {% include parameter.html name="LAYER1_NAME" value="esp_provincias" %}
 
-{% include parameter.html name="LAYER1_EFECTIVEDATE" value="3/05/2021" %}
+{% include parameter.html name="LAYER1_EFECTIVEDATE" value="5/05/2021" %}
 
 {% include parameter.html name="LAYER2_NAME" value="esp_poblaciones" %}
 
