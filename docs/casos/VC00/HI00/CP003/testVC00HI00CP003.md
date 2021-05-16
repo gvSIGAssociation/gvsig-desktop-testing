@@ -66,14 +66,24 @@ Este proceso importa el historial ```${TABLE_NAME}``` (TABLE_LINK) en la copia d
 1. ${check} El complemento de VCSGis debe estar instalado y activo.
 
 1. ${check} El caso de prueba 
-   [VC00CW00CP002, "Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)"](../../CW00/CP002/testVC00WC00CP002.md),
+   "Inicializacion de una copia de trabajo" del plan de pruebas que esta ejecutando
    ha pasado sin errores.
    
 ### Pasos
 
-1. ${check} Si acaba de ejecutar el caso de pruebas (hace menos de 1 hora) 
-    "Inicializacion de una copia de trabajo" del plan de pruebas que esta ejecutando
-    y no ha cerrado gvSIG, continúe con el paso 2. Si no, ejecútelo antes de continuar.
+1. ${check} Si acaba de ejecutar algunos de los sieguientes casos de prueba de su plan de pruebas:
+    * Crear copia de trabajo.
+    * Subir capa al repositorio (commit).
+    * Asociar leyenda a una capa.
+    * Cargar un plan topologico en el repositorio.
+    * Asociar un plan topologico a una capa.
+    * Subir cambios en una capa con un plan topologico asociado (que sí pasen el plan).
+    * Obtener una revision concreta de una capa.
+    * Exportar una capa a una fecha dada.
+    * Exportar una capa a una revision dada.
+
+   Y ha pasado correctamente continue con el paso 2.
+   Si no, ejecúte alguno de estos antes de continuar.
 
 2. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
 
