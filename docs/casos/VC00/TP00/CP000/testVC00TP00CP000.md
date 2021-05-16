@@ -8,6 +8,8 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include es/header.md %}
 
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
+
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
 {% include parameter.html name="TPNAME" value="ProvinciasDebenTenerPoblaciones" %}
@@ -76,7 +78,7 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
     Se preentara la ventana de titulo "Añadir a la copia de trabajo".
 
 13. ${check} Siga los pasos de 
-    [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&TABLE2_CATEGORY=${CATEGORY}) 
+    [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${TABLE2_CATEGORY}) 
     para añadir la capa a la copia de trabajo.
 
 14. ${check} Debera haber aparecido en la vista una capa 
