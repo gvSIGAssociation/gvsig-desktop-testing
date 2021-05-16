@@ -6,7 +6,7 @@ srcpath: "casos/VC00/PROC/017/procVC00PROC017"
 
 {% include es/header.md %}
 
-{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
