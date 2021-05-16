@@ -116,7 +116,7 @@ correctamente.
 
 3. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
 
-4. Seleccione la opción "Mostrar/Gestor de proyecto".
+4. ${check} Seleccione la opción "Mostrar/Gestor de proyecto".
 
 5. ${check} Seleccione el tipo de documento "Tabla".
 
@@ -136,12 +136,12 @@ correctamente.
 12. ${check} Pulse el botón "Aceptar" situado en la zona inferior del cuadro de diálogo.
 
 13. ${check} Añada la tabla ```${TABLE_NAME}``` (${TABLE_LINK}) a la copia de trabajo, para ello siga los pasos de 
-    [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKINGCOPY=${WORKINGCOPY}&TABLE=${TABLE_NAME}&FIELDFORLABEL=${TABLE_FIELDFORLABEL}&CATEGORY=${TABLE_CATEGORY})
+    [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKINGCOPY=${WORKINGCOPY}&TABLE=${TABLE_NAME}&FIELDFORLABEL=${TABLE_FIELDFORLABEL}&CATEGORY=${TABLE_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD})
     
 14. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Mostrar cambios".
 
 15. ${check} Siga los pasos de 
-    [commit de una tabla](../../PROC/021/VC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE_NAME}&EFECTIVEDATE=${TABLE_EFECTIVEDATE}&COMMENT=${TABLE_COMMENT}) 
+    [commit de una tabla](../../PROC/021/procVC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE_NAME}&EFECTIVEDATE=${TABLE_EFECTIVEDATE}&COMMENT=${TABLE_COMMENT}&USER=${USER}&PASSWORD=${PASSWORD}) 
     para subir la capa al reposiorio.
 
 16. ${check} Cierre la ventana titulada "Mostrar cambios".
