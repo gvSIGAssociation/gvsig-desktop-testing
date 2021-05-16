@@ -49,11 +49,11 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 3. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLE2_NAME}```
    a usar en etiquetas. 
 
-4. ${check} **TABLE2_CATEGORY**=```${TABLE2_CATEGORY}```. Categoria a asociar a la tabla ```${TABLENAME}``` cuando la añadamos a la copia local.
+4. ${check} **TABLE2_CATEGORY**=```${TABLE2_CATEGORY}```. Categoria a asociar a la tabla ```${TABLE2_NAME}``` cuando la añadamos a la copia local.
 
-4. ${check} **TABLE2_EFECTIVEDATE**=```${TABLE2_EFECTIVEDATE}```. Fecha a indicar al hacer commit de la  tabla ```${TABLENAME}```.
+4. ${check} **TABLE2_EFECTIVEDATE**=```${TABLE2_EFECTIVEDATE}```. Fecha a indicar al hacer commit de la  tabla ```${TABLE2_NAME}```.
 
-4. ${check} **TABLE2_COMMENT**=```${TABLE2_COMMENT}```. Comentario a indicar al hacer commit de la tabla ```${TABLENAME}```.
+4. ${check} **TABLE2_COMMENT**=```${TABLE2_COMMENT}```. Comentario a indicar al hacer commit de la tabla ```${TABLE2_NAME}```.
 
 5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
 
