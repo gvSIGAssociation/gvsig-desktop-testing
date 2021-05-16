@@ -4,4 +4,4 @@
 
 * [CP001 Añadir capa (repositorio local en H2 con autorización)](CP001/testVC00AD00CP001.md).
 
-* **FIXME(joaquin)** [CP003 Añadir capa (repositorio remoto en H2 con autorización)](CP003/testVC00AD00CP003.md).
+
