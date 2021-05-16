@@ -35,7 +35,8 @@ Comprueba:
 1. Que se puede consultar el historico de revisiones de una tabla.
 1. Que se puede recuperar una tabla a una revision dada o exportarla a una revision o fecha efectiva dada.
 2. Que se puede cargar un historico de datos a partir de los datos recuperados de la aplicacion INCA.
-3. Que se pueden definir modelos de datos y se pueden cargar en los puestos.
+3. Que se pueden definir modelos de datos, se pueden abrir desde una copia de trabajo y las relaciones entre
+   las tablas del modelo se presentan correctamente en los formularios asociados a las tablas de este.
    
 El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG desktop.
 
@@ -77,15 +78,8 @@ El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG de
 1. ${InputUnknownOkError} [VC00CO00CP005 Obtener una revision concreta de una capa](../CO00/CP005/testVC00CO00CP005.md).
 1. ${InputUnknownOkError} [VC00EX00CP005 Exportar una capa a una fecha dada](../EX00/CP005/testVC00EX00CP005.md).
 1. ${InputUnknownOkError} [VC00EX00CP002 Exportar una capa a una revision dada](../EX00/CP002/testVC00EX00CP002.md).
-
-
-
-
-1. ${InputUnknownOkError} [VC00HI00CP003 Importar historial](../HI00/CP003/testVC00HI00CP003.md).
-
-FIXME: Voy por aqui.
-
 1. ${InputUnknownOkError} [VC00MO00CP003 Definir y descargar un modelo de datos](../MO00/CP003/testVC00MO00CP003.md).
+1. ${InputUnknownOkError} [VC00HI00CP003 Importar historial](../HI00/CP003/testVC00HI00CP003.md).
 
 <table border="0">
 <tr>
