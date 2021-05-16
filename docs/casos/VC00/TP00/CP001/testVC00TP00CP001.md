@@ -4,8 +4,6 @@ proccode: VC00TP00CP0001
 srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 ---
 
-**EN CONSTRUCCION**
-
 {% include es/header.md %}
 
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
@@ -21,6 +19,8 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 
 Este proceso asigna el plan topológico a una capa existente en el repositorio.
 Tanto la capa como el plan topologico deben estar dados de alta en el repositorio previamente.
+
+{% include es/checkifthereisalreadyabug.md %}
 
 ### Datos de entrada
 
@@ -84,13 +84,12 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 
 18. ${check} Cierre la tabla en de entidades
 
-
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
