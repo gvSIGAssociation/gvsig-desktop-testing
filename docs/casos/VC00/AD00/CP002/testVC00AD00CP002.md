@@ -8,8 +8,6 @@ srcpath: "casos/VC00/AD00/CP002/testVC00AD00CP002.md"
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
-
 {% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="TABLELINK" value="<a href='../../data/esp_provincias.csv'>ESP_PROVINCIAS</a>" %}
@@ -38,22 +36,20 @@ basada en un repositotio remoto con la autorización activada.
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener permiso de escritura en ella.
 
-2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a crear asociada al repositorio.
-
-3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
    de la conexion a la base de datos de la copia de trabajo. 
 
-4. ${check} **TABLENAME**=```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
+1. ${check} **TABLENAME**=```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
 
-3. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLENAME}```
+1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLENAME}```
    a usar en etiquetas. 
 
-4. ${check} **CATEGORY**=```${CATEGORY}```. Categoaria a aosciar a la tabla ```${TABLENAME}``` al añadirla
+1. ${check} **CATEGORY**=```${CATEGORY}```. Categoaria a aosciar a la tabla ```${TABLENAME}``` al añadirla
    a la copia local.
 
-5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
+1. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
 
-7. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
+1. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
 
 ### Prerrequisitos
 
