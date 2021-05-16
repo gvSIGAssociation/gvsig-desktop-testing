@@ -78,19 +78,26 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    [VC00TP00CP003, "Subir cambios en una capa con un plan topológico (que sí pasen el plan)"](../../TP00/CP003/testVC00TP00CP003.md), 
    continúe con el siguiente paso, si no, ejecútelo antes de continuar. 
    
-2. ${check} Cierre gvSIG.
+2. ${check} Compruebe que no exista el fichero:
+   * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   En caso de que exista debera:
+   * ${check} Cerrar gvSIG desktop ```Cliente```.
+   * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-3. ${check} **--- FIXME  Eliminar cualquier rastro de ${WCNAME2} ---**
+3. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+   Para ello siga los pasos indicados en 
+   [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
-4. ${check} Abra gvSIG
-
-5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de [Inicializacion de una copia de trabajo (repositorio remoto en H2 con autorización)](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPONAME=${REPONAME}&WCNAME=${WCNAME2})
-
-6. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+4. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+   
+5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
+   menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
+   [inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY})
 
 7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
 
-8. ${check} Siga los pasos de [Exportar una capa a una fecha concreta](../../PROC/015/procVC00PROC015.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
+8. ${check} Siga los pasos de [exportar una capa a una fecha concreta](../../PROC/015/procVC00PROC015.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
 
 9. ${check} Cierre el cuadro de diálogo "Exportar".
 
@@ -102,15 +109,12 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
-13. ${check} Siga los pasos de [Exportar una capa a una fecha concreta](../../PROC/016/procVC00PROC016.html?WCNAME=${WCNAME2}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
+13. ${check} Siga los pasos de [Exportar una capa a una fecha concreta](../../PROC/016/procVC00PROC016.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
 14. ${check} Cierre el cuadro de diálogo "Exportar".
 
 15. ${check} En la vista se habrá añadido la capa ```${EXPORTTABLENAME1}```(EXPORTTABLENAME1) en el estado de la revisión ${REVISION1}.
 
-16. ${check} Cierre la vista.
-
-17. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto".
 
 ### Resultado esperado
 
