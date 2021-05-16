@@ -6,13 +6,13 @@ srcpath: "casos/VC00/PROC/012/procVC00PROC012"
 
 {% include es/header.md %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
-{% include parameter.html name="REVISION" value="revision" %}
+{% include parameter.html name="REVISION" value="0" %}
 
-{% include parameter.html name="OVERWRITE" value="no" %}
+{% include parameter.html name="OVERWRITE" value="si" %}
 
 ## {{ page.title }}
 
@@ -22,7 +22,7 @@ Obtiene una copia local de una revisiónde una capa existente en
 
 ### Datos de entrada
 
-1. ${check} **WCNAME**=```${WCNAME}```. Nombre de la copia de trabajo donde se descargará la capa.
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo donde se descargará la capa.
 
 2. ${check} **TABLENAME**=```${TABLENAME}```. Nombre de la tabla a descargar
 
@@ -34,7 +34,7 @@ Obtiene una copia local de una revisiónde una capa existente en
 
 2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
 
-3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WCNAME}```(WCNAME).
+3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WORKINGCOPY}```(WORKINGCOPY).
 
 4. ${check} En la lista de tabla habrá aparecido la tabla ```${TABLENAME}```(TABLENAME)
 
@@ -42,7 +42,7 @@ Obtiene una copia local de una revisiónde una capa existente en
 
 6. ${check} Se habrán habilitado los siguientes controles:
   * Sobrescribir tabla
-  * * "No añadir la capa al proyecto"
+  * "No añadir la capa al proyecto"
   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que esté seleccionada la vista del paso 2
   * "Añadir la tabla al proyecto
 
