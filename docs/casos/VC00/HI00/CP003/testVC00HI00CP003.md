@@ -5,8 +5,6 @@ srcpath: "casos/VC00/HI00/CP003/testVC00HI00CP003.md"
 ---
 
 
-**EN CONSTRUCCION**
-
 {% include es/header.md %}
 
 {% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
@@ -50,9 +48,9 @@ cargar los datos obtenidos a partir del INCA.
 1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo a usar cuando se requiera etiquetar 
    un registro de la tabla```${TABLE_NAME}``` (TABLE_NAME).
 
-1. ${check} **IDENTIFICADOR**=```${IDENTIFICADOR}```..
+1. ${check} **IDENTIFICADOR**=```${IDENTIFICADOR}```.
 
-1. ${check} **CONTADOR**=```${CONTADOR}```..
+1. ${check} **CONTADOR**=```${CONTADOR}```.
 
 1. ${check} **REVISION**=```${REVISION}```. Campo que indica la fecha de revisión del elemento.
 
@@ -90,7 +88,7 @@ cargar los datos obtenidos a partir del INCA.
 
 2. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
 
-3. Seleccione la opción "Mostrar/Gestor de proyecto".
+3. ${check} Seleccione la opción "Mostrar/Gestor de proyecto".
 
 4. ${check} Seleccione el tipo de documento "Tabla".
 
@@ -115,12 +113,12 @@ cargar los datos obtenidos a partir del INCA.
     Si no existe aborte el caso de prueba.
 
 14. ${check} Si le aparece un dialogo con título "Inicio de sessión de usuario":
-   * ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
-   * ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
-   * ${check} Pulse el botón "Aceptar"
+    * ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
+    * ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
+    * ${check} Pulse el botón "Aceptar"
 
 15. ${check} En la ventana de título  "Importar historial" active la pestaña "Tablas" y seleccione
-    la opción ```${TABLE_NAME}``` (TABLE_LINK). Si esta no existe aborte el procedimiento.
+    la opción ```${TABLE_NAME}``` (TABLE_LINK). Si esta no existe aborte el caso de prueba.
 
 16. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
@@ -150,8 +148,6 @@ cargar los datos obtenidos a partir del INCA.
 27. ${check} Seleccione la opcion de menu "Herramientas/VCSGis/Mostrar revisiones".
 
 28. ${check} Se presentara una ventana de título  "Revisiones".
-
-29. ${check} Se presentara una ventana de título  "Importar historial".
 
 30. ${check} En el desplegable del campo "Copia de trabajo" seleccione el valor ```${WORKINGCOPY}``` (WORKINGCOPY).
     Si no existe aborte el caso de prueba.
