@@ -4,15 +4,13 @@ proccode: VC00EX00CP005
 srcpath: "casos/VC00/EX00/CP005/testVC00EX00CP005.md"
 ---
 
-**--- EN CONSTRUCCIÓN ---**
-
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
-{% include parameter.html name="REPONAME" value="Repositorio" %}
+{% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
 
-{% include parameter.html name="WCNAME2" value="CopiaDeTrabajo2" %}
+{% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo2" %}
 
 {% include parameter.html name="TABLENAME" value="esp_provincias" %}
 
@@ -47,9 +45,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 1. ${check} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
    se crearan los archivos necesarios durante la ejecucion del test.
 
-2. ${check} **REPONAME**=```${REPONAME}```. Nombre de la conexion a crear asociada al repositorio.
+2. ${check} **REPOURL**=```${REPOURL}```. Direccion donde esta el servidor del repopsiyotio a usar.
 
-3. ${check} **WORKINGCOPY**=```${WCNAME2}``` a usar en este test. 
+3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}``` a usar en este test. 
 
 4. ${check} **TABLENAME**=```${TABLENAME}``` a usar en este test. 
 
