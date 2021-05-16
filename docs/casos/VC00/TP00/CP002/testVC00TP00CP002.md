@@ -22,6 +22,8 @@ srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 Este proceso prueba que no es posible hacer un commit de una capa con un plan topologico asociado sin que los
 datos a "commitar" cumplan dicho plan topologico.
 
+{% include es/checkifthereisalreadyabug.md %}
+
 ### Datos de entrada
 
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia nueva de trabajo sobre la cual se realizará un checkout.
@@ -106,10 +108,10 @@ datos a "commitar" cumplan dicho plan topologico.
 
 ### Resultado esperado
 
-{% include es/expectedresult_proc.md %}
+{% include es/expectedresult.md %}
 
 ### Reportar fallo
 
-{% include es/reportbug_proc.md %}
+{% include es/reportbug.md %}
 
 {% include es/footer.html %}
