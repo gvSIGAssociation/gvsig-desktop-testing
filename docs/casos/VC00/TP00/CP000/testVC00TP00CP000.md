@@ -4,8 +4,6 @@ proccode: VC00TP00CP0000
 srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 ---
 
-**EN CONSTRUCCION**
-
 {% include es/header.md %}
 
 {% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
@@ -28,6 +26,9 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 {% include parameter.html name="TABLE2_COMMENT" value="Adición de la capa de esp_poblaciones" %}
 
+{% include parameter.html name="USER" value="sara" %}
+
+{% include parameter.html name="PASSWORD" value="sara1" %}
 
 ## {{ page.title }}
 
@@ -42,6 +43,21 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 1. ${check} **TPNAME**={% include var_tag.html var="TPNAME" %}. Nombre del nuevo plan topológico a registrar.
 
 1. ${check} **TPDESCRIPTION**={% include var_tag.html var="TPDESCRIPTION" %}. Descripción del nuevo plan topológico a registrar.
+
+4. ${check} **TABLE2_NAME**=```${TABLE2_NAME}``` (${TABLE2_LINK}). Capa a usar en este test. 
+
+3. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLE2_NAME}```
+   a usar en etiquetas. 
+
+4. ${check} **TABLE2_CATEGORY**=```${TABLE2_CATEGORY}```. Categoria a asociar a la tabla ```${TABLENAME}``` cuando la añadamos a la copia local.
+
+4. ${check} **TABLE2_EFECTIVEDATE**=```${TABLE2_EFECTIVEDATE}```. Fecha a indicar al hacer commit de la  tabla ```${TABLENAME}```.
+
+4. ${check} **TABLE2_COMMENT**=```${TABLE2_COMMENT}```. Comentario a indicar al hacer commit de la tabla ```${TABLENAME}```.
+
+5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
+
+7. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
 
 ### Prerrequisitos
 
