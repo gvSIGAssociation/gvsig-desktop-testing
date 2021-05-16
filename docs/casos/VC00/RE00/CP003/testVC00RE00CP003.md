@@ -147,7 +147,7 @@ de una capa, añadiendo a la tabla de recursos recien creada una leyenda para la
 22. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
 
 14. ${check} Siga los pasos de 
-    [commit de una tabla](../../PROC/021/VC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME}&EFECTIVEDATE=${RESOURCES_TABLE_EFECTIVEDATE}&COMMENT=${RESOURCES_TABLE_COMMENT}) 
+    [commit de una tabla](../../PROC/021/procVC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME}&EFECTIVEDATE=${RESOURCES_TABLE_EFECTIVEDATE}&COMMENT=${RESOURCES_TABLE_COMMENT}) 
     para subir la tabla al reposiorio.
 
 32. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
