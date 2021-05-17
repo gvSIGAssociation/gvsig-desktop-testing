@@ -47,13 +47,7 @@ Exportar una capa en el estado en que estuviese en una revisión concreta
 
 3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WORKINGCOPY}```(WORKINGCOPY).
 
-4. ${check} Se mostrará el cuadro de diálogo con título "Inicio de sessión de usuario"
-
-5. ${check} En el cuadro de texto "Usuario" introduzca ```${USER}```(USER) {% include var_copy.html var="USER"%}
-
-6. ${check} En el cuadro de texto "Contraseña" introduzca ```${PASSWORD}```(PASSWORD) {% include var_copy.html var="PASSWORD"%}
-
-7. ${check} Pulse el botón "Aceptar"
+{%include es/conditional_login.md %}
 
 8. ${check} En la lista de tabla habrá aparecido la tabla ```${TABLENAME}```(TABLENAME)
 
