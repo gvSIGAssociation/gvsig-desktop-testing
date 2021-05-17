@@ -22,7 +22,7 @@ Este proceso carga una tabla de base de datos desde la conexión a la base de da
 ### Pasos
 1. ${check} Seleccione la opción de menú "Mostrar/Gestor de proyecto".
 
-3. ${check} Se mostrara la ventana del gestor de proyecto, con ese mismo título.
+3. ${check} Se mostrará la ventana del gestor de proyecto, con ese mismo título.
 
 4. ${check} Seleccione la opción "Tabla".
 
