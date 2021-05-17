@@ -39,15 +39,15 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 2. ${check} En el desplegable del campo "Copia de trabajo" debera existir una 
    entrada ```${WORKINGCOPY}``` (WORKINGCOPY). Si existe seleccionela. Si no existe
    aborte el caso de prueba.
+   
+6. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
+    la opción ```${LAYER}``` (LAYER). Si esta no existe aborte el caso de prueba.
 
 3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
 
 4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) y en el "Contraseña" ```${PASSWORD}``` (PASSWORD).
  
 5. ${check} Pulse el boton "Aceptar" que cerrara la ventana y le devolvera el control a la ventana "Añadir a la copia de trabajo".
-
-6. ${check} Active la pestaña "Capas" y en el árbol que presenta seleccione
-    la opción ```${LAYER}``` (LAYER). Si esta no existe aborte el caso de prueba.
 
 7. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
 
