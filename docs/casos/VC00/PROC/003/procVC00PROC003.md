@@ -51,6 +51,8 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 7. ${check} Debera aparecer marcado el check "Añadir la nueva capa a la vista".
 
+8. {%include conditional_login.md%}
+
 8. ${check} Debera aparecer en el desplegable de vistas "Sin titulo".
 
 9. ${check} Debera aparecer en el valor del campo "nombre" ```${LAYER}``` (LAYER).
