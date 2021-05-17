@@ -41,7 +41,7 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 11. ${check} Pulse el boton "Terminar edición" del formulario. 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guardar los cambios.
+12. ${check} Se presentará una ventana, pulse en la opción "Sí" para terminar edición y guardar los cambios.
 
 13. ${check} Cierre el formulario.
 
