@@ -29,17 +29,17 @@ Este proceso da de alta una entrada en la tabla de variables del repositorio.
 
 3. ${check} Se mostrará una ventana con el formulario asociado a la tabla de variables.
 
-11. ${check} Pulse el boton "Comenzar edición" del formulario. 
+11. ${check} Pulse el botón "Comenzar edición" del formulario. 
 
-12. ${check} Pulse el boton "Nuevo" del formulario.
+12. ${check} Pulse el botón "Nuevo" del formulario.
 
 8. ${check} Indroduzca en el campo "Nombre" el valor ```${VARIABLE}``` {% include var_copy.html var="VARIABLE"%}.
 
 9. ${check} Indroduzca en el campo "Valor" el valor  ```${VALUE}``` {% include var_copy.html var="VALUE"%}.
 
-10. ${check} Pulse el boton "Guardar" del formulario.
+10. ${check} Pulse el botón "Guardar" del formulario.
 
-11. ${check} Pulse el boton "Terminar edición" del formulario. 
+11. ${check} Pulse el botón "Terminar edición" del formulario. 
 
 12. ${check} Se presentará una ventana, pulse en la opción "Sí" para terminar edición y guardar los cambios.
 
