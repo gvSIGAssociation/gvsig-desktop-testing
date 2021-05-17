@@ -106,7 +106,7 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 12. ${check} Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
 
-12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
+12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
 
 13. ${check} Siga los pasos de [Exportar una revisión concreta de una capa desde repositorio](../../PROC/018/procVC00PROC018.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&REVISION=${REVISION1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
