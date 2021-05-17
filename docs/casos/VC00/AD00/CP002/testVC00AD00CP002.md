@@ -71,7 +71,7 @@ basada en un repositotio remoto con la autorización activada.
 2. ${check} En este punto deberemos tener abierta la aplicación gvSIG Desktop ```Cliente```.
 
 3. ${check} Compruebe que la vista que se ha creado al arrancar gvSIG se encuentra 
-   en "EPSG:4326", de no ser así cambie la proyección de la vista asignándole esta.
+   en "EPSG:4326", de no ser así cambie la proyección de la vista asignándole ésta.
 
 4. ${check} Proceda a cargar la capa ${TABLELINK} en la vista que hay creada 
    en el proyecto. Para eso abra el diálogo de añadir capa desde el menú vista, "Vista/Añadir capa".
