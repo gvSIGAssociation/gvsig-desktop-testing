@@ -47,7 +47,7 @@ cargar los datos obtenidos a partir del INCA.
 1. ${check} **TABLE_NAME**=```${TABLE_NAME}``` (${TABLE_LINK}). Tabla de datos que contiene los datos del 
    historico a cargar. 
 
-1. ${check} **CATEGORY**=```${CATEGORY}```. Categoria a asignar la tabla al subirla al repositorio.
+1. ${check} **CATEGORY**={% include var_tag.html var="CATEGORY" %}. Categoria a asignar la tabla al subirla al repositorio.
 
 1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo a usar cuando se requiera etiquetar 
    un registro de la tabla```${TABLE_NAME}``` (TABLE_NAME).
