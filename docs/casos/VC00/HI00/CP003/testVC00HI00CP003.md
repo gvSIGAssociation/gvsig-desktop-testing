@@ -161,7 +161,9 @@ cargar los datos obtenidos a partir del INCA.
 31. ${check} En el desplegable del campo "Tabla" seleccione el valor ```${TABLE_NAME}``` (TABLE_NAME).
     Si no existe aborte el caso de prueba.
     
-32. ${check} En la tabla de la parte inferior del dialogo deberan haber aperecido XXX lineas.
+32. ${check} Si la tabla de la parte inferior del dialogo aparece vacia pulse el boton "Siguiente pagina".
+
+34. ${check} Deberan haber aperecido 270 lineas (puede comprobarlo consultando el primer y ultimo numero de revision que aparece).
 
 33. ${check} Cierre el dialogo de titulo "Revisiones".
 
