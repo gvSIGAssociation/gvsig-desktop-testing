@@ -67,7 +67,7 @@ para acceder al repositorio.
 1. ${check} Compruebe que no esté iniciado gvSIG desktop a partir de la portable 
    para el ```Servidor```. Si lo está ciérrelo.
    
-2. Compruebe que en la base de datos de Oracle en la que se va a crear el repositorio no existen las tablas 
+2. ${check} Compruebe que en la base de datos de Oracle en la que se va a crear el repositorio no existen las tablas 
    que va a crear la inicializacion del repositorio. Para ello puede utilizar la herramienta *"Oracle SQL Developer"* y ejecutar las siguientes sentencias, para eliminarlas, en caso de que existan:
    <PRE id="DROP_TABLES" class="language-plaintext highlighter-rouge">
    BEGIN  EXECUTE  immediate 'DROP TABLE "GVSIGD_CONFIG"'; EXCEPTION WHEN OTHERS THEN NULL; END;
