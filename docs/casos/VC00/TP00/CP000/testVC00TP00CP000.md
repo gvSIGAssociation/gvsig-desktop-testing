@@ -99,7 +99,9 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
     [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${TABLE2_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD}) 
     para añadir la capa a la copia de trabajo.
 
-14. ${check} Debera haber aparecido en la vista una capa 
+13. En la ventana de titulo "Añadir a la copia de trabajo" pulse el boton "Cerrar" para cerrarla.
+
+15. ${check} Debera haber aparecido en la vista una capa 
     ```${TABLE2_NAME}``` con el identificativo de una capa de base de datos H2.
 
 15. ${check} Elimine de la vista la capa ```${TABLE2_NAME}``` cargada 
