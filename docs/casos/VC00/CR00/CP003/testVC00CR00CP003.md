@@ -97,7 +97,7 @@ para acceder al repositorio.
 7. ${check} Una vez creada la conexión a la base de datos, de nuevo en la ventana de título "Inicializar repositorio",
    pulse el botón "Inicializar repositorio". 
    
-8. ${check} Una vez se haya terminado la inicialización del repositorio se cerrará la ventana "Inicializar repositorio"
+8. ${check} Una vez que se haya terminado la inicialización del repositorio se cerrará la ventana "Inicializar repositorio"
    y no debe aparecer ningún mensaje de error, ni en ventanas, ni en la barra de mensajes de gvSIG desktop.
    
 9. ${check} Compruebe que se han creado las tablas en la base de datos de Oracle, usando, por ejemplo, el *"Oracle SQL Developer"*. 
