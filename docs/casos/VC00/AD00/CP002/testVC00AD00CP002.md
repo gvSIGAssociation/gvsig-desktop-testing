@@ -36,20 +36,20 @@ basada en un repositotio remoto con la autorización activada.
 1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecucion del test. Deberemos tener permiso de escritura en ella.
 
-1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear asi como 
-   de la conexion a la base de datos de la copia de trabajo. 
+1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear así como 
+   de la conexión a la base de datos de la copia de trabajo. 
 
 1. ${check} **TABLENAME**=```${TABLENAME}``` (${TABLELINK}). Capa a usar en este test. 
 
 1. ${check} **FIELDFORLABEL**=```${FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLENAME}```
    a usar en etiquetas. 
 
-1. ${check} **CATEGORY**=```${CATEGORY}```. Categoaria a aosciar a la tabla ```${TABLENAME}``` al añadirla
+1. ${check} **CATEGORY**=```${CATEGORY}```. Categoría a aosciar a la tabla ```${TABLENAME}``` al añadirla
    a la copia local.
 
-1. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
+1. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicación.
 
-1. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
+1. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicación.
 
 ### Prerrequisitos
 
@@ -70,19 +70,19 @@ basada en un repositotio remoto con la autorización activada.
 
 2. ${check} En este punto deberemos tener abierta la aplicación gvSIG Desktop ```Cliente```.
 
-3. ${check} Comprobaremos  que la vista que se ha creado al arrancar gvSIG se encuentra 
-   en "EPSG:4326", de no ser así cambie la proyección de la vista asignandole esta.
+3. ${check} Compruebe que la vista que se ha creado al arrancar gvSIG se encuentra 
+   en "EPSG:4326", de no ser así cambie la proyección de la vista asignándole esta.
 
-4. ${check} Procederemos a cargar la capa ${TABLELINK} en la vista que hay creada 
-   en el proyecto. Para eso abriremos el dialogo de añadir capa desde el menu vista, "Vista/Añadir capa".
+4. ${check} Proceda a cargar la capa ${TABLELINK} en la vista que hay creada 
+   en el proyecto. Para eso abra el diálogo de añadir capa desde el menú vista, "Vista/Añadir capa".
 
-5. ${check} Seleccionaremos la pestaña "Archivo" y pulsaremos en el boton de "Añadir".
+5. ${check} Seleccione la pestaña "Archivo" y pulse en el botón "Añadir".
 
-6. ${check} Nos presentara el cuadro de dialogo para seleccionar un fichero. 
-   Seleccionaremos el correspondiente a ${TABLELINK} 
-   y pulsaremos en el boton "Abrir".
+6. ${check} Se presentará el cuadro de diálogo de selección de fichero. 
+   Seleccione el correspondiente a ${TABLELINK} 
+   y pulse en el botón "Abrir".
 
-7. ${check} De vuelta en el dialogo de "Añadir capa" pulsaremos el boton "Aceptar" 
+7. ${check} De vuelta en el diálogo de "Añadir capa" pulse el botón "Aceptar" 
    para cargarla en la vista.
 
 8. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" 
