@@ -109,6 +109,8 @@ cargar los datos obtenidos a partir del INCA.
 
 10. ${check} De vuelta en el dialogo de "Nueva tabla" pulse el botón "Aceptar".
 
+11. ${check} Se habra cerrado el dialogo de "Nueva tabla" y se presentara le ventana de la tabla ```${TABLE_NAME}```; cierrela.
+
 11. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Importar historial".
 
 12. ${check} Se presentara una ventana de título  "Importar historial".
