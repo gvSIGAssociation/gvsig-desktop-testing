@@ -58,7 +58,7 @@ basada en un repositotio remoto con la autorización activada.
 
 2. ${check} El complemento de VCSGis debe estar instalado y activo.
 
-3. ${check} Tendremos descargada la tabla ```${TABLENAME}``` (${TABLELINK}) en 
+3. ${check} Descargada la tabla ```${TABLENAME}``` (${TABLELINK}) en 
    una ruta conocida en nuestro equipo.
 
 ### Pasos
