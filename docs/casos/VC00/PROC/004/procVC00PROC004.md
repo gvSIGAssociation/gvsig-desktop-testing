@@ -34,7 +34,7 @@ dos usuarios:
    para ello siga los pasos indicados en 
    [alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHENTICATION&VALUE=true)
 
-3. ${check} Cree un registro en la tabla ```${CONFIGTABLENAME}``` que active la autorizacion en el repositorio, 
+3. ${check} Cree un registro en la tabla ```${CONFIGTABLENAME}``` que active la autorización en el repositorio, 
    para ello siga los pasos indicados en 
    [alta de una variable](../../PROC/009/procVC00PROC009.html?VARIABLE=AUTHORIZATION&VALUE=true)
 
