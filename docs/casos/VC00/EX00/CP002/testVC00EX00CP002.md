@@ -102,9 +102,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 10. ${check} En la vista se habrá añadido la capa ```${EXPORTTABLENAME0}```(EXPORTTABLENAME0) en el estado de la revisión ${REVISION0}.
 
-11. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa".
+11. ${check} Elimine la capa ```${EXPORTTABLENAME0}```(EXPORTTABLENAME0) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa".
 
-12. Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
+12. ${check} Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
 
 12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)" que presentará la ventana de titulo "Obtener copia local (checkout)".
 
