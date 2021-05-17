@@ -14,7 +14,7 @@ Este proceso registra en la tabla de usuarios un nuevo usuario, para ello se le 
 
 ### Datos de entrada
 
-1. ${check} **NAME**=`{% include var_tag.html var="NAME" %}. Nombre del nuevo usuario.
+1. ${check} **NAME**={% include var_tag.html var="NAME" %}. Nombre del nuevo usuario.
 
 2. ${check} **PASSWORD**={% include var_tag.html var="PASSWORD" %}. Contraseña del nuevo usuario.
 
