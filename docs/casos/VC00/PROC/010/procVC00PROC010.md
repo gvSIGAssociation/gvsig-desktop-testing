@@ -44,7 +44,7 @@ Este proceso registra en la tabla de usuarios un nuevo usuario, para ello se le 
 
 11. ${check} Pulse el icono con la etiqueta "Terminar edición". 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Sí". Dicha opción termina la edición y guarda los cambios.
+12. ${check} Se presentrará una ventana, pulse en la opción "Sí". Dicha opción termina la edición y guarda los cambios.
 
 13. ${check} Cierre el formulario.
 
