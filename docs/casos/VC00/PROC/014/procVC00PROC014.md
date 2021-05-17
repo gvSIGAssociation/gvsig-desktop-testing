@@ -41,16 +41,10 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
    entrada ```${WORKINGCOPY}``` (WORKINGCOPY). Si existe seleccionela. Si no existe
    termine el procedimiento.
    
-3. ${check} Se habrá presentado la ventana de título "Inicio de sesión de usuario".
-
-4. ${check} Introduzca en el campo de texto "Usuario" el valor ```${USER}``` (USER) {% include var_copy.html var="USER"%}
- 
-6. ${check} Introduzca en el campo de texto "Contraseña" el valor ```${PASSWORD}``` (PASSWORD) {% include var_copy.html var="PASSWORD"%}
-
-7. Pulse "Aceptar".
-
 5. ${check} Devuelta a la ventana "Añadir a la copia de trabajo", active la pestaña "Tablas" y seleccione
     la opción ```${TABLE}``` (TABLE). Si esta no existe aborte el caso de prueba.
+
+{%include es/conditional_login.md %}   
 
 6. ${check} Debera aparecer marcado el check "Añadir la tabla nueva el proyecto".
 
