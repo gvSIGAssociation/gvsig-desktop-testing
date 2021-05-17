@@ -85,7 +85,7 @@ para acceder al repositorio.
    
 3. ${check} Inicie gvSIG desktop a partir de la portable para el ```Servidor```.
 
-4. ${check} Una vez iniciado seleccioe la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que
+4. ${check} Una vez iniciado seleccione la opción de menú "Herramientas/VCSGis/Administracion/Inicializar repositorio" que
    presenta la ventana de título "Inicializar repositorio".
    
 5. ${check} Pulse el botón asociado al campo "Conexión" para crear la conexión a la base de datos que se sitúa
