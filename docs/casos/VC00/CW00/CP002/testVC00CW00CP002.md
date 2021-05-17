@@ -35,7 +35,7 @@ a la copia de trabajo.
 
 2. El complemento de VCSGis debe estar instalado y activo.
 
-3. Antes de pasar este caso de prueba deben de haber pasado el caso de prueba "Iniciar servidor" del plan de pruebas.
+3. Antes de pasar este caso de prueba debe haber pasado el caso de prueba "Iniciar servidor" del plan de pruebas.
 
 ### Pasos
 
