@@ -63,8 +63,7 @@ como mostrar la ventana de "Añadir a la copia de trabajo".
 
 12. ${check} Pulse el boton "Añadir a la copia de trabajo".
 
-13. ${check} Se debera cerrar la ventana sin presentar ningun mensaje de error,
-    ni en ventanas ni en la barra de mensajes de gvSIG desktop.
+13. ${check} En la parte inferior de la ventana se indicara el progreso de la carga.
 
 ### Resultado esperado
 
