@@ -30,7 +30,7 @@ Este proceso registra en la tabla de usuarios un nuevo usuario, para ello se le 
 3. ${check} Se mostrará una ventana con el formulario asociado a la tabla de variables.
 
 4. ${check} Para dar de alta un registro hay que iniciar la edición. Pulse el icono con la
-   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se encuentra en la zona media de estos. Al hacerlo se habilitaran otros iconos.
+   etiqueta "Comenzar edición". Los iconos se muestran en la zona inferior de la ventana y el de comenzar edición se encuentra en la zona media de estos. Al hacerlo se habilitarán otros iconos.
 
 6. ${check} Pulse el icono con la etiqueta "Nuevo". Al hacerlo algunos de los campos del formulario se mostrarán sin datos.
 
