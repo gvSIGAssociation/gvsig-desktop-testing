@@ -1,6 +1,6 @@
 ---
 title: Cargar un plan topológico en el repositorio
-proccode: VC00TP00CP0000
+proccode: VC00TP00CP000
 srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 ---
 
@@ -79,10 +79,21 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 
 2. ${check} **Active la aplicación gvSIG Desktop ```Cliente```**.
 
-3. ${check} Proceda a cargar la capa ```${TABLE2_NAME}``` (${TABLE2_LINK}) en la vista que hay creada 
+3. ${check} Compruebe que no exista el fichero:
+   * ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   En caso de que exista debera:
+   * ${check} Cerrar gvSIG desktop ```Cliente```.
+   * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
+   * ${check} Iniciar gvSIG desktop ```Cliente```.
+
+4. ${check} Elimine el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existiese.
+   Para ello siga los pasos indicados en 
+   [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
+
+5. ${check} Proceda a cargar la capa ```${TABLE2_NAME}``` (${TABLE2_LINK}) en la vista que hay creada 
    en el proyecto. Seleccione la opción de menú "Vista/Añadir capa".
 
-5. ${check} Se presentará el diálogo de "Añadir capa". Seleccione la pestaña "Archivo" y pulse en el botón "Añadir".
+6. ${check} Se presentará el diálogo de "Añadir capa". Seleccione la pestaña "Archivo" y pulse en el botón "Añadir".
 
 7. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
     Seleccione el correspondiente a ```${TABLE2_NAME}``` (${TABLE2_LINK}).
@@ -155,7 +166,6 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 13. ${check} Se presentrará una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
 
 14. ${check} Cierre el formulario.
-
 
 ### Resultado esperado
 
