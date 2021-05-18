@@ -42,8 +42,12 @@ Se puede acceder al plan de pruebas desde:
 
 * [Plan de pruebas](casos/VC00/plans/planVC00PLAN003.md)
 
+{% comment %}
+
 Puede acceder al PDF con el estado de ejecucion del plan de pruebas desde:
 * [Estado ejecucion del plan de pruebas](2_6_0_3222/Estado_ejecucion_del_plan_de_pruebas.pdf)
+
+{% endcomment %}
 
 A los videos grabados de cada uno de los casos de prueba se puede acceder desde los siguientes enlaces:
 1. [```VC00CR00CP003``` Iniciar servidor](${VERSION_FOLDER}/VC00CR00CP003.mp4).
@@ -70,8 +74,7 @@ Notas para descargar la web:
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/
   wget -m --convert-links --page-requisites --no-parent  https://gvsigassociation.github.io/gvsig-desktop-testing/vcsgis.html
   cd gvsigassociation.github.io/gvsig-desktop-testing
-  rm index.html
-  mv vcsgis.html index.html
+  mv vcsgis.html leeme.html
   
   ```
 * Una vez descargado, el raiz de la web estara en la carpeta ```gvsigassociation.github.io/gvsig-desktop-testing```.
