@@ -30,7 +30,7 @@ Comprueba:
 1. Que se pueden añdir a la copia de trabajo capas (add), subir cambios al repositorio (commit) y obtener copias locales de tablas del repositorio.
 1. Que se se pueden crear leyendas asociadas a una capa y se cargan automaticamente al cargarla en una vista.
 1. Que la integración con el marco de topologia funciona, pudiendose registrar planes
-   de topologia en el repositorio, asociarlos a tablas de este, y ejecutarlos antes de subir cambios
+   de topologia en el repositorio, asociarlos a tablas de este, y que se ejecuten automaticamente antes de subir cambios
    al repositorio.
 1. Que se puede consultar el historico de revisiones de una tabla.
 1. Que se puede recuperar una tabla a una revision dada o exportarla a una revision o fecha efectiva dada.
