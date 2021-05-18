@@ -55,6 +55,7 @@ datos a "commitar" cumplan dicho plan topologico.
 2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
 3. ${check} La vista "Sin titulo" debera estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
+   **FIXME**: La tabla esp_provincias no estaba cargada, solo la de esp_poblaciones. Abria cque cargar esp_provincias.
 
 4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
