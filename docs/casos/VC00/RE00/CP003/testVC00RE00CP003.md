@@ -4,15 +4,13 @@ proccode: VC00RE00CP0003
 srcpath: "casos/VC00/RE00/CP003/testVC00RE00CP003.md"
 ---
 
-**EN CONSTRUCCION**
-
 {% include es/header.md %}
 
 {% include parameter.html name="TMPFOLDER" value="/tmp" %}
 
 {% include parameter.html name="REPONAME" value="RepositorioAuth" %}
 
-{% include parameter.html name="REPOURL" value="127.0.0.1:9810" %}
+{% include parameter.html name="REPOURL" value="http://127.0.0.1:9810" %}
 
 {% include parameter.html name="WORKINGCOPY" value="CopiaDeTrabajo" %}
 
