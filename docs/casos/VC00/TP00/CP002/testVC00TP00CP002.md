@@ -54,61 +54,60 @@ datos a "commitar" cumplan dicho plan topologico.
 
 2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
-3. ${check} La vista "Sin titulo" deberá estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
-   **FIXME**: La tabla esp_provincias no estaba cargada, solo la de esp_poblaciones. Habría que cargar esp_provincias.
+3. ${check} La vista "Sin titulo" deberá estar activa y cargada la capa ```${LAYER2_NAME}``` (LAYER2_NAME).
    
 4. ${check} Cargue la capa ``${LAYER1_NAME}``` (LAYER1_NAME) siguiendo los pasos de 
     [añadir capa de base de datos](../../PROC/022/procVC00PROC022.html?CONNAME=${WORKINGCOPY}&TABLENAME=${LAYER2_NAME}) 
 
-4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
+5. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-5. ${check} Seleccione la opción de menú "Capa/Comenzar edición".
+6. ${check} Seleccione la opción de menú "Capa/Comenzar edición".
 
-6. ${check} Seleccione la provincia de "Valencia" y desplácela fuera del área de la península ibérica hasta
+7. ${check} Seleccione la provincia de "Valencia" y desplácela fuera del área de la península ibérica hasta
     asegurarse de que no solape con ningún punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-7. ${check} Si no lo está seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
+8. ${check} Si no lo está seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-8. ${check} Seleccione la opción de menú "Capa/Terminar edicion" (end_editingJList).
+9. ${check} Seleccione la opción de menú "Capa/Terminar edicion" (end_editingJList).
 
-9. ${check} Aparecerá una ventana de titulo "Terminar edición".
+10. ${check} Aparecerá una ventana de titulo "Terminar edición".
 
-10. ${check} Seleccione la opción "Guardar".
+11. ${check} Seleccione la opción "Guardar".
 
-11. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
+12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
-12. ${check} Se presentará una ventana de título  "VCSGis Cambios".
+13. ${check} Se presentará una ventana de título  "VCSGis Cambios".
 
-13. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
+14. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
-14. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
+15. ${check} Se muestra el contenido de la pestaña "Copia de trabajo" donde podrá apreciar,
     a la izquierda, un selector en forma de árbol (selector de entidades) que contiene la categoría que le 
     puso a la capa cuando la añadió y, bajo ésta, la capa añadida a la copia de trabajo.
     A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y sobre ésta los botones de "Refrescar",
     "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-15. ${check} Pulse la casilla de verificación asociada a la capa ```${LAYER1_NAME}``` (LAYER1_NAME).
+16. ${check} Pulse la casilla de verificación asociada a la capa ```${LAYER1_NAME}``` (LAYER1_NAME).
 
-16. ${check} En la tabla de cambios se muestran los cambios que se deben subir al repositorio, 
+17. ${check} En la tabla de cambios se muestran los cambios que se deben subir al repositorio, 
     habilitándose también los botones de "Refrescar", "Revertir" y "Commit".
 
-17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
+18. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
 
-18. ${check} Introduzca en el campo "Comentario" el texto <code id="COMMENT" class="language-plaintext highlighter-rouge">Modificación de la capa de ${LAYER1_NAME}</code> {% include var_copy.html var="COMMENT"%}
+19. ${check} Introduzca en el campo "Comentario" el texto <code id="COMMENT" class="language-plaintext highlighter-rouge">Modificación de la capa de ${LAYER1_NAME}</code> {% include var_copy.html var="COMMENT"%}
 
-19. ${check} Pulse el botón de "Commit"
+20. ${check} Pulse el botón de "Commit"
 
-20. ${check} Se mostrará una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})".
+21. ${check} Se mostrará una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})".
     
-21. ${check} Se mostrará una ventana que indica que es imposible realizar la 
+22. ${check} Se mostrará una ventana que indica que es imposible realizar la 
     acción de commit puesto que hay elementos  de la capa ```${LAYER1_NAME}``` (LAYER1_NAME) que no cumplen el 
     plan topológico ```${TPNAME}``` (TPNAME).
     
-22. ${check} Pulse el botón de "Aceptar"
+23. ${check} Pulse el botón de "Aceptar"
 
-23. ${check} Cierre la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})".
+24. ${check} Cierre la ventana titulada "Inspector de errores del Plan de topología (${TPNAME})".
 
-24. ${check} Cierre la ventana titulada "Mostrar cambios".
+25. ${check} Cierre la ventana titulada "Mostrar cambios".
 
 ### Resultado esperado
 
