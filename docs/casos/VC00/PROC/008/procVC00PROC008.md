@@ -16,10 +16,10 @@ El servidor deberá estar iniciado al ejecutar este procedimiento.
 
 ### Datos de entrada
 
-1. ${check} **TMPFOLDER**=```${TMPFOLDER}```. Carpeta en la que se crearán los archivos que se precisen 
+1. ${check} **TMPFOLDER**={% include var_tag.html var="TMPFOLDER" %}. Carpeta en la que se crearán los archivos que se precisen 
    durante la ejecucion del test. Debe tener permiso de escritura en ella.
    
-2. ${check} **REPOURL**=```${REPOURL}```. Url en la que se está ejecutando el 
+2. ${check} **REPOURL**={% include var_tag.html var="REPOURL" %}. Url en la que se está ejecutando el 
    servidor de VCSGis a usar en la copia de trabajo.
 
 3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear así como 
@@ -32,14 +32,14 @@ El servidor deberá estar iniciado al ejecutar este procedimiento.
 
 2. ${check} Marque la opción de "Repositorio remoto".
 
-3. ${check} En el campo "URL" introduzca el valor ```${REPOURL}``` (REPOURL). 
+3. ${check} En el campo "URL" introduzca el valor ```${REPOURL}``` (REPOURL)  {% include var_copy.html var="REPOURL"%}. 
 
 4. ${check} Marque la opción de "Base de datos personal (H2Spatial)
 
 5. ${check} Pulse el botón asociado al campo "Fichero" y aparecerá el diálogo de selección de ficheros.
    
 6. ${check} Navegue a la carpeta ```${TMPFOLDER}``` (TMPFOLDER), indique como nombre 
-   de fichero  ```${WORKINGCOPY}``` (WORKINGCOPY) y pulse el botón "Abrir".
+   de fichero  ```${WORKINGCOPY}``` (WORKINGCOPY)  {% include var_copy.html var="WORKINGCOPY"%} y pulse el botón "Abrir".
    Se cerrará el diálogo de selección de fichero y volverá al diálogo de "Inicializar copia de trabajo".
    
 7. ${check} En el campo "Nombre" deberá haber aparecido el valor ```${WORKINGCOPY}```.
