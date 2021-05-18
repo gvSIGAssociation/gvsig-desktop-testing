@@ -89,9 +89,13 @@ trabajo existe se eliminará y se volverá a crear, así como la conexión.
 
 9. ${check} En la vista se habrá añadido la capa ```${TABLENAME}```(TABLENAME).
 
-10. ${check} Cierre la vista.
+9. ${check} Elimine la capa ```${TABLENAME}```(TABLENAME) de la vista pulsando con el botón secundario del ratón sobre el nombre de la capa en el TOC y seleccionado la opcíón "Eliminar capa"
 
-11. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
+10. ${check} Se le preguntará si está seguro de que desea borrar las capas activas". Pulse el botón "Sí"
+
+11. ${check} Cierre la vista.
+
+12. ${check} Solo debe quedar abierta la ventana del "Gestor de proyecto"
 
 ### Resultado esperado
 
