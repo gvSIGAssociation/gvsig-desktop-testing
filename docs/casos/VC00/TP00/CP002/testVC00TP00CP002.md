@@ -57,7 +57,7 @@ datos a "commitar" cumplan dicho plan topologico.
 3. ${check} La vista "Sin titulo" deberá estar activa y cargada la capa ```${LAYER2_NAME}``` (LAYER2_NAME).
    
 4. ${check} Cargue la capa ``${LAYER1_NAME}``` (LAYER1_NAME) siguiendo los pasos de 
-    [añadir capa de base de datos](../../PROC/022/procVC00PROC022.html?CONNAME=${WORKINGCOPY}&TABLENAME=${LAYER2_NAME}) 
+    [añadir capa de base de datos](../../PROC/022/procVC00PROC022.html?CONNAME=${WORKINGCOPY}&TABLENAME=${LAYER1_NAME}) 
 
 5. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
