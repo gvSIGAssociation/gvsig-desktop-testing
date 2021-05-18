@@ -34,13 +34,13 @@ Comprueba:
    al repositorio.
 1. Que se puede consultar el historico de revisiones de una tabla.
 1. Que se puede recuperar una tabla a una revision dada o exportarla a una revision o fecha efectiva dada.
-2. Que se puede cargar un historico de datos a partir de los datos recuperados de la aplicacion INCA.
-3. Que se pueden definir modelos de datos, se pueden abrir desde una copia de trabajo y las relaciones entre
-   las tablas del modelo se presentan correctamente en los formularios asociados a las tablas de este.
    
 El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG desktop.
 
 {% comment %}
+1. Que se puede cargar un historico de datos a partir de los datos recuperados de la aplicacion INCA.
+1. Que se pueden definir modelos de datos, se pueden abrir desde una copia de trabajo y las relaciones entre
+   las tablas del modelo se presentan correctamente en los formularios asociados a las tablas de este.
 1. Que se se detectan correctamente los conflictos al editar simultaneamente desde dos usuario una capa del repositorio.
 {% endcomment %}
 
