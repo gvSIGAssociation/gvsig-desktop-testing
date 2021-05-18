@@ -27,7 +27,7 @@ El servidor deberá estar iniciado al ejecutar este procedimiento.
 
 ### Pasos
 
-1. ${check} Al iniciarse este procedimiento deberá estar abierta la venta de inicialización de copias de 
+1. ${check} Al iniciarse este procedimiento deberá estar abierta la ventana de inicialización de copias de 
    trabajo de título "Inicializar copia de trabajo" y deberá estar activa.
 
 2. ${check} Marque la opción de "Repositorio remoto".
