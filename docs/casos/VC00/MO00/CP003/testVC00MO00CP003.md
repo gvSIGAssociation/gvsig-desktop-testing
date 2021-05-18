@@ -116,7 +116,7 @@ correctamente.
    * ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
      de no ser asi cámbie la proyección de la vista.
 
-3. ${check} Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```.
+3. ${check} **Si no esta activa activaremos la aplicación gvSIG Desktop ```Cliente```**.
 
 4. ${check} Seleccione la opción "Mostrar/Gestor de proyecto".
 
@@ -150,7 +150,7 @@ correctamente.
 
 17. ${check} Minimice la aplicación gvSIG Desktop ```Cliente```.
 
-18. ${check} Active la aplicación gvSIG Desktop ```Servidor```. 
+18. ${check} **Active la aplicación gvSIG Desktop ```Servidor```**. 
     Vamos a configurar el servidor para registrar el modelo de datos.
 
 19. ${check} Abra la tabla ```VCSGISREPO_ENTITIES``` de este, para ello siga los pasos de 
@@ -190,7 +190,7 @@ correctamente.
 
 36. ${check} Minimice la aplicación gvSIG Desktop ```Servidor```.
 
-37. ${check} Active la aplicación gvSIG Desktop ```Cliente```. 
+37. ${check} **Active la aplicación gvSIG Desktop ```Cliente```**. 
 
 38. ${check} Inicialice una nueva copia de trabajo para ello siga los pasos de 
    [Inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY2})
