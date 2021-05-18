@@ -38,7 +38,7 @@ Este proceso carga una tabla de base de datos desde la conexión a la base de da
    
 10. ${check} Se mostrarán las tablas de la base de datos ```${CONNAME}```.
 
-11. ${check} Seleccione y marque el "check" de la tabla ```${TABLENAME}```.
+11. ${check} Seleccione y marque la casilla de verificación de la tabla ```${TABLENAME}```.
 
 12. ${check} Pulse el botón "Aceptar" situado en la zona inferior del cuadro de diálogo.
 
