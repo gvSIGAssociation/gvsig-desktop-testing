@@ -42,7 +42,7 @@ Commita los cambios que hay pendientes de la capa indicada.
    bajo ésta, la capa añadida a la copia de trabajo. A la derecha se habrá mostrado una tabla vacía (tabla de cambios) y 
    sobre ésta los botones de "Refrescar", "Revertir", "Commit", "Resaltar", "Centrar", "Zoom", "Limpiar geometrías resaltadas" y "Mostrar formulario".
 
-4. ${check} Pulse la casilla de verificación asociada a la capa ```${TABLENAME}``` (TABLENAME).
+4. ${check} Pulse la casilla de verificación asociada a la tabla ```${TABLENAME}``` (TABLENAME).
 
 5. ${check} En la tabla de cambios se habrán mostrado los cambios que se deben commitar al repositorio y se habrán habilitado 
    los botones de "Refrescar", "Revertir" y "Commit".
