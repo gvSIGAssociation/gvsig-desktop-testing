@@ -18,7 +18,7 @@ srcpath: "casos/VC00/TP00/CP001/testVC00TP00CP001.md"
 ### Descripción
 
 Este proceso asigna el plan topológico a una capa existente en el repositorio.
-Tanto la capa como el plan topologico deben estar dados de alta en el repositorio previamente.
+Tanto la capa como el plan topológico deben estar dados de alta en el repositorio previamente.
 
 {% include es/checkifthereisalreadyabug.md %}
 
@@ -49,40 +49,40 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```Servidor```.
 
 3. ${check} Consulte en el "Gestor de proyecto" si tiene cargada la tabla "VCSGISREPO_ENTITIES. 
-   * Si la tiene cargada, selecionela y pulse el boton "Abrir...".
-   * Si no la tiene cargada abrala siguiendo los pasos de 
+   * Si la tiene cargada, selecciónela y pulse el botón "Abrir...".
+   * Si no la tiene cargada, ábrala siguiendo los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
 
-4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Refrescar"
+4. ${check} Una vez abierta la tabla y estando ésta activa seleccione la opción de menú "Tabla/Refrescar"
 
-4. ${check} Seleccione la opcion de menu "Tabla/Show form"
+4. ${check} Seleccione la opción de menú "Tabla/Show form"
 
-6. ${check} Como resultado se presentara una ventana que muestra el formulario asociado a la tabla 
+6. ${check} Como resultado se presentará una ventana que muestra el formulario asociado a la tabla 
    de entidades del repositorio.
 
-11. ${check} Pulse el boton "Comenzar edición" del formulario. 
+11. ${check} Pulse el botón "Comenzar edición" del formulario. 
 
 9. ${check} Con ayuda de los botones "Anterior" y "Siguiente" del formulario seleccione la entidad ```${LAYER_NAME}``` (LAYER_NAME).
 
-10. ${check} Localice el campo "Topology plan" y pulse el boton  "Select item to list" asociado a ese campo.
+10. ${check} Localice el campo "Topology plan" y pulse el botón  "Select item to list" asociado a ese campo.
 
-11. ${check} Se presentara una ventana con los diferentes planes topológicos disponibles en el repositorio.
+11. ${check} Se presentará una ventana con los diferentes planes topológicos disponibles en el repositorio.
 
 12. ${check} Seleccione el plan topológico ```${TPNAME}``` (TPNAME) si no aparece el plan topologico indicado en la
-    lista aborte la ejeccion del plan de prueba.
+    lista aborte la ejecución del plan de prueba.
 
-13. ${check} Pulse el boton "Aceptar", que cerrara el dialogo de seleccion de plan topologico y le devolvera
+13. ${check} Pulse el botón "Aceptar", que cerrará el dialogo de selección de plan topológico y le devolverá
     al formulario de entidades.
 
-13. ${check} Se habra presentado en el campo  "Topology plan" el valor ```${TPNAME}``` (TPNAME).
+13. ${check} Se habrá presentado en el campo  "Topology plan" el valor ```${TPNAME}``` (TPNAME).
 
 14. ${check} Localice el campo "Topology plan mode" y seleccione la opción ```Mandatory``` del desplegable.
 
-10. ${check} Pulse el boton "Guardar" del formulario.
+10. ${check} Pulse el botón "Guardar" del formulario.
 
-11. ${check} Pulse el boton "Terminar edición" del formulario. 
+11. ${check} Pulse el botón "Terminar edición" del formulario. 
 
-12. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guardar los cambios.
+12. ${check} Se presentrará una ventana, pulse en la opción "Sí" para terminar edición y guardar los cambios.
 
 13. ${check} Cierre el formulario de entidades.
 
