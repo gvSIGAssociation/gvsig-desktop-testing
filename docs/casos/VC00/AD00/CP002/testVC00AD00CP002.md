@@ -90,7 +90,7 @@ basada en un repositorio remoto con la autorización activada.
 
 9. ${check} Siga los pasos de [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLENAME}&FIELDFORLABEL=${FIELDFORLABEL}&CATEGORY=${CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD}) 
 
-9. ${check} En la ventana de título "Añadir a la copia de trabajo" pulse el boton "Cerrar" para cerrar este ventana.
+9. ${check} En la ventana de título "Añadir a la copia de trabajo" pulse el botón "Cerrar" para cerrar este ventana.
 
 11. ${check} Deberá haber aparecido en la vista una capa 
     ```${TABLENAME}``` (${TABLELINK})
