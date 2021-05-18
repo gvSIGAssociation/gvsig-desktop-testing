@@ -78,8 +78,12 @@ El *plan de pruebas* se ha diseñado para la version ${GVSIGVERSION} de gvSIG de
 1. ${InputUnknownOkError} ```VC00CO00CP005``` [Obtener una revision concreta de una capa](../CO00/CP005/testVC00CO00CP005.md).
 1. ${InputUnknownOkError} ```VC00EX00CP005``` [Exportar una capa a una fecha dada](../EX00/CP005/testVC00EX00CP005.md).
 1. ${InputUnknownOkError} ```VC00EX00CP002``` [Exportar una capa a una revision dada](../EX00/CP002/testVC00EX00CP002.md).
-1. ${InputUnknownOkError} ```VC00MO00CP003``` [Definir y descargar un modelo de datos](../MO00/CP003/testVC00MO00CP003.md).
-1. ${InputUnknownOkError} ```VC00HI00CP003``` [Importar historial](../HI00/CP003/testVC00HI00CP003.md).
+
+{% comment %}
+3. ${InputUnknownOkError} ```VC00MO00CP003``` [Definir y descargar un modelo de datos](../MO00/CP003/testVC00MO00CP003.md).
+4. ${InputUnknownOkError} ```VC00HI00CP003``` [Importar historial](../HI00/CP003/testVC00HI00CP003.md).
+{% endcomment %}
+
 
 <table border="0">
 <tr>
