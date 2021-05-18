@@ -48,7 +48,9 @@ Tanto la capa como el plan topologico deben estar dados de alta en el repositori
 
 2. ${check} Asegúrese de estar en la aplicación gvSIG Desktop ```Servidor```.
 
-3. ${check} Abra la tabla ```VCSGISREPO_ENTITIES```, para ello siga los pasos de 
+3. ${check} Consulte en el "Gestor de proyecto" si tiene cargada la tabla "VCSGISREPO_ENTITIES. 
+   * Si la tiene cargada, selecionela y pulse el boton "Abrir...".
+   * Si no la tiene cargada abrala siguiendo los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES)
 
 4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form"
