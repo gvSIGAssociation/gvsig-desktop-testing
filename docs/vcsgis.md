@@ -63,8 +63,13 @@ A los videos grabados de cada uno de los casos de prueba se puede acceder desde 
 1. ```VC00CO00CP005``` <a href="${VERSION_FOLDER}/VC00CO00CP005.mp4">Obtener una revision concreta de una capa</a>.
 1. ```VC00EX00CP005``` <a href="${VERSION_FOLDER}/VC00EX00CP005.mp4">Exportar una capa a una fecha dada</a>.
 1. ```VC00EX00CP002``` <a href="${VERSION_FOLDER}/VC00EX00CP002.mp4">Exportar una capa a una revision dada</a>.
+
+{% comment %}
+
 1. ```VC00MO00CP003``` <a href="${VERSION_FOLDER}/VC00MO00CP003.mp4">Definir y descargar un modelo de datos</a>.
 1. ```VC00HI00CP003``` <a href="${VERSION_FOLDER}/VC00HI00CP003.mp4">Importar historial</a>.
+
+{% endcomment %}
 
 <div style="display:none;"  markdown="1">
 
