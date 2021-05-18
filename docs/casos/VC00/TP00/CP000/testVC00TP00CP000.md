@@ -34,7 +34,7 @@ srcpath: "casos/VC00/TP00/CP000/testVC00TP00CP000.md"
 
 ### Descripción
 
-Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en el un plan topologico que usa ambas capas.
+Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en él un plan topologico que las usa.
 
 {% include es/checkifthereisalreadyabug.md %}
 
@@ -51,15 +51,15 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 3. ${check} **TABLE2_FIELDFORLABEL**=```${TABLE2_FIELDFORLABEL}```. Nombre del campo de la tabla ```${TABLE2_NAME}```
    a usar en etiquetas. 
 
-4. ${check} **TABLE2_CATEGORY**=```${TABLE2_CATEGORY}```. Categoria a asociar a la tabla ```${TABLE2_NAME}``` cuando la añadamos a la copia local.
+4. ${check} **TABLE2_CATEGORY**=```${TABLE2_CATEGORY}```. Categoría a asociar a la tabla ```${TABLE2_NAME}``` cuando la añadamos a la copia local.
 
 4. ${check} **TABLE2_EFECTIVEDATE**=```${TABLE2_EFECTIVEDATE}```. Fecha a indicar al hacer commit de la  tabla ```${TABLE2_NAME}```.
 
 4. ${check} **TABLE2_COMMENT**=```${TABLE2_COMMENT}```. Comentario a indicar al hacer commit de la tabla ```${TABLE2_NAME}```.
 
-5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicacion.
+5. ${check} **USER**=```${USER}```. Usuario a utilizar cuando sea requerido por la aplicación.
 
-7. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicacion.
+7. ${check} **PASSWORD**=```${PASSWORD}```. Clave del usuario a utilizar cuando sea requerido por la aplicación.
 
 ### Prerrequisitos
 
@@ -75,62 +75,62 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
 ### Pasos
 
 1. ${check} Si acaba de ejecutar el caso de pruebas "commitar una capa nueva" o "Asociar leyenda a una capa" (hace menos de 1 hora) y 
-   aun tiene abierto gvSIG desktop Servidor continúe con el paso 2. Si no, ejecúte uno de estos dos antes de continuar.
+   aún tiene abierto gvSIG desktop ```Servidor``` continúe con el paso 2. Si no, ejecute uno de estos dos antes de continuar.
 
 2. ${check} **Active la aplicación gvSIG Desktop ```Cliente```**.
 
 3. ${check} Proceda a cargar la capa ```${TABLE2_NAME}``` (${TABLE2_LINK}) en la vista que hay creada 
-   en el proyecto. Seleccione la opcion de menú "Vista/Añadir capa".
+   en el proyecto. Seleccione la opción de menú "Vista/Añadir capa".
 
-5. ${check} Se presentara el dialogo de "Añadir capa". Seleccione la pestaña "Archivo" y pulse en el boton "Añadir".
+5. ${check} Se presentará el diálogo de "Añadir capa". Seleccione la pestaña "Archivo" y pulse en el botón "Añadir".
 
 7. ${check} Se presenta un cuadro de diálogo para seleccionar un fichero. 
     Seleccione el correspondiente a ```${TABLE2_NAME}``` (${TABLE2_LINK}).
      
-8. ${check} Pulse en el boton "Abrir".
+8. ${check} Pulse en el botón "Abrir".
 
-9. ${check} De vuelta en el dialogo de "Añadir capa" pulse el botón "Aceptar" 
+9. ${check} De vuelta en el diálogo de "Añadir capa" pulse el botón "Aceptar" 
     para cargarla en la vista.
 
 10. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Añadir a la copia de trabajo".
-    Se preentara la ventana de titulo "Añadir a la copia de trabajo".
+    Se presentará la ventana de titulo "Añadir a la copia de trabajo".
 
 13. ${check} Siga los pasos de 
     [añadir capa a la copia de trabajo](../../PROC/003/procVC00PROC003.html?WORKINGCOPY=${WORKINGCOPY}&LAYER=${TABLE2_NAME}&FIELDFORLABEL=${TABLE2_FIELDFORLABEL}&CATEGORY=${TABLE2_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD}) 
     para añadir la capa a la copia de trabajo.
 
-13. En la ventana de titulo "Añadir a la copia de trabajo" pulse el boton "Cerrar" para cerrarla.
+13. ${check} En la ventana de titulo "Añadir a la copia de trabajo" pulse el botón "Cerrar" para cerrarla.
 
-15. ${check} Debera haber aparecido en la vista una capa 
+15. ${check} Deberá haber aparecido en la vista una capa 
     ```${TABLE2_NAME}``` con el identificativo de una capa de base de datos H2.
 
 15. ${check} Elimine de la vista la capa ```${TABLE2_NAME}``` cargada 
     a partir del fichero ${TABLE2_LINK} dejando la que tiene el indicativo de H2.
 
-12. ${check} Seleccione la opcion de menu "Herramientas/VCSGis/Mostrar cambios".
+12. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
 14. ${check} Siga los pasos de 
     [commit de una capa](../../PROC/021/procVC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLE2_NAME}&EFECTIVEDATE=${TABLE2_EFECTIVEDATE}&COMMENT=${TABLE2_COMMENT}&USER=${USER}&PASSWORD=${PASSWORD}) 
     para subir la capa al reposiorio.
 
-2. ${check} **Active la aplicación gvSIG Desktop ```Servidor```**. Vamos a registrar el servidor un plan topológico.
+2. ${check} **Active la aplicación gvSIG Desktop ```Servidor```**. Se va a proceder a registrar en el servidor un plan topológico.
 
 3. ${check} Abra la tabla ```VCSGISREPO_TOPOLOGYPLANS```, para ello siga los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_TOPOLOGYPLANS)
 
-4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opcion de menu "Tabla/Show form".
+4. ${check} Una vez abierta la tabla y estando esta activa seleccione la opción de menu "Tabla/Show form".
 
-5. ${check} Se mostrara la ventana con el formulario asociado a la tabla de planes topológicos.
+5. ${check} Se mostrará la ventana con el formulario asociado a la tabla de planes topológicos.
 
-6. ${check} Pulse el boton "Comenzar edición" del formulario. 
+6. ${check} Pulse el botón "Comenzar edición" del formulario. 
 
-7. ${check} Pulse el boton "Nuevo" del formulario.
+7. ${check} Pulse el botón "Nuevo" del formulario.
 
 8. ${check} En el campo "Nombre" de la pestaña "General" introduzca el valor ```${TPNAME}``` {% include var_copy.html var="TPNAME"%}.
 
-9. ${check} En el campo "Descripcion" la pestaña "General" introduzca el valor ```${TPDESCRIPTION}``` {% include var_copy.html var="TPDESCRIPTION"%}.
+9. ${check} En el campo "Descripción" la pestaña "General" introduzca el valor ```${TPDESCRIPTION}``` {% include var_copy.html var="TPDESCRIPTION"%}.
 
-10. ${check} En la pestaña "Plan" debe introducir el plan topológico en formatao Json. Introduzca el valor: 
+10. ${check} En la pestaña "Plan" debe introducir el plan topológico en formato Json. Introduzca el valor: 
     <PRE id="DROP_TABLES" class="language-plaintext highlighter-rouge">
     {"name":"provinciasDebenTenerPoblaciones","dataSets":[
       {"name":"esp_provincias","fullName":"esp_provincias.csv"},
@@ -148,11 +148,11 @@ Este caso de pruebas acaba cargando en el repositorio dos capas y registrando en
     Esta secuencia Json se obtiene de la opción "Copy topology plan to clipboard" de la 
     ventana "Plan de topología" del módulo de topología.
 
-11. ${check} Pulse el boton "Guardar" del formulario.
+11. ${check} Pulse el botón "Guardar" del formulario.
 
-12. ${check} Pulse el boton "Terminar edición" del formulario. 
+12. ${check} Pulse el botón "Terminar edición" del formulario. 
 
-13. ${check} Se presentrara una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
+13. ${check} Se presentrará una ventana, pulse en la opción "Si" para terminar edición y guarda los cambios.
 
 14. ${check} Cierre el formulario.
 
