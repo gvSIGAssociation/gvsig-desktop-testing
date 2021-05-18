@@ -23,4 +23,5 @@
 * [019 Eliminar copia de trabajo del registro de copias de trabajo](019/procVC00PROC019.md).
 * [020 Crear una conexion a base de datos Oracle](020/procVC00PROC020.md).
 * [021 Commit simple de una tabla](021/procVC00PROC021.md).
+* [022 Abrir una capa de una base de datos](022/procVC00PROC022.md).
 
