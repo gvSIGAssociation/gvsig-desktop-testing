@@ -172,7 +172,7 @@ de una capa, añadiendo a la tabla de recursos recién creada una leyenda para l
 
 31. ${check} Pulse el botón "Guardar" del formulario.
 
-32. ${check} Pulse el boton "Terminar edición" del formulario.
+32. ${check} Pulse el botón "Terminar edición" del formulario.
 
 33. ${check} Cierre el formulario.
 
