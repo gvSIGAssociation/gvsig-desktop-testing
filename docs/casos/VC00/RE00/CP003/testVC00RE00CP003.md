@@ -141,7 +141,7 @@ de una capa, añadiendo a la tabla de recursos recién creada una leyenda para l
 
 19. ${check} Cierre el formulario.
 
-20. ${check} Cierre la tabla ${RESOURCES_TABLE_NAME}.
+20. ${check} Cierre la tabla ```${RESOURCES_TABLE_NAME}```.
 
 21. ${check} Añada la tabla de recursos ```${RESOURCES_TABLE_NAME}``` a la copia de trabajo, para eso seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" y siga los pasos de 
     [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKINGCOPY=${WORKINGCOPY}&TABLE=${RESOURCES_TABLE_NAME}&FIELDFORLABEL=${RESOURCES_TABLE_FIELDFORLABEL}&CATEGORY=${RESOURCES_TABLE_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD})
