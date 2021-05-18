@@ -37,7 +37,7 @@ Obtiene una copia local de una capa existente en
 1. ${check} Al iniciarse este procedimiento deberá estar abierta la ventana de 
    obtención de una copia local con título "Obtener copia local (checkout)".
 
-2. ${check} Asímismo, deberá estar abierta una vista de gvSIG.
+2. ${check} Asimismo, deberá estar abierta una vista de gvSIG.
 
 3. ${check} En el cuadro desplegable "Copia de trabajo" seleccione ```${WORKINGCOPY}```(WORKINGCOPY).
 
@@ -46,9 +46,9 @@ Obtiene una copia local de una capa existente en
 8. ${check} En la lista de tablas habrá aparecido la tabla ```${TABLENAME}```(TABLENAME), selecciónela.
 
 9. ${check} Se habrán habilitado los siguientes controles:
-   * "No añadir la capa al proyecto", que no estara seleccionado.
-   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que estara seleccionada una vista.
-   * "Añadir la tabla al proyecto, que no estara seleccionado.
+   * "No añadir la capa al proyecto", que no estará seleccionado.
+   * "Añadir capa a la vista" (deberá estar seleccionado) y un cuadro desplegable de vistas en el que estará seleccionada una vista.
+   * "Añadir la tabla al proyecto, que no estará seleccionado.
 
 10. ${check} Pulse el botón "Obtener copia local (checkout)"
 
@@ -56,7 +56,7 @@ Obtiene una copia local de una capa existente en
 
 12. ${check} Se habrán deshabilitado todos los controles mencionados en el punto 9. 
 
-13. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla", pero no estara seleccionada.
+13. ${check} Se habrá habilitado la casilla de verificación "Sobreescribir tabla", pero no estará seleccionada.
 
 14. ${check} Y se habrá añadido a la vista seleccionada la capa ```${TABLENAME}```(TABLENAME).
 
