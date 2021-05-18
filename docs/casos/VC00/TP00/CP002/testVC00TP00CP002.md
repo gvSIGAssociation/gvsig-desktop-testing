@@ -56,6 +56,9 @@ datos a "commitar" cumplan dicho plan topologico.
 
 3. ${check} La vista "Sin titulo" deberá estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
    **FIXME**: La tabla esp_provincias no estaba cargada, solo la de esp_poblaciones. Habría que cargar esp_provincias.
+   
+4. ${check} Cargue la capa ``${LAYER1_NAME}``` (LAYER1_NAME) siguiendo los pasos de 
+    [añadir capa de base de datos](../../PROC/022/procVC00PROC022.html?CONNAME=${WORKINGCOPY}&TABLENAME=${LAYER2_NAME}) 
 
 4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
