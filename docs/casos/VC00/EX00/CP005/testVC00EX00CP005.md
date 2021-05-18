@@ -36,16 +36,16 @@ Este caso de prueba verifica que se puede exportar una capa de un repositorio en
 * Exporta una capa del repositorio sobre la copia de trabajo.
 
 Si la base de datos que se va a utilizar asociada a la copia de 
-trabajo existe se eliminará y se volverá a crear, asi como la conexión.
+trabajo existe se eliminará y se volverá a crear, así como la conexión.
 
 {% include es/checkifthereisalreadyabug.md %}
 
 ### Datos de entrada
 
 1. ${check} **TMPFOLDER**="/tmp". Carpeta en la que se disponga de acceso para escritura donde
-   se crearan los archivos necesarios durante la ejecucion del test.
+   se crearán los archivos necesarios durante la ejecucion del test.
 
-1. ${check} **REPOURL**=```${REPOURL}```. Direccion donde esta el servidor del repopsiyotio a usar.
+1. ${check} **REPOURL**=```${REPOURL}```. Dirección donde esta el servidor del repositorio a usar.
 
 1. ${check} **WORKINGCOPY**=```${WORKINGCOPY}``` a usar en este test. 
 
@@ -85,17 +85,17 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
    * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-3. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+3. ${check} Elimine el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
    Para ello siga los pasos indicados en 
    [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
-4. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+4. ${check} Compruebe que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser así cambie la proyección de la vista.
    
 5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
-   menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
-   [inicializacion de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY})
+   menú "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
+   [inicialización de una copia de trabajo](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY})
 
-7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
+7. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que presentará la ventana de titulo "Exportar".
 
 8. ${check} Siga los pasos de [exportar una capa a una fecha concreta](../../PROC/015/procVC00PROC015.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE0}&EXPORTTABLENAME=${EXPORTTABLENAME0})
 
@@ -105,9 +105,9 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
 
 11. ${check} Elimine la capa ```${EXPORTTABLENAME0}```(EXPORTTABLENAME0) de la vista pulsando con el botón secundario del ratón sobre la capa en el TOC y seleccionando "Eliminar capa".
 
-12. Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
+12. ${check} Aparecerá un diálogo de confirmación que le preguntará "¿Está seguro de que desea borrar las capas activas?". Pulse el botón "Sí".
 
-12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que nos presentara la ventana de titulo "Exportar".
+12. ${check} Seleccione la opción de menu "Herramientas/VCSGis/Exportar" que presentara la ventana de titulo "Exportar".
 
 13. ${check} Siga los pasos de [Exportar una capa a una fecha concreta](../../PROC/016/procVC00PROC016.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${TABLENAME}&USER=${USER}&PASSWORD=${PASSWORD}&DATE=${DATE1}&EXPORTTABLENAME=${EXPORTTABLENAME1})
 
