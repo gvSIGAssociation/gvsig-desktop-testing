@@ -146,64 +146,66 @@ de una capa, añadiendo a la tabla de recursos recién creada una leyenda para l
 21. ${check} Añada la tabla de recursos ```${RESOURCES_TABLE_NAME}``` a la copia de trabajo, para eso seleccione la opción de menú "Herramientas/VCSGis/Añadir a la copia de trabajo" y siga los pasos de 
     [añadir tabla a una copia de trabajo](../../PROC/014/procVC00PROC014.html?WORKINGCOPY=${WORKINGCOPY}&TABLE=${RESOURCES_TABLE_NAME}&FIELDFORLABEL=${RESOURCES_TABLE_FIELDFORLABEL}&CATEGORY=${RESOURCES_TABLE_CATEGORY}&USER=${USER}&PASSWORD=${PASSWORD})
 
-22. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
+22. ${check} Cierre la ventana "Añadir a la copia de trabajo".
 
-23. ${check} Siga los pasos de 
+23. ${check} Pulse la opción "Herramientas/VCSGis/Mostrar cambios".
+
+24. ${check} Siga los pasos de 
     [commit de una tabla](../../PROC/021/procVC00PROC021.html?WORKINGCOPY=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME}&EFECTIVEDATE=${RESOURCES_TABLE_EFECTIVEDATE}&COMMENT=${RESOURCES_TABLE_COMMENT}) 
     para subir la tabla al reposiorio.
 
-24. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
+25. ${check} Active la aplicación gvSIG Desktop ```servidor```. A partir de ahora va a configurar el servidor para 
     asociar la tabla de recursos a la capa ```${TABLE_NAME}```.
 
-25. ${check} Abra la tabla ```VCSGISREPO_ENTITIES```, para ello siga los pasos de 
+26. ${check} Abra la tabla ```VCSGISREPO_ENTITIES```, para ello siga los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${REPONAME}&TABLENAME=VCSGISREPO_ENTITIES) 
 
-26. ${check} Seleccione la opción de menu "Table/Show form". 
+27. ${check} Seleccione la opción de menu "Table/Show form". 
 
-27. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
+28. ${check} Como resultado se genera una nueva ventana que muestra el formulario asociado a la tabla 
     de entidades.
 
-28. ${check} Pulse el botón "Comenzar edición" del formulario.
+29. ${check} Pulse el botón "Comenzar edición" del formulario.
 
-29. ${check} Seleccione con ayuda de los botones "Anterior" y "Siguiente"  del formulario el registro de la 
+30. ${check} Seleccione con ayuda de los botones "Anterior" y "Siguiente"  del formulario el registro de la 
     entidad ```${TABLE_NAME}```.
 
-30. ${check} Introduzca el valor ```${RESOURCES_TABLE_NAME}``` en el campo "Resources" {% include var_copy.html var="RESOURCES_TABLE_NAME"%}.
+31. ${check} Introduzca el valor ```${RESOURCES_TABLE_NAME}``` en el campo "Resources" {% include var_copy.html var="RESOURCES_TABLE_NAME"%}.
 
-31. ${check} Pulse el botón "Guardar" del formulario.
+32. ${check} Pulse el botón "Guardar" del formulario.
 
-32. ${check} Pulse el botón "Terminar edición" del formulario.
+33. ${check} Pulse el botón "Terminar edición" del formulario.
 
-33. ${check} Cierre el formulario.
+34. ${check} Cierre el formulario.
 
-34. ${check} Cierre la tabla ```VCSGISREPO_ENTITIES```.
+35. ${check} Cierre la tabla ```VCSGISREPO_ENTITIES```.
 
-35. ${check} Minimice la aplicación gvSIG Desktop ```Servidor````.
+36. ${check} Minimice la aplicación gvSIG Desktop ```Servidor````.
 
-36. ${check} Compruebe si exite el fichero 
+37. ${check} Compruebe si exite el fichero 
     * ```${TMPFOLDER}/${WORKINGCOPY2}.mv.db``` (TMPFOLDER/WORKINGCOPY2.mv.db).
     En caso de que exista, cierre la aplicacion gvSIG Desktop ```Cliente```, elimínelo y abra de nuevo gvSIG desktop ```Cliente```.
 
-37. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
+38. ${check} Asegúrese de que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", 
    de no ser asi cámbie la proyección de la vista.
 
-38. ${check} Elimine el registro de la copia de trabajo ```${WORKINGCOPY2}``` en caso de que existise.
+39. ${check} Elimine el registro de la copia de trabajo ```${WORKINGCOPY2}``` en caso de que existise.
    Para ello seleccione la opción de menú "Herramientas/VCSGis/Administración/Registrar copia de trabajo" y siga los pasos indicados en 
    [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY2})
 
-39. ${check} Inicialice una nueva copia de trabajo, para ello seleccione la opción de menú "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
+40. ${check} Inicialice una nueva copia de trabajo, para ello seleccione la opción de menú "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
    [inicializacion de una copia de trabajo ](../../PROC/008/procVC00PROC008.html?TMPFOLDER=${TMPFOLDER}&REPOURL=${REPOURL}&WORKINGCOPY=${WORKINGCOPY2})
 
-48. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)"
+41. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Obtener copia local (checkout)"
 
-49. ${check} Se presentará la ventana con el título "Obtener copia local (checkout)".
+42. ${check} Se presentará la ventana con el título "Obtener copia local (checkout)".
 
-50. ${check} Siga los pasos de 
+43. ${check} Siga los pasos de 
     [obtención de una copia local (checkout)](../../PROC/006/procVC00PROC006.html?WORKINGCOPY=${WORKINGCOPY2}&TABLENAME=${TABLE_NAME}&USER=${USER}&PASSWORD=${PASSWORD})
 
-51. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
+44. ${check} Cierre el cuadro de diálogo "Obtener copia local (checkout)".
 
-52. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
+45. ${check} En la vista se habrá añadido la capa```${TABLE_NAME}``` (TABLE_NAME) con la 
     leyenda ```${LEGEND_NAME}```.
 
 ### Resultado esperado
