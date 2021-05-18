@@ -109,7 +109,7 @@ de una capa, añadiendo a la tabla de recursos recién creada una leyenda para l
 
 7. ${check} Pulse el botón "Crear tabla de recursos".
 
-8. ${check} Abra la tabla de recursos que acabamos de crear, para ello siga los pasos de 
+8. ${check} Abra la tabla de recursos que se acaba de crear, para ello siga los pasos de 
     [abrir tabla de base de datos](../../PROC/011/procVC00PROC011.html?CONNAME=${WORKINGCOPY}&TABLENAME=${RESOURCES_TABLE_NAME})
 
 9. ${check} Una vez abierta la tabla y estando esta activa se procede a añadir en ésta un nuevo registro. Para ello 
