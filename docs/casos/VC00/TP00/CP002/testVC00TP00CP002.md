@@ -66,7 +66,7 @@ datos a "commitar" cumplan dicho plan topologico.
 
 7. ${check} Si no lo está seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-8. ${check} Seleccione la opción de menu "Capa/Terminar edicion" (end_editingJList).
+8. ${check} Seleccione la opción de menú "Capa/Terminar edicion" (end_editingJList).
 
 9. ${check} Aparecerá una ventana de titulo "Terminar edición".
 
