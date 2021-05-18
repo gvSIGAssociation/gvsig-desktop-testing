@@ -33,7 +33,7 @@ Commita los cambios que hay pendientes de la capa indicada.
 
 ### Pasos
 
-1. ${check} Al entrar en este procedimiento se estara viendo y activa la ventana de titulo "VCSGis Cambios".
+1. ${check} Al entrar en este procedimiento se estará viendo y activa la ventana de titulo "VCSGis Cambios".
 
 2. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
@@ -44,7 +44,7 @@ Commita los cambios que hay pendientes de la capa indicada.
 
 4. ${check} Pulse la casilla de verificación asociada a la capa ```${TABLENAME}``` (TABLENAME).
 
-5. ${check} En la tabla de cambios se habrán mostrado los cambios necesarios para insertar esta capa en el repositorio y se habrán habilitado 
+5. ${check} En la tabla de cambios se habrán mostrado los cambios que se deben commitar al repositorio y se habrán habilitado 
    los botones de "Refrescar", "Revertir" y "Commit".
 
 6. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha ```${EFECTIVEDATE}``` {% include var_copy.html var="EFECTIVEDATE"%}.
