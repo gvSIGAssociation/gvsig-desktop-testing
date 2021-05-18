@@ -1,4 +1,4 @@
 
-Si se pueden realizar los pasos tal como se han descrito sin que haya aparecido ningún mensaje de error, bien
+Si se pueden realizar los pasos tal y como se han descrito sin que aparezca ningún mensaje de error, bien
 en uno de los diálogos que presenta el test, en una ventana de error o en el área de mensajes de la aplicación (barra de
-abajo a la izquierda) se considera que el test ha pasado correctamente.
+abajo a la izquierda), se considera que el test ha pasado correctamente.
