@@ -22,7 +22,7 @@ El servidor deberá estar iniciado al ejecutar este procedimiento.
 2. ${check} **REPOURL**={% include var_tag.html var="REPOURL" %}. Url en la que se está ejecutando el 
    servidor de VCSGis a usar en la copia de trabajo.
 
-3. ${check} **WORKINGCOPY**=```${WORKINGCOPY}```. Nombre de la copia de trabajo que se va a crear así como 
+3. ${check} **WORKINGCOPY**={% include var_tag.html var="WORKINGCOPY" %}. Nombre de la copia de trabajo que se va a crear así como 
    de la conexión a la base de datos de la copia de trabajo. 
 
 ### Pasos
