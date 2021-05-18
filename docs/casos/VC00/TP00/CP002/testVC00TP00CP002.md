@@ -19,7 +19,7 @@ srcpath: "casos/VC00/TP00/CP002/testVC00TP00CP002.md"
 
 ### Descripción
 
-Este proceso prueba que no es posible hacer un commit de una capa con un plan topologico asociado sin que los
+Este proceso prueba que no es posible hacer un commit de una capa con un plan topológico asociado sin que los
 datos a "commitar" cumplan dicho plan topologico.
 
 {% include es/checkifthereisalreadyabug.md %}
@@ -30,8 +30,8 @@ datos a "commitar" cumplan dicho plan topologico.
 
 1. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
-1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa que vamos a editar y no vamos a poder commitar
-   por tener asignado un plan de topologia que no va a cumplir tras la edicion.
+1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa se va a editar y no se va a poder commitar
+   por tener asignado un plan de topología que no va a cumplir tras la edición.
 
 1. ${check} **LAYER2_NAME**=```${LAYER2_NAME}```. 
 
@@ -54,27 +54,27 @@ datos a "commitar" cumplan dicho plan topologico.
 
 2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
-3. ${check} La vista "Sin titulo" debera estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
-   **FIXME**: La tabla esp_provincias no estaba cargada, solo la de esp_poblaciones. Abria cque cargar esp_provincias.
+3. ${check} La vista "Sin titulo" deberá estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
+   **FIXME**: La tabla esp_provincias no estaba cargada, solo la de esp_poblaciones. Habría que cargar esp_provincias.
 
 4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-5. ${check} Seleccione la opcion de menu "Capa/Comenzar edicion".
+5. ${check} Seleccione la opción de menú "Capa/Comenzar edición".
 
-6. ${check} Seleccione la provincia de "Valencia" y desplacela fuera del área de la península ibérica hasta
-    asegurarse de que no solape con ningun punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
+6. ${check} Seleccione la provincia de "Valencia" y desplácela fuera del área de la península ibérica hasta
+    asegurarse de que no solape con ningún punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-7. ${check} Si no lo esta seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
+7. ${check} Si no lo está seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-8. ${check} Seleccione la opcion de menu "Capa/Terminar edicion" (end_editingJList).
+8. ${check} Seleccione la opción de menu "Capa/Terminar edicion" (end_editingJList).
 
-9. ${check} Aparecera una ventana de titulo "Terminar edición".
+9. ${check} Aparecerá una ventana de titulo "Terminar edición".
 
 10. ${check} Seleccione la opción "Guardar".
 
 11. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
-12. ${check} Se presentara una ventana de título  "VCSGis Cambios".
+12. ${check} Se presentará una ventana de título  "VCSGis Cambios".
 
 13. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
@@ -86,8 +86,8 @@ datos a "commitar" cumplan dicho plan topologico.
 
 15. ${check} Pulse la casilla de verificación asociada a la capa ```${LAYER1_NAME}``` (LAYER1_NAME).
 
-16. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
-    habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
+16. ${check} En la tabla de cambios se muestran los cambios que se deben subir al repositorio, 
+    habilitándose también los botones de "Refrescar", "Revertir" y "Commit".
 
 17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha <code id="EFECTIVEDATE" class="language-plaintext highlighter-rouge">3/05/2021</code> {% include var_copy.html var="EFECTIVEDATE"%}
 
@@ -95,9 +95,9 @@ datos a "commitar" cumplan dicho plan topologico.
 
 19. ${check} Pulse el botón de "Commit"
 
-20. ${check} Se mostrara una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})".
+20. ${check} Se mostrará una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})".
     
-21. ${check} Se mostrara una ventana que indica que es imposible realizar la 
+21. ${check} Se mostrará una ventana que indica que es imposible realizar la 
     acción de commit puesto que hay elementos  de la capa ```${LAYER1_NAME}``` (LAYER1_NAME) que no cumplen el 
     plan topológico ```${TPNAME}``` (TPNAME).
     
