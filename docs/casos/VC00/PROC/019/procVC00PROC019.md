@@ -23,9 +23,9 @@ Este proceso elimina una copia de trabajo del registro de copias de trabajo.
 
 6. ${check} Se mostrará la venta de la gestion de registro de copia de trabajo, con el titulo "Registrar copia de trabajo".
 
-7. ${check} Si en la lista aparece una de nombre ```${WORKINGCOPY}```, la seleccionaremos y pulsaremos el boton "Eliminar".
+7. ${check} Si en la lista aparece una de nombre ```${WORKINGCOPY}```, la selecciónelo y pulse el botón "Eliminar".
 
-8. ${check} Cerraremos la ventana "Registrar copia de trabajo" pulsando en el aspa de arriba a la derecha,
+8. ${check} Cierre la ventana "Registrar copia de trabajo" pulsando en el aspa de arriba a la derecha,
 
 
 ### Resultado esperado
