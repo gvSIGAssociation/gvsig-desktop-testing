@@ -21,8 +21,8 @@ srcpath: "casos/VC00/TP00/CP003/testVC00TP00CP003.md"
 
 ### Descripción
 
-Este caso de prueba comprueba que se pueden subir cambios a una capa que tiene asignado un plan de topologia
-cuando la capa cumple dicho plan topologico.
+Este caso de prueba comprueba que se pueden subir cambios a una capa que tiene asignado un plan de topología
+cuando la capa cumple dicho plan topológico.
 
 {% include es/checkifthereisalreadyabug.md %}
 
@@ -32,8 +32,7 @@ cuando la capa cumple dicho plan topologico.
 
 1. ${check} **TPNAME**=```${TPNAME}```. Nombre del plan topológico a asignar.
 
-1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa que vamos a editar y no vamos a poder commitar
-   por tener asignado un plan de topologia que no va a cumplir tras la edicion.
+1. ${check} **LAYER1_NAME**=```${LAYER1_NAME}```. Capa que se va editar y commitar.
 
 1. ${check} **LAYER1_EFECTIVEDATE**={% include var_tag.html var="LAYER1_EFECTIVEDATE" %}. Fecha a usar al realizar el commit de las modificaciones en la capa ```${LAYER1_NAME}```.
 
@@ -60,26 +59,26 @@ cuando la capa cumple dicho plan topologico.
 
 2. ${check} Si no esta activa, active la aplicación gvSIG desktop  ```Cliente```.
 
-3. ${check} La vista "Sin titulo" debera estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
+3. ${check} La vista "Sin titulo" deberá estar activa y cargadas las capas ```${LAYER1_NAME}``` (LAYER1_NAME) y ```${LAYER2_NAME}``` (LAYER2_NAME).
 
 4. ${check} Seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-5. ${check} Seleccione la opcion de menu "Capa/Comenzar edicion".
+5. ${check} Seleccione la opción de menú "Capa/Comenzar edicion".
 
-6. ${check} Seleccione la provincia de "Valencia" y desplacela dentro del área de la península ibérica hasta
-    asegurarse de que solape con ningun punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
+6. ${check} Seleccione la provincia de "Valencia" y desplácela dentro del área de la península ibérica hasta
+    asegurarse de que solape con algún punto de la capa de ```${LAYER2_NAME}``` (LAYER2_NAME).
 
-7. ${check} Si no lo esta seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
+7. ${check} Si ya solapa, seleccione la capa ```${LAYER1_NAME}``` (LAYER1_NAME) en el ToC.
 
-8. ${check} Seleccione la opcion de menu "Capa/Terminar edicion" (end_editingJList).
+8. ${check} Seleccione la opción de menú "Capa/Terminar edicion" (end_editingJList).
 
-9. ${check} Aparecera una ventana de titulo "Terminar edición".
+9. ${check} Aparecerá una ventana de titulo "Terminar edición".
 
 10. ${check} Seleccione la opción "Guardar".
 
 11. ${check} Seleccione la opción de menú "Herramientas/VCSGis/Mostrar cambios".
 
-12. ${check} Se presentara una ventana de título  "VCSGis Cambios".
+12. ${check} Se presentará una ventana de título  "VCSGis Cambios".
 
 13. ${check} Seleccione la copia de trabajo ```${WORKINGCOPY}``` (WORKINGCOPY).
 
@@ -91,8 +90,8 @@ cuando la capa cumple dicho plan topologico.
 
 15. ${check} Pulse la casilla de verificación asociada a la capa ```${LAYER1_NAME}``` (LAYER1_NAME).
 
-16. ${check} En la tabla de cambios se muestran los cambios necesarios para insertar esta capa en el repositorio, 
-    habilitandose también los botones de "Refrescar", "Revertir" y "Commit".
+16. ${check} En la tabla de cambios se muestran los cambios a commitar de esta capa en el repositorio, 
+    habilitándose también los botones de "Refrescar", "Revertir" y "Commit".
 
 17. ${check} Introduzca en el campo "Fecha de entra en vigor" la fecha ${LAYER1_EFECTIVEDATE} {% include var_copy.html var="LAYER1_EFECTIVEDATE"%}
 
@@ -100,11 +99,11 @@ cuando la capa cumple dicho plan topologico.
 
 19. ${check} Pulse el botón de "Commit"
 
-20. ${check} Se mostrara una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})" y se cerrara automaticamente.
+20. ${check} Se mostrará una ventana de titulo "Inspector de errores del Plan de topología (${TPNAME})" y se cerrará automaticamente.
 
-23. ${check} Cierre la ventana titulada "Mostrar cambios".
+21. ${check} Cierre la ventana titulada "Mostrar cambios".
 
-24. ${check} Deja la vista "Sin título" en primer plano y activa.
+22. ${check} Deje la vista "Sin título" en primer plano y activa.
 
     
 ### Resultado esperado
