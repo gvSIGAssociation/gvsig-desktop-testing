@@ -76,11 +76,11 @@ trabajo existe se eliminará y se volverá a crear, asi como la conexión.
    * ${check} Elimínar el fichero ```${TMPFOLDER}/${WORKINGCOPY}.mv.db``` (TMPFOLDER/WORKINGCOPY.mv.db).
    * ${check} Iniciar gvSIG desktop ```Cliente```.
 
-3. ${check} Eliminaremos el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existise.
+3. ${check} Elimine el registro de la copia de trabajo ```${WORKINGCOPY}``` en caso de que existiese.
    Para ello siga los pasos indicados en 
    [eliminar copia local del registro](../../PROC/019/procVC00PROC019.html?&WORKINGCOPY=${WORKINGCOPY})
 
-4. ${check} Comprobaremos que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cámbie la proyección de la vista.
+4. ${check} Compruebe que la vista que se ha creado al arrancar gvSIG se encuentra en "EPSG:4326", de no ser asi cambie la proyección de la vista.
 
 5. ${check} Inicialice una nueva copia de trabajo para ello seleccione la opción de 
    menu "Herramientas/VCSGis/Inicializar copia de trabajo" y siga los pasos de 
